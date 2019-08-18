@@ -1,0 +1,96 @@
+@charset "UTF-8";
+/* ╨Я╨╡╤А╨╡╨╝╨╡╨╜╨╜╤Л╨╡ */
+/* ╨Ь╨╕╨║╤Б╨╕╨╜╤Л */
+/* line 1, _btn.scss */
+button, button:active, button:hover, button:visited, button:focus {
+  outline: none !important;
+  cursor: pointer;
+}
+
+/* ╨Ъ╨╜╨╛╨┐╨║╨╕ */
+/* ╨Ш╨║╨╛╨╜╨║╨╕ */
+/* ╨Ь╨╛╨┤╨░╨╗╤М╨╜╨╛╨╡ ╨╛╨║╨╜╨╛ */
+@font-face {
+  font-family: 'Europe Bold';
+  src: url("../assets/font/EUR_bold.eot");
+  src: url("../assets/font/EUR_bold.eot?#iefix") format("embedded-opentype"), url("../assets/font/EUR_bold.ttf") format("truetype"), url("../assets/font/EUR_bold.woff") format("woff"), url("../assets/font/EUR_bold.svg") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+/* ╨Ь╨╛╨┤╨░╨╗╤М╨╜╨╛╨╡ ╨╛╨║╨╜╨╛ */
+/* line 7, style.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 10, style.scss */
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Europe Normal', arial;
+  overflow-x: hidden;
+  background-color: white;
+}
+/* line 17, style.scss */
+body a {
+  color: #222224;
+  font-size: 15px;
+  line-height: 22px;
+  cursor: pointer;
+}
+/* line 23, style.scss */
+body p {
+  color: #222224;
+  font-size: 16px;
+  line-height: 22px;
+}
+/* line 28, style.scss */
+body span {
+  color: #222224;
+  font-size: 16px;
+  line-height: 22px;
+}
+/* line 33, style.scss */
+body h1 {
+  color: #222224;
+  font-size: 40px;
+  line-height: 53px;
+}
+/* line 38, style.scss */
+body h2 {
+  color: #222224;
+  font-size: 24px;
+  line-height: 32px;
+}
+/* line 43, style.scss */
+body h3 {
+  color: #222224;
+  font-size: 18px;
+  line-height: 24px;
+}
+/* line 48, style.scss */
+body h4 {
+  color: #222224;
+  font-size: 17px;
+  line-height: 22px;
+}
+/* line 53, style.scss */
+body h5 {
+  color: #222224;
+  font-size: 16px;
+  line-height: 20px;
+}
+/* line 58, style.scss */
+body h6 {
+  color: #222224;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+/* ╨б╤В╨╕╨╗╤М ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О */
+/* ╨и╨░╨┐╨║╨░ */
+/* ╨Ю╤Б╨╜╨╛╨▓╨╜╤Л╨╡ ╤Б╤В╨╕╨╗╨╕ */
+/* ╨Ю╨┐╤Ж╨╕╨╛╨╜╨░╨╗╤М╨╜╤Л╨╡ ╤Б╤В╨╕╨╗╨╕ */
+/* ╨Я╨╛╨┤╨▓╨░╨╗ */
+/* ╨Ь╨╡╨┤╨╕╨░ ╨╖╨░╨┐╤А╨╛╤Б╤Л */
