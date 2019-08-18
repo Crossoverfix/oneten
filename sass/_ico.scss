@@ -1,0 +1,22 @@
+.ico{
+  &__arr{
+    &-left{
+      width: 6px;
+      height: 10px;
+      background: url("../assets/img/icons/arr_left.png")no-repeat center;
+      background-size: contain;
+    }
+    &-right{
+      width: 6px;
+      height: 10px;
+      background: url("../assets/img/icons/arr_right.png")no-repeat center;
+      background-size: contain;
+    }
+  }
+  &__phone{
+    height: 20px;
+    width: 20px;
+    background: url("../assets/img/icons/ico_phone.png")no-repeat center;
+    background-size: contain;
+  }
+}
