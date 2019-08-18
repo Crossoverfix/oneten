@@ -15,14 +15,28 @@ button, button:active, button:hover, button:visited, button:focus {
   background: url("../assets/img/icons/arr_left.png") no-repeat center;
   background-size: contain;
 }
-/* line 9, _ico.scss */
+/* line 8, _ico.scss */
+.ico__arr-left__white {
+  width: 10px;
+  height: 16px;
+  background: url("../assets/img/icons/arr_left_w.png") no-repeat center;
+  background-size: contain;
+}
+/* line 15, _ico.scss */
 .ico__arr-right {
   width: 6px;
   height: 10px;
   background: url("../assets/img/icons/arr_right.png") no-repeat center;
   background-size: contain;
 }
-/* line 16, _ico.scss */
+/* line 20, _ico.scss */
+.ico__arr-right__white {
+  width: 10px;
+  height: 16px;
+  background: url("../assets/img/icons/arr_right_w.png") no-repeat center;
+  background-size: contain;
+}
+/* line 28, _ico.scss */
 .ico__phone {
   height: 20px;
   width: 20px;
@@ -415,6 +429,133 @@ body h6 {
 }
 
 /* ╨и╨░╨┐╨║╨░ */
+/* line 1, _page.scss */
+.welcome {
+  font-size: 0;
+  position: relative;
+  white-space: nowrap;
+}
+/* line 5, _page.scss */
+.welcome__slide {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  height: 720px;
+  white-space: normal;
+}
+/* line 11, _page.scss */
+.welcome__slide__bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover !important;
+  background-position: center !important;
+}
+/* line 20, _page.scss */
+.welcome__slide__content {
+  height: 100%;
+}
+/* line 22, _page.scss */
+.welcome__slide__content h1 {
+  padding: 0 20px;
+  font-size: 54px;
+  font-family: "TTNorms";
+  font-weight: 700;
+  color: white;
+  text-shadow: 0 0 2px #023d79,0 0 2px #023d79,0 0 2px #023d79;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+/* line 32, _page.scss */
+.welcome__slide__content p {
+  align-self: flex-start;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  padding: 20px 25px;
+  background-color: rgba(6, 52, 157, 0.7);
+  color: white;
+  font-size: 17px;
+  font-family: "TTNorms";
+  font-weight: 500;
+}
+/* line 44, _page.scss */
+.welcome__slide__content a {
+  align-self: flex-start;
+  display: inline-block;
+  margin-left: 20px;
+  white-space: normal;
+  padding: 0 20px;
+  background: linear-gradient(-45deg, #5581f1, #1153fc);
+  border-radius: 25px;
+  height: 60px;
+  position: relative;
+  box-shadow: 0px 0px 20px 3px #5581f1;
+}
+/* line 55, _page.scss */
+.welcome__slide__content a:hover {
+  background: linear-gradient(-45deg, #4d61c2, #1146c1);
+  box-shadow: none;
+}
+/* line 59, _page.scss */
+.welcome__slide__content a span {
+  display: inline-block;
+  color: white;
+  font-family: "TTNorms";
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0 10px;
+  line-height: 60px;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+/* line 70, _page.scss */
+.welcome__slide__content a i {
+  display: inline-block;
+  line-height: 60px;
+  vertical-align: middle;
+}
+/* line 76, _page.scss */
+.welcome__slide__content .row {
+  height: 100%;
+}
+/* line 78, _page.scss */
+.welcome__slide__content .row > div {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/* line 87, _page.scss */
+.welcome__slide__point {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0 30px;
+  bottom: 25px;
+  height: 13px;
+  z-index: 2;
+}
+/* line 95, _page.scss */
+.welcome__slide__point a {
+  border-radius: 50%;
+  display: inline-block;
+  height: 11px;
+  width: 11px;
+  border: 1px solid #2575e3;
+  background-color: white;
+  margin: 0 2px;
+  cursor: pointer;
+}
+/* line 104, _page.scss */
+.welcome__slide__point a.active {
+  background-color: transparent;
+  border: 1px solid white;
+}
+
 /* ╨Ю╤Б╨╜╨╛╨▓╨╜╤Л╨╡ ╤Б╤В╨╕╨╗╨╕ */
 /* line 1, _option.scss */
 .link-btn {
