@@ -192,59 +192,60 @@ body {
   font-family: 'TTNorms';
   overflow-x: hidden;
   background-color: white;
+  padding-bottom: 200px;
 }
-/* line 17, style.scss */
+/* line 18, style.scss */
 body a {
-  color: #222224;
+  color: #262a33;
   font-size: 15px;
   line-height: 22px;
   cursor: pointer;
 }
-/* line 23, style.scss */
+/* line 24, style.scss */
 body p {
-  color: #222224;
+  color: #262a33;
   font-size: 16px;
   line-height: 22px;
 }
-/* line 28, style.scss */
+/* line 29, style.scss */
 body span {
-  color: #222224;
+  color: #262a33;
   font-size: 16px;
   line-height: 22px;
 }
-/* line 33, style.scss */
+/* line 34, style.scss */
 body h1 {
-  color: #222224;
+  color: #262a33;
   font-size: 40px;
   line-height: 53px;
 }
-/* line 38, style.scss */
+/* line 39, style.scss */
 body h2 {
-  color: #222224;
+  color: #262a33;
   font-size: 24px;
   line-height: 32px;
 }
-/* line 43, style.scss */
+/* line 44, style.scss */
 body h3 {
-  color: #222224;
+  color: #262a33;
   font-size: 18px;
   line-height: 24px;
 }
-/* line 48, style.scss */
+/* line 49, style.scss */
 body h4 {
-  color: #222224;
+  color: #262a33;
   font-size: 17px;
   line-height: 22px;
 }
-/* line 53, style.scss */
+/* line 54, style.scss */
 body h5 {
-  color: #222224;
+  color: #262a33;
   font-size: 16px;
   line-height: 20px;
 }
-/* line 58, style.scss */
+/* line 59, style.scss */
 body h6 {
-  color: #222224;
+  color: #262a33;
   font-size: 14px;
   line-height: 18px;
 }
@@ -554,6 +555,100 @@ body h6 {
 .welcome__slide__point a.active {
   background-color: transparent;
   border: 1px solid white;
+}
+
+/* line 112, _page.scss */
+.about {
+  margin-top: 75px;
+}
+/* line 114, _page.scss */
+.about .row {
+  position: relative;
+}
+/* line 117, _page.scss */
+.about__bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: contain;
+}
+/* line 126, _page.scss */
+.about__info {
+  height: 560px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+/* line 132, _page.scss */
+.about__info__title {
+  font-family: "TTNorms";
+  font-size: 11px;
+  font-weight: 600;
+  color: #262a33;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+/* line 140, _page.scss */
+.about__info__name {
+  font-family: "TTNorms";
+  font-size: 35px;
+  font-weight: 400;
+  color: #262a33;
+  margin-top: 0;
+  margin-bottom: 35px;
+}
+/* line 148, _page.scss */
+.about__info__text {
+  font-family: "TTNorms";
+  font-size: 12px;
+  font-weight: 400;
+  color: #262a33;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+/* line 157, _page.scss */
+.about__btn {
+  height: 560px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: flex-end;
+  justify-content: flex-end;
+}
+/* line 164, _page.scss */
+.about__btn a {
+  margin-bottom: 40px;
+  padding: 0 20px;
+  line-height: 54px;
+  border-radius: 20px;
+  border: 1px solid rgba(67, 125, 200, 0.6);
+  background-color: rgba(20, 92, 158, 0.6);
+  box-shadow: -2px 2px 10px 1px #135ee8ad;
+}
+/* line 172, _page.scss */
+.about__btn a:hover {
+  border: 1px solid rgba(67, 125, 200, 0.9);
+  background-color: rgba(20, 92, 158, 0.9);
+}
+/* line 176, _page.scss */
+.about__btn a span {
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "TTNorms";
+  margin: 0 10px;
+  line-height: 52px;
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 186, _page.scss */
+.about__btn a i {
+  display: inline-block;
+  vertical-align: middle;
 }
 
 /* ╨Ю╤Б╨╜╨╛╨▓╨╜╤Л╨╡ ╤Б╤В╨╕╨╗╨╕ */
