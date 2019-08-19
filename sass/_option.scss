@@ -3,3 +3,23 @@
   display: inline-block;
   cursor: pointer;
 }
+.block-title{
+  position: relative;
+  width: 100%;
+  padding-left: 145px;
+  font-family: "TTNorms";
+  font-size: 20px;
+  font-weight: 300;
+  color: #646464;
+  margin-top: 0;
+  margin-bottom: 45px;
+  &:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 110px;
+    height: 4px;
+    background-color: #dedeef;
+  }
+}
