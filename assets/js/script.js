@@ -35,6 +35,7 @@ $(document).ready(function () {
     fInitReviews();
     function fInitReviews() {
         $reviewsContent.eq(0).clone().appendTo($reviewsSlid);
+        fFixImg();
     }
     $reviewsControl.on('click',function () {
         fSlideReviews($(this).attr('data-js-reviews'));
@@ -49,6 +50,7 @@ $(document).ready(function () {
             }
             let $tempoSlide = $('.reviews__content__wrap .reviews__content__item__point');
             $reviewsContent.eq($reviewsCurr).clone().appendTo($reviewsSlid);
+            fFixImg();
             $tempoSlide.animate({'margin-left':'-100%'},1000,function () {
                 $tempoSlide.detach();
             })
@@ -60,10 +62,21 @@ $(document).ready(function () {
             }
             let $tempoSlide = $('.reviews__content__wrap .reviews__content__item__point');;
             let tempoSlide = $reviewsContent.eq($reviewsCurr).clone().prependTo($reviewsSlid);
+            fFixImg();
             tempoSlide.css('margin-left','-100%')
             tempoSlide.animate({'margin-left':'0'},1000,function () {
                 $tempoSlide.detach();
             })
+        }
+    }
+    function fFixImg() {
+        var $tempCol = $('.reviews__content__wrap .reviews__content__item__point');
+        for(i=0;i < $tempCol.length;i++){
+            let heightWrap = $tempCol.eq(i).outerHeight();
+            let heightContent = $tempCol.eq(i).find('img').outerHeight();
+            if(heightContent - 50 < heightWrap){
+                $tempCol.eq(i).find('img').css({'height':'calc(100% - 50px)','width':'auto'})
+            }
         }
     }
 })

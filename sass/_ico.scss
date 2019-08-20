@@ -31,4 +31,14 @@
     background: url("../assets/img/icons/ico_phone.png")no-repeat center;
     background-size: contain;
   }
+  &__rate{
+    &__good{
+      background: url("../assets/img/icons/rate_good.png")no-repeat center;
+      background-size: contain;
+    }
+    &__bed{
+      background: url("../assets/img/icons/rate_bed.png")no-repeat center;
+      background-size: contain;
+    }
+  }
 }

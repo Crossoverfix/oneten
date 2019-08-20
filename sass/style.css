@@ -43,6 +43,16 @@ button, button:active, button:hover, button:visited, button:focus {
   background: url("../assets/img/icons/ico_phone.png") no-repeat center;
   background-size: contain;
 }
+/* line 35, _ico.scss */
+.ico__rate__good {
+  background: url("../assets/img/icons/rate_good.png") no-repeat center;
+  background-size: contain;
+}
+/* line 39, _ico.scss */
+.ico__rate__bed {
+  background: url("../assets/img/icons/rate_bed.png") no-repeat center;
+  background-size: contain;
+}
 
 /* ╨Ш╨║╨╛╨╜╨║╨╕ */
 /* ╨Ь╨╛╨┤╨░╨╗╤М╨╜╨╛╨╡ ╨╛╨║╨╜╨╛ */
@@ -911,7 +921,7 @@ body h6 {
 /* line 424, _page.scss */
 .reviews__content {
   position: relative;
-  height: 510px;
+  height: 550px;
   margin-top: 30px;
 }
 /* line 428, _page.scss */
@@ -935,15 +945,145 @@ body h6 {
 /* line 442, _page.scss */
 .reviews__content__item__point {
   width: 100%;
-  height: 100%;
+  height: calc(100% - 50px);
   position: relative;
 }
 /* line 446, _page.scss */
+.reviews__content__item__point__rate {
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  position: absolute;
+  width: 130px;
+  height: 22px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+/* line 458, _page.scss */
+.reviews__content__item__point__rate i {
+  width: 22px;
+  height: 22px;
+  display: inline-block;
+}
+/* line 464, _page.scss */
 .reviews__content__item__point img {
   position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+  top: calc(50% - 25px);
+  left: 50%;
+  transform: translate(-50%, -50%);
   width: 100%;
+}
+/* line 475, _page.scss */
+.reviews__mail__btn {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+/* line 481, _page.scss */
+.reviews__mail__btn a {
+  position: relative;
+  margin: 0 auto;
+  border-radius: 20px;
+  padding: 0 10px;
+  background-color: #006ae5;
+  box-shadow: 0px 0px 9px 0px #ffffff,-4px 4px 8px -3px #006ae5;
+}
+/* line 488, _page.scss */
+.reviews__mail__btn a:before {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  left: -255px;
+  width: 170px;
+  height: 315px;
+  background: url("../assets/img/web/1_1.png") no-repeat center;
+  background-size: contain;
+}
+/* line 498, _page.scss */
+.reviews__mail__btn a:hover {
+  background-color: #0074ff;
+}
+/* line 501, _page.scss */
+.reviews__mail__btn a span {
+  display: inline-block;
+  vertical-align: middle;
+  font-family: "TTNorms";
+  font-weight: 500;
+  font-size: 15px;
+  color: white;
+  line-height: 48px;
+  margin: 0 10px;
+}
+/* line 511, _page.scss */
+.reviews__mail__btn a i {
+  vertical-align: middle;
+  display: inline-block;
+}
+/* line 517, _page.scss */
+.reviews__mail__message {
+  width: 100%;
+  border-radius: 25px;
+  background-color: #eff3fb;
+  padding: 45px 100px 40px 100px;
+  position: relative;
+  margin-top: 35px;
+}
+/* line 524, _page.scss */
+.reviews__mail__message:before {
+  content: "";
+  width: 26px;
+  height: 23px;
+  position: absolute;
+  left: 56px;
+  top: 36px;
+  background: url("../assets/img/icons/quote_left.png") no-repeat center;
+  background-size: contain;
+}
+/* line 534, _page.scss */
+.reviews__mail__message:after {
+  content: "";
+  width: 26px;
+  height: 23px;
+  position: absolute;
+  right: 56px;
+  bottom: 36px;
+  background: url("../assets/img/icons/quote_right.png") no-repeat center;
+  background-size: contain;
+}
+/* line 544, _page.scss */
+.reviews__mail__message__logo {
+  height: 60px;
+  position: relative;
+}
+/* line 547, _page.scss */
+.reviews__mail__message__logo img {
+  height: 100%;
+}
+/* line 551, _page.scss */
+.reviews__mail__message__text {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-family: "TTNorms";
+  font-size: 14px;
+  line-height: 18px;
+  color: #262a33;
+  font-weight: 500;
+}
+/* line 560, _page.scss */
+.reviews__mail__message__author {
+  text-align: right;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "TTNorms";
+  font-size: 13px;
+  line-height: 15px;
+  color: #262a33;
+  font-weight: 600;
 }
 
 /* ╨Ю╤Б╨╜╨╛╨▓╨╜╤Л╨╡ ╤Б╤В╨╕╨╗╨╕ */
