@@ -28,4 +28,42 @@ $(document).ready(function () {
             })
         }
     }
+    var $reviewsSlid = $('.reviews__content__wrap');
+    var $reviewsContent = $('.reviews__content__item__point');
+    var $reviewsControl = $('[data-js-reviews]');
+    var $reviewsCurr = 0;
+    fInitReviews();
+    function fInitReviews() {
+        $reviewsContent.eq(0).clone().appendTo($reviewsSlid);
+    }
+    $reviewsControl.on('click',function () {
+        fSlideReviews($(this).attr('data-js-reviews'));
+        return false;
+    })
+    function fSlideReviews(direction) {
+        if(direction == 'prev'){
+            if($reviewsCurr <= 0){
+                $reviewsCurr = $reviewsContent.length -1;
+            } else {
+                $reviewsCurr = $reviewsCurr -1;
+            }
+            let $tempoSlide = $('.reviews__content__wrap .reviews__content__item__point');
+            $reviewsContent.eq($reviewsCurr).clone().appendTo($reviewsSlid);
+            $tempoSlide.animate({'margin-left':'-100%'},1000,function () {
+                $tempoSlide.detach();
+            })
+        } else if (direction == 'next'){
+            if($reviewsCurr >= $reviewsContent.length -1){
+                $reviewsCurr = 0;
+            } else {
+                $reviewsCurr = $reviewsCurr +1;
+            }
+            let $tempoSlide = $('.reviews__content__wrap .reviews__content__item__point');;
+            let tempoSlide = $reviewsContent.eq($reviewsCurr).clone().prependTo($reviewsSlid);
+            tempoSlide.css('margin-left','-100%')
+            tempoSlide.animate({'margin-left':'0'},1000,function () {
+                $tempoSlide.detach();
+            })
+        }
+    }
 })

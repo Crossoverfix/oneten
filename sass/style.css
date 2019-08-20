@@ -733,6 +733,219 @@ body h6 {
   vertical-align: middle;
 }
 
+/* line 267, _page.scss */
+.call-back {
+  margin-top: 40px;
+  background-color: #d71732;
+  padding-top: 70px;
+  padding-bottom: 60px;
+}
+/* line 272, _page.scss */
+.call-back form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+/* line 279, _page.scss */
+.call-back__title {
+  font-family: "TTNorms";
+  font-size: 34px;
+  color: white;
+  font-weight: 200;
+  margin-bottom: 10px;
+  margin-top: 0;
+  text-align: center;
+}
+/* line 288, _page.scss */
+.call-back__sub-title {
+  font-family: "TTNorms";
+  font-size: 13px;
+  color: white;
+  font-weight: 200;
+  margin-bottom: 0;
+  margin-top: 0;
+  text-align: center;
+}
+/* line 298, _page.scss */
+.call-back .input-field {
+  border-radius: 20px;
+  padding: 0 20px;
+  background-color: #df5467;
+  height: 50px;
+  position: relative;
+  width: calc(40% - 20px);
+}
+/* line 305, _page.scss */
+.call-back .input-field input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  line-height: 48px;
+  color: white;
+}
+/* line 313, _page.scss */
+.call-back .input-field input::-moz-placeholder, .call-back .input-field input::-webkit-input-placeholder, .call-back .input-field input:-ms-input-placeholder, .call-back .input-field input::-ms-input-placeholder, .call-back .input-field input::placeholder {
+  color: white !important;
+}
+/* line 318, _page.scss */
+.call-back .input-submit {
+  width: calc(20% - 20px);
+  position: relative;
+  cursor: pointer;
+}
+/* line 323, _page.scss */
+.call-back .input-submit:hover input {
+  background-color: #676f7c;
+}
+/* line 327, _page.scss */
+.call-back .input-submit input {
+  cursor: pointer;
+  width: 100%;
+  height: 50px;
+  border: none;
+  color: white;
+  background-color: #313640;
+  font-family: "TTNorms";
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+}
+/* line 340, _page.scss */
+.call-back .input-checkbox {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 0;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+/* line 350, _page.scss */
+.call-back .input-checkbox input {
+  display: none;
+}
+/* line 353, _page.scss */
+.call-back .input-checkbox input:checked ~ .input-checkbox__input:before {
+  width: 60%;
+  height: 60%;
+}
+/* line 359, _page.scss */
+.call-back .input-checkbox__input {
+  display: inline-block;
+  width: 21px;
+  height: 18px;
+  border-radius: 3px;
+  background-color: #df5467;
+  cursor: pointer;
+  position: relative;
+}
+/* line 367, _page.scss */
+.call-back .input-checkbox__input:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: url("../assets/img/icons/check_w.png") no-repeat center;
+  background-size: contain;
+}
+/* line 379, _page.scss */
+.call-back .input-checkbox__text {
+  font-family: "TTNorms";
+  font-size: 12px;
+  color: white;
+  font-weight: 300;
+  display: inline-block;
+  margin-left: 10px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+/* line 392, _page.scss */
+.reviews {
+  padding-top: 80px;
+}
+/* line 394, _page.scss */
+.reviews__wrap {
+  align-items: stretch;
+}
+/* line 397, _page.scss */
+.reviews__control {
+  margin-top: 30px;
+  position: relative;
+}
+/* line 400, _page.scss */
+.reviews__control a {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  position: relative;
+  display: inline-block;
+  background-color: #006ae5;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+/* line 410, _page.scss */
+.reviews__control a:hover {
+  background-color: #006eff;
+}
+/* line 413, _page.scss */
+.reviews__control a i {
+  display: inline-block;
+  position: absolute;
+  width: 60%;
+  height: 60%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+/* line 424, _page.scss */
+.reviews__content {
+  position: relative;
+  height: 510px;
+  margin-top: 30px;
+}
+/* line 428, _page.scss */
+.reviews__content__wrap {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+}
+/* line 435, _page.scss */
+.reviews__content__wrap .reviews__content__item__point {
+  display: inline-block;
+  vertical-align: top;
+}
+/* line 440, _page.scss */
+.reviews__content__item {
+  display: none;
+}
+/* line 442, _page.scss */
+.reviews__content__item__point {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+/* line 446, _page.scss */
+.reviews__content__item__point img {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+}
+
 /* ╨Ю╤Б╨╜╨╛╨▓╨╜╤Л╨╡ ╤Б╤В╨╕╨╗╨╕ */
 /* line 1, _option.scss */
 .link-btn {
