@@ -699,3 +699,165 @@
     }
   }
 }
+.warranty{
+  background-color: #eff3fb;
+  height: 620px;
+  &__bg{
+    position: relative;
+    z-index: 2;
+    height: 620px;
+    width: 100%;
+    background-size: contain!important;
+    background-position:center!important;
+    background-repeat: no-repeat!important;
+  }
+  &__wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: relative;
+    padding-left: 75px;
+    padding-bottom: 45px;
+    &:before{
+      content: "";
+      height: 100%;
+      width: 100vw;
+      position: absolute;
+      background-color: white;
+      top: 0;
+      left: -120px;
+    }
+    ul{
+      list-style: none;
+      padding: 0;
+      margin-top: 0;
+      margin-bottom: 35px;
+      li{
+        background-color: #eff3fb;
+        border-radius: 10px;
+        padding: 25px 30px 25px 45px;
+        position: relative;
+        margin-bottom: 5px;
+        color: $c-text-d;
+        font-family: "TTNorms";
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 15px;
+        &:before{
+          content: "";
+          position: absolute;
+          background: url("../assets/img/icons/list_check.png")no-repeat center;
+          background-size: contain;
+          height: 18px;
+          width: 18px;
+          left: 15px;
+          top: 25px;
+        }
+      }
+    }
+    a{
+      position: relative;
+      border-radius: 20px;
+      padding: 0 10px;
+      background-color: #006ae5;
+      box-shadow: 0px 0px 9px 0px #ffffff,-4px 4px 8px -3px #006ae5;
+      &:hover{
+        background-color: #0074ff;
+      }
+      span{
+        display: inline-block;
+        vertical-align: middle;
+        font-family: "TTNorms";
+        font-weight: 500;
+        font-size: 15px;
+        color: white;
+        line-height: 48px;
+        margin: 0 10px;
+      }
+      i{
+        vertical-align: middle;
+        display: inline-block;
+      }
+    }
+  }
+}
+.advantages{
+  padding-top: 65px;
+  position: relative;
+  .block-title{
+    color: white;
+  }
+  &__bg{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: url("../assets/img/photo/advantages_bg.png")no-repeat center;
+    background-size: cover;
+    &__man{
+      position: relative;
+      min-height: 400px;
+      &:before{
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 100%;
+        transform: translateX(-50%);
+        height: 100%;
+        width: 1000px;
+        background: url("../assets/img/photo/advantages_man.png")no-repeat center bottom;
+        background-size: contain;
+      }
+    }
+  }
+  &__list{
+    padding-bottom: 130px;
+    position: relative;
+    ul{
+      width: 100%;
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      position: relative;
+      li{
+        width: 100%;
+        padding: 30px 25px 10px 35px;
+        background-color: #161a25;
+        margin-top: 0;
+        margin-bottom: 18px;
+        p{
+          margin-top: 0;
+          color: white;
+          font-family: "TTNorms";
+          font-size: 20px;
+          font-weight: 500;
+          margin-bottom: 18px;
+        }
+        a{
+          display: inline-block;
+          width: 100%;
+          text-decoration: none;
+          &:hover{
+            span{
+              color: #00afff;
+            }
+          }
+          span{
+            font-family: "TTNorms";
+            font-size: 12px;
+            line-height: 16px;
+            font-weight: 500;
+            margin-bottom: 0;
+            margin-top: 0;
+            color: #0082cb;
+          }
+          i{
+            display: inline-block;
+          }
+        }
+      }
+    }
+  }
+}

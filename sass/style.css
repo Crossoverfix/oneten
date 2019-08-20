@@ -1248,6 +1248,192 @@ body h6 {
   z-index: 1;
 }
 
+/* line 702, _page.scss */
+.warranty {
+  background-color: #eff3fb;
+  height: 620px;
+}
+/* line 705, _page.scss */
+.warranty__bg {
+  position: relative;
+  z-index: 2;
+  height: 620px;
+  width: 100%;
+  background-size: contain !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+/* line 714, _page.scss */
+.warranty__wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  position: relative;
+  padding-left: 75px;
+  padding-bottom: 45px;
+}
+/* line 722, _page.scss */
+.warranty__wrap:before {
+  content: "";
+  height: 100%;
+  width: 100vw;
+  position: absolute;
+  background-color: white;
+  top: 0;
+  left: -120px;
+}
+/* line 731, _page.scss */
+.warranty__wrap ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 35px;
+}
+/* line 736, _page.scss */
+.warranty__wrap ul li {
+  background-color: #eff3fb;
+  border-radius: 10px;
+  padding: 25px 30px 25px 45px;
+  position: relative;
+  margin-bottom: 5px;
+  color: #262a33;
+  font-family: "TTNorms";
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+}
+/* line 747, _page.scss */
+.warranty__wrap ul li:before {
+  content: "";
+  position: absolute;
+  background: url("../assets/img/icons/list_check.png") no-repeat center;
+  background-size: contain;
+  height: 18px;
+  width: 18px;
+  left: 15px;
+  top: 25px;
+}
+/* line 759, _page.scss */
+.warranty__wrap a {
+  position: relative;
+  border-radius: 20px;
+  padding: 0 10px;
+  background-color: #006ae5;
+  box-shadow: 0px 0px 9px 0px #ffffff,-4px 4px 8px -3px #006ae5;
+}
+/* line 765, _page.scss */
+.warranty__wrap a:hover {
+  background-color: #0074ff;
+}
+/* line 768, _page.scss */
+.warranty__wrap a span {
+  display: inline-block;
+  vertical-align: middle;
+  font-family: "TTNorms";
+  font-weight: 500;
+  font-size: 15px;
+  color: white;
+  line-height: 48px;
+  margin: 0 10px;
+}
+/* line 778, _page.scss */
+.warranty__wrap a i {
+  vertical-align: middle;
+  display: inline-block;
+}
+
+/* line 785, _page.scss */
+.advantages {
+  padding-top: 65px;
+  position: relative;
+}
+/* line 788, _page.scss */
+.advantages .block-title {
+  color: white;
+}
+/* line 791, _page.scss */
+.advantages__bg {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background: url("../assets/img/photo/advantages_bg.png") no-repeat center;
+  background-size: cover;
+}
+/* line 799, _page.scss */
+.advantages__bg__man {
+  position: relative;
+  min-height: 400px;
+}
+/* line 802, _page.scss */
+.advantages__bg__man:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  transform: translateX(-50%);
+  height: 100%;
+  width: 1000px;
+  background: url("../assets/img/photo/advantages_man.png") no-repeat center bottom;
+  background-size: contain;
+}
+/* line 815, _page.scss */
+.advantages__list {
+  padding-bottom: 130px;
+  position: relative;
+}
+/* line 818, _page.scss */
+.advantages__list ul {
+  width: 100%;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+/* line 824, _page.scss */
+.advantages__list ul li {
+  width: 100%;
+  padding: 30px 25px 10px 35px;
+  background-color: #161a25;
+  margin-top: 0;
+  margin-bottom: 18px;
+}
+/* line 830, _page.scss */
+.advantages__list ul li p {
+  margin-top: 0;
+  color: white;
+  font-family: "TTNorms";
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 18px;
+}
+/* line 838, _page.scss */
+.advantages__list ul li a {
+  display: inline-block;
+  width: 100%;
+  text-decoration: none;
+}
+/* line 843, _page.scss */
+.advantages__list ul li a:hover span {
+  color: #00afff;
+}
+/* line 847, _page.scss */
+.advantages__list ul li a span {
+  font-family: "TTNorms";
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 500;
+  margin-bottom: 0;
+  margin-top: 0;
+  color: #0082cb;
+}
+/* line 856, _page.scss */
+.advantages__list ul li a i {
+  display: inline-block;
+}
+
 /* ╨Ю╤Б╨╜╨╛╨▓╨╜╤Л╨╡ ╤Б╤В╨╕╨╗╨╕ */
 /* line 1, _option.scss */
 .link-btn {
