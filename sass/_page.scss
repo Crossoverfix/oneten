@@ -861,3 +861,249 @@
     }
   }
 }
+.how-work{
+  margin-top: 65px;
+  &__form{
+    width: 85%;
+    margin-left: auto;
+    padding: 45px 60px 35px 60px;
+    background-color: #d71732;
+    position: relative;
+    form{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    &__title{
+      margin-top: 0;
+      font-family: "TTNorms";
+      font-size: 34px;
+      font-weight: 600;
+      line-height: 38px;
+      color: white;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    &__sub-title{
+      margin-top: 0;
+      font-family: "TTNorms";
+      font-size: 13px;
+      font-weight: 200;
+      color: white;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .input{
+      &-field{
+        border-radius: 20px;
+        padding: 0 20px;
+        background-color: #df5467;
+        height: 50px;
+        position: relative;
+        width: 100%;
+        margin-bottom: 16px;
+        input{
+          border: none;
+          outline: none;
+          background-color: transparent;
+          width: 100%;
+          height: 100%;
+          line-height: 48px;
+          color: white;
+          &::-moz-placeholder,&::-webkit-input-placeholder,&:-ms-input-placeholder,&::-ms-input-placeholder,&::placeholder {
+            color: white!important;
+          }
+        }
+      }
+      &-submit{
+        width: 145px;
+        margin-top: 25px;
+        position: relative;
+        cursor: pointer;
+        &:hover{
+          input{
+            background-color: #676f7c;
+          }
+        }
+        input{
+          cursor: pointer;
+          width: 100%;
+          height: 50px;
+          border: none;
+          color: white;
+          background-color: #313640;
+          font-family: "TTNorms";
+          font-size: 16px;
+          font-weight: 500;
+          text-align: center;
+        }
+      }
+      &-checkbox{
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 0;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        input{
+          display: none;
+          &:checked ~ .input-checkbox__input{
+            &:before{
+              width: 60%;
+              height: 60%;
+            }
+          }
+        }
+        &__input{
+          display: inline-block;
+          width: 21px;
+          height: 18px;
+          flex-shrink: 0;
+          border-radius: 4px;
+          background-color: #df5467;
+          cursor: pointer;
+          position: relative;
+          &:before{
+            content: "";
+            position: absolute;
+            width: 0;
+            height: 0;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            background: url("../assets/img/icons/check_w.png")no-repeat center;
+            background-size: contain;
+          }
+        }
+        &__text{
+          font-family: "TTNorms";
+          font-size: 12px;
+          line-height: 12px;
+          color: white;
+          font-weight: 300;
+          display: inline-block;
+          margin-left: 10px;
+          margin-bottom: 0;
+          margin-top: 0;
+        }
+      }
+    }
+  }
+  &__text{
+    font-family: "TTNorms";
+    font-size: 17px;
+    line-height: 24px;
+    color: $c-text-d;
+    font-weight: 500;
+    b{
+      font-weight: 700;
+    }
+  }
+}
+.why-off{
+  margin-top: 70px;
+  &__content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0;
+    &__card{
+      height: 100%;
+      border-radius: 25px;
+      background-color: #eff3fb;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 25px 50px;
+      &__img{
+        position: relative;
+        height: 45px;
+        width: 45px;
+        margin-bottom: 25px;
+      }
+      &__title{
+        font-family: "TTNorms";
+        font-size: 12px;
+        font-weight: 600;
+        color: black;
+        display: inline-block;
+        text-align: center;
+        border-bottom: 2px solid #00a2ff;
+        margin-bottom: 20px;
+        margin-top: 0;
+      }
+      &__text{
+        margin: 0;
+        font-family: "TTNorms";
+        font-size: 11px;
+        line-height: 15px;
+        font-weight: 300;
+        color: black;
+        display: inline-block;
+        text-align: center;
+      }
+    }
+  }
+}
+.how-us-work{
+  margin-top: 80px;
+  &__img{
+    padding: 0 25px;
+    position: relative;
+    &__bg{
+      width: 100%;
+      height: 100%;
+      background: url("../assets/img/icons/bg_men.png")no-repeat center;
+      background-size: contain;
+    }
+  }
+  &__content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    &__point{
+      width: 50%;
+      position: relative;
+      padding: 0 60px 0 25px;
+      margin-bottom: 20px;
+      &:before{
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 3px;
+        height: 15px;
+        width: 2px;
+        background-color: #006ae5;
+      }
+      &__title{
+        margin-top: 0;
+        font-size: 11px;
+        font-family: "TTNorms";
+        font-weight: 600;
+        color: black;
+        margin-bottom: 5px;
+        text-transform: uppercase;
+      }
+      &__text{
+        margin-top: 0;
+        font-size: 11px;
+        line-height: 15px;
+        font-family: "TTNorms";
+        font-weight: 400;
+        color: black;
+        margin-bottom: 0;
+      }
+    }
+  }
+}

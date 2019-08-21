@@ -53,4 +53,29 @@
       background-size: contain;
     }
   }
+  &__rise{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background: url("../assets/img/icons/Positive Dynamic.png")no-repeat center;
+    background-size: contain;
+  }
+  &__face{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background: url("../assets/img/icons/Butting In.png")no-repeat center;
+    background-size: contain;
+  }
+  &__check{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background: url("../assets/img/icons/Approval.png")no-repeat center;
+    background-size: contain;
+  }
+  &__mail{
+    background: url("../assets/img/icons/ico_mail.png")no-repeat center;
+    background-size: contain;
+  }
 }

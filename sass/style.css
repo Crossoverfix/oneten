@@ -67,6 +67,35 @@ button, button:active, button:hover, button:visited, button:focus {
   background: url("../assets/img/icons/rate_bed.png") no-repeat center;
   background-size: contain;
 }
+/* line 56, _ico.scss */
+.ico__rise {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  background: url("../assets/img/icons/Positive Dynamic.png") no-repeat center;
+  background-size: contain;
+}
+/* line 63, _ico.scss */
+.ico__face {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  background: url("../assets/img/icons/Butting In.png") no-repeat center;
+  background-size: contain;
+}
+/* line 70, _ico.scss */
+.ico__check {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  background: url("../assets/img/icons/Approval.png") no-repeat center;
+  background-size: contain;
+}
+/* line 77, _ico.scss */
+.ico__mail {
+  background: url("../assets/img/icons/ico_mail.png") no-repeat center;
+  background-size: contain;
+}
 
 /* ╨Ш╨║╨╛╨╜╨║╨╕ */
 /* ╨Ь╨╛╨┤╨░╨╗╤М╨╜╨╛╨╡ ╨╛╨║╨╜╨╛ */
@@ -216,58 +245,57 @@ body {
   font-family: 'TTNorms';
   overflow-x: hidden;
   background-color: white;
-  padding-bottom: 200px;
 }
-/* line 18, style.scss */
+/* line 17, style.scss */
 body a {
   color: #262a33;
   font-size: 15px;
   line-height: 22px;
   cursor: pointer;
 }
-/* line 24, style.scss */
+/* line 23, style.scss */
 body p {
   color: #262a33;
   font-size: 16px;
   line-height: 22px;
 }
-/* line 29, style.scss */
+/* line 28, style.scss */
 body span {
   color: #262a33;
   font-size: 16px;
   line-height: 22px;
 }
-/* line 34, style.scss */
+/* line 33, style.scss */
 body h1 {
   color: #262a33;
   font-size: 40px;
   line-height: 53px;
 }
-/* line 39, style.scss */
+/* line 38, style.scss */
 body h2 {
   color: #262a33;
   font-size: 24px;
   line-height: 32px;
 }
-/* line 44, style.scss */
+/* line 43, style.scss */
 body h3 {
   color: #262a33;
   font-size: 18px;
   line-height: 24px;
 }
-/* line 49, style.scss */
+/* line 48, style.scss */
 body h4 {
   color: #262a33;
   font-size: 17px;
   line-height: 22px;
 }
-/* line 54, style.scss */
+/* line 53, style.scss */
 body h5 {
   color: #262a33;
   font-size: 16px;
   line-height: 20px;
 }
-/* line 59, style.scss */
+/* line 58, style.scss */
 body h6 {
   color: #262a33;
   font-size: 14px;
@@ -1434,6 +1462,282 @@ body h6 {
   display: inline-block;
 }
 
+/* line 864, _page.scss */
+.how-work {
+  margin-top: 65px;
+}
+/* line 866, _page.scss */
+.how-work__form {
+  width: 85%;
+  margin-left: auto;
+  padding: 45px 60px 35px 60px;
+  background-color: #d71732;
+  position: relative;
+}
+/* line 872, _page.scss */
+.how-work__form form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/* line 880, _page.scss */
+.how-work__form__title {
+  margin-top: 0;
+  font-family: "TTNorms";
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 38px;
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+/* line 890, _page.scss */
+.how-work__form__sub-title {
+  margin-top: 0;
+  font-family: "TTNorms";
+  font-size: 13px;
+  font-weight: 200;
+  color: white;
+  text-align: center;
+  margin-bottom: 40px;
+}
+/* line 900, _page.scss */
+.how-work__form .input-field {
+  border-radius: 20px;
+  padding: 0 20px;
+  background-color: #df5467;
+  height: 50px;
+  position: relative;
+  width: 100%;
+  margin-bottom: 16px;
+}
+/* line 908, _page.scss */
+.how-work__form .input-field input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  line-height: 48px;
+  color: white;
+}
+/* line 916, _page.scss */
+.how-work__form .input-field input::-moz-placeholder, .how-work__form .input-field input::-webkit-input-placeholder, .how-work__form .input-field input:-ms-input-placeholder, .how-work__form .input-field input::-ms-input-placeholder, .how-work__form .input-field input::placeholder {
+  color: white !important;
+}
+/* line 921, _page.scss */
+.how-work__form .input-submit {
+  width: 145px;
+  margin-top: 25px;
+  position: relative;
+  cursor: pointer;
+}
+/* line 927, _page.scss */
+.how-work__form .input-submit:hover input {
+  background-color: #676f7c;
+}
+/* line 931, _page.scss */
+.how-work__form .input-submit input {
+  cursor: pointer;
+  width: 100%;
+  height: 50px;
+  border: none;
+  color: white;
+  background-color: #313640;
+  font-family: "TTNorms";
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+}
+/* line 944, _page.scss */
+.how-work__form .input-checkbox {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 0;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+/* line 954, _page.scss */
+.how-work__form .input-checkbox input {
+  display: none;
+}
+/* line 957, _page.scss */
+.how-work__form .input-checkbox input:checked ~ .input-checkbox__input:before {
+  width: 60%;
+  height: 60%;
+}
+/* line 963, _page.scss */
+.how-work__form .input-checkbox__input {
+  display: inline-block;
+  width: 21px;
+  height: 18px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background-color: #df5467;
+  cursor: pointer;
+  position: relative;
+}
+/* line 972, _page.scss */
+.how-work__form .input-checkbox__input:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: url("../assets/img/icons/check_w.png") no-repeat center;
+  background-size: contain;
+}
+/* line 984, _page.scss */
+.how-work__form .input-checkbox__text {
+  font-family: "TTNorms";
+  font-size: 12px;
+  line-height: 12px;
+  color: white;
+  font-weight: 300;
+  display: inline-block;
+  margin-left: 10px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+/* line 998, _page.scss */
+.how-work__text {
+  font-family: "TTNorms";
+  font-size: 17px;
+  line-height: 24px;
+  color: #262a33;
+  font-weight: 500;
+}
+/* line 1004, _page.scss */
+.how-work__text b {
+  font-weight: 700;
+}
+
+/* line 1009, _page.scss */
+.why-off {
+  margin-top: 70px;
+}
+/* line 1011, _page.scss */
+.why-off__content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0;
+}
+/* line 1018, _page.scss */
+.why-off__content__card {
+  height: 100%;
+  border-radius: 25px;
+  background-color: #eff3fb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 25px 50px;
+}
+/* line 1027, _page.scss */
+.why-off__content__card__img {
+  position: relative;
+  height: 45px;
+  width: 45px;
+  margin-bottom: 25px;
+}
+/* line 1033, _page.scss */
+.why-off__content__card__title {
+  font-family: "TTNorms";
+  font-size: 12px;
+  font-weight: 600;
+  color: black;
+  display: inline-block;
+  text-align: center;
+  border-bottom: 2px solid #00a2ff;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+/* line 1044, _page.scss */
+.why-off__content__card__text {
+  margin: 0;
+  font-family: "TTNorms";
+  font-size: 11px;
+  line-height: 15px;
+  font-weight: 300;
+  color: black;
+  display: inline-block;
+  text-align: center;
+}
+
+/* line 1057, _page.scss */
+.how-us-work {
+  margin-top: 80px;
+}
+/* line 1059, _page.scss */
+.how-us-work__img {
+  padding: 0 25px;
+  position: relative;
+}
+/* line 1062, _page.scss */
+.how-us-work__img__bg {
+  width: 100%;
+  height: 100%;
+  background: url("../assets/img/icons/bg_men.png") no-repeat center;
+  background-size: contain;
+}
+/* line 1069, _page.scss */
+.how-us-work__content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+/* line 1075, _page.scss */
+.how-us-work__content__point {
+  width: 50%;
+  position: relative;
+  padding: 0 60px 0 25px;
+  margin-bottom: 20px;
+}
+/* line 1080, _page.scss */
+.how-us-work__content__point:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 3px;
+  height: 15px;
+  width: 2px;
+  background-color: #006ae5;
+}
+/* line 1089, _page.scss */
+.how-us-work__content__point__title {
+  margin-top: 0;
+  font-size: 11px;
+  font-family: "TTNorms";
+  font-weight: 600;
+  color: black;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+/* line 1098, _page.scss */
+.how-us-work__content__point__text {
+  margin-top: 0;
+  font-size: 11px;
+  line-height: 15px;
+  font-family: "TTNorms";
+  font-weight: 400;
+  color: black;
+  margin-bottom: 0;
+}
+
 /* ╨Ю╤Б╨╜╨╛╨▓╨╜╤Л╨╡ ╤Б╤В╨╕╨╗╨╕ */
 /* line 1, _option.scss */
 .link-btn {
@@ -1466,5 +1770,148 @@ body h6 {
 }
 
 /* ╨Ю╨┐╤Ж╨╕╨╛╨╜╨░╨╗╤М╨╜╤Л╨╡ ╤Б╤В╨╕╨╗╨╕ */
+/* line 1, _footer.scss */
+.footer {
+  margin-top: 90px;
+  background-color: #145c9e;
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+/* line 7, _footer.scss */
+.footer__about__title {
+  width: 100%;
+  margin-top: 0;
+  font-family: "TTNorms";
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
+  margin-bottom: 15px;
+}
+/* line 16, _footer.scss */
+.footer__about__link {
+  display: inline-block;
+  width: 100%;
+  margin-top: 0;
+  font-family: "TTNorms";
+  font-size: 15px;
+  font-weight: 400;
+  color: #a7abb6;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+/* line 26, _footer.scss */
+.footer__about__link__grey {
+  margin-top: 0;
+  font-family: "TTNorms";
+  font-size: 15px;
+  font-weight: 400;
+  color: #a7abb6;
+  margin-bottom: 10px;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+}
+/* line 37, _footer.scss */
+.footer__about__link__big {
+  display: inline-block;
+  position: relative;
+  margin: 0;
+  padding-left: 50px;
+  line-height: 25px;
+  color: white;
+  text-decoration: none;
+}
+/* line 45, _footer.scss */
+.footer__about__link__big i {
+  display: inline-block;
+  position: absolute;
+  height: 25px;
+  left: 0;
+  width: 34px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+/* line 54, _footer.scss */
+.footer__about__link__big span {
+  color: white;
+  line-height: 25px;
+  display: inline-block;
+  font-family: "TTNorms";
+  font-size: 15px;
+  font-weight: 500;
+}
+/* line 65, _footer.scss */
+.footer__navigation {
+  position: relative;
+}
+/* line 67, _footer.scss */
+.footer__navigation ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+/* line 77, _footer.scss */
+.footer__navigation ul li {
+  width: 50%;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+/* line 81, _footer.scss */
+.footer__navigation ul li a {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+  font-family: "TTNorms";
+  font-size: 15px;
+  font-weight: 500;
+  display: inline-block;
+  width: 100%;
+}
+/* line 90, _footer.scss */
+.footer__navigation ul li a:hover {
+  opacity: 0.6;
+}
+/* line 98, _footer.scss */
+.footer__contact__phone {
+  margin-top: 0;
+  color: white;
+  text-decoration: none;
+  opacity: 0.6;
+  font-family: "Sailec";
+  font-size: 20px;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+/* line 107, _footer.scss */
+.footer__contact__phone:hover {
+  opacity: 1;
+}
+/* line 111, _footer.scss */
+.footer__contact__white {
+  margin-top: 0;
+  color: white;
+  opacity: 0.6;
+  font-family: "TTNorms";
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+/* line 120, _footer.scss */
+.footer__contact__grey {
+  margin-top: 0;
+  color: #a7abb6;
+  font-family: "TTNorms";
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  margin-bottom: 10px;
+}
+
 /* ╨Я╨╛╨┤╨▓╨░╨╗ */
 /* ╨Ь╨╡╨┤╨╕╨░ ╨╖╨░╨┐╤А╨╛╤Б╤Л */
