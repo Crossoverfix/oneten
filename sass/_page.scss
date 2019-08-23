@@ -120,8 +120,9 @@
     top: 0;
     width: 100%;
     height: 100%;
-    background-position: center;
-    background-size: contain;
+    background-position: center!important;
+    background-size: contain!important;
+    background-repeat: no-repeat!important;
   }
   &__info{
     height: 560px;

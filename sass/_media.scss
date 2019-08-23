@@ -1,8 +1,156 @@
 @media screen and (max-width: 1199px){
+  .header__nav__second__container{
+    height: 60px;
+  }
+  .header__nav__second__container ul li{
+    height: 40px;
+  }
+  .welcome__slide__content h1{
+    font-size: 44px;
+  }
+  .reviews__content{
+    height: 480px;
+  }
 }
 @media screen and (max-width: 991px){
+  .header__nav__first__container ul li a{
+    font-size: 12px;
+  }
+  .header__nav__second__container ul li a{
+    font-size: 12px;
+  }
+  .call-back__sub-title{
+    margin-bottom: 20px;
+  }
+  .reviews__mail__btn a:before{
+    height: 225px;
+  }
+  .client__list__wrap{
+    padding-left: 25px;
+    padding-right: 35px;
+  }
+  .warranty__wrap{
+    padding-left: 0;
+  }
+  .how-work__form{
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .why-off__content{
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+  .why-off__content__card{
+    margin-bottom: 20px;
+  }
+  .footer__navigation ul li{
+    width: 100%;
+    margin-bottom: 0;
+  }
+  .reviews__content{
+    height: 380px;
+  }
 }
 @media screen and (max-width: 767px){
+  .header{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .header__nav__first,.header__nav__second{
+    width: 50%;
+  }
+  .header__nav__first__container{
+    height: auto;
+  }
+  .header__nav__first__container ul{
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .header__nav__first__container ul li:before{
+    width: 0;
+  }
+  .header__nav__first__container ul li{
+    width: 100%;
+    text-align: left;
+  }
+  .header__nav__second__container ul{
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .header__nav__second__container{
+    height: auto;
+  }
+  .header__nav__second__container ul li{
+    height: auto;
+    text-align: right;
+    width: 100%;
+  }
+  .welcome__slide{
+    height: 570px;
+  }
+  .about__info{
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .about__btn{
+    height: auto;
+  }
+  .about__bg{
+    background-size: 1600px!important;
+    background-position: left top!important;
+  }
+  .call-back .input-field{
+    width: calc(50% - 20px);
+  }
+  .call-back .input-submit{
+    width: 80%;
+    margin-top: 15px;
+  }
+  .reviews__content{
+    height: 300px;
+  }
+  .reviews__mail__btn a:before{
+    height: 0;
+  }
+  .reviews__mail__message{
+    padding: 30px 60px 40px 60px;
+  }
+  .reviews__mail__message:before{
+    left: 25px;
+    top: 20px;
+  }
+  .reviews__mail__message:after{
+    right: 25px;
+    bottom: 25px;
+  }
+  .client{
+    padding-top: 30px;
+    height: auto;
+  }
+  .client__info{
+    height: auto;
+  }
+  .client__list{
+    padding-top: 25px;
+    padding-left: 80px;
+    padding-right: 100px;
+    margin-bottom: 40px;
+  }
+  .warranty{
+    padding-top: 35px;
+    background-color: white;
+  }
+  .how-us-work__content__point{
+    width: 100%;
+  }
+  .footer__navigation ul li{
+    width: 50%;
+  }
+  .footer__navigation{
+    margin-top: 20px;
+  }
 }
 @media screen and (max-width: 574px){
 }

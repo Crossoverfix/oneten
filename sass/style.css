@@ -624,10 +624,11 @@ body h6 {
   top: 0;
   width: 100%;
   height: 100%;
-  background-position: center;
-  background-size: contain;
+  background-position: center !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
 }
-/* line 126, _page.scss */
+/* line 127, _page.scss */
 .about__info {
   height: 560px;
   display: flex;
@@ -635,7 +636,7 @@ body h6 {
   align-items: flex-start;
   justify-content: flex-end;
 }
-/* line 132, _page.scss */
+/* line 133, _page.scss */
 .about__info__title {
   font-family: "TTNorms";
   font-size: 11px;
@@ -644,7 +645,7 @@ body h6 {
   margin-top: 0;
   margin-bottom: 30px;
 }
-/* line 140, _page.scss */
+/* line 141, _page.scss */
 .about__info__name {
   font-family: "TTNorms";
   font-size: 35px;
@@ -653,7 +654,7 @@ body h6 {
   margin-top: 0;
   margin-bottom: 35px;
 }
-/* line 148, _page.scss */
+/* line 149, _page.scss */
 .about__info__text {
   font-family: "TTNorms";
   font-size: 12px;
@@ -662,7 +663,7 @@ body h6 {
   margin-top: 0;
   margin-bottom: 10px;
 }
-/* line 157, _page.scss */
+/* line 158, _page.scss */
 .about__btn {
   height: 560px;
   display: flex;
@@ -671,7 +672,7 @@ body h6 {
   align-content: flex-end;
   justify-content: flex-end;
 }
-/* line 164, _page.scss */
+/* line 165, _page.scss */
 .about__btn a {
   margin-bottom: 40px;
   padding: 0 20px;
@@ -681,12 +682,12 @@ body h6 {
   background-color: rgba(20, 92, 158, 0.6);
   box-shadow: -2px 2px 10px 1px #135ee8ad;
 }
-/* line 172, _page.scss */
+/* line 173, _page.scss */
 .about__btn a:hover {
   border: 1px solid rgba(67, 125, 200, 0.9);
   background-color: rgba(20, 92, 158, 0.9);
 }
-/* line 176, _page.scss */
+/* line 177, _page.scss */
 .about__btn a span {
   color: white;
   font-size: 14px;
@@ -697,17 +698,17 @@ body h6 {
   display: inline-block;
   vertical-align: middle;
 }
-/* line 186, _page.scss */
+/* line 187, _page.scss */
 .about__btn a i {
   display: inline-block;
   vertical-align: middle;
 }
 
-/* line 193, _page.scss */
+/* line 194, _page.scss */
 .service {
   padding-top: 80px;
 }
-/* line 195, _page.scss */
+/* line 196, _page.scss */
 .service__card {
   height: 330px;
   margin-bottom: 32px;
@@ -720,11 +721,11 @@ body h6 {
   justify-content: flex-end;
   padding-bottom: 15px;
 }
-/* line 207, _page.scss */
+/* line 208, _page.scss */
 .service__card:hover .service__card__bg {
   box-shadow: inset 0 0 10px 200px rgba(53, 64, 76, 0.01);
 }
-/* line 211, _page.scss */
+/* line 212, _page.scss */
 .service__card__bg {
   position: absolute;
   left: 0;
@@ -736,7 +737,7 @@ body h6 {
   background-repeat: no-repeat !important;
   box-shadow: inset 0 0 10px 200px rgba(53, 64, 76, 0.4);
 }
-/* line 222, _page.scss */
+/* line 223, _page.scss */
 .service__card__text {
   padding: 0 30px;
   position: relative;
@@ -748,7 +749,7 @@ body h6 {
   text-align: center;
   margin-bottom: 45px;
 }
-/* line 233, _page.scss */
+/* line 234, _page.scss */
 .service__card__link {
   align-self: flex-start;
   display: inline-block;
@@ -761,12 +762,12 @@ body h6 {
   position: relative;
   box-shadow: 0px 0px 20px 3px #5581f1;
 }
-/* line 244, _page.scss */
+/* line 245, _page.scss */
 .service__card__link:hover {
   background: linear-gradient(-45deg, #4d61c2, #1146c1);
   box-shadow: none;
 }
-/* line 248, _page.scss */
+/* line 249, _page.scss */
 .service__card__link span {
   display: inline-block;
   color: white;
@@ -778,21 +779,21 @@ body h6 {
   vertical-align: middle;
   text-transform: uppercase;
 }
-/* line 259, _page.scss */
+/* line 260, _page.scss */
 .service__card__link i {
   display: inline-block;
   line-height: 60px;
   vertical-align: middle;
 }
 
-/* line 267, _page.scss */
+/* line 268, _page.scss */
 .call-back {
   margin-top: 40px;
   background-color: #d71732;
   padding-top: 70px;
   padding-bottom: 60px;
 }
-/* line 272, _page.scss */
+/* line 273, _page.scss */
 .call-back form {
   display: flex;
   flex-wrap: wrap;
@@ -800,7 +801,7 @@ body h6 {
   align-items: flex-start;
   justify-content: space-around;
 }
-/* line 279, _page.scss */
+/* line 280, _page.scss */
 .call-back__title {
   font-family: "TTNorms";
   font-size: 34px;
@@ -810,7 +811,7 @@ body h6 {
   margin-top: 0;
   text-align: center;
 }
-/* line 288, _page.scss */
+/* line 289, _page.scss */
 .call-back__sub-title {
   font-family: "TTNorms";
   font-size: 13px;
@@ -820,7 +821,7 @@ body h6 {
   margin-top: 0;
   text-align: center;
 }
-/* line 298, _page.scss */
+/* line 299, _page.scss */
 .call-back .input-field {
   border-radius: 20px;
   padding: 0 20px;
@@ -829,7 +830,7 @@ body h6 {
   position: relative;
   width: calc(40% - 20px);
 }
-/* line 305, _page.scss */
+/* line 306, _page.scss */
 .call-back .input-field input {
   border: none;
   outline: none;
@@ -839,21 +840,21 @@ body h6 {
   line-height: 48px;
   color: white;
 }
-/* line 313, _page.scss */
+/* line 314, _page.scss */
 .call-back .input-field input::-moz-placeholder, .call-back .input-field input::-webkit-input-placeholder, .call-back .input-field input:-ms-input-placeholder, .call-back .input-field input::-ms-input-placeholder, .call-back .input-field input::placeholder {
   color: white !important;
 }
-/* line 318, _page.scss */
+/* line 319, _page.scss */
 .call-back .input-submit {
   width: calc(20% - 20px);
   position: relative;
   cursor: pointer;
 }
-/* line 323, _page.scss */
+/* line 324, _page.scss */
 .call-back .input-submit:hover input {
   background-color: #676f7c;
 }
-/* line 327, _page.scss */
+/* line 328, _page.scss */
 .call-back .input-submit input {
   cursor: pointer;
   width: 100%;
@@ -866,7 +867,7 @@ body h6 {
   font-weight: 500;
   text-align: center;
 }
-/* line 340, _page.scss */
+/* line 341, _page.scss */
 .call-back .input-checkbox {
   width: 100%;
   margin-top: 10px;
@@ -878,16 +879,16 @@ body h6 {
   justify-content: center;
   align-items: center;
 }
-/* line 350, _page.scss */
+/* line 351, _page.scss */
 .call-back .input-checkbox input {
   display: none;
 }
-/* line 353, _page.scss */
+/* line 354, _page.scss */
 .call-back .input-checkbox input:checked ~ .input-checkbox__input:before {
   width: 60%;
   height: 60%;
 }
-/* line 359, _page.scss */
+/* line 360, _page.scss */
 .call-back .input-checkbox__input {
   display: inline-block;
   width: 21px;
@@ -897,7 +898,7 @@ body h6 {
   cursor: pointer;
   position: relative;
 }
-/* line 367, _page.scss */
+/* line 368, _page.scss */
 .call-back .input-checkbox__input:before {
   content: "";
   position: absolute;
@@ -909,7 +910,7 @@ body h6 {
   background: url("../assets/img/icons/check_w.png") no-repeat center;
   background-size: contain;
 }
-/* line 379, _page.scss */
+/* line 380, _page.scss */
 .call-back .input-checkbox__text {
   font-family: "TTNorms";
   font-size: 12px;
@@ -921,20 +922,20 @@ body h6 {
   margin-top: 0;
 }
 
-/* line 392, _page.scss */
+/* line 393, _page.scss */
 .reviews {
   padding-top: 80px;
 }
-/* line 394, _page.scss */
+/* line 395, _page.scss */
 .reviews__wrap {
   align-items: stretch;
 }
-/* line 397, _page.scss */
+/* line 398, _page.scss */
 .reviews__control {
   margin-top: 30px;
   position: relative;
 }
-/* line 400, _page.scss */
+/* line 401, _page.scss */
 .reviews__control a {
   border-radius: 50%;
   height: 30px;
@@ -946,11 +947,11 @@ body h6 {
   top: 50%;
   transform: translate(-50%, -50%);
 }
-/* line 410, _page.scss */
+/* line 411, _page.scss */
 .reviews__control a:hover {
   background-color: #006eff;
 }
-/* line 413, _page.scss */
+/* line 414, _page.scss */
 .reviews__control a i {
   display: inline-block;
   position: absolute;
@@ -960,13 +961,13 @@ body h6 {
   top: 50%;
   transform: translate(-50%, -50%);
 }
-/* line 424, _page.scss */
+/* line 425, _page.scss */
 .reviews__content {
   position: relative;
   height: 550px;
   margin-top: 30px;
 }
-/* line 428, _page.scss */
+/* line 429, _page.scss */
 .reviews__content__wrap {
   width: 80%;
   height: 100%;
@@ -975,22 +976,22 @@ body h6 {
   overflow: hidden;
   white-space: nowrap;
 }
-/* line 435, _page.scss */
+/* line 436, _page.scss */
 .reviews__content__wrap .reviews__content__item__point {
   display: inline-block;
   vertical-align: top;
 }
-/* line 440, _page.scss */
+/* line 441, _page.scss */
 .reviews__content__item {
   display: none;
 }
-/* line 442, _page.scss */
+/* line 443, _page.scss */
 .reviews__content__item__point {
   width: 100%;
   height: calc(100% - 50px);
   position: relative;
 }
-/* line 446, _page.scss */
+/* line 447, _page.scss */
 .reviews__content__item__point__rate {
   left: 50%;
   bottom: 0;
@@ -1004,13 +1005,13 @@ body h6 {
   align-items: center;
   justify-content: space-between;
 }
-/* line 458, _page.scss */
+/* line 459, _page.scss */
 .reviews__content__item__point__rate i {
   width: 22px;
   height: 22px;
   display: inline-block;
 }
-/* line 464, _page.scss */
+/* line 465, _page.scss */
 .reviews__content__item__point img {
   position: relative;
   top: calc(50% - 25px);
@@ -1018,7 +1019,7 @@ body h6 {
   transform: translate(-50%, -50%);
   width: 100%;
 }
-/* line 475, _page.scss */
+/* line 476, _page.scss */
 .reviews__mail__btn {
   display: flex;
   flex-wrap: nowrap;
@@ -1026,7 +1027,7 @@ body h6 {
   align-items: center;
   justify-content: center;
 }
-/* line 481, _page.scss */
+/* line 482, _page.scss */
 .reviews__mail__btn a {
   position: relative;
   margin: 0 auto;
@@ -1035,7 +1036,7 @@ body h6 {
   background-color: #006ae5;
   box-shadow: 0px 0px 9px 0px #ffffff,-4px 4px 8px -3px #006ae5;
 }
-/* line 488, _page.scss */
+/* line 489, _page.scss */
 .reviews__mail__btn a:before {
   content: "";
   position: absolute;
@@ -1046,11 +1047,11 @@ body h6 {
   background: url("../assets/img/web/1_1.png") no-repeat center;
   background-size: contain;
 }
-/* line 498, _page.scss */
+/* line 499, _page.scss */
 .reviews__mail__btn a:hover {
   background-color: #0074ff;
 }
-/* line 501, _page.scss */
+/* line 502, _page.scss */
 .reviews__mail__btn a span {
   display: inline-block;
   vertical-align: middle;
@@ -1061,12 +1062,12 @@ body h6 {
   line-height: 48px;
   margin: 0 10px;
 }
-/* line 511, _page.scss */
+/* line 512, _page.scss */
 .reviews__mail__btn a i {
   vertical-align: middle;
   display: inline-block;
 }
-/* line 517, _page.scss */
+/* line 518, _page.scss */
 .reviews__mail__message {
   width: 100%;
   border-radius: 25px;
@@ -1075,7 +1076,7 @@ body h6 {
   position: relative;
   margin-top: 35px;
 }
-/* line 524, _page.scss */
+/* line 525, _page.scss */
 .reviews__mail__message:before {
   content: "";
   width: 26px;
@@ -1086,7 +1087,7 @@ body h6 {
   background: url("../assets/img/icons/quote_left.png") no-repeat center;
   background-size: contain;
 }
-/* line 534, _page.scss */
+/* line 535, _page.scss */
 .reviews__mail__message:after {
   content: "";
   width: 26px;
@@ -1097,16 +1098,16 @@ body h6 {
   background: url("../assets/img/icons/quote_right.png") no-repeat center;
   background-size: contain;
 }
-/* line 544, _page.scss */
+/* line 545, _page.scss */
 .reviews__mail__message__logo {
   height: 60px;
   position: relative;
 }
-/* line 547, _page.scss */
+/* line 548, _page.scss */
 .reviews__mail__message__logo img {
   height: 100%;
 }
-/* line 551, _page.scss */
+/* line 552, _page.scss */
 .reviews__mail__message__text {
   margin-top: 20px;
   margin-bottom: 5px;
@@ -1116,7 +1117,7 @@ body h6 {
   color: #262a33;
   font-weight: 500;
 }
-/* line 560, _page.scss */
+/* line 561, _page.scss */
 .reviews__mail__message__author {
   text-align: right;
   margin-top: 0;
@@ -1128,13 +1129,13 @@ body h6 {
   font-weight: 600;
 }
 
-/* line 573, _page.scss */
+/* line 574, _page.scss */
 .client {
   background-color: #eff3fb;
   margin-top: 75px;
   height: 490px;
 }
-/* line 577, _page.scss */
+/* line 578, _page.scss */
 .client__info {
   display: flex;
   flex-direction: column;
@@ -1142,7 +1143,7 @@ body h6 {
   justify-content: flex-end;
   height: 490px;
 }
-/* line 584, _page.scss */
+/* line 585, _page.scss */
 .client__text {
   font-family: "TTNorms";
   font-size: 12px;
@@ -1152,7 +1153,7 @@ body h6 {
   margin-bottom: 40px;
   line-height: 16px;
 }
-/* line 593, _page.scss */
+/* line 594, _page.scss */
 .client__btn {
   position: relative;
   border-radius: 20px;
@@ -1161,11 +1162,11 @@ body h6 {
   box-shadow: 0px 0px 9px 0px #ffffff,-4px 4px 8px -3px #006ae5;
   margin-bottom: 80px;
 }
-/* line 600, _page.scss */
+/* line 601, _page.scss */
 .client__btn:hover {
   background-color: rgba(217, 217, 217, 0);
 }
-/* line 603, _page.scss */
+/* line 604, _page.scss */
 .client__btn span {
   display: inline-block;
   vertical-align: middle;
@@ -1176,12 +1177,12 @@ body h6 {
   line-height: 48px;
   margin: 0 10px;
 }
-/* line 613, _page.scss */
+/* line 614, _page.scss */
 .client__btn i {
   vertical-align: middle;
   display: inline-block;
 }
-/* line 618, _page.scss */
+/* line 619, _page.scss */
 .client__list {
   height: 490px;
   background-color: white;
@@ -1190,7 +1191,7 @@ body h6 {
   padding-left: 45px;
   padding-right: 50px;
 }
-/* line 625, _page.scss */
+/* line 626, _page.scss */
 .client__list__title {
   font-family: "TTNorms";
   font-size: 11px;
@@ -1200,7 +1201,7 @@ body h6 {
   margin-bottom: 0;
   margin-top: 0;
 }
-/* line 634, _page.scss */
+/* line 635, _page.scss */
 .client__list__wrap {
   width: 100%;
   height: calc(100% - 50px);
@@ -1209,7 +1210,7 @@ body h6 {
   padding-left: 65px;
   padding-right: 55px;
 }
-/* line 641, _page.scss */
+/* line 642, _page.scss */
 .client__list__wrap__control {
   position: absolute;
   top: 50%;
@@ -1222,23 +1223,23 @@ body h6 {
   align-items: center;
   justify-content: space-between;
 }
-/* line 652, _page.scss */
+/* line 653, _page.scss */
 .client__list__wrap__control a {
   display: inline-block;
   width: 16px;
   height: 12px;
 }
-/* line 656, _page.scss */
+/* line 657, _page.scss */
 .client__list__wrap__control a i {
   display: inline-block;
   vertical-align: top;
 }
-/* line 662, _page.scss */
+/* line 663, _page.scss */
 .client__list__wrap__body {
   width: 100%;
   position: relative;
 }
-/* line 665, _page.scss */
+/* line 666, _page.scss */
 .client__list__wrap__body a {
   display: inline-block;
   position: relative;
@@ -1247,7 +1248,7 @@ body h6 {
   border: solid 1px #b7bbc3;
   margin-bottom: -2px;
 }
-/* line 672, _page.scss */
+/* line 673, _page.scss */
 .client__list__wrap__body a:before {
   content: "";
   position: absolute;
@@ -1257,7 +1258,7 @@ body h6 {
   left: -2px;
   top: 10px;
 }
-/* line 681, _page.scss */
+/* line 682, _page.scss */
 .client__list__wrap__body a:after {
   content: "";
   position: absolute;
@@ -1267,7 +1268,7 @@ body h6 {
   left: 10px;
   top: -2px;
 }
-/* line 690, _page.scss */
+/* line 691, _page.scss */
 .client__list__wrap__body a img {
   width: 100%;
   position: relative;
@@ -1276,12 +1277,12 @@ body h6 {
   z-index: 1;
 }
 
-/* line 702, _page.scss */
+/* line 703, _page.scss */
 .warranty {
   background-color: #eff3fb;
   height: 620px;
 }
-/* line 705, _page.scss */
+/* line 706, _page.scss */
 .warranty__bg {
   position: relative;
   z-index: 2;
@@ -1291,7 +1292,7 @@ body h6 {
   background-position: center !important;
   background-repeat: no-repeat !important;
 }
-/* line 714, _page.scss */
+/* line 715, _page.scss */
 .warranty__wrap {
   display: flex;
   flex-direction: column;
@@ -1301,7 +1302,7 @@ body h6 {
   padding-left: 75px;
   padding-bottom: 45px;
 }
-/* line 722, _page.scss */
+/* line 723, _page.scss */
 .warranty__wrap:before {
   content: "";
   height: 100%;
@@ -1311,14 +1312,14 @@ body h6 {
   top: 0;
   left: -120px;
 }
-/* line 731, _page.scss */
+/* line 732, _page.scss */
 .warranty__wrap ul {
   list-style: none;
   padding: 0;
   margin-top: 0;
   margin-bottom: 35px;
 }
-/* line 736, _page.scss */
+/* line 737, _page.scss */
 .warranty__wrap ul li {
   background-color: #eff3fb;
   border-radius: 10px;
@@ -1331,7 +1332,7 @@ body h6 {
   font-weight: 500;
   line-height: 15px;
 }
-/* line 747, _page.scss */
+/* line 748, _page.scss */
 .warranty__wrap ul li:before {
   content: "";
   position: absolute;
@@ -1342,7 +1343,7 @@ body h6 {
   left: 15px;
   top: 25px;
 }
-/* line 759, _page.scss */
+/* line 760, _page.scss */
 .warranty__wrap a {
   position: relative;
   border-radius: 20px;
@@ -1350,11 +1351,11 @@ body h6 {
   background-color: #006ae5;
   box-shadow: 0px 0px 9px 0px #ffffff,-4px 4px 8px -3px #006ae5;
 }
-/* line 765, _page.scss */
+/* line 766, _page.scss */
 .warranty__wrap a:hover {
   background-color: #0074ff;
 }
-/* line 768, _page.scss */
+/* line 769, _page.scss */
 .warranty__wrap a span {
   display: inline-block;
   vertical-align: middle;
@@ -1365,22 +1366,22 @@ body h6 {
   line-height: 48px;
   margin: 0 10px;
 }
-/* line 778, _page.scss */
+/* line 779, _page.scss */
 .warranty__wrap a i {
   vertical-align: middle;
   display: inline-block;
 }
 
-/* line 785, _page.scss */
+/* line 786, _page.scss */
 .advantages {
   padding-top: 65px;
   position: relative;
 }
-/* line 788, _page.scss */
+/* line 789, _page.scss */
 .advantages .block-title {
   color: white;
 }
-/* line 791, _page.scss */
+/* line 792, _page.scss */
 .advantages__bg {
   position: absolute;
   height: 100%;
@@ -1390,12 +1391,12 @@ body h6 {
   background: url("../assets/img/photo/advantages_bg.png") no-repeat center;
   background-size: cover;
 }
-/* line 799, _page.scss */
+/* line 800, _page.scss */
 .advantages__bg__man {
   position: relative;
   min-height: 400px;
 }
-/* line 802, _page.scss */
+/* line 803, _page.scss */
 .advantages__bg__man:before {
   content: "";
   position: absolute;
@@ -1407,12 +1408,12 @@ body h6 {
   background: url("../assets/img/photo/advantages_man.png") no-repeat center bottom;
   background-size: contain;
 }
-/* line 815, _page.scss */
+/* line 816, _page.scss */
 .advantages__list {
   padding-bottom: 130px;
   position: relative;
 }
-/* line 818, _page.scss */
+/* line 819, _page.scss */
 .advantages__list ul {
   width: 100%;
   list-style-type: none;
@@ -1420,7 +1421,7 @@ body h6 {
   margin: 0;
   position: relative;
 }
-/* line 824, _page.scss */
+/* line 825, _page.scss */
 .advantages__list ul li {
   width: 100%;
   padding: 30px 25px 10px 35px;
@@ -1428,7 +1429,7 @@ body h6 {
   margin-top: 0;
   margin-bottom: 18px;
 }
-/* line 830, _page.scss */
+/* line 831, _page.scss */
 .advantages__list ul li p {
   margin-top: 0;
   color: white;
@@ -1437,17 +1438,17 @@ body h6 {
   font-weight: 500;
   margin-bottom: 18px;
 }
-/* line 838, _page.scss */
+/* line 839, _page.scss */
 .advantages__list ul li a {
   display: inline-block;
   width: 100%;
   text-decoration: none;
 }
-/* line 843, _page.scss */
+/* line 844, _page.scss */
 .advantages__list ul li a:hover span {
   color: #00afff;
 }
-/* line 847, _page.scss */
+/* line 848, _page.scss */
 .advantages__list ul li a span {
   font-family: "TTNorms";
   font-size: 12px;
@@ -1457,16 +1458,16 @@ body h6 {
   margin-top: 0;
   color: #0082cb;
 }
-/* line 856, _page.scss */
+/* line 857, _page.scss */
 .advantages__list ul li a i {
   display: inline-block;
 }
 
-/* line 864, _page.scss */
+/* line 865, _page.scss */
 .how-work {
   margin-top: 65px;
 }
-/* line 866, _page.scss */
+/* line 867, _page.scss */
 .how-work__form {
   width: 85%;
   margin-left: auto;
@@ -1474,7 +1475,7 @@ body h6 {
   background-color: #d71732;
   position: relative;
 }
-/* line 872, _page.scss */
+/* line 873, _page.scss */
 .how-work__form form {
   width: 100%;
   height: 100%;
@@ -1483,7 +1484,7 @@ body h6 {
   align-items: center;
   justify-content: center;
 }
-/* line 880, _page.scss */
+/* line 881, _page.scss */
 .how-work__form__title {
   margin-top: 0;
   font-family: "TTNorms";
@@ -1494,7 +1495,7 @@ body h6 {
   text-align: center;
   margin-bottom: 20px;
 }
-/* line 890, _page.scss */
+/* line 891, _page.scss */
 .how-work__form__sub-title {
   margin-top: 0;
   font-family: "TTNorms";
@@ -1504,7 +1505,7 @@ body h6 {
   text-align: center;
   margin-bottom: 40px;
 }
-/* line 900, _page.scss */
+/* line 901, _page.scss */
 .how-work__form .input-field {
   border-radius: 20px;
   padding: 0 20px;
@@ -1514,7 +1515,7 @@ body h6 {
   width: 100%;
   margin-bottom: 16px;
 }
-/* line 908, _page.scss */
+/* line 909, _page.scss */
 .how-work__form .input-field input {
   border: none;
   outline: none;
@@ -1524,22 +1525,22 @@ body h6 {
   line-height: 48px;
   color: white;
 }
-/* line 916, _page.scss */
+/* line 917, _page.scss */
 .how-work__form .input-field input::-moz-placeholder, .how-work__form .input-field input::-webkit-input-placeholder, .how-work__form .input-field input:-ms-input-placeholder, .how-work__form .input-field input::-ms-input-placeholder, .how-work__form .input-field input::placeholder {
   color: white !important;
 }
-/* line 921, _page.scss */
+/* line 922, _page.scss */
 .how-work__form .input-submit {
   width: 145px;
   margin-top: 25px;
   position: relative;
   cursor: pointer;
 }
-/* line 927, _page.scss */
+/* line 928, _page.scss */
 .how-work__form .input-submit:hover input {
   background-color: #676f7c;
 }
-/* line 931, _page.scss */
+/* line 932, _page.scss */
 .how-work__form .input-submit input {
   cursor: pointer;
   width: 100%;
@@ -1552,7 +1553,7 @@ body h6 {
   font-weight: 500;
   text-align: center;
 }
-/* line 944, _page.scss */
+/* line 945, _page.scss */
 .how-work__form .input-checkbox {
   width: 100%;
   margin-top: 10px;
@@ -1564,16 +1565,16 @@ body h6 {
   justify-content: center;
   align-items: center;
 }
-/* line 954, _page.scss */
+/* line 955, _page.scss */
 .how-work__form .input-checkbox input {
   display: none;
 }
-/* line 957, _page.scss */
+/* line 958, _page.scss */
 .how-work__form .input-checkbox input:checked ~ .input-checkbox__input:before {
   width: 60%;
   height: 60%;
 }
-/* line 963, _page.scss */
+/* line 964, _page.scss */
 .how-work__form .input-checkbox__input {
   display: inline-block;
   width: 21px;
@@ -1584,7 +1585,7 @@ body h6 {
   cursor: pointer;
   position: relative;
 }
-/* line 972, _page.scss */
+/* line 973, _page.scss */
 .how-work__form .input-checkbox__input:before {
   content: "";
   position: absolute;
@@ -1596,7 +1597,7 @@ body h6 {
   background: url("../assets/img/icons/check_w.png") no-repeat center;
   background-size: contain;
 }
-/* line 984, _page.scss */
+/* line 985, _page.scss */
 .how-work__form .input-checkbox__text {
   font-family: "TTNorms";
   font-size: 12px;
@@ -1608,7 +1609,7 @@ body h6 {
   margin-bottom: 0;
   margin-top: 0;
 }
-/* line 998, _page.scss */
+/* line 999, _page.scss */
 .how-work__text {
   font-family: "TTNorms";
   font-size: 17px;
@@ -1616,16 +1617,16 @@ body h6 {
   color: #262a33;
   font-weight: 500;
 }
-/* line 1004, _page.scss */
+/* line 1005, _page.scss */
 .how-work__text b {
   font-weight: 700;
 }
 
-/* line 1009, _page.scss */
+/* line 1010, _page.scss */
 .why-off {
   margin-top: 70px;
 }
-/* line 1011, _page.scss */
+/* line 1012, _page.scss */
 .why-off__content {
   display: flex;
   flex-direction: row;
@@ -1634,7 +1635,7 @@ body h6 {
   margin: 0 auto;
   padding: 0;
 }
-/* line 1018, _page.scss */
+/* line 1019, _page.scss */
 .why-off__content__card {
   height: 100%;
   border-radius: 25px;
@@ -1645,14 +1646,14 @@ body h6 {
   justify-content: flex-start;
   padding: 25px 50px;
 }
-/* line 1027, _page.scss */
+/* line 1028, _page.scss */
 .why-off__content__card__img {
   position: relative;
   height: 45px;
   width: 45px;
   margin-bottom: 25px;
 }
-/* line 1033, _page.scss */
+/* line 1034, _page.scss */
 .why-off__content__card__title {
   font-family: "TTNorms";
   font-size: 12px;
@@ -1664,7 +1665,7 @@ body h6 {
   margin-bottom: 20px;
   margin-top: 0;
 }
-/* line 1044, _page.scss */
+/* line 1045, _page.scss */
 .why-off__content__card__text {
   margin: 0;
   font-family: "TTNorms";
@@ -1676,23 +1677,23 @@ body h6 {
   text-align: center;
 }
 
-/* line 1057, _page.scss */
+/* line 1058, _page.scss */
 .how-us-work {
   margin-top: 80px;
 }
-/* line 1059, _page.scss */
+/* line 1060, _page.scss */
 .how-us-work__img {
   padding: 0 25px;
   position: relative;
 }
-/* line 1062, _page.scss */
+/* line 1063, _page.scss */
 .how-us-work__img__bg {
   width: 100%;
   height: 100%;
   background: url("../assets/img/icons/bg_men.png") no-repeat center;
   background-size: contain;
 }
-/* line 1069, _page.scss */
+/* line 1070, _page.scss */
 .how-us-work__content {
   display: flex;
   flex-direction: row;
@@ -1700,14 +1701,14 @@ body h6 {
   align-items: flex-start;
   justify-content: flex-start;
 }
-/* line 1075, _page.scss */
+/* line 1076, _page.scss */
 .how-us-work__content__point {
   width: 50%;
   position: relative;
   padding: 0 60px 0 25px;
   margin-bottom: 20px;
 }
-/* line 1080, _page.scss */
+/* line 1081, _page.scss */
 .how-us-work__content__point:before {
   content: "";
   position: absolute;
@@ -1717,7 +1718,7 @@ body h6 {
   width: 2px;
   background-color: #006ae5;
 }
-/* line 1089, _page.scss */
+/* line 1090, _page.scss */
 .how-us-work__content__point__title {
   margin-top: 0;
   font-size: 11px;
@@ -1727,7 +1728,7 @@ body h6 {
   margin-bottom: 5px;
   text-transform: uppercase;
 }
-/* line 1098, _page.scss */
+/* line 1099, _page.scss */
 .how-us-work__content__point__text {
   margin-top: 0;
   font-size: 11px;
@@ -1914,4 +1915,239 @@ body h6 {
 }
 
 /* ╨Я╨╛╨┤╨▓╨░╨╗ */
+@media screen and (max-width: 1199px) {
+  /* line 2, _media.scss */
+  .header__nav__second__container {
+    height: 60px;
+  }
+
+  /* line 5, _media.scss */
+  .header__nav__second__container ul li {
+    height: 40px;
+  }
+
+  /* line 8, _media.scss */
+  .welcome__slide__content h1 {
+    font-size: 44px;
+  }
+
+  /* line 11, _media.scss */
+  .reviews__content {
+    height: 480px;
+  }
+}
+@media screen and (max-width: 991px) {
+  /* line 16, _media.scss */
+  .header__nav__first__container ul li a {
+    font-size: 12px;
+  }
+
+  /* line 19, _media.scss */
+  .header__nav__second__container ul li a {
+    font-size: 12px;
+  }
+
+  /* line 22, _media.scss */
+  .call-back__sub-title {
+    margin-bottom: 20px;
+  }
+
+  /* line 25, _media.scss */
+  .reviews__mail__btn a:before {
+    height: 225px;
+  }
+
+  /* line 28, _media.scss */
+  .client__list__wrap {
+    padding-left: 25px;
+    padding-right: 35px;
+  }
+
+  /* line 32, _media.scss */
+  .warranty__wrap {
+    padding-left: 0;
+  }
+
+  /* line 35, _media.scss */
+  .how-work__form {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  /* line 39, _media.scss */
+  .why-off__content {
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+
+  /* line 43, _media.scss */
+  .why-off__content__card {
+    margin-bottom: 20px;
+  }
+
+  /* line 46, _media.scss */
+  .footer__navigation ul li {
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  /* line 50, _media.scss */
+  .reviews__content {
+    height: 380px;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 55, _media.scss */
+  .header {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  /* line 59, _media.scss */
+  .header__nav__first, .header__nav__second {
+    width: 50%;
+  }
+
+  /* line 62, _media.scss */
+  .header__nav__first__container {
+    height: auto;
+  }
+
+  /* line 65, _media.scss */
+  .header__nav__first__container ul {
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  /* line 70, _media.scss */
+  .header__nav__first__container ul li:before {
+    width: 0;
+  }
+
+  /* line 73, _media.scss */
+  .header__nav__first__container ul li {
+    width: 100%;
+    text-align: left;
+  }
+
+  /* line 77, _media.scss */
+  .header__nav__second__container ul {
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  /* line 82, _media.scss */
+  .header__nav__second__container {
+    height: auto;
+  }
+
+  /* line 85, _media.scss */
+  .header__nav__second__container ul li {
+    height: auto;
+    text-align: right;
+    width: 100%;
+  }
+
+  /* line 90, _media.scss */
+  .welcome__slide {
+    height: 570px;
+  }
+
+  /* line 93, _media.scss */
+  .about__info {
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  /* line 97, _media.scss */
+  .about__btn {
+    height: auto;
+  }
+
+  /* line 100, _media.scss */
+  .about__bg {
+    background-size: 1600px !important;
+    background-position: left top !important;
+  }
+
+  /* line 104, _media.scss */
+  .call-back .input-field {
+    width: calc(50% - 20px);
+  }
+
+  /* line 107, _media.scss */
+  .call-back .input-submit {
+    width: 80%;
+    margin-top: 15px;
+  }
+
+  /* line 111, _media.scss */
+  .reviews__content {
+    height: 300px;
+  }
+
+  /* line 114, _media.scss */
+  .reviews__mail__btn a:before {
+    height: 0;
+  }
+
+  /* line 117, _media.scss */
+  .reviews__mail__message {
+    padding: 30px 60px 40px 60px;
+  }
+
+  /* line 120, _media.scss */
+  .reviews__mail__message:before {
+    left: 25px;
+    top: 20px;
+  }
+
+  /* line 124, _media.scss */
+  .reviews__mail__message:after {
+    right: 25px;
+    bottom: 25px;
+  }
+
+  /* line 128, _media.scss */
+  .client {
+    padding-top: 30px;
+    height: auto;
+  }
+
+  /* line 132, _media.scss */
+  .client__info {
+    height: auto;
+  }
+
+  /* line 135, _media.scss */
+  .client__list {
+    padding-top: 25px;
+    padding-left: 80px;
+    padding-right: 100px;
+    margin-bottom: 40px;
+  }
+
+  /* line 141, _media.scss */
+  .warranty {
+    padding-top: 35px;
+    background-color: white;
+  }
+
+  /* line 145, _media.scss */
+  .how-us-work__content__point {
+    width: 100%;
+  }
+
+  /* line 148, _media.scss */
+  .footer__navigation ul li {
+    width: 50%;
+  }
+
+  /* line 151, _media.scss */
+  .footer__navigation {
+    margin-top: 20px;
+  }
+}
 /* ╨Ь╨╡╨┤╨╕╨░ ╨╖╨░╨┐╤А╨╛╤Б╤Л */
