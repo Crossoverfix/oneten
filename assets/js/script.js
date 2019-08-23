@@ -94,4 +94,10 @@ $(document).ready(function () {
         }
         return false
     })
+    var $mobilCollapse = $('[data-js-collapse]');
+    $mobilCollapse.on('click',function () {
+        $mobilCollapse.toggleClass('active');
+        $('.header__nav__first').toggleClass('active');
+        $('.header__nav__second').toggleClass('active');
+    })
 })
