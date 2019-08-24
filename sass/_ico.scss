@@ -78,4 +78,18 @@
     background: url("../assets/img/icons/ico_mail.png")no-repeat center;
     background-size: contain;
   }
+  &__book{
+    background: url("../assets/img/icons/ico_book.png")no-repeat center;
+    background-size: contain;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+  }
+  &__calendar{
+    background: url("../assets/img/icons/ico_calendar.png")no-repeat center;
+    background-size: contain;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+  }
 }
