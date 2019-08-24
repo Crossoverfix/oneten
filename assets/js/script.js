@@ -100,4 +100,17 @@ $(document).ready(function () {
         $('.header__nav__first').toggleClass('active');
         $('.header__nav__second').toggleClass('active');
     })
+    var $auditTabs = $('[data-js-tabs]');
+    $auditTabs.on('click',function () {
+        let $numb = $(this).attr('data-js-tabs');
+        $('[data-js-tab]').removeClass('active');
+        $('[data-js-tabs]').removeClass('active');
+        $('[data-js-tabs="'+ $numb +'"]').addClass('active');
+        $('[data-js-tab="'+ $numb +'"]').addClass('active');
+        return false;
+    })
+    var $questionAcardions = $('.question__wrap li');
+    $questionAcardions.on('click',function () {
+        $(this).toggleClass('active');
+    })
 })

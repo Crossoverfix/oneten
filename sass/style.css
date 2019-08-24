@@ -1739,6 +1739,267 @@ body h6 {
   margin-bottom: 0;
 }
 
+/* line 1111, _page.scss */
+.about-audit {
+  margin-top: 40px;
+}
+/* line 1113, _page.scss */
+.about-audit__img {
+  position: relative;
+  min-height: 1px;
+  width: 100%;
+  padding-top: 100%;
+  background: url("../assets/img/photo/audits-about.jpg") no-repeat center;
+  background-size: cover;
+}
+/* line 1120, _page.scss */
+.about-audit__img a {
+  position: absolute;
+  white-space: nowrap;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  align-self: flex-start;
+  display: inline-block;
+  padding: 0 20px;
+  background: linear-gradient(-45deg, #5581f1, #1153fc);
+  border-radius: 25px;
+  height: 60px;
+  box-shadow: 0px 0px 20px 3px #5581f1;
+}
+/* line 1133, _page.scss */
+.about-audit__img a:hover {
+  background: linear-gradient(-45deg, #4d61c2, #1146c1);
+  box-shadow: none;
+}
+/* line 1137, _page.scss */
+.about-audit__img a span {
+  display: inline-block;
+  color: white;
+  font-family: "TTNorms";
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0 10px;
+  line-height: 60px;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+/* line 1148, _page.scss */
+.about-audit__img a i {
+  display: inline-block;
+  line-height: 60px;
+  vertical-align: middle;
+}
+/* line 1155, _page.scss */
+.about-audit__content {
+  position: relative;
+}
+/* line 1157, _page.scss */
+.about-audit__content__wrap {
+  position: relative;
+  display: none;
+}
+/* line 1160, _page.scss */
+.about-audit__content__wrap.active {
+  display: block;
+}
+/* line 1163, _page.scss */
+.about-audit__content__wrap img {
+  max-width: 40%;
+  float: left;
+}
+/* line 1167, _page.scss */
+.about-audit__content__wrap h2 {
+  font-family: "TTNorms";
+  font-size: 35px;
+  font-weight: 500;
+  color: #262a33;
+  margin-top: 0;
+  margin-bottom: 35px;
+}
+/* line 1175, _page.scss */
+.about-audit__content__wrap p {
+  font-family: "TTNorms";
+  font-size: 12px;
+  font-weight: 500;
+  color: #262a33;
+  margin-top: 0;
+  margin-bottom: 10px;
+  line-height: 14px;
+}
+/* line 1186, _page.scss */
+.about-audit__tabs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+/* line 1192, _page.scss */
+.about-audit__tabs a {
+  width: calc((100% - 40px) / 3);
+  position: relative;
+  font-family: "TTNorms";
+  font-size: 11px;
+  font-weight: 600;
+  display: inline-block;
+  line-height: 31px;
+  z-index: 1;
+  text-align: center;
+}
+/* line 1203, _page.scss */
+.about-audit__tabs a:hover:before {
+  background-color: #c8cdd7;
+}
+/* line 1208, _page.scss */
+.about-audit__tabs a.active:before {
+  box-shadow: 0px 0px 9px 0px #ffffff,-4px 4px 8px -3px #135ee8;
+}
+/* line 1212, _page.scss */
+.about-audit__tabs a:before {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  display: block;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  transform: skewX(-30deg);
+  background-color: #ebf0fa;
+}
+
+/* line 1227, _page.scss */
+.question {
+  margin-top: 80px;
+}
+/* line 1229, _page.scss */
+.question__wrap {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+/* line 1236, _page.scss */
+.question__wrap ul {
+  width: calc(50% - 20px);
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+/* line 1242, _page.scss */
+.question__wrap ul li {
+  width: 100%;
+  margin-bottom: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+  transition: all linear 0.5s;
+}
+/* line 1252, _page.scss */
+.question__wrap ul li.active .question__wrap__head {
+  background-color: #1e2432;
+}
+/* line 1254, _page.scss */
+.question__wrap ul li.active .question__wrap__head p {
+  color: white;
+}
+/* line 1257, _page.scss */
+.question__wrap ul li.active .question__wrap__head i {
+  background: url("../assets/img/icons/ico_minus.png") no-repeat center;
+  background-size: contain;
+}
+/* line 1262, _page.scss */
+.question__wrap ul li.active .question__wrap__body {
+  height: auto;
+}
+/* line 1270, _page.scss */
+.question__wrap__head {
+  width: 100%;
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5px;
+  background-color: #eff3fb;
+  padding: 15px;
+}
+/* line 1281, _page.scss */
+.question__wrap__head p {
+  font-family: "TTNorms";
+  font-size: 15px;
+  font-weight: 500;
+  color: black;
+  display: inline-block;
+}
+/* line 1288, _page.scss */
+.question__wrap__head i {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url("../assets/img/icons/ico_plus.png") no-repeat center;
+  background-size: contain;
+}
+/* line 1296, _page.scss */
+.question__wrap__body {
+  transition: all linear 0.5s;
+  height: 0;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #eff3fb;
+  overflow: hidden;
+}
+/* line 1303, _page.scss */
+.question__wrap__body p {
+  padding: 15px;
+  font-family: "TTNorms";
+  font-size: 12px;
+  font-weight: 500;
+  color: black;
+  display: inline-block;
+}
+/* line 1313, _page.scss */
+.question .link-btn {
+  align-self: flex-start;
+  display: inline-block;
+  margin: 20px auto 0 auto;
+  white-space: normal;
+  padding: 0 20px;
+  background: linear-gradient(-45deg, #5581f1, #1153fc);
+  border-radius: 25px;
+  height: 60px;
+  position: relative;
+  box-shadow: 0px 0px 20px 3px #5581f1;
+}
+/* line 1324, _page.scss */
+.question .link-btn:hover {
+  background: linear-gradient(-45deg, #4d61c2, #1146c1);
+  box-shadow: none;
+}
+/* line 1328, _page.scss */
+.question .link-btn span {
+  display: inline-block;
+  color: white;
+  font-family: "TTNorms";
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0 10px;
+  line-height: 60px;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+/* line 1339, _page.scss */
+.question .link-btn i {
+  display: inline-block;
+  line-height: 60px;
+  vertical-align: middle;
+}
+
 /* ╨Ю╤Б╨╜╨╛╨▓╨╜╤Л╨╡ ╤Б╤В╨╕╨╗╨╕ */
 /* line 1, _option.scss */
 .link-btn {
@@ -1784,6 +2045,52 @@ body h6 {
   background: url("../assets/img/icons/ico_arr_up_w.png") no-repeat center #023d79;
   background-size: 16px auto;
   order: 1;
+}
+
+/* line 39, _option.scss */
+.breadcrumb {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+/* line 42, _option.scss */
+.breadcrumb ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+/* line 51, _option.scss */
+.breadcrumb ul li {
+  position: relative;
+}
+/* line 54, _option.scss */
+.breadcrumb ul li:last-child:after {
+  content: "";
+}
+/* line 58, _option.scss */
+.breadcrumb ul li:after {
+  display: inline-block;
+  vertical-align: top;
+  content: "//";
+  margin-right: 8px;
+  margin-left: 7px;
+}
+/* line 66, _option.scss */
+.breadcrumb ul li a {
+  font-family: "TTNorms";
+  font-size: 12px;
+  font-weight: 500;
+  display: inline-block;
+  color: #262a33;
+  text-decoration: none;
+}
+/* line 73, _option.scss */
+.breadcrumb ul li a:hover {
+  text-decoration: underline;
 }
 
 /* ╨Ю╨┐╤Ж╨╕╨╛╨╜╨░╨╗╤М╨╜╤Л╨╡ ╤Б╤В╨╕╨╗╨╕ */
