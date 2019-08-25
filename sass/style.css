@@ -2121,8 +2121,22 @@ body h6 {
 /* line 1438, _page.scss */
 .price {
   margin-top: 80px;
+  background-color: #edf1f9;
+  position: relative;
+  padding-bottom: 95px;
 }
-/* line 1442, _page.scss */
+/* line 1443, _page.scss */
+.price:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 456px;
+  background-color: white;
+  display: block;
+}
+/* line 1455, _page.scss */
 .price__white__about p {
   width: 100%;
   text-align: center;
@@ -2133,7 +2147,7 @@ body h6 {
   margin-bottom: 15px;
   font-weight: 600;
 }
-/* line 1452, _page.scss */
+/* line 1465, _page.scss */
 .price__white__about h2 {
   width: 100%;
   text-align: center;
@@ -2144,7 +2158,7 @@ body h6 {
   margin-top: 0;
   margin-bottom: 15px;
 }
-/* line 1462, _page.scss */
+/* line 1475, _page.scss */
 .price__white__about ul {
   list-style-type: none;
   padding: 0;
@@ -2155,7 +2169,7 @@ body h6 {
   align-items: stretch;
   justify-content: space-between;
 }
-/* line 1471, _page.scss */
+/* line 1484, _page.scss */
 .price__white__about ul li {
   padding: 10px;
   width: calc((100% - 30px) / 4);
@@ -2172,7 +2186,7 @@ body h6 {
   font-family: "TTNorms";
   font-weight: 300;
 }
-/* line 1489, _page.scss */
+/* line 1502, _page.scss */
 .price__white__info {
   margin-top: 90px;
   display: flex;
@@ -2181,9 +2195,150 @@ body h6 {
   justify-content: space-between;
   align-items: stretch;
 }
-/* line 1496, _page.scss */
+/* line 1509, _page.scss */
 .price__white__info__card {
   width: calc((100% - 40px) / 3);
+  border: solid 2px #eff3fb;
+  border-radius: 6px;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.1);
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+/* line 1519, _page.scss */
+.price__white__info__card__ico {
+  position: relative;
+  height: 80px;
+  width: 90px;
+  top: -25px;
+  background-position: center !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+}
+/* line 1528, _page.scss */
+.price__white__info__card__title {
+  font-family: "TTNorms";
+  font-size: 10px;
+  font-weight: 500;
+  color: #262a33;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+/* line 1536, _page.scss */
+.price__white__info__card__value {
+  font-family: "TTNorms";
+  font-size: 10px;
+  font-weight: 500;
+  color: #58595a;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+/* line 1543, _page.scss */
+.price__white__info__card__value b {
+  font-size: 24px;
+  font-weight: 600;
+  color: #262a33;
+}
+/* line 1549, _page.scss */
+.price__white__info__card__option {
+  border-top: 1px solid #e3e7ee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 20px;
+  padding-bottom: 80px;
+}
+/* line 1557, _page.scss */
+.price__white__info__card__option__more {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  margin-bottom: 35px;
+}
+/* line 1563, _page.scss */
+.price__white__info__card__option__more:hover span {
+  text-decoration: underline;
+}
+/* line 1567, _page.scss */
+.price__white__info__card__option__more span {
+  font-size: 9px;
+  font-family: "TTNorms";
+  font-weight: 600;
+  color: #262a33;
+  text-decoration: none;
+}
+/* line 1574, _page.scss */
+.price__white__info__card__option__more i {
+  text-decoration: none;
+  display: inline-block;
+  height: 8px;
+  width: 7px;
+  margin: 0 4px;
+  background-size: contain !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+/* line 1585, _page.scss */
+.price__white__info__card__option__btn {
+  border-radius: 20px;
+  padding: 0 10px;
+  background-color: white;
+  border: 1px solid #2677e7;
+  box-shadow: 4px 4px 3px -1px #2677e7, 4px 4px 8px -3px #2677e7;
+  margin-top: 50px;
+}
+/* line 1592, _page.scss */
+.price__white__info__card__option__btn:hover {
+  background-color: #e6e6e6;
+}
+/* line 1595, _page.scss */
+.price__white__info__card__option__btn span {
+  display: inline-block;
+  font-family: "TTNorms";
+  font-weight: 700;
+  font-size: 12px;
+  color: #006ae5;
+  line-height: 48px;
+  margin: 0 10px;
+}
+/* line 1604, _page.scss */
+.price__white__info__card__option__btn i {
+  vertical-align: middle;
+  display: inline-block;
+}
+/* line 1609, _page.scss */
+.price__white__info__card__option ul {
+  list-style-type: none;
+  padding: 0 15px 0 30px;
+  margin: 0;
+  position: relative;
+}
+/* line 1614, _page.scss */
+.price__white__info__card__option ul li {
+  position: relative;
+  width: 100%;
+  padding-left: 25px;
+  margin-bottom: 15px;
+  line-height: 16px;
+  font-size: 12px;
+  font-family: "TTNorms";
+  font-weight: 300;
+  color: black;
+}
+/* line 1624, _page.scss */
+.price__white__info__card__option ul li:before {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  left: 0;
+  top: 4px;
+  height: 11px;
+  width: 11px;
+  background: url("../assets/img/icons/ico_check_green.png") center no-repeat;
+  background-size: contain;
 }
 
 /* ╨Ю╤Б╨╜╨╛╨▓╨╜╤Л╨╡ ╤Б╤В╨╕╨╗╨╕ */

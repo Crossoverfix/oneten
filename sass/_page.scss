@@ -1437,6 +1437,19 @@
 }
 .price{
   margin-top: 80px;
+  background-color: #edf1f9;
+  position: relative;
+  padding-bottom: 95px;
+  &:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 456px;
+    background-color: white;
+    display: block;
+  }
   &__white{
     &__about{
       p{
@@ -1495,11 +1508,131 @@
       align-items: stretch;
       &__card{
         width: calc((100% - 40px) / 3);
-        &__ico{}
-        &__title{}
+        border: solid 2px #eff3fb;
+        border-radius: 6px;
+        box-shadow: 0 0 6px 0 rgba(0,0,0,0.1);
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        &__ico{
+          position: relative;
+          height: 80px;
+          width: 90px;
+          top: -25px;
+          background-position: center!important;
+          background-size: contain!important;
+          background-repeat: no-repeat!important;
+        }
+        &__title{
+          font-family: "TTNorms";
+          font-size: 10px;
+          font-weight: 500;
+          color: $c-text-d;
+          margin-top: 0;
+          margin-bottom: 10px;
+        }
         &__value{
+          font-family: "TTNorms";
+          font-size: 10px;
+          font-weight: 500;
+          color: #58595a;
+          margin-top: 0;
+          margin-bottom: 12px;
           b{
-
+            font-size: 24px;
+            font-weight: 600;
+            color: $c-text-d;
+          }
+        }
+        &__option{
+          border-top: 1px solid #e3e7ee;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: flex-start;
+          padding-top: 20px;
+          padding-bottom: 80px;
+          &__more{
+            display: inline-block;
+            position: relative;
+            text-decoration: none;
+            margin-bottom: 35px;
+            &:hover{
+              span{
+                text-decoration: underline;
+              }
+            }
+            span{
+              font-size: 9px;
+              font-family: "TTNorms";
+              font-weight: 600;
+              color: $c-text-d;
+              text-decoration: none;
+            }
+            i{
+              text-decoration: none;
+              display: inline-block;
+              height: 8px;
+              width: 7px;
+              margin: 0 4px;
+              background-size: contain!important;
+              background-position: center!important;
+              background-repeat: no-repeat!important;
+            }
+          }
+          &__btn{
+            border-radius: 20px;
+            padding: 0 10px;
+            background-color: white;
+            border: 1px solid #2677e7;
+            box-shadow: 4px 4px 3px -1px #2677e7, 4px 4px 8px -3px #2677e7;
+            margin-top: 50px;
+            &:hover{
+              background-color: #e6e6e6;
+            }
+            span{
+              display: inline-block;
+              font-family: "TTNorms";
+              font-weight: 700;
+              font-size: 12px;
+              color: #006ae5;
+              line-height: 48px;
+              margin: 0 10px;
+            }
+            i{
+              vertical-align: middle;
+              display: inline-block;
+            }
+          }
+          ul{
+            list-style-type: none;
+            padding: 0 15px 0 30px;
+            margin: 0;
+            position: relative;
+            li{
+              position: relative;
+              width: 100%;
+              padding-left: 25px;
+              margin-bottom: 15px;
+              line-height: 16px;
+              font-size: 12px;
+              font-family: "TTNorms";
+              font-weight: 300;
+              color: black;
+              &:before{
+                content: "";
+                position: absolute;
+                display: inline-block;
+                left: 0;
+                top: 4px;
+                height: 11px;
+                width: 11px;
+                background: url("../assets/img/icons/ico_check_green.png")center no-repeat;
+                background-size: contain;
+              }
+            }
           }
         }
       }
