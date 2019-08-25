@@ -2118,6 +2118,74 @@ body h6 {
   margin: 0;
 }
 
+/* line 1438, _page.scss */
+.price {
+  margin-top: 80px;
+}
+/* line 1442, _page.scss */
+.price__white__about p {
+  width: 100%;
+  text-align: center;
+  font-family: "TTNorms";
+  font-size: 14px;
+  color: #006ae5;
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+/* line 1452, _page.scss */
+.price__white__about h2 {
+  width: 100%;
+  text-align: center;
+  font-family: "TTNorms";
+  font-size: 37px;
+  font-weight: 500;
+  color: #262a33;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+/* line 1462, _page.scss */
+.price__white__about ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  justify-content: space-between;
+}
+/* line 1471, _page.scss */
+.price__white__about ul li {
+  padding: 10px;
+  width: calc((100% - 30px) / 4);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #eff3fb;
+  border-radius: 2px;
+  font-size: 11px;
+  line-height: 16px;
+  font-family: "TTNorms";
+  font-weight: 300;
+}
+/* line 1489, _page.scss */
+.price__white__info {
+  margin-top: 90px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: stretch;
+}
+/* line 1496, _page.scss */
+.price__white__info__card {
+  width: calc((100% - 40px) / 3);
+}
+
 /* ╨Ю╤Б╨╜╨╛╨▓╨╜╤Л╨╡ ╤Б╤В╨╕╨╗╨╕ */
 /* line 1, _option.scss */
 .link-btn {
