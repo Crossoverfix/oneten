@@ -92,4 +92,24 @@
     height: 100%;
     width: 100%;
   }
+  &__search{
+    background: url("../assets/img/icons/analysis(1).png")no-repeat center;
+    background-size: contain;
+  }
+  &__rocket{
+    background: url("../assets/img/icons/zapusk.png")no-repeat center;
+    background-size: contain;
+  }
+  &__time{
+    background: url("../assets/img/icons/obratnaya_svyz.png")no-repeat center;
+    background-size: contain;
+  }
+  &__calc{
+    background: url("../assets/img/icons/vovlechenie_klienta.png")no-repeat center;
+    background-size: contain;
+  }
+  &__team{
+    background: url("../assets/img/icons/team(1).png")no-repeat center;
+    background-size: contain;
+  }
 }

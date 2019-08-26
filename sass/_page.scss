@@ -1204,8 +1204,10 @@
     min-height: 1px;
     width: 100%;
     padding-top: 100%;
-    background: url("../assets/img/photo/audits-about.jpg")no-repeat center;
-    background-size: cover;
+    background: url("../assets/img/photo/audits-about.jpg");
+    background-position: center!important;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
     a{
       position: absolute;
       white-space: nowrap;
@@ -1796,6 +1798,51 @@
         font-weight: 600;
         margin: 0;
       }
+    }
+  }
+}
+.change-adv{
+  margin-top: 70px;
+  &__body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    &__card{
+      width: calc((100% - 100px) / 5);
+      position: relative;
+      div{
+        width: 72px;
+        height: 92px;
+        background-size: contain!important;
+        background-position: top center!important;
+        background-repeat: no-repeat!important;
+        margin: 0 auto 10px auto;
+        border-bottom: 2px solid #00a2ff;
+      }
+      p{
+        font-family: "TTNorms";
+        font-size: 15px;
+        font-weight: 600;
+        color: $c-text-d;
+        line-height: 21px;
+        text-align: center;
+      }
+    }
+  }
+}
+.task{
+  margin-top: 60px;
+  &__body{
+    position: relative;
+    &__card{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-items: stretch;
     }
   }
 }
