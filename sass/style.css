@@ -2779,193 +2779,292 @@ body h6 {
   .reviews__content {
     height: 480px;
   }
+
+  /* line 14, _media.scss */
+  .call-back__file {
+    width: 100%;
+  }
+
+  /* line 17, _media.scss */
+  .why-us__bg i {
+    margin-right: 10px;
+  }
+
+  /* line 20, _media.scss */
+  .why-us__bg h2 {
+    font-size: 46px;
+  }
+
+  /* line 23, _media.scss */
+  .why-us__body__card__text {
+    font-size: 22px;
+    padding: 25px 30px;
+  }
 }
 @media screen and (max-width: 991px) {
-  /* line 16, _media.scss */
+  /* line 29, _media.scss */
   .header__nav__first__container ul li a {
     font-size: 12px;
   }
 
-  /* line 19, _media.scss */
+  /* line 32, _media.scss */
   .header__nav__second__container ul li a {
     font-size: 12px;
   }
 
-  /* line 22, _media.scss */
+  /* line 35, _media.scss */
   .call-back__sub-title {
     margin-bottom: 20px;
   }
 
-  /* line 25, _media.scss */
+  /* line 38, _media.scss */
   .reviews__mail__btn a:before {
     height: 225px;
   }
 
-  /* line 28, _media.scss */
+  /* line 41, _media.scss */
   .client__list__wrap {
     padding-left: 25px;
     padding-right: 35px;
   }
 
-  /* line 32, _media.scss */
+  /* line 45, _media.scss */
   .warranty__wrap {
     padding-left: 0;
   }
 
-  /* line 35, _media.scss */
+  /* line 48, _media.scss */
   .how-work__form {
     margin-bottom: 20px;
     width: 100%;
   }
 
-  /* line 39, _media.scss */
+  /* line 52, _media.scss */
   .why-off__content {
     flex-wrap: wrap;
     align-items: flex-start;
   }
 
-  /* line 43, _media.scss */
+  /* line 56, _media.scss */
   .why-off__content__card {
     margin-bottom: 20px;
   }
 
-  /* line 46, _media.scss */
+  /* line 59, _media.scss */
   .footer__navigation ul li {
     width: 100%;
     margin-bottom: 0;
   }
 
-  /* line 50, _media.scss */
+  /* line 63, _media.scss */
   .reviews__content {
     height: 380px;
   }
+
+  /* line 66, _media.scss */
+  .about-audit__tabs a {
+    white-space: nowrap;
+    width: auto;
+    padding: 0px 15px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+
+  /* line 73, _media.scss */
+  .about-audit__tabs {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  /* line 77, _media.scss */
+  .stage__body__line__point__sub-title {
+    overflow: hidden;
+    height: 0;
+  }
+
+  /* line 83, _media.scss */
+  .stage__body__line li:hover .stage__body__line__point__sub-title {
+    height: auto;
+  }
+
+  /* line 88, _media.scss */
+  .price__white__info__card {
+    width: calc(50% - 10px);
+  }
+
+  /* line 91, _media.scss */
+  .price__white__info__card:nth-child(3n + 1) {
+    display: none;
+  }
+
+  /* line 94, _media.scss */
+  .call-back__file {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+
+  /* line 100, _media.scss */
+  .call-back.mod-send .input-submit {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  /* line 104, _media.scss */
+  .why-us__bg h2 {
+    font-size: 34px;
+  }
+
+  /* line 107, _media.scss */
+  .why-us__bg i {
+    width: 66px;
+  }
+
+  /* line 110, _media.scss */
+  .question__wrap {
+    flex-wrap: wrap;
+  }
+  /* line 112, _media.scss */
+  .question__wrap ul {
+    width: 100%;
+  }
+
+  /* line 116, _media.scss */
+  .stage__body__line li {
+    width: calc(100% / 7);
+  }
+  /* line 118, _media.scss */
+  .stage__body__line li:hover {
+    overflow: visible;
+  }
 }
 @media screen and (max-width: 767px) {
-  /* line 55, _media.scss */
+  /* line 124, _media.scss */
   .header {
     display: flex;
     flex-wrap: wrap;
   }
 
-  /* line 59, _media.scss */
+  /* line 128, _media.scss */
   .header__nav__first, .header__nav__second {
     width: 50%;
   }
 
-  /* line 62, _media.scss */
+  /* line 131, _media.scss */
   .header__nav__first__container {
     height: auto;
   }
 
-  /* line 65, _media.scss */
+  /* line 134, _media.scss */
   .header__nav__first__container ul {
     flex-direction: column;
     padding-top: 10px;
     padding-bottom: 10px;
   }
 
-  /* line 70, _media.scss */
+  /* line 139, _media.scss */
   .header__nav__first__container ul li:before {
     width: 0;
   }
 
-  /* line 73, _media.scss */
+  /* line 142, _media.scss */
   .header__nav__first__container ul li {
     width: 100%;
     text-align: left;
   }
 
-  /* line 77, _media.scss */
+  /* line 146, _media.scss */
   .header__nav__second__container ul {
     flex-direction: column;
     padding-top: 10px;
     padding-bottom: 10px;
   }
 
-  /* line 82, _media.scss */
+  /* line 151, _media.scss */
   .header__nav__second__container {
     height: auto;
   }
 
-  /* line 85, _media.scss */
+  /* line 154, _media.scss */
   .header__nav__second__container ul li {
     height: auto;
     text-align: right;
     width: 100%;
   }
 
-  /* line 90, _media.scss */
+  /* line 159, _media.scss */
   .welcome__slide {
     height: 570px;
   }
 
-  /* line 93, _media.scss */
+  /* line 162, _media.scss */
   .about__info {
     height: auto;
     margin-bottom: 20px;
   }
 
-  /* line 97, _media.scss */
+  /* line 166, _media.scss */
   .about__btn {
     height: auto;
   }
 
-  /* line 100, _media.scss */
+  /* line 169, _media.scss */
   .about__bg {
     background-size: 1600px !important;
     background-position: left top !important;
   }
 
-  /* line 104, _media.scss */
+  /* line 173, _media.scss */
   .call-back .input-field {
     width: calc(50% - 20px);
   }
 
-  /* line 107, _media.scss */
+  /* line 176, _media.scss */
   .call-back .input-submit {
     width: 80%;
     margin-top: 15px;
   }
 
-  /* line 111, _media.scss */
+  /* line 180, _media.scss */
   .reviews__content {
     height: 300px;
   }
 
-  /* line 114, _media.scss */
+  /* line 183, _media.scss */
   .reviews__mail__btn a:before {
     height: 0;
   }
 
-  /* line 117, _media.scss */
+  /* line 186, _media.scss */
   .reviews__mail__message {
     padding: 30px 60px 40px 60px;
   }
 
-  /* line 120, _media.scss */
+  /* line 189, _media.scss */
   .reviews__mail__message:before {
     left: 25px;
     top: 20px;
   }
 
-  /* line 124, _media.scss */
+  /* line 193, _media.scss */
   .reviews__mail__message:after {
     right: 25px;
     bottom: 25px;
   }
 
-  /* line 128, _media.scss */
+  /* line 197, _media.scss */
   .client {
     padding-top: 30px;
     height: auto;
   }
 
-  /* line 132, _media.scss */
+  /* line 201, _media.scss */
   .client__info {
     height: auto;
   }
 
-  /* line 135, _media.scss */
+  /* line 204, _media.scss */
   .client__list {
     padding-top: 25px;
     padding-left: 80px;
@@ -2973,29 +3072,50 @@ body h6 {
     margin-bottom: 40px;
   }
 
-  /* line 141, _media.scss */
+  /* line 210, _media.scss */
   .warranty {
     padding-top: 35px;
     background-color: white;
   }
 
-  /* line 145, _media.scss */
+  /* line 214, _media.scss */
   .how-us-work__content__point {
     width: 100%;
   }
 
-  /* line 148, _media.scss */
+  /* line 217, _media.scss */
   .footer__navigation ul li {
     width: 50%;
   }
 
-  /* line 151, _media.scss */
+  /* line 220, _media.scss */
   .footer__navigation {
     margin-top: 20px;
   }
+
+  /* line 223, _media.scss */
+  .why-us__bg i {
+    width: 42px;
+  }
+
+  /* line 226, _media.scss */
+  .why-us__bg h2 {
+    font-size: 24px;
+  }
+
+  /* line 229, _media.scss */
+  .why-us__body {
+    flex-direction: column;
+  }
+
+  /* line 232, _media.scss */
+  .why-us__body__card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
 }
 @media screen and (max-width: 574px) {
-  /* line 156, _media.scss */
+  /* line 238, _media.scss */
   .header__origin__logo a {
     display: flex;
     flex-direction: column;
@@ -3004,150 +3124,248 @@ body h6 {
     width: 100%;
   }
 
-  /* line 163, _media.scss */
+  /* line 245, _media.scss */
   .header__origin__logo a span {
     display: block;
     margin-top: 10px;
     width: 100%;
   }
 
-  /* line 168, _media.scss */
+  /* line 250, _media.scss */
   .header__origin__button {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
   }
 
-  /* line 173, _media.scss */
+  /* line 255, _media.scss */
   .header__origin__button a {
     margin-bottom: 15px;
   }
 
-  /* line 176, _media.scss */
+  /* line 258, _media.scss */
   .header__nav__first, .header__nav__second {
     width: 100%;
   }
 
-  /* line 179, _media.scss */
+  /* line 261, _media.scss */
   .header__nav__first__container ul li {
     text-align: center;
   }
 
-  /* line 182, _media.scss */
+  /* line 264, _media.scss */
   .header__nav__second__container ul li {
     text-align: center;
   }
 
-  /* line 185, _media.scss */
+  /* line 267, _media.scss */
   .collapse__menu {
     display: inline-block;
   }
 
-  /* line 188, _media.scss */
+  /* line 270, _media.scss */
   .header__nav__first, .header__nav__second {
     height: 0;
     transition: all linear 0.5s;
   }
-  /* line 191, _media.scss */
+  /* line 273, _media.scss */
   .header__nav__first.active, .header__nav__second.active {
     height: auto;
   }
 
-  /* line 195, _media.scss */
+  /* line 277, _media.scss */
   .block-title:before {
     width: 50px;
   }
 
-  /* line 198, _media.scss */
+  /* line 280, _media.scss */
   .block-title {
     padding-left: 70px;
   }
 
-  /* line 201, _media.scss */
+  /* line 283, _media.scss */
   .welcome__slide__content h1 {
     font-size: 26px;
     line-height: 28px;
   }
 
-  /* line 205, _media.scss */
+  /* line 287, _media.scss */
   .welcome__slide {
     height: 500px;
   }
 
-  /* line 208, _media.scss */
+  /* line 290, _media.scss */
   .call-back__title {
     font-size: 30px;
   }
 
-  /* line 211, _media.scss */
+  /* line 293, _media.scss */
   .call-back .input-field {
     width: 100%;
     margin-bottom: 10px;
   }
 
-  /* line 215, _media.scss */
+  /* line 297, _media.scss */
   .call-back .input-checkbox__text {
     font-size: 10px;
     line-height: 12px;
   }
 
-  /* line 219, _media.scss */
+  /* line 301, _media.scss */
   .call-back .input-checkbox__input {
     flex-shrink: 0;
   }
 
-  /* line 222, _media.scss */
+  /* line 304, _media.scss */
   .reviews__control {
     margin-top: -30px;
     margin-bottom: 20px;
   }
 
-  /* line 226, _media.scss */
+  /* line 308, _media.scss */
   .reviews__mail__message:before {
     left: 10px;
     top: 10px;
   }
 
-  /* line 230, _media.scss */
+  /* line 312, _media.scss */
   .reviews__mail__message:after {
     right: 10px;
     bottom: 10px;
   }
 
-  /* line 234, _media.scss */
+  /* line 316, _media.scss */
   .reviews__mail__message {
     padding: 30px 40px 40px 40px;
   }
 
-  /* line 237, _media.scss */
+  /* line 319, _media.scss */
   .client__list {
     padding-left: 20px;
     padding-right: 20px;
   }
 
-  /* line 241, _media.scss */
+  /* line 323, _media.scss */
   .warranty__wrap a span {
     font-size: 13px;
   }
 
-  /* line 244, _media.scss */
+  /* line 326, _media.scss */
   .advantages__list {
     padding-bottom: 40px;
   }
 
-  /* line 247, _media.scss */
+  /* line 329, _media.scss */
   .how-work__form {
     padding: 20px 10px;
   }
 
-  /* line 250, _media.scss */
+  /* line 332, _media.scss */
   .footer__navigation ul li {
     width: 100%;
   }
 
-  /* line 253, _media.scss */
+  /* line 335, _media.scss */
   .footer__navigation {
     margin-bottom: 20px;
+  }
+
+  /* line 338, _media.scss */
+  .about-audit__tabs a {
+    width: 100%;
+  }
+
+  /* line 341, _media.scss */
+  .audit-info p {
+    padding: 0 10px;
+  }
+
+  /* line 344, _media.scss */
+  .stage__body {
+    padding: 0;
+  }
+
+  /* line 347, _media.scss */
+  .stage__body__line {
+    height: auto;
+    background-color: transparent;
+    flex-wrap: wrap;
+  }
+  /* line 351, _media.scss */
+  .stage__body__line li {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+
+  /* line 356, _media.scss */
+  .stage__body__line__point__sub-title {
+    height: auto;
+    overflow: visible;
+  }
+
+  /* line 360, _media.scss */
+  .stage__body__line li:before {
+    left: calc(100% - 20px);
+    top: 20px;
+  }
+
+  /* line 364, _media.scss */
+  .stage__body__line li:after {
+    left: calc(100% - 20px);
+    top: 20px;
+  }
+
+  /* line 368, _media.scss */
+  .stage__body__line__point {
+    left: 0 !important;
+    top: 0 !important;
+    bottom: 0 !important;
+    right: 0 !important;
+    transform: translate(0, 0) !important;
+  }
+
+  /* line 375, _media.scss */
+  .price__white__about ul li {
+    width: calc(50% - 10px);
+    margin-bottom: 10px;
+  }
+
+  /* line 379, _media.scss */
+  .price__white__about ul {
+    flex-wrap: wrap;
+  }
+
+  /* line 382, _media.scss */
+  .price__white__info__card {
+    width: 100%;
+  }
+  /* line 384, _media.scss */
+  .price__white__info__card:nth-child(2) {
+    display: none;
+  }
+
+  /* line 388, _media.scss */
+  .price__white__info {
+    margin-top: 30px;
+  }
+
+  /* line 391, _media.scss */
+  .price__white .reviews__control {
+    margin-top: 30px;
+  }
+
+  /* line 394, _media.scss */
+  .why-us__bg i {
+    width: 100%;
+    margin: 20px auto;
+    height: 42px;
+  }
+
+  /* line 399, _media.scss */
+  .why-us__bg h2 {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 30px;
   }
 }
 /* ╨Ь╨╡╨┤╨╕╨░ ╨╖╨░╨┐╤А╨╛╤Б╤Л */
