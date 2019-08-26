@@ -1262,6 +1262,7 @@
         color: $c-text-d;
         margin-top: 0;
         margin-bottom: 35px;
+        text-transform: uppercase;
       }
       p{
         font-family: "TTNorms";
@@ -1279,16 +1280,18 @@
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
     a{
-      width: calc((100% - 40px) / 3);
+      width: calc((100% - 60px) / 3);
       position: relative;
       font-family: "TTNorms";
       font-size: 11px;
       font-weight: 600;
       display: inline-block;
       line-height: 31px;
+      margin: 0 10px;
       z-index: 1;
+      text-transform: uppercase;
       text-align: center;
       &:hover{
         &:before{
@@ -1884,6 +1887,78 @@
             order: 0;
           }
         }
+      }
+    }
+  }
+}
+.adv-optimization{
+  margin-top: 40px;
+  &__title{
+    font-size: 20px;
+    line-height: 25px;
+    color: $c-text-d;
+    font-family: "TTNorms";
+    margin-bottom: 40px;
+    margin-top: 10px;
+    font-weight: 600;
+  }
+  &__text{
+    font-size: 15px;
+    line-height: 18px;
+    color: $c-text-d;
+    font-family: "TTNorms";
+    margin-bottom: 20px;
+    margin-top: 0;
+    font-weight: 500;
+  }
+}
+.comparison{
+  margin-top: 130px;
+  margin-bottom: 60px;
+  &__title{
+    font-weight: 600;
+    font-family: "TTNorms";
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 40px;
+    margin-top: 0;
+    color: $c-text-d;
+  }
+  &__body{
+    &__card{
+      width: 100%;
+      margin-bottom: 15px;
+      position: relative;
+      border-radius: 9px;
+      background-color: white;
+      box-shadow: 0px 4px 54px 0px rgba(199, 225, 255, 0.75);
+      padding: 15px 40px 15px 35px;
+      min-height: 150px;
+      &:before{
+        content: "";
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 100%;
+        border-radius: 5px;
+        width: 13px;
+        background-color: #006ae5;
+      }
+      &__title{
+        font-size: 12px;
+        color: $c-text-d;
+        font-family: "TTNorms";
+        font-weight: 700;
+        margin-top: 0;
+        margin-bottom: 10px;
+      }
+      &__text{
+        font-size: 11px;
+        color: $c-text-d;
+        font-family: "TTNorms";
+        font-weight: 500;
+        margin-top: 0;
+        margin-bottom: 0;
       }
     }
   }

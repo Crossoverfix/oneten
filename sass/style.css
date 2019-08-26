@@ -1959,8 +1959,9 @@ body h6 {
   color: #262a33;
   margin-top: 0;
   margin-bottom: 35px;
+  text-transform: uppercase;
 }
-/* line 1266, _page.scss */
+/* line 1267, _page.scss */
 .about-audit__content__wrap p {
   font-family: "TTNorms";
   font-size: 12px;
@@ -1970,35 +1971,37 @@ body h6 {
   margin-bottom: 10px;
   line-height: 14px;
 }
-/* line 1277, _page.scss */
+/* line 1278, _page.scss */
 .about-audit__tabs {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
 }
-/* line 1283, _page.scss */
+/* line 1284, _page.scss */
 .about-audit__tabs a {
-  width: calc((100% - 40px) / 3);
+  width: calc((100% - 60px) / 3);
   position: relative;
   font-family: "TTNorms";
   font-size: 11px;
   font-weight: 600;
   display: inline-block;
   line-height: 31px;
+  margin: 0 10px;
   z-index: 1;
+  text-transform: uppercase;
   text-align: center;
 }
-/* line 1294, _page.scss */
+/* line 1297, _page.scss */
 .about-audit__tabs a:hover:before {
   background-color: #c8cdd7;
 }
-/* line 1299, _page.scss */
+/* line 1302, _page.scss */
 .about-audit__tabs a.active:before {
   box-shadow: 0px 0px 9px 0px #ffffff,-4px 4px 8px -3px #135ee8;
 }
-/* line 1303, _page.scss */
+/* line 1306, _page.scss */
 .about-audit__tabs a:before {
   z-index: -1;
   content: "";
@@ -2012,11 +2015,11 @@ body h6 {
   background-color: #ebf0fa;
 }
 
-/* line 1318, _page.scss */
+/* line 1321, _page.scss */
 .question {
   margin-top: 80px;
 }
-/* line 1320, _page.scss */
+/* line 1323, _page.scss */
 .question__wrap {
   position: relative;
   display: flex;
@@ -2025,7 +2028,7 @@ body h6 {
   align-items: flex-start;
   justify-content: space-between;
 }
-/* line 1327, _page.scss */
+/* line 1330, _page.scss */
 .question__wrap ul {
   width: calc(50% - 20px);
   list-style-type: none;
@@ -2033,7 +2036,7 @@ body h6 {
   margin: 0;
   position: relative;
 }
-/* line 1333, _page.scss */
+/* line 1336, _page.scss */
 .question__wrap ul li {
   width: 100%;
   margin-bottom: 10px;
@@ -2042,24 +2045,24 @@ body h6 {
   position: relative;
   transition: all linear 0.5s;
 }
-/* line 1343, _page.scss */
+/* line 1346, _page.scss */
 .question__wrap ul li.active .question__wrap__head {
   background-color: #1e2432;
 }
-/* line 1345, _page.scss */
+/* line 1348, _page.scss */
 .question__wrap ul li.active .question__wrap__head p {
   color: white;
 }
-/* line 1348, _page.scss */
+/* line 1351, _page.scss */
 .question__wrap ul li.active .question__wrap__head i {
   background: url("../assets/img/icons/ico_minus.png") no-repeat center;
   background-size: contain;
 }
-/* line 1353, _page.scss */
+/* line 1356, _page.scss */
 .question__wrap ul li.active .question__wrap__body {
   height: auto;
 }
-/* line 1361, _page.scss */
+/* line 1364, _page.scss */
 .question__wrap__head {
   width: 100%;
   height: 48px;
@@ -2072,7 +2075,7 @@ body h6 {
   background-color: #eff3fb;
   padding: 15px;
 }
-/* line 1372, _page.scss */
+/* line 1375, _page.scss */
 .question__wrap__head p {
   font-family: "TTNorms";
   font-size: 15px;
@@ -2080,7 +2083,7 @@ body h6 {
   color: black;
   display: inline-block;
 }
-/* line 1379, _page.scss */
+/* line 1382, _page.scss */
 .question__wrap__head i {
   display: inline-block;
   width: 20px;
@@ -2088,7 +2091,7 @@ body h6 {
   background: url("../assets/img/icons/ico_plus.png") no-repeat center;
   background-size: contain;
 }
-/* line 1387, _page.scss */
+/* line 1390, _page.scss */
 .question__wrap__body {
   transition: all linear 0.5s;
   height: 0;
@@ -2097,7 +2100,7 @@ body h6 {
   background-color: #eff3fb;
   overflow: hidden;
 }
-/* line 1394, _page.scss */
+/* line 1397, _page.scss */
 .question__wrap__body p {
   padding: 15px;
   font-family: "TTNorms";
@@ -2106,7 +2109,7 @@ body h6 {
   color: black;
   display: inline-block;
 }
-/* line 1404, _page.scss */
+/* line 1407, _page.scss */
 .question .link-btn {
   align-self: flex-start;
   display: inline-block;
@@ -2119,12 +2122,12 @@ body h6 {
   position: relative;
   box-shadow: 0px 0px 20px 3px #5581f1;
 }
-/* line 1415, _page.scss */
+/* line 1418, _page.scss */
 .question .link-btn:hover {
   background: linear-gradient(-45deg, #4d61c2, #1146c1);
   box-shadow: none;
 }
-/* line 1419, _page.scss */
+/* line 1422, _page.scss */
 .question .link-btn span {
   display: inline-block;
   color: white;
@@ -2136,18 +2139,18 @@ body h6 {
   vertical-align: middle;
   text-transform: uppercase;
 }
-/* line 1430, _page.scss */
+/* line 1433, _page.scss */
 .question .link-btn i {
   display: inline-block;
   line-height: 60px;
   vertical-align: middle;
 }
 
-/* line 1437, _page.scss */
+/* line 1440, _page.scss */
 .audit-info {
   margin-top: 60px;
 }
-/* line 1439, _page.scss */
+/* line 1442, _page.scss */
 .audit-info p {
   font-family: "TTNorms";
   font-size: 12px;
@@ -2156,17 +2159,17 @@ body h6 {
   line-height: 16px;
 }
 
-/* line 1447, _page.scss */
+/* line 1450, _page.scss */
 .stage {
   margin-top: 65px;
 }
-/* line 1449, _page.scss */
+/* line 1452, _page.scss */
 .stage__body {
   position: relative;
   padding-top: 65px;
   padding-bottom: 65px;
 }
-/* line 1453, _page.scss */
+/* line 1456, _page.scss */
 .stage__body__line {
   list-style-type: none;
   padding: 0;
@@ -2181,11 +2184,11 @@ body h6 {
   height: 1px;
   background-color: #ccdbf3;
 }
-/* line 1466, _page.scss */
+/* line 1469, _page.scss */
 .stage__body__line li {
   position: relative;
 }
-/* line 1468, _page.scss */
+/* line 1471, _page.scss */
 .stage__body__line li:before {
   content: "";
   position: absolute;
@@ -2197,7 +2200,7 @@ body h6 {
   border-radius: 50%;
   background-color: #eff3fb;
 }
-/* line 1479, _page.scss */
+/* line 1482, _page.scss */
 .stage__body__line li:after {
   content: "";
   position: absolute;
@@ -2209,24 +2212,24 @@ body h6 {
   border-radius: 50%;
   background-color: #006ae5;
 }
-/* line 1491, _page.scss */
+/* line 1494, _page.scss */
 .stage__body__line li:nth-child(1n + 1) .stage__body__line__point {
   top: -10px;
   transform: translateY(100%);
 }
-/* line 1497, _page.scss */
+/* line 1500, _page.scss */
 .stage__body__line li:nth-child(2n + 1) .stage__body__line__point {
   top: 10px;
   transform: translateY(-100%);
 }
-/* line 1503, _page.scss */
+/* line 1506, _page.scss */
 .stage__body__line__point {
   position: relative;
   flex-grow: 1;
   padding: 0 10px;
   left: -15px;
 }
-/* line 1508, _page.scss */
+/* line 1511, _page.scss */
 .stage__body__line__point__title {
   font-family: "TTNorms";
   font-size: 11px;
@@ -2235,7 +2238,7 @@ body h6 {
   margin-top: 0;
   margin-bottom: 5px;
 }
-/* line 1517, _page.scss */
+/* line 1520, _page.scss */
 .stage__body__line__point__sub-title {
   font-family: "TTNorms";
   font-size: 12px;
@@ -2245,14 +2248,14 @@ body h6 {
   margin: 0;
 }
 
-/* line 1529, _page.scss */
+/* line 1532, _page.scss */
 .price {
   margin-top: 80px;
   background-color: #edf1f9;
   position: relative;
   padding-bottom: 95px;
 }
-/* line 1534, _page.scss */
+/* line 1537, _page.scss */
 .price:before {
   content: "";
   position: absolute;
@@ -2263,7 +2266,7 @@ body h6 {
   background-color: white;
   display: block;
 }
-/* line 1546, _page.scss */
+/* line 1549, _page.scss */
 .price__white__about p {
   width: 100%;
   text-align: center;
@@ -2274,7 +2277,7 @@ body h6 {
   margin-bottom: 15px;
   font-weight: 600;
 }
-/* line 1556, _page.scss */
+/* line 1559, _page.scss */
 .price__white__about h2 {
   width: 100%;
   text-align: center;
@@ -2285,7 +2288,7 @@ body h6 {
   margin-top: 0;
   margin-bottom: 15px;
 }
-/* line 1566, _page.scss */
+/* line 1569, _page.scss */
 .price__white__about ul {
   list-style-type: none;
   padding: 0;
@@ -2296,7 +2299,7 @@ body h6 {
   align-items: stretch;
   justify-content: space-between;
 }
-/* line 1575, _page.scss */
+/* line 1578, _page.scss */
 .price__white__about ul li {
   padding: 10px;
   width: calc((100% - 30px) / 4);
@@ -2313,7 +2316,7 @@ body h6 {
   font-family: "TTNorms";
   font-weight: 300;
 }
-/* line 1593, _page.scss */
+/* line 1596, _page.scss */
 .price__white__info {
   margin-top: 90px;
   display: flex;
@@ -2322,7 +2325,7 @@ body h6 {
   justify-content: space-between;
   align-items: stretch;
 }
-/* line 1600, _page.scss */
+/* line 1603, _page.scss */
 .price__white__info__card {
   width: calc((100% - 40px) / 3);
   border: solid 2px #f3f3f3;
@@ -2334,12 +2337,12 @@ body h6 {
   align-items: center;
   justify-content: flex-start;
 }
-/* line 1610, _page.scss */
+/* line 1613, _page.scss */
 .price__white__info__card:hover {
   border: solid 2px #eff3fb;
   box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.2);
 }
-/* line 1614, _page.scss */
+/* line 1617, _page.scss */
 .price__white__info__card__ico {
   position: relative;
   height: 80px;
@@ -2349,7 +2352,7 @@ body h6 {
   background-size: contain !important;
   background-repeat: no-repeat !important;
 }
-/* line 1623, _page.scss */
+/* line 1626, _page.scss */
 .price__white__info__card__title {
   font-family: "TTNorms";
   font-size: 10px;
@@ -2358,7 +2361,7 @@ body h6 {
   margin-top: 0;
   margin-bottom: 10px;
 }
-/* line 1631, _page.scss */
+/* line 1634, _page.scss */
 .price__white__info__card__value {
   font-family: "TTNorms";
   font-size: 10px;
@@ -2367,13 +2370,13 @@ body h6 {
   margin-top: 0;
   margin-bottom: 12px;
 }
-/* line 1638, _page.scss */
+/* line 1641, _page.scss */
 .price__white__info__card__value b {
   font-size: 24px;
   font-weight: 600;
   color: #262a33;
 }
-/* line 1644, _page.scss */
+/* line 1647, _page.scss */
 .price__white__info__card__option {
   border-top: 1px solid #e3e7ee;
   display: flex;
@@ -2383,18 +2386,18 @@ body h6 {
   padding-top: 20px;
   padding-bottom: 80px;
 }
-/* line 1652, _page.scss */
+/* line 1655, _page.scss */
 .price__white__info__card__option__more {
   display: inline-block;
   position: relative;
   text-decoration: none;
   margin-bottom: 35px;
 }
-/* line 1658, _page.scss */
+/* line 1661, _page.scss */
 .price__white__info__card__option__more:hover span {
   text-decoration: underline;
 }
-/* line 1662, _page.scss */
+/* line 1665, _page.scss */
 .price__white__info__card__option__more span {
   font-size: 9px;
   font-family: "TTNorms";
@@ -2402,7 +2405,7 @@ body h6 {
   color: #262a33;
   text-decoration: none;
 }
-/* line 1669, _page.scss */
+/* line 1672, _page.scss */
 .price__white__info__card__option__more i {
   text-decoration: none;
   display: inline-block;
@@ -2413,17 +2416,17 @@ body h6 {
   background-position: center !important;
   background-repeat: no-repeat !important;
 }
-/* line 1679, _page.scss */
+/* line 1682, _page.scss */
 .price__white__info__card__option__more__content {
   transition: all linear 0.5s;
   overflow: hidden;
   height: 0;
 }
-/* line 1683, _page.scss */
+/* line 1686, _page.scss */
 .price__white__info__card__option__more__content.active {
   height: auto;
 }
-/* line 1688, _page.scss */
+/* line 1691, _page.scss */
 .price__white__info__card__option__btn {
   border-radius: 20px;
   padding: 0 10px;
@@ -2432,11 +2435,11 @@ body h6 {
   box-shadow: 4px 4px 3px -1px #2677e7, 4px 4px 8px -3px #2677e7;
   margin-top: 50px;
 }
-/* line 1695, _page.scss */
+/* line 1698, _page.scss */
 .price__white__info__card__option__btn:hover {
   background-color: #e6e6e6;
 }
-/* line 1698, _page.scss */
+/* line 1701, _page.scss */
 .price__white__info__card__option__btn span {
   display: inline-block;
   font-family: "TTNorms";
@@ -2446,19 +2449,19 @@ body h6 {
   line-height: 48px;
   margin: 0 10px;
 }
-/* line 1707, _page.scss */
+/* line 1710, _page.scss */
 .price__white__info__card__option__btn i {
   vertical-align: middle;
   display: inline-block;
 }
-/* line 1712, _page.scss */
+/* line 1715, _page.scss */
 .price__white__info__card__option ul {
   list-style-type: none;
   padding: 0 15px 0 30px;
   margin: 0;
   position: relative;
 }
-/* line 1717, _page.scss */
+/* line 1720, _page.scss */
 .price__white__info__card__option ul li {
   position: relative;
   width: 100%;
@@ -2470,7 +2473,7 @@ body h6 {
   font-weight: 300;
   color: black;
 }
-/* line 1727, _page.scss */
+/* line 1730, _page.scss */
 .price__white__info__card__option ul li:before {
   content: "";
   position: absolute;
@@ -2483,11 +2486,11 @@ body h6 {
   background-size: contain;
 }
 
-/* line 1746, _page.scss */
+/* line 1749, _page.scss */
 .why-us__bg {
   background-color: #252b39;
 }
-/* line 1748, _page.scss */
+/* line 1751, _page.scss */
 .why-us__bg i {
   display: inline-block;
   vertical-align: top;
@@ -2497,7 +2500,7 @@ body h6 {
   width: 82px;
   margin-right: 30px;
 }
-/* line 1757, _page.scss */
+/* line 1760, _page.scss */
 .why-us__bg h2 {
   font-family: "TTNorms";
   font-size: 56px;
@@ -2507,7 +2510,7 @@ body h6 {
   line-height: 210px;
   display: inline-block;
 }
-/* line 1767, _page.scss */
+/* line 1770, _page.scss */
 .why-us__body {
   margin-top: 55px;
   display: flex;
@@ -2516,14 +2519,14 @@ body h6 {
   align-items: stretch;
   justify-content: space-between;
 }
-/* line 1774, _page.scss */
+/* line 1777, _page.scss */
 .why-us__body__card {
   width: calc((100% - 80px) / 3);
   position: relative;
   border-radius: 15px;
   border: 1px solid #006ae5;
 }
-/* line 1779, _page.scss */
+/* line 1782, _page.scss */
 .why-us__body__card__title {
   line-height: 45px;
   font-size: 26px;
@@ -2536,7 +2539,7 @@ body h6 {
   font-weight: 400;
   margin: 0;
 }
-/* line 1791, _page.scss */
+/* line 1794, _page.scss */
 .why-us__body__card__text {
   font-size: 26px;
   width: 100%;
@@ -2548,11 +2551,11 @@ body h6 {
   margin: 0;
 }
 
-/* line 1804, _page.scss */
+/* line 1807, _page.scss */
 .change-adv {
   margin-top: 70px;
 }
-/* line 1806, _page.scss */
+/* line 1809, _page.scss */
 .change-adv__body {
   display: flex;
   flex-direction: row;
@@ -2560,12 +2563,12 @@ body h6 {
   align-items: flex-start;
   justify-content: space-between;
 }
-/* line 1812, _page.scss */
+/* line 1815, _page.scss */
 .change-adv__body__card {
   width: calc((100% - 100px) / 5);
   position: relative;
 }
-/* line 1815, _page.scss */
+/* line 1818, _page.scss */
 .change-adv__body__card div {
   width: 72px;
   height: 92px;
@@ -2575,7 +2578,7 @@ body h6 {
   margin: 0 auto 10px auto;
   border-bottom: 2px solid #00a2ff;
 }
-/* line 1824, _page.scss */
+/* line 1827, _page.scss */
 .change-adv__body__card p {
   font-family: "TTNorms";
   font-size: 15px;
@@ -2585,15 +2588,15 @@ body h6 {
   text-align: center;
 }
 
-/* line 1835, _page.scss */
+/* line 1838, _page.scss */
 .task {
   margin-top: 60px;
 }
-/* line 1837, _page.scss */
+/* line 1840, _page.scss */
 .task__body {
   position: relative;
 }
-/* line 1839, _page.scss */
+/* line 1842, _page.scss */
 .task__body__card {
   width: 100%;
   display: flex;
@@ -2604,19 +2607,19 @@ body h6 {
   min-height: 350px;
   margin-bottom: 60px;
 }
-/* line 1848, _page.scss */
+/* line 1851, _page.scss */
 .task__body__card__img {
   width: calc(50% - 10px);
   position: relative;
 }
-/* line 1852, _page.scss */
+/* line 1855, _page.scss */
 .task__body__card__info {
   width: calc(50% - 10px);
   border-top: 2px solid #dedeef;
   border-bottom: 2px solid #dedeef;
   padding: 40px 50px;
 }
-/* line 1857, _page.scss */
+/* line 1860, _page.scss */
 .task__body__card__info__title {
   text-align: center;
   font-size: 19px;
@@ -2628,7 +2631,7 @@ body h6 {
   margin-bottom: 55px;
   font-weight: 600;
 }
-/* line 1868, _page.scss */
+/* line 1871, _page.scss */
 .task__body__card__info__text {
   text-align: center;
   font-size: 15px;
@@ -2638,13 +2641,94 @@ body h6 {
   margin-top: 0;
   margin-bottom: 20px;
 }
-/* line 1880, _page.scss */
+/* line 1883, _page.scss */
 .task__body__card:nth-child(2n + 1) .task__body__card__img {
   order: 1;
 }
-/* line 1883, _page.scss */
+/* line 1886, _page.scss */
 .task__body__card:nth-child(2n + 1) .task__body__card__info {
   order: 0;
+}
+
+/* line 1894, _page.scss */
+.adv-optimization {
+  margin-top: 40px;
+}
+/* line 1896, _page.scss */
+.adv-optimization__title {
+  font-size: 20px;
+  line-height: 25px;
+  color: #262a33;
+  font-family: "TTNorms";
+  margin-bottom: 40px;
+  margin-top: 10px;
+  font-weight: 600;
+}
+/* line 1905, _page.scss */
+.adv-optimization__text {
+  font-size: 15px;
+  line-height: 18px;
+  color: #262a33;
+  font-family: "TTNorms";
+  margin-bottom: 20px;
+  margin-top: 0;
+  font-weight: 500;
+}
+
+/* line 1915, _page.scss */
+.comparison {
+  margin-top: 130px;
+  margin-bottom: 60px;
+}
+/* line 1918, _page.scss */
+.comparison__title {
+  font-weight: 600;
+  font-family: "TTNorms";
+  font-size: 20px;
+  line-height: 25px;
+  margin-bottom: 40px;
+  margin-top: 0;
+  color: #262a33;
+}
+/* line 1928, _page.scss */
+.comparison__body__card {
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border-radius: 9px;
+  background-color: white;
+  box-shadow: 0px 4px 54px 0px rgba(199, 225, 255, 0.75);
+  padding: 15px 40px 15px 35px;
+  min-height: 150px;
+}
+/* line 1937, _page.scss */
+.comparison__body__card:before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  border-radius: 5px;
+  width: 13px;
+  background-color: #006ae5;
+}
+/* line 1947, _page.scss */
+.comparison__body__card__title {
+  font-size: 12px;
+  color: #262a33;
+  font-family: "TTNorms";
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+/* line 1955, _page.scss */
+.comparison__body__card__text {
+  font-size: 11px;
+  color: #262a33;
+  font-family: "TTNorms";
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /* ╨Ю╤Б╨╜╨╛╨▓╨╜╤Л╨╡ ╤Б╤В╨╕╨╗╨╕ */
@@ -3101,133 +3185,138 @@ body h6 {
   .change-adv__body {
     flex-wrap: wrap;
   }
+
+  /* line 134, _media.scss */
+  .adv-optimization__title {
+    margin-bottom: 20px;
+  }
 }
 @media screen and (max-width: 767px) {
-  /* line 137, _media.scss */
+  /* line 139, _media.scss */
   .header {
     display: flex;
     flex-wrap: wrap;
   }
 
-  /* line 141, _media.scss */
+  /* line 143, _media.scss */
   .header__nav__first, .header__nav__second {
     width: 50%;
   }
 
-  /* line 144, _media.scss */
+  /* line 146, _media.scss */
   .header__nav__first__container {
     height: auto;
   }
 
-  /* line 147, _media.scss */
+  /* line 149, _media.scss */
   .header__nav__first__container ul {
     flex-direction: column;
     padding-top: 10px;
     padding-bottom: 10px;
   }
 
-  /* line 152, _media.scss */
+  /* line 154, _media.scss */
   .header__nav__first__container ul li:before {
     width: 0;
   }
 
-  /* line 155, _media.scss */
+  /* line 157, _media.scss */
   .header__nav__first__container ul li {
     width: 100%;
     text-align: left;
   }
 
-  /* line 159, _media.scss */
+  /* line 161, _media.scss */
   .header__nav__second__container ul {
     flex-direction: column;
     padding-top: 10px;
     padding-bottom: 10px;
   }
 
-  /* line 164, _media.scss */
+  /* line 166, _media.scss */
   .header__nav__second__container {
     height: auto;
   }
 
-  /* line 167, _media.scss */
+  /* line 169, _media.scss */
   .header__nav__second__container ul li {
     height: auto;
     text-align: right;
     width: 100%;
   }
 
-  /* line 172, _media.scss */
+  /* line 174, _media.scss */
   .welcome__slide {
     height: 570px;
   }
 
-  /* line 175, _media.scss */
+  /* line 177, _media.scss */
   .about__info {
     height: auto;
     margin-bottom: 20px;
   }
 
-  /* line 179, _media.scss */
+  /* line 181, _media.scss */
   .about__btn {
     height: auto;
   }
 
-  /* line 182, _media.scss */
+  /* line 184, _media.scss */
   .about__bg {
     background-size: 1600px !important;
     background-position: left top !important;
   }
 
-  /* line 186, _media.scss */
+  /* line 188, _media.scss */
   .call-back .input-field {
     width: calc(50% - 20px);
   }
 
-  /* line 189, _media.scss */
+  /* line 191, _media.scss */
   .call-back .input-submit {
     width: 80%;
     margin-top: 15px;
   }
 
-  /* line 193, _media.scss */
+  /* line 195, _media.scss */
   .reviews__content {
     height: 300px;
   }
 
-  /* line 196, _media.scss */
+  /* line 198, _media.scss */
   .reviews__mail__btn a:before {
     height: 0;
   }
 
-  /* line 199, _media.scss */
+  /* line 201, _media.scss */
   .reviews__mail__message {
     padding: 30px 60px 40px 60px;
   }
 
-  /* line 202, _media.scss */
+  /* line 204, _media.scss */
   .reviews__mail__message:before {
     left: 25px;
     top: 20px;
   }
 
-  /* line 206, _media.scss */
+  /* line 208, _media.scss */
   .reviews__mail__message:after {
     right: 25px;
     bottom: 25px;
   }
 
-  /* line 210, _media.scss */
+  /* line 212, _media.scss */
   .client {
     padding-top: 30px;
     height: auto;
   }
 
-  /* line 214, _media.scss */
+  /* line 216, _media.scss */
   .client__info {
     height: auto;
   }
 
-  /* line 217, _media.scss */
+  /* line 219, _media.scss */
   .client__list {
     padding-top: 25px;
     padding-left: 80px;
@@ -3235,71 +3324,71 @@ body h6 {
     margin-bottom: 40px;
   }
 
-  /* line 223, _media.scss */
+  /* line 225, _media.scss */
   .warranty {
     padding-top: 35px;
     background-color: white;
   }
 
-  /* line 227, _media.scss */
+  /* line 229, _media.scss */
   .how-us-work__content__point {
     width: 100%;
   }
 
-  /* line 230, _media.scss */
+  /* line 232, _media.scss */
   .footer__navigation ul li {
     width: 50%;
   }
 
-  /* line 233, _media.scss */
+  /* line 235, _media.scss */
   .footer__navigation {
     margin-top: 20px;
   }
 
-  /* line 236, _media.scss */
+  /* line 238, _media.scss */
   .why-us__bg i {
     width: 42px;
   }
 
-  /* line 239, _media.scss */
+  /* line 241, _media.scss */
   .why-us__bg h2 {
     font-size: 24px;
   }
 
-  /* line 242, _media.scss */
+  /* line 244, _media.scss */
   .why-us__body {
     flex-direction: column;
   }
 
-  /* line 245, _media.scss */
+  /* line 247, _media.scss */
   .why-us__body__card {
     width: 100%;
     margin-bottom: 20px;
   }
 
-  /* line 249, _media.scss */
+  /* line 251, _media.scss */
   .task__body__card__info {
     padding: 20px 10px;
   }
 
-  /* line 252, _media.scss */
+  /* line 254, _media.scss */
   .task__body__card__info__title {
     margin-bottom: 15px;
   }
 
-  /* line 255, _media.scss */
+  /* line 257, _media.scss */
   .task__body__card__info__text {
     margin-bottom: 0;
     line-height: 17px;
   }
 
-  /* line 259, _media.scss */
+  /* line 261, _media.scss */
   .task__body__card {
     min-height: 300px;
   }
 }
 @media screen and (max-width: 574px) {
-  /* line 264, _media.scss */
+  /* line 266, _media.scss */
   .header__origin__logo a {
     display: flex;
     flex-direction: column;
@@ -3308,198 +3397,198 @@ body h6 {
     width: 100%;
   }
 
-  /* line 271, _media.scss */
+  /* line 273, _media.scss */
   .header__origin__logo a span {
     display: block;
     margin-top: 10px;
     width: 100%;
   }
 
-  /* line 276, _media.scss */
+  /* line 278, _media.scss */
   .header__origin__button {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
   }
 
-  /* line 281, _media.scss */
+  /* line 283, _media.scss */
   .header__origin__button a {
     margin-bottom: 15px;
   }
 
-  /* line 284, _media.scss */
+  /* line 286, _media.scss */
   .header__nav__first, .header__nav__second {
     width: 100%;
   }
 
-  /* line 287, _media.scss */
+  /* line 289, _media.scss */
   .header__nav__first__container ul li {
     text-align: center;
   }
 
-  /* line 290, _media.scss */
+  /* line 292, _media.scss */
   .header__nav__second__container ul li {
     text-align: center;
   }
 
-  /* line 293, _media.scss */
+  /* line 295, _media.scss */
   .collapse__menu {
     display: inline-block;
   }
 
-  /* line 296, _media.scss */
+  /* line 298, _media.scss */
   .header__nav__first, .header__nav__second {
     height: 0;
     transition: all linear 0.5s;
   }
-  /* line 299, _media.scss */
+  /* line 301, _media.scss */
   .header__nav__first.active, .header__nav__second.active {
     height: auto;
   }
 
-  /* line 303, _media.scss */
+  /* line 305, _media.scss */
   .block-title:before {
     width: 50px;
   }
 
-  /* line 306, _media.scss */
+  /* line 308, _media.scss */
   .block-title {
     padding-left: 70px;
   }
 
-  /* line 309, _media.scss */
+  /* line 311, _media.scss */
   .welcome__slide__content h1 {
     font-size: 26px;
     line-height: 28px;
   }
 
-  /* line 313, _media.scss */
+  /* line 315, _media.scss */
   .welcome__slide {
     height: 500px;
   }
 
-  /* line 316, _media.scss */
+  /* line 318, _media.scss */
   .call-back__title {
     font-size: 30px;
   }
 
-  /* line 319, _media.scss */
+  /* line 321, _media.scss */
   .call-back .input-field {
     width: 100%;
     margin-bottom: 10px;
   }
 
-  /* line 323, _media.scss */
+  /* line 325, _media.scss */
   .call-back .input-checkbox__text {
     font-size: 10px;
     line-height: 12px;
   }
 
-  /* line 327, _media.scss */
+  /* line 329, _media.scss */
   .call-back .input-checkbox__input {
     flex-shrink: 0;
   }
 
-  /* line 330, _media.scss */
+  /* line 332, _media.scss */
   .reviews__control {
     margin-top: -30px;
     margin-bottom: 20px;
   }
 
-  /* line 334, _media.scss */
+  /* line 336, _media.scss */
   .reviews__mail__message:before {
     left: 10px;
     top: 10px;
   }
 
-  /* line 338, _media.scss */
+  /* line 340, _media.scss */
   .reviews__mail__message:after {
     right: 10px;
     bottom: 10px;
   }
 
-  /* line 342, _media.scss */
+  /* line 344, _media.scss */
   .reviews__mail__message {
     padding: 30px 40px 40px 40px;
   }
 
-  /* line 345, _media.scss */
+  /* line 347, _media.scss */
   .client__list {
     padding-left: 20px;
     padding-right: 20px;
   }
 
-  /* line 349, _media.scss */
+  /* line 351, _media.scss */
   .warranty__wrap a span {
     font-size: 13px;
   }
 
-  /* line 352, _media.scss */
+  /* line 354, _media.scss */
   .advantages__list {
     padding-bottom: 40px;
   }
 
-  /* line 355, _media.scss */
+  /* line 357, _media.scss */
   .how-work__form {
     padding: 20px 10px;
   }
 
-  /* line 358, _media.scss */
+  /* line 360, _media.scss */
   .footer__navigation ul li {
     width: 100%;
   }
 
-  /* line 361, _media.scss */
+  /* line 363, _media.scss */
   .footer__navigation {
     margin-bottom: 20px;
   }
 
-  /* line 364, _media.scss */
+  /* line 366, _media.scss */
   .about-audit__tabs a {
     width: 100%;
   }
 
-  /* line 367, _media.scss */
+  /* line 369, _media.scss */
   .audit-info p {
     padding: 0 10px;
   }
 
-  /* line 370, _media.scss */
+  /* line 372, _media.scss */
   .stage__body {
     padding: 0;
   }
 
-  /* line 373, _media.scss */
+  /* line 375, _media.scss */
   .stage__body__line {
     height: auto;
     background-color: transparent;
     flex-wrap: wrap;
   }
-  /* line 377, _media.scss */
+  /* line 379, _media.scss */
   .stage__body__line li {
     width: 50%;
     margin-bottom: 20px;
   }
 
-  /* line 382, _media.scss */
+  /* line 384, _media.scss */
   .stage__body__line__point__sub-title {
     height: auto;
     overflow: visible;
   }
 
-  /* line 386, _media.scss */
+  /* line 388, _media.scss */
   .stage__body__line li:before {
     left: calc(100% - 20px);
     top: 20px;
   }
 
-  /* line 390, _media.scss */
+  /* line 392, _media.scss */
   .stage__body__line li:after {
     left: calc(100% - 20px);
     top: 20px;
   }
 
-  /* line 394, _media.scss */
+  /* line 396, _media.scss */
   .stage__body__line__point {
     left: 0 !important;
     top: 0 !important;
@@ -3508,76 +3597,81 @@ body h6 {
     transform: translate(0, 0) !important;
   }
 
-  /* line 401, _media.scss */
+  /* line 403, _media.scss */
   .price__white__about ul li {
     width: calc(50% - 10px);
     margin-bottom: 10px;
   }
 
-  /* line 405, _media.scss */
+  /* line 407, _media.scss */
   .price__white__about ul {
     flex-wrap: wrap;
   }
 
-  /* line 408, _media.scss */
+  /* line 410, _media.scss */
   .price__white__info__card {
     width: 100%;
   }
-  /* line 410, _media.scss */
+  /* line 412, _media.scss */
   .price__white__info__card:nth-child(2) {
     display: none;
   }
 
-  /* line 414, _media.scss */
+  /* line 416, _media.scss */
   .price__white__info {
     margin-top: 30px;
   }
 
-  /* line 417, _media.scss */
+  /* line 419, _media.scss */
   .price__white .reviews__control {
     margin-top: 30px;
   }
 
-  /* line 420, _media.scss */
+  /* line 422, _media.scss */
   .why-us__bg i {
     width: 100%;
     margin: 20px auto;
     height: 42px;
   }
 
-  /* line 425, _media.scss */
+  /* line 427, _media.scss */
   .why-us__bg h2 {
     font-size: 24px;
     line-height: 28px;
     margin-bottom: 30px;
   }
 
-  /* line 430, _media.scss */
+  /* line 432, _media.scss */
   .change-adv__body__card {
     width: 100%;
     padding: 0 15px;
   }
 
-  /* line 434, _media.scss */
+  /* line 436, _media.scss */
   .change-adv__body__card div {
     width: 92px;
     height: 112px;
   }
 
-  /* line 438, _media.scss */
+  /* line 440, _media.scss */
   .task__body__card {
     flex-wrap: wrap;
   }
-  /* line 440, _media.scss */
+  /* line 442, _media.scss */
   .task__body__card__img {
     width: 100%;
     height: 180px;
     order: 0 !important;
   }
-  /* line 445, _media.scss */
+  /* line 447, _media.scss */
   .task__body__card__info {
     width: 100%;
     order: 0 !important;
+  }
+
+  /* line 452, _media.scss */
+  .comparison__body__card {
+    padding: 15px 20px 15px 15px;
   }
 }
 /* ╨Ь╨╡╨┤╨╕╨░ ╨╖╨░╨┐╤А╨╛╤Б╤Л */
