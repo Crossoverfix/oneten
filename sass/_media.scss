@@ -24,6 +24,14 @@
     font-size: 22px;
     padding: 25px 30px;
   }
+  .client__img{
+    margin-top: 5px;
+  }
+  .client{
+    padding-top: 60px;
+  }
+  .choice__body{
+    flex-wrap: wrap;
 }
 @media screen and (max-width: 991px){
   .header__nav__first__container ul li a{
@@ -133,6 +141,18 @@
   }
   .adv-optimization__title{
     margin-bottom: 20px;
+  }
+  .client {
+    padding-top: 20px;
+  }
+}
+  .client__img{
+    height: 200px;
+  }
+  .mod-support{
+    .client{
+      height: auto;
+    }
   }
 }
 @media screen and (max-width: 767px){
@@ -260,6 +280,15 @@
   }
   .task__body__card{
     min-height: 300px;
+  }
+  .client__img{
+    margin-bottom: 20px;
+  }
+  .choice__body__block{
+    width: 50%;
+  }
+  .choice__body__block__title{
+    height: 60px;
   }
 }
 @media screen and (max-width: 574px){
@@ -451,5 +480,11 @@
   }
   .comparison__body__card{
     padding: 15px 20px 15px 15px;
+  }
+  .choice__body__block{
+    width: 100%;
+  }
+  .choice__body:before{
+    height: 0;
   }
 }

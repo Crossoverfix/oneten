@@ -92,3 +92,11 @@
   width: 100%;
   height: 100%;
 }
+.mod-promotion{
+  .about-audit__tabs{
+    flex-wrap: wrap;
+    a{
+      margin-bottom: 10px;
+    }
+  }
+}
