@@ -937,21 +937,121 @@ body h6 {
   margin-bottom: 0;
   margin-top: 0;
 }
+/* line 391, _page.scss */
+.call-back .input-text_area {
+  display: inline-block;
+  border-radius: 15px;
+  border: solid 2px #df5467;
+  width: 100%;
+  position: relative;
+  height: 110px;
+  margin-bottom: 20px;
+}
+/* line 399, _page.scss */
+.call-back .input-text_area textarea {
+  border: none;
+  background-color: transparent;
+  resize: none;
+  width: 100%;
+  height: 100%;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 200;
+  font-family: "TTNorms";
+  color: white;
+}
+/* line 413, _page.scss */
+.call-back__file {
+  margin-top: 30px;
+  border: solid 2px #df5467;
+  padding: 25px 15px 15px 15px;
+  display: inline-block;
+  width: 70%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+/* line 422, _page.scss */
+.call-back__file label {
+  position: relative;
+  display: inline-block;
+  height: 50px;
+  background-color: #313640;
+  padding: 0 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+/* line 430, _page.scss */
+.call-back__file label input {
+  display: none;
+}
+/* line 434, _page.scss */
+.call-back__file__btn {
+  display: inline-block;
+  font-family: "TTNorms";
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 50px;
+}
+/* line 444, _page.scss */
+.call-back__file__text {
+  display: inline-block;
+  font-family: "TTNorms";
+  font-size: 13px;
+  font-weight: 500;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+/* line 454, _page.scss */
+.call-back .mod-send {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+/* line 460, _page.scss */
+.call-back.mod-send {
+  margin-top: 0;
+}
+/* line 462, _page.scss */
+.call-back.mod-send .input-field {
+  width: 100%;
+  margin-bottom: 15px;
+}
+/* line 466, _page.scss */
+.call-back.mod-send .input-submit {
+  width: auto;
+  display: inline-block;
+  left: 100%;
+  transform: translateX(-100%);
+}
+/* line 467, _page.scss */
+.call-back.mod-send .input-submit input {
+  padding: 0 20px;
+}
+/* line 476, _page.scss */
+.call-back.mod-send .input-checkbox label {
+  flex-shrink: 0;
+}
 
-/* line 393, _page.scss */
+/* line 482, _page.scss */
 .reviews {
   padding-top: 80px;
 }
-/* line 395, _page.scss */
+/* line 484, _page.scss */
 .reviews__wrap {
   align-items: stretch;
 }
-/* line 398, _page.scss */
+/* line 487, _page.scss */
 .reviews__control {
   margin-top: 30px;
   position: relative;
 }
-/* line 401, _page.scss */
+/* line 490, _page.scss */
 .reviews__control a {
   border-radius: 50%;
   height: 30px;
@@ -963,11 +1063,11 @@ body h6 {
   top: 50%;
   transform: translate(-50%, -50%);
 }
-/* line 411, _page.scss */
+/* line 500, _page.scss */
 .reviews__control a:hover {
   background-color: #006eff;
 }
-/* line 414, _page.scss */
+/* line 503, _page.scss */
 .reviews__control a i {
   display: inline-block;
   position: absolute;
@@ -977,13 +1077,13 @@ body h6 {
   top: 50%;
   transform: translate(-50%, -50%);
 }
-/* line 425, _page.scss */
+/* line 514, _page.scss */
 .reviews__content {
   position: relative;
   height: 550px;
   margin-top: 30px;
 }
-/* line 429, _page.scss */
+/* line 518, _page.scss */
 .reviews__content__wrap {
   width: 80%;
   height: 100%;
@@ -992,22 +1092,22 @@ body h6 {
   overflow: hidden;
   white-space: nowrap;
 }
-/* line 436, _page.scss */
+/* line 525, _page.scss */
 .reviews__content__wrap .reviews__content__item__point {
   display: inline-block;
   vertical-align: top;
 }
-/* line 441, _page.scss */
+/* line 530, _page.scss */
 .reviews__content__item {
   display: none;
 }
-/* line 443, _page.scss */
+/* line 532, _page.scss */
 .reviews__content__item__point {
   width: 100%;
   height: calc(100% - 50px);
   position: relative;
 }
-/* line 447, _page.scss */
+/* line 536, _page.scss */
 .reviews__content__item__point__rate {
   left: 50%;
   bottom: 0;
@@ -1021,13 +1121,13 @@ body h6 {
   align-items: center;
   justify-content: space-between;
 }
-/* line 459, _page.scss */
+/* line 548, _page.scss */
 .reviews__content__item__point__rate i {
   width: 22px;
   height: 22px;
   display: inline-block;
 }
-/* line 465, _page.scss */
+/* line 554, _page.scss */
 .reviews__content__item__point img {
   position: relative;
   top: calc(50% - 25px);
@@ -1035,7 +1135,7 @@ body h6 {
   transform: translate(-50%, -50%);
   width: 100%;
 }
-/* line 476, _page.scss */
+/* line 565, _page.scss */
 .reviews__mail__btn {
   display: flex;
   flex-wrap: nowrap;
@@ -1043,7 +1143,7 @@ body h6 {
   align-items: center;
   justify-content: center;
 }
-/* line 482, _page.scss */
+/* line 571, _page.scss */
 .reviews__mail__btn a {
   position: relative;
   margin: 0 auto;
@@ -1052,7 +1152,7 @@ body h6 {
   background-color: #006ae5;
   box-shadow: 0px 0px 9px 0px #ffffff,-4px 4px 8px -3px #006ae5;
 }
-/* line 489, _page.scss */
+/* line 578, _page.scss */
 .reviews__mail__btn a:before {
   content: "";
   position: absolute;
@@ -1063,11 +1163,11 @@ body h6 {
   background: url("../assets/img/web/1_1.png") no-repeat center;
   background-size: contain;
 }
-/* line 499, _page.scss */
+/* line 588, _page.scss */
 .reviews__mail__btn a:hover {
   background-color: #0074ff;
 }
-/* line 502, _page.scss */
+/* line 591, _page.scss */
 .reviews__mail__btn a span {
   display: inline-block;
   vertical-align: middle;
@@ -1078,12 +1178,12 @@ body h6 {
   line-height: 48px;
   margin: 0 10px;
 }
-/* line 512, _page.scss */
+/* line 601, _page.scss */
 .reviews__mail__btn a i {
   vertical-align: middle;
   display: inline-block;
 }
-/* line 518, _page.scss */
+/* line 607, _page.scss */
 .reviews__mail__message {
   width: 100%;
   border-radius: 25px;
@@ -1092,7 +1192,7 @@ body h6 {
   position: relative;
   margin-top: 35px;
 }
-/* line 525, _page.scss */
+/* line 614, _page.scss */
 .reviews__mail__message:before {
   content: "";
   width: 26px;
@@ -1103,7 +1203,7 @@ body h6 {
   background: url("../assets/img/icons/quote_left.png") no-repeat center;
   background-size: contain;
 }
-/* line 535, _page.scss */
+/* line 624, _page.scss */
 .reviews__mail__message:after {
   content: "";
   width: 26px;
@@ -1114,16 +1214,16 @@ body h6 {
   background: url("../assets/img/icons/quote_right.png") no-repeat center;
   background-size: contain;
 }
-/* line 545, _page.scss */
+/* line 634, _page.scss */
 .reviews__mail__message__logo {
   height: 60px;
   position: relative;
 }
-/* line 548, _page.scss */
+/* line 637, _page.scss */
 .reviews__mail__message__logo img {
   height: 100%;
 }
-/* line 552, _page.scss */
+/* line 641, _page.scss */
 .reviews__mail__message__text {
   margin-top: 20px;
   margin-bottom: 5px;
@@ -1133,7 +1233,7 @@ body h6 {
   color: #262a33;
   font-weight: 500;
 }
-/* line 561, _page.scss */
+/* line 650, _page.scss */
 .reviews__mail__message__author {
   text-align: right;
   margin-top: 0;
@@ -1145,13 +1245,13 @@ body h6 {
   font-weight: 600;
 }
 
-/* line 574, _page.scss */
+/* line 663, _page.scss */
 .client {
   background-color: #eff3fb;
   margin-top: 75px;
   height: 490px;
 }
-/* line 578, _page.scss */
+/* line 667, _page.scss */
 .client__info {
   display: flex;
   flex-direction: column;
@@ -1159,7 +1259,7 @@ body h6 {
   justify-content: flex-end;
   height: 490px;
 }
-/* line 585, _page.scss */
+/* line 674, _page.scss */
 .client__text {
   font-family: "TTNorms";
   font-size: 12px;
@@ -1169,7 +1269,7 @@ body h6 {
   margin-bottom: 40px;
   line-height: 16px;
 }
-/* line 594, _page.scss */
+/* line 683, _page.scss */
 .client__btn {
   position: relative;
   border-radius: 20px;
@@ -1178,11 +1278,11 @@ body h6 {
   box-shadow: 0px 0px 9px 0px #ffffff,-4px 4px 8px -3px #006ae5;
   margin-bottom: 80px;
 }
-/* line 601, _page.scss */
+/* line 690, _page.scss */
 .client__btn:hover {
   background-color: rgba(217, 217, 217, 0);
 }
-/* line 604, _page.scss */
+/* line 693, _page.scss */
 .client__btn span {
   display: inline-block;
   vertical-align: middle;
@@ -1193,12 +1293,12 @@ body h6 {
   line-height: 48px;
   margin: 0 10px;
 }
-/* line 614, _page.scss */
+/* line 703, _page.scss */
 .client__btn i {
   vertical-align: middle;
   display: inline-block;
 }
-/* line 619, _page.scss */
+/* line 708, _page.scss */
 .client__list {
   height: 490px;
   background-color: white;
@@ -1207,7 +1307,7 @@ body h6 {
   padding-left: 45px;
   padding-right: 50px;
 }
-/* line 626, _page.scss */
+/* line 715, _page.scss */
 .client__list__title {
   font-family: "TTNorms";
   font-size: 11px;
@@ -1217,7 +1317,7 @@ body h6 {
   margin-bottom: 0;
   margin-top: 0;
 }
-/* line 635, _page.scss */
+/* line 724, _page.scss */
 .client__list__wrap {
   width: 100%;
   height: calc(100% - 50px);
@@ -1226,7 +1326,7 @@ body h6 {
   padding-left: 65px;
   padding-right: 55px;
 }
-/* line 642, _page.scss */
+/* line 731, _page.scss */
 .client__list__wrap__control {
   position: absolute;
   top: 50%;
@@ -1239,23 +1339,23 @@ body h6 {
   align-items: center;
   justify-content: space-between;
 }
-/* line 653, _page.scss */
+/* line 742, _page.scss */
 .client__list__wrap__control a {
   display: inline-block;
   width: 16px;
   height: 12px;
 }
-/* line 657, _page.scss */
+/* line 746, _page.scss */
 .client__list__wrap__control a i {
   display: inline-block;
   vertical-align: top;
 }
-/* line 663, _page.scss */
+/* line 752, _page.scss */
 .client__list__wrap__body {
   width: 100%;
   position: relative;
 }
-/* line 666, _page.scss */
+/* line 755, _page.scss */
 .client__list__wrap__body a {
   display: inline-block;
   position: relative;
@@ -1264,7 +1364,7 @@ body h6 {
   border: solid 1px #b7bbc3;
   margin-bottom: -2px;
 }
-/* line 673, _page.scss */
+/* line 762, _page.scss */
 .client__list__wrap__body a:before {
   content: "";
   position: absolute;
@@ -1274,7 +1374,7 @@ body h6 {
   left: -2px;
   top: 10px;
 }
-/* line 682, _page.scss */
+/* line 771, _page.scss */
 .client__list__wrap__body a:after {
   content: "";
   position: absolute;
@@ -1284,7 +1384,7 @@ body h6 {
   left: 10px;
   top: -2px;
 }
-/* line 691, _page.scss */
+/* line 780, _page.scss */
 .client__list__wrap__body a img {
   width: 100%;
   position: relative;
@@ -1293,12 +1393,12 @@ body h6 {
   z-index: 1;
 }
 
-/* line 703, _page.scss */
+/* line 792, _page.scss */
 .warranty {
   background-color: #eff3fb;
   height: 620px;
 }
-/* line 706, _page.scss */
+/* line 795, _page.scss */
 .warranty__bg {
   position: relative;
   z-index: 2;
@@ -1308,7 +1408,7 @@ body h6 {
   background-position: center !important;
   background-repeat: no-repeat !important;
 }
-/* line 715, _page.scss */
+/* line 804, _page.scss */
 .warranty__wrap {
   display: flex;
   flex-direction: column;
@@ -1318,7 +1418,7 @@ body h6 {
   padding-left: 75px;
   padding-bottom: 45px;
 }
-/* line 723, _page.scss */
+/* line 812, _page.scss */
 .warranty__wrap:before {
   content: "";
   height: 100%;
@@ -1328,14 +1428,14 @@ body h6 {
   top: 0;
   left: -120px;
 }
-/* line 732, _page.scss */
+/* line 821, _page.scss */
 .warranty__wrap ul {
   list-style: none;
   padding: 0;
   margin-top: 0;
   margin-bottom: 35px;
 }
-/* line 737, _page.scss */
+/* line 826, _page.scss */
 .warranty__wrap ul li {
   background-color: #eff3fb;
   border-radius: 10px;
@@ -1348,7 +1448,7 @@ body h6 {
   font-weight: 500;
   line-height: 15px;
 }
-/* line 748, _page.scss */
+/* line 837, _page.scss */
 .warranty__wrap ul li:before {
   content: "";
   position: absolute;
@@ -1359,7 +1459,7 @@ body h6 {
   left: 15px;
   top: 25px;
 }
-/* line 760, _page.scss */
+/* line 849, _page.scss */
 .warranty__wrap a {
   position: relative;
   border-radius: 20px;
@@ -1367,11 +1467,11 @@ body h6 {
   background-color: #006ae5;
   box-shadow: 0px 0px 9px 0px #ffffff,-4px 4px 8px -3px #006ae5;
 }
-/* line 766, _page.scss */
+/* line 855, _page.scss */
 .warranty__wrap a:hover {
   background-color: #0074ff;
 }
-/* line 769, _page.scss */
+/* line 858, _page.scss */
 .warranty__wrap a span {
   display: inline-block;
   vertical-align: middle;
@@ -1382,22 +1482,22 @@ body h6 {
   line-height: 48px;
   margin: 0 10px;
 }
-/* line 779, _page.scss */
+/* line 868, _page.scss */
 .warranty__wrap a i {
   vertical-align: middle;
   display: inline-block;
 }
 
-/* line 786, _page.scss */
+/* line 875, _page.scss */
 .advantages {
   padding-top: 65px;
   position: relative;
 }
-/* line 789, _page.scss */
+/* line 878, _page.scss */
 .advantages .block-title {
   color: white;
 }
-/* line 792, _page.scss */
+/* line 881, _page.scss */
 .advantages__bg {
   position: absolute;
   height: 100%;
@@ -1407,12 +1507,12 @@ body h6 {
   background: url("../assets/img/photo/advantages_bg.png") no-repeat center;
   background-size: cover;
 }
-/* line 800, _page.scss */
+/* line 889, _page.scss */
 .advantages__bg__man {
   position: relative;
   min-height: 400px;
 }
-/* line 803, _page.scss */
+/* line 892, _page.scss */
 .advantages__bg__man:before {
   content: "";
   position: absolute;
@@ -1424,12 +1524,12 @@ body h6 {
   background: url("../assets/img/photo/advantages_man.png") no-repeat center bottom;
   background-size: contain;
 }
-/* line 816, _page.scss */
+/* line 905, _page.scss */
 .advantages__list {
   padding-bottom: 130px;
   position: relative;
 }
-/* line 819, _page.scss */
+/* line 908, _page.scss */
 .advantages__list ul {
   width: 100%;
   list-style-type: none;
@@ -1437,7 +1537,7 @@ body h6 {
   margin: 0;
   position: relative;
 }
-/* line 825, _page.scss */
+/* line 914, _page.scss */
 .advantages__list ul li {
   width: 100%;
   padding: 30px 25px 10px 35px;
@@ -1445,7 +1545,7 @@ body h6 {
   margin-top: 0;
   margin-bottom: 18px;
 }
-/* line 831, _page.scss */
+/* line 920, _page.scss */
 .advantages__list ul li p {
   margin-top: 0;
   color: white;
@@ -1454,17 +1554,17 @@ body h6 {
   font-weight: 500;
   margin-bottom: 18px;
 }
-/* line 839, _page.scss */
+/* line 928, _page.scss */
 .advantages__list ul li a {
   display: inline-block;
   width: 100%;
   text-decoration: none;
 }
-/* line 844, _page.scss */
+/* line 933, _page.scss */
 .advantages__list ul li a:hover span {
   color: #00afff;
 }
-/* line 848, _page.scss */
+/* line 937, _page.scss */
 .advantages__list ul li a span {
   font-family: "TTNorms";
   font-size: 12px;
@@ -1474,16 +1574,16 @@ body h6 {
   margin-top: 0;
   color: #0082cb;
 }
-/* line 857, _page.scss */
+/* line 946, _page.scss */
 .advantages__list ul li a i {
   display: inline-block;
 }
 
-/* line 865, _page.scss */
+/* line 954, _page.scss */
 .how-work {
   margin-top: 65px;
 }
-/* line 867, _page.scss */
+/* line 956, _page.scss */
 .how-work__form {
   width: 85%;
   margin-left: auto;
@@ -1491,7 +1591,7 @@ body h6 {
   background-color: #d71732;
   position: relative;
 }
-/* line 873, _page.scss */
+/* line 962, _page.scss */
 .how-work__form form {
   width: 100%;
   height: 100%;
@@ -1500,7 +1600,7 @@ body h6 {
   align-items: center;
   justify-content: center;
 }
-/* line 881, _page.scss */
+/* line 970, _page.scss */
 .how-work__form__title {
   margin-top: 0;
   font-family: "TTNorms";
@@ -1511,7 +1611,7 @@ body h6 {
   text-align: center;
   margin-bottom: 20px;
 }
-/* line 891, _page.scss */
+/* line 980, _page.scss */
 .how-work__form__sub-title {
   margin-top: 0;
   font-family: "TTNorms";
@@ -1521,7 +1621,7 @@ body h6 {
   text-align: center;
   margin-bottom: 40px;
 }
-/* line 901, _page.scss */
+/* line 990, _page.scss */
 .how-work__form .input-field {
   border-radius: 20px;
   padding: 0 20px;
@@ -1531,7 +1631,7 @@ body h6 {
   width: 100%;
   margin-bottom: 16px;
 }
-/* line 909, _page.scss */
+/* line 998, _page.scss */
 .how-work__form .input-field input {
   border: none;
   outline: none;
@@ -1541,22 +1641,22 @@ body h6 {
   line-height: 48px;
   color: white;
 }
-/* line 917, _page.scss */
+/* line 1006, _page.scss */
 .how-work__form .input-field input::-moz-placeholder, .how-work__form .input-field input::-webkit-input-placeholder, .how-work__form .input-field input:-ms-input-placeholder, .how-work__form .input-field input::-ms-input-placeholder, .how-work__form .input-field input::placeholder {
   color: white !important;
 }
-/* line 922, _page.scss */
+/* line 1011, _page.scss */
 .how-work__form .input-submit {
   width: 145px;
   margin-top: 25px;
   position: relative;
   cursor: pointer;
 }
-/* line 928, _page.scss */
+/* line 1017, _page.scss */
 .how-work__form .input-submit:hover input {
   background-color: #676f7c;
 }
-/* line 932, _page.scss */
+/* line 1021, _page.scss */
 .how-work__form .input-submit input {
   cursor: pointer;
   width: 100%;
@@ -1569,7 +1669,7 @@ body h6 {
   font-weight: 500;
   text-align: center;
 }
-/* line 945, _page.scss */
+/* line 1034, _page.scss */
 .how-work__form .input-checkbox {
   width: 100%;
   margin-top: 10px;
@@ -1581,16 +1681,16 @@ body h6 {
   justify-content: center;
   align-items: center;
 }
-/* line 955, _page.scss */
+/* line 1044, _page.scss */
 .how-work__form .input-checkbox input {
   display: none;
 }
-/* line 958, _page.scss */
+/* line 1047, _page.scss */
 .how-work__form .input-checkbox input:checked ~ .input-checkbox__input:before {
   width: 60%;
   height: 60%;
 }
-/* line 964, _page.scss */
+/* line 1053, _page.scss */
 .how-work__form .input-checkbox__input {
   display: inline-block;
   width: 21px;
@@ -1601,7 +1701,7 @@ body h6 {
   cursor: pointer;
   position: relative;
 }
-/* line 973, _page.scss */
+/* line 1062, _page.scss */
 .how-work__form .input-checkbox__input:before {
   content: "";
   position: absolute;
@@ -1613,7 +1713,7 @@ body h6 {
   background: url("../assets/img/icons/check_w.png") no-repeat center;
   background-size: contain;
 }
-/* line 985, _page.scss */
+/* line 1074, _page.scss */
 .how-work__form .input-checkbox__text {
   font-family: "TTNorms";
   font-size: 12px;
@@ -1625,7 +1725,7 @@ body h6 {
   margin-bottom: 0;
   margin-top: 0;
 }
-/* line 999, _page.scss */
+/* line 1088, _page.scss */
 .how-work__text {
   font-family: "TTNorms";
   font-size: 17px;
@@ -1633,16 +1733,16 @@ body h6 {
   color: #262a33;
   font-weight: 500;
 }
-/* line 1005, _page.scss */
+/* line 1094, _page.scss */
 .how-work__text b {
   font-weight: 700;
 }
 
-/* line 1010, _page.scss */
+/* line 1099, _page.scss */
 .why-off {
   margin-top: 70px;
 }
-/* line 1012, _page.scss */
+/* line 1101, _page.scss */
 .why-off__content {
   display: flex;
   flex-direction: row;
@@ -1651,7 +1751,7 @@ body h6 {
   margin: 0 auto;
   padding: 0;
 }
-/* line 1019, _page.scss */
+/* line 1108, _page.scss */
 .why-off__content__card {
   height: 100%;
   border-radius: 25px;
@@ -1662,14 +1762,14 @@ body h6 {
   justify-content: flex-start;
   padding: 25px 50px;
 }
-/* line 1028, _page.scss */
+/* line 1117, _page.scss */
 .why-off__content__card__img {
   position: relative;
   height: 45px;
   width: 45px;
   margin-bottom: 25px;
 }
-/* line 1034, _page.scss */
+/* line 1123, _page.scss */
 .why-off__content__card__title {
   font-family: "TTNorms";
   font-size: 12px;
@@ -1681,7 +1781,7 @@ body h6 {
   margin-bottom: 20px;
   margin-top: 0;
 }
-/* line 1045, _page.scss */
+/* line 1134, _page.scss */
 .why-off__content__card__text {
   margin: 0;
   font-family: "TTNorms";
@@ -1693,23 +1793,23 @@ body h6 {
   text-align: center;
 }
 
-/* line 1058, _page.scss */
+/* line 1147, _page.scss */
 .how-us-work {
   margin-top: 80px;
 }
-/* line 1060, _page.scss */
+/* line 1149, _page.scss */
 .how-us-work__img {
   padding: 0 25px;
   position: relative;
 }
-/* line 1063, _page.scss */
+/* line 1152, _page.scss */
 .how-us-work__img__bg {
   width: 100%;
   height: 100%;
   background: url("../assets/img/icons/bg_men.png") no-repeat center;
   background-size: contain;
 }
-/* line 1070, _page.scss */
+/* line 1159, _page.scss */
 .how-us-work__content {
   display: flex;
   flex-direction: row;
@@ -1717,14 +1817,14 @@ body h6 {
   align-items: flex-start;
   justify-content: flex-start;
 }
-/* line 1076, _page.scss */
+/* line 1165, _page.scss */
 .how-us-work__content__point {
   width: 50%;
   position: relative;
   padding: 0 60px 0 25px;
   margin-bottom: 20px;
 }
-/* line 1081, _page.scss */
+/* line 1170, _page.scss */
 .how-us-work__content__point:before {
   content: "";
   position: absolute;
@@ -1734,7 +1834,7 @@ body h6 {
   width: 2px;
   background-color: #006ae5;
 }
-/* line 1090, _page.scss */
+/* line 1179, _page.scss */
 .how-us-work__content__point__title {
   margin-top: 0;
   font-size: 11px;
@@ -1744,7 +1844,7 @@ body h6 {
   margin-bottom: 5px;
   text-transform: uppercase;
 }
-/* line 1099, _page.scss */
+/* line 1188, _page.scss */
 .how-us-work__content__point__text {
   margin-top: 0;
   font-size: 11px;
@@ -1755,11 +1855,11 @@ body h6 {
   margin-bottom: 0;
 }
 
-/* line 1111, _page.scss */
+/* line 1200, _page.scss */
 .about-audit {
   margin-top: 40px;
 }
-/* line 1113, _page.scss */
+/* line 1202, _page.scss */
 .about-audit__img {
   position: relative;
   min-height: 1px;
@@ -1768,7 +1868,7 @@ body h6 {
   background: url("../assets/img/photo/audits-about.jpg") no-repeat center;
   background-size: cover;
 }
-/* line 1120, _page.scss */
+/* line 1209, _page.scss */
 .about-audit__img a {
   position: absolute;
   white-space: nowrap;
@@ -1783,12 +1883,12 @@ body h6 {
   height: 60px;
   box-shadow: 0px 0px 20px 3px #5581f1;
 }
-/* line 1133, _page.scss */
+/* line 1222, _page.scss */
 .about-audit__img a:hover {
   background: linear-gradient(-45deg, #4d61c2, #1146c1);
   box-shadow: none;
 }
-/* line 1137, _page.scss */
+/* line 1226, _page.scss */
 .about-audit__img a span {
   display: inline-block;
   color: white;
@@ -1800,31 +1900,31 @@ body h6 {
   vertical-align: middle;
   text-transform: uppercase;
 }
-/* line 1148, _page.scss */
+/* line 1237, _page.scss */
 .about-audit__img a i {
   display: inline-block;
   line-height: 60px;
   vertical-align: middle;
 }
-/* line 1155, _page.scss */
+/* line 1244, _page.scss */
 .about-audit__content {
   position: relative;
 }
-/* line 1157, _page.scss */
+/* line 1246, _page.scss */
 .about-audit__content__wrap {
   position: relative;
   display: none;
 }
-/* line 1160, _page.scss */
+/* line 1249, _page.scss */
 .about-audit__content__wrap.active {
   display: block;
 }
-/* line 1163, _page.scss */
+/* line 1252, _page.scss */
 .about-audit__content__wrap img {
   max-width: 40%;
   float: left;
 }
-/* line 1167, _page.scss */
+/* line 1256, _page.scss */
 .about-audit__content__wrap h2 {
   font-family: "TTNorms";
   font-size: 35px;
@@ -1833,7 +1933,7 @@ body h6 {
   margin-top: 0;
   margin-bottom: 35px;
 }
-/* line 1175, _page.scss */
+/* line 1264, _page.scss */
 .about-audit__content__wrap p {
   font-family: "TTNorms";
   font-size: 12px;
@@ -1843,7 +1943,7 @@ body h6 {
   margin-bottom: 10px;
   line-height: 14px;
 }
-/* line 1186, _page.scss */
+/* line 1275, _page.scss */
 .about-audit__tabs {
   display: flex;
   flex-direction: row;
@@ -1851,7 +1951,7 @@ body h6 {
   align-items: center;
   justify-content: space-between;
 }
-/* line 1192, _page.scss */
+/* line 1281, _page.scss */
 .about-audit__tabs a {
   width: calc((100% - 40px) / 3);
   position: relative;
@@ -1863,15 +1963,15 @@ body h6 {
   z-index: 1;
   text-align: center;
 }
-/* line 1203, _page.scss */
+/* line 1292, _page.scss */
 .about-audit__tabs a:hover:before {
   background-color: #c8cdd7;
 }
-/* line 1208, _page.scss */
+/* line 1297, _page.scss */
 .about-audit__tabs a.active:before {
   box-shadow: 0px 0px 9px 0px #ffffff,-4px 4px 8px -3px #135ee8;
 }
-/* line 1212, _page.scss */
+/* line 1301, _page.scss */
 .about-audit__tabs a:before {
   z-index: -1;
   content: "";
@@ -1885,11 +1985,11 @@ body h6 {
   background-color: #ebf0fa;
 }
 
-/* line 1227, _page.scss */
+/* line 1316, _page.scss */
 .question {
   margin-top: 80px;
 }
-/* line 1229, _page.scss */
+/* line 1318, _page.scss */
 .question__wrap {
   position: relative;
   display: flex;
@@ -1898,7 +1998,7 @@ body h6 {
   align-items: flex-start;
   justify-content: space-between;
 }
-/* line 1236, _page.scss */
+/* line 1325, _page.scss */
 .question__wrap ul {
   width: calc(50% - 20px);
   list-style-type: none;
@@ -1906,7 +2006,7 @@ body h6 {
   margin: 0;
   position: relative;
 }
-/* line 1242, _page.scss */
+/* line 1331, _page.scss */
 .question__wrap ul li {
   width: 100%;
   margin-bottom: 10px;
@@ -1915,24 +2015,24 @@ body h6 {
   position: relative;
   transition: all linear 0.5s;
 }
-/* line 1252, _page.scss */
+/* line 1341, _page.scss */
 .question__wrap ul li.active .question__wrap__head {
   background-color: #1e2432;
 }
-/* line 1254, _page.scss */
+/* line 1343, _page.scss */
 .question__wrap ul li.active .question__wrap__head p {
   color: white;
 }
-/* line 1257, _page.scss */
+/* line 1346, _page.scss */
 .question__wrap ul li.active .question__wrap__head i {
   background: url("../assets/img/icons/ico_minus.png") no-repeat center;
   background-size: contain;
 }
-/* line 1262, _page.scss */
+/* line 1351, _page.scss */
 .question__wrap ul li.active .question__wrap__body {
   height: auto;
 }
-/* line 1270, _page.scss */
+/* line 1359, _page.scss */
 .question__wrap__head {
   width: 100%;
   height: 48px;
@@ -1945,7 +2045,7 @@ body h6 {
   background-color: #eff3fb;
   padding: 15px;
 }
-/* line 1281, _page.scss */
+/* line 1370, _page.scss */
 .question__wrap__head p {
   font-family: "TTNorms";
   font-size: 15px;
@@ -1953,7 +2053,7 @@ body h6 {
   color: black;
   display: inline-block;
 }
-/* line 1288, _page.scss */
+/* line 1377, _page.scss */
 .question__wrap__head i {
   display: inline-block;
   width: 20px;
@@ -1961,7 +2061,7 @@ body h6 {
   background: url("../assets/img/icons/ico_plus.png") no-repeat center;
   background-size: contain;
 }
-/* line 1296, _page.scss */
+/* line 1385, _page.scss */
 .question__wrap__body {
   transition: all linear 0.5s;
   height: 0;
@@ -1970,7 +2070,7 @@ body h6 {
   background-color: #eff3fb;
   overflow: hidden;
 }
-/* line 1303, _page.scss */
+/* line 1392, _page.scss */
 .question__wrap__body p {
   padding: 15px;
   font-family: "TTNorms";
@@ -1979,7 +2079,7 @@ body h6 {
   color: black;
   display: inline-block;
 }
-/* line 1313, _page.scss */
+/* line 1402, _page.scss */
 .question .link-btn {
   align-self: flex-start;
   display: inline-block;
@@ -1992,12 +2092,12 @@ body h6 {
   position: relative;
   box-shadow: 0px 0px 20px 3px #5581f1;
 }
-/* line 1324, _page.scss */
+/* line 1413, _page.scss */
 .question .link-btn:hover {
   background: linear-gradient(-45deg, #4d61c2, #1146c1);
   box-shadow: none;
 }
-/* line 1328, _page.scss */
+/* line 1417, _page.scss */
 .question .link-btn span {
   display: inline-block;
   color: white;
@@ -2009,18 +2109,18 @@ body h6 {
   vertical-align: middle;
   text-transform: uppercase;
 }
-/* line 1339, _page.scss */
+/* line 1428, _page.scss */
 .question .link-btn i {
   display: inline-block;
   line-height: 60px;
   vertical-align: middle;
 }
 
-/* line 1346, _page.scss */
+/* line 1435, _page.scss */
 .audit-info {
   margin-top: 60px;
 }
-/* line 1348, _page.scss */
+/* line 1437, _page.scss */
 .audit-info p {
   font-family: "TTNorms";
   font-size: 12px;
@@ -2029,17 +2129,17 @@ body h6 {
   line-height: 16px;
 }
 
-/* line 1356, _page.scss */
+/* line 1445, _page.scss */
 .stage {
   margin-top: 65px;
 }
-/* line 1358, _page.scss */
+/* line 1447, _page.scss */
 .stage__body {
   position: relative;
   padding-top: 65px;
   padding-bottom: 65px;
 }
-/* line 1362, _page.scss */
+/* line 1451, _page.scss */
 .stage__body__line {
   list-style-type: none;
   padding: 0;
@@ -2054,11 +2154,11 @@ body h6 {
   height: 1px;
   background-color: #ccdbf3;
 }
-/* line 1375, _page.scss */
+/* line 1464, _page.scss */
 .stage__body__line li {
   position: relative;
 }
-/* line 1377, _page.scss */
+/* line 1466, _page.scss */
 .stage__body__line li:before {
   content: "";
   position: absolute;
@@ -2070,7 +2170,7 @@ body h6 {
   border-radius: 50%;
   background-color: #eff3fb;
 }
-/* line 1388, _page.scss */
+/* line 1477, _page.scss */
 .stage__body__line li:after {
   content: "";
   position: absolute;
@@ -2082,24 +2182,24 @@ body h6 {
   border-radius: 50%;
   background-color: #006ae5;
 }
-/* line 1400, _page.scss */
+/* line 1489, _page.scss */
 .stage__body__line li:nth-child(1n + 1) .stage__body__line__point {
   top: -10px;
   transform: translateY(100%);
 }
-/* line 1406, _page.scss */
+/* line 1495, _page.scss */
 .stage__body__line li:nth-child(2n + 1) .stage__body__line__point {
   top: 10px;
   transform: translateY(-100%);
 }
-/* line 1412, _page.scss */
+/* line 1501, _page.scss */
 .stage__body__line__point {
   position: relative;
   flex-grow: 1;
   padding: 0 10px;
   left: -15px;
 }
-/* line 1417, _page.scss */
+/* line 1506, _page.scss */
 .stage__body__line__point__title {
   font-family: "TTNorms";
   font-size: 11px;
@@ -2108,7 +2208,7 @@ body h6 {
   margin-top: 0;
   margin-bottom: 5px;
 }
-/* line 1426, _page.scss */
+/* line 1515, _page.scss */
 .stage__body__line__point__sub-title {
   font-family: "TTNorms";
   font-size: 12px;
@@ -2118,14 +2218,14 @@ body h6 {
   margin: 0;
 }
 
-/* line 1438, _page.scss */
+/* line 1527, _page.scss */
 .price {
   margin-top: 80px;
   background-color: #edf1f9;
   position: relative;
   padding-bottom: 95px;
 }
-/* line 1443, _page.scss */
+/* line 1532, _page.scss */
 .price:before {
   content: "";
   position: absolute;
@@ -2136,7 +2236,7 @@ body h6 {
   background-color: white;
   display: block;
 }
-/* line 1455, _page.scss */
+/* line 1544, _page.scss */
 .price__white__about p {
   width: 100%;
   text-align: center;
@@ -2147,7 +2247,7 @@ body h6 {
   margin-bottom: 15px;
   font-weight: 600;
 }
-/* line 1465, _page.scss */
+/* line 1554, _page.scss */
 .price__white__about h2 {
   width: 100%;
   text-align: center;
@@ -2158,7 +2258,7 @@ body h6 {
   margin-top: 0;
   margin-bottom: 15px;
 }
-/* line 1475, _page.scss */
+/* line 1564, _page.scss */
 .price__white__about ul {
   list-style-type: none;
   padding: 0;
@@ -2169,7 +2269,7 @@ body h6 {
   align-items: stretch;
   justify-content: space-between;
 }
-/* line 1484, _page.scss */
+/* line 1573, _page.scss */
 .price__white__about ul li {
   padding: 10px;
   width: calc((100% - 30px) / 4);
@@ -2186,7 +2286,7 @@ body h6 {
   font-family: "TTNorms";
   font-weight: 300;
 }
-/* line 1502, _page.scss */
+/* line 1591, _page.scss */
 .price__white__info {
   margin-top: 90px;
   display: flex;
@@ -2195,10 +2295,10 @@ body h6 {
   justify-content: space-between;
   align-items: stretch;
 }
-/* line 1509, _page.scss */
+/* line 1598, _page.scss */
 .price__white__info__card {
   width: calc((100% - 40px) / 3);
-  border: solid 2px #eff3fb;
+  border: solid 2px #f3f3f3;
   border-radius: 6px;
   box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.1);
   background-color: white;
@@ -2207,7 +2307,12 @@ body h6 {
   align-items: center;
   justify-content: flex-start;
 }
-/* line 1519, _page.scss */
+/* line 1608, _page.scss */
+.price__white__info__card:hover {
+  border: solid 2px #eff3fb;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.2);
+}
+/* line 1612, _page.scss */
 .price__white__info__card__ico {
   position: relative;
   height: 80px;
@@ -2217,7 +2322,7 @@ body h6 {
   background-size: contain !important;
   background-repeat: no-repeat !important;
 }
-/* line 1528, _page.scss */
+/* line 1621, _page.scss */
 .price__white__info__card__title {
   font-family: "TTNorms";
   font-size: 10px;
@@ -2226,7 +2331,7 @@ body h6 {
   margin-top: 0;
   margin-bottom: 10px;
 }
-/* line 1536, _page.scss */
+/* line 1629, _page.scss */
 .price__white__info__card__value {
   font-family: "TTNorms";
   font-size: 10px;
@@ -2235,13 +2340,13 @@ body h6 {
   margin-top: 0;
   margin-bottom: 12px;
 }
-/* line 1543, _page.scss */
+/* line 1636, _page.scss */
 .price__white__info__card__value b {
   font-size: 24px;
   font-weight: 600;
   color: #262a33;
 }
-/* line 1549, _page.scss */
+/* line 1642, _page.scss */
 .price__white__info__card__option {
   border-top: 1px solid #e3e7ee;
   display: flex;
@@ -2251,18 +2356,18 @@ body h6 {
   padding-top: 20px;
   padding-bottom: 80px;
 }
-/* line 1557, _page.scss */
+/* line 1650, _page.scss */
 .price__white__info__card__option__more {
   display: inline-block;
   position: relative;
   text-decoration: none;
   margin-bottom: 35px;
 }
-/* line 1563, _page.scss */
+/* line 1656, _page.scss */
 .price__white__info__card__option__more:hover span {
   text-decoration: underline;
 }
-/* line 1567, _page.scss */
+/* line 1660, _page.scss */
 .price__white__info__card__option__more span {
   font-size: 9px;
   font-family: "TTNorms";
@@ -2270,7 +2375,7 @@ body h6 {
   color: #262a33;
   text-decoration: none;
 }
-/* line 1574, _page.scss */
+/* line 1667, _page.scss */
 .price__white__info__card__option__more i {
   text-decoration: none;
   display: inline-block;
@@ -2281,7 +2386,17 @@ body h6 {
   background-position: center !important;
   background-repeat: no-repeat !important;
 }
-/* line 1585, _page.scss */
+/* line 1677, _page.scss */
+.price__white__info__card__option__more__content {
+  transition: all linear 0.5s;
+  overflow: hidden;
+  height: 0;
+}
+/* line 1681, _page.scss */
+.price__white__info__card__option__more__content.active {
+  height: auto;
+}
+/* line 1686, _page.scss */
 .price__white__info__card__option__btn {
   border-radius: 20px;
   padding: 0 10px;
@@ -2290,11 +2405,11 @@ body h6 {
   box-shadow: 4px 4px 3px -1px #2677e7, 4px 4px 8px -3px #2677e7;
   margin-top: 50px;
 }
-/* line 1592, _page.scss */
+/* line 1693, _page.scss */
 .price__white__info__card__option__btn:hover {
   background-color: #e6e6e6;
 }
-/* line 1595, _page.scss */
+/* line 1696, _page.scss */
 .price__white__info__card__option__btn span {
   display: inline-block;
   font-family: "TTNorms";
@@ -2304,19 +2419,19 @@ body h6 {
   line-height: 48px;
   margin: 0 10px;
 }
-/* line 1604, _page.scss */
+/* line 1705, _page.scss */
 .price__white__info__card__option__btn i {
   vertical-align: middle;
   display: inline-block;
 }
-/* line 1609, _page.scss */
+/* line 1710, _page.scss */
 .price__white__info__card__option ul {
   list-style-type: none;
   padding: 0 15px 0 30px;
   margin: 0;
   position: relative;
 }
-/* line 1614, _page.scss */
+/* line 1715, _page.scss */
 .price__white__info__card__option ul li {
   position: relative;
   width: 100%;
@@ -2328,7 +2443,7 @@ body h6 {
   font-weight: 300;
   color: black;
 }
-/* line 1624, _page.scss */
+/* line 1725, _page.scss */
 .price__white__info__card__option ul li:before {
   content: "";
   position: absolute;
@@ -2339,6 +2454,71 @@ body h6 {
   width: 11px;
   background: url("../assets/img/icons/ico_check_green.png") center no-repeat;
   background-size: contain;
+}
+
+/* line 1744, _page.scss */
+.why-us__bg {
+  background-color: #252b39;
+}
+/* line 1746, _page.scss */
+.why-us__bg i {
+  display: inline-block;
+  vertical-align: top;
+  height: 210px;
+  background: url("../assets/img/icons/ico_doc.png") no-repeat center;
+  background-size: contain;
+  width: 82px;
+  margin-right: 30px;
+}
+/* line 1755, _page.scss */
+.why-us__bg h2 {
+  font-family: "TTNorms";
+  font-size: 56px;
+  font-weight: 600;
+  color: white;
+  margin: 0;
+  line-height: 210px;
+  display: inline-block;
+}
+/* line 1765, _page.scss */
+.why-us__body {
+  margin-top: 55px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  justify-content: space-between;
+}
+/* line 1772, _page.scss */
+.why-us__body__card {
+  width: calc((100% - 80px) / 3);
+  position: relative;
+  border-radius: 15px;
+  border: 1px solid #006ae5;
+}
+/* line 1777, _page.scss */
+.why-us__body__card__title {
+  line-height: 45px;
+  font-size: 26px;
+  width: 100%;
+  border-radius: 15px;
+  color: white;
+  text-align: center;
+  background-color: #006ae5;
+  font-family: "TTNorms";
+  font-weight: 400;
+  margin: 0;
+}
+/* line 1789, _page.scss */
+.why-us__body__card__text {
+  font-size: 26px;
+  width: 100%;
+  color: #006ae5;
+  padding: 25px 40px;
+  text-align: center;
+  font-family: "TTNorms";
+  font-weight: 600;
+  margin: 0;
 }
 
 /* ╨Ю╤Б╨╜╨╛╨▓╨╜╤Л╨╡ ╤Б╤В╨╕╨╗╨╕ */

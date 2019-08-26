@@ -113,4 +113,9 @@ $(document).ready(function () {
     $questionAcardions.on('click',function () {
         $(this).toggleClass('active');
     })
+    var $priceShow = $('[data-js-price]');
+    $priceShow.on('click',function () {
+        $(this).siblings('.price__white__info__card__option__more__content').toggleClass('active');
+        return false;
+    })
 })
