@@ -1843,6 +1843,48 @@
       flex-direction: row;
       flex-wrap: nowrap;
       align-items: stretch;
+      min-height: 350px;
+      margin-bottom: 60px;
+      &__img{
+        width: calc(50% - 10px);
+        position: relative;
+      }
+      &__info{
+        width: calc(50% - 10px);
+        border-top: 2px solid #dedeef;
+        border-bottom: 2px solid #dedeef;
+        padding: 40px 50px;
+        &__title{
+          text-align: center;
+          font-size: 19px;
+          line-height: 25px;
+          font-family: "TTNorms";
+          color: $c-text-d;
+          text-transform: uppercase;
+          margin-top: 0;
+          margin-bottom: 55px;
+          font-weight: 600;
+        }
+        &__text{
+          text-align: center;
+          font-size: 15px;
+          line-height: 25px;
+          font-family: "TTNorms";
+          color: $c-text-d;
+          margin-top: 0;
+          margin-bottom: 20px;
+        }
+      }
+      &:nth-child(2n + 1){
+        .task__body__card{
+          &__img{
+            order: 1;
+          }
+          &__info{
+            order: 0;
+          }
+        }
+      }
     }
   }
 }

@@ -2601,6 +2601,50 @@ body h6 {
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: stretch;
+  min-height: 350px;
+  margin-bottom: 60px;
+}
+/* line 1848, _page.scss */
+.task__body__card__img {
+  width: calc(50% - 10px);
+  position: relative;
+}
+/* line 1852, _page.scss */
+.task__body__card__info {
+  width: calc(50% - 10px);
+  border-top: 2px solid #dedeef;
+  border-bottom: 2px solid #dedeef;
+  padding: 40px 50px;
+}
+/* line 1857, _page.scss */
+.task__body__card__info__title {
+  text-align: center;
+  font-size: 19px;
+  line-height: 25px;
+  font-family: "TTNorms";
+  color: #262a33;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 55px;
+  font-weight: 600;
+}
+/* line 1868, _page.scss */
+.task__body__card__info__text {
+  text-align: center;
+  font-size: 15px;
+  line-height: 25px;
+  font-family: "TTNorms";
+  color: #262a33;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+/* line 1880, _page.scss */
+.task__body__card:nth-child(2n + 1) .task__body__card__img {
+  order: 1;
+}
+/* line 1883, _page.scss */
+.task__body__card:nth-child(2n + 1) .task__body__card__info {
+  order: 0;
 }
 
 /* ╨Ю╤Б╨╜╨╛╨▓╨╜╤Л╨╡ ╤Б╤В╨╕╨╗╨╕ */
@@ -2699,6 +2743,18 @@ body h6 {
 /* line 81, _option.scss */
 .mod-adv .footer {
   margin-top: 0;
+}
+
+/* line 85, _option.scss */
+.img-bg {
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
 }
 
 /* ╨Ю╨┐╤Ж╨╕╨╛╨╜╨░╨╗╤М╨╜╤Л╨╡ ╤Б╤В╨╕╨╗╨╕ */
@@ -3025,133 +3081,153 @@ body h6 {
   .stage__body__line li:hover {
     overflow: visible;
   }
+
+  /* line 122, _media.scss */
+  .task__body__card__info {
+    padding: 40px 20px;
+  }
+
+  /* line 125, _media.scss */
+  .chang-adv {
+    margin-top: 70px;
+  }
+
+  /* line 128, _media.scss */
+  .change-adv__body__card {
+    width: calc((100% - 40px) / 2);
+  }
+
+  /* line 131, _media.scss */
+  .change-adv__body {
+    flex-wrap: wrap;
+  }
 }
 @media screen and (max-width: 767px) {
-  /* line 124, _media.scss */
+  /* line 137, _media.scss */
   .header {
     display: flex;
     flex-wrap: wrap;
   }
 
-  /* line 128, _media.scss */
+  /* line 141, _media.scss */
   .header__nav__first, .header__nav__second {
     width: 50%;
   }
 
-  /* line 131, _media.scss */
+  /* line 144, _media.scss */
   .header__nav__first__container {
     height: auto;
   }
 
-  /* line 134, _media.scss */
+  /* line 147, _media.scss */
   .header__nav__first__container ul {
     flex-direction: column;
     padding-top: 10px;
     padding-bottom: 10px;
   }
 
-  /* line 139, _media.scss */
+  /* line 152, _media.scss */
   .header__nav__first__container ul li:before {
     width: 0;
   }
 
-  /* line 142, _media.scss */
+  /* line 155, _media.scss */
   .header__nav__first__container ul li {
     width: 100%;
     text-align: left;
   }
 
-  /* line 146, _media.scss */
+  /* line 159, _media.scss */
   .header__nav__second__container ul {
     flex-direction: column;
     padding-top: 10px;
     padding-bottom: 10px;
   }
 
-  /* line 151, _media.scss */
+  /* line 164, _media.scss */
   .header__nav__second__container {
     height: auto;
   }
 
-  /* line 154, _media.scss */
+  /* line 167, _media.scss */
   .header__nav__second__container ul li {
     height: auto;
     text-align: right;
     width: 100%;
   }
 
-  /* line 159, _media.scss */
+  /* line 172, _media.scss */
   .welcome__slide {
     height: 570px;
   }
 
-  /* line 162, _media.scss */
+  /* line 175, _media.scss */
   .about__info {
     height: auto;
     margin-bottom: 20px;
   }
 
-  /* line 166, _media.scss */
+  /* line 179, _media.scss */
   .about__btn {
     height: auto;
   }
 
-  /* line 169, _media.scss */
+  /* line 182, _media.scss */
   .about__bg {
     background-size: 1600px !important;
     background-position: left top !important;
   }
 
-  /* line 173, _media.scss */
+  /* line 186, _media.scss */
   .call-back .input-field {
     width: calc(50% - 20px);
   }
 
-  /* line 176, _media.scss */
+  /* line 189, _media.scss */
   .call-back .input-submit {
     width: 80%;
     margin-top: 15px;
   }
 
-  /* line 180, _media.scss */
+  /* line 193, _media.scss */
   .reviews__content {
     height: 300px;
   }
 
-  /* line 183, _media.scss */
+  /* line 196, _media.scss */
   .reviews__mail__btn a:before {
     height: 0;
   }
 
-  /* line 186, _media.scss */
+  /* line 199, _media.scss */
   .reviews__mail__message {
     padding: 30px 60px 40px 60px;
   }
 
-  /* line 189, _media.scss */
+  /* line 202, _media.scss */
   .reviews__mail__message:before {
     left: 25px;
     top: 20px;
   }
 
-  /* line 193, _media.scss */
+  /* line 206, _media.scss */
   .reviews__mail__message:after {
     right: 25px;
     bottom: 25px;
   }
 
-  /* line 197, _media.scss */
+  /* line 210, _media.scss */
   .client {
     padding-top: 30px;
     height: auto;
   }
 
-  /* line 201, _media.scss */
+  /* line 214, _media.scss */
   .client__info {
     height: auto;
   }
 
-  /* line 204, _media.scss */
+  /* line 217, _media.scss */
   .client__list {
     padding-top: 25px;
     padding-left: 80px;
@@ -3159,50 +3235,71 @@ body h6 {
     margin-bottom: 40px;
   }
 
-  /* line 210, _media.scss */
+  /* line 223, _media.scss */
   .warranty {
     padding-top: 35px;
     background-color: white;
   }
 
-  /* line 214, _media.scss */
+  /* line 227, _media.scss */
   .how-us-work__content__point {
     width: 100%;
   }
 
-  /* line 217, _media.scss */
+  /* line 230, _media.scss */
   .footer__navigation ul li {
     width: 50%;
   }
 
-  /* line 220, _media.scss */
+  /* line 233, _media.scss */
   .footer__navigation {
     margin-top: 20px;
   }
 
-  /* line 223, _media.scss */
+  /* line 236, _media.scss */
   .why-us__bg i {
     width: 42px;
   }
 
-  /* line 226, _media.scss */
+  /* line 239, _media.scss */
   .why-us__bg h2 {
     font-size: 24px;
   }
 
-  /* line 229, _media.scss */
+  /* line 242, _media.scss */
   .why-us__body {
     flex-direction: column;
   }
 
-  /* line 232, _media.scss */
+  /* line 245, _media.scss */
   .why-us__body__card {
     width: 100%;
     margin-bottom: 20px;
   }
+
+  /* line 249, _media.scss */
+  .task__body__card__info {
+    padding: 20px 10px;
+  }
+
+  /* line 252, _media.scss */
+  .task__body__card__info__title {
+    margin-bottom: 15px;
+  }
+
+  /* line 255, _media.scss */
+  .task__body__card__info__text {
+    margin-bottom: 0;
+    line-height: 17px;
+  }
+
+  /* line 259, _media.scss */
+  .task__body__card {
+    min-height: 300px;
+  }
 }
 @media screen and (max-width: 574px) {
-  /* line 238, _media.scss */
+  /* line 264, _media.scss */
   .header__origin__logo a {
     display: flex;
     flex-direction: column;
@@ -3211,198 +3308,198 @@ body h6 {
     width: 100%;
   }
 
-  /* line 245, _media.scss */
+  /* line 271, _media.scss */
   .header__origin__logo a span {
     display: block;
     margin-top: 10px;
     width: 100%;
   }
 
-  /* line 250, _media.scss */
+  /* line 276, _media.scss */
   .header__origin__button {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
   }
 
-  /* line 255, _media.scss */
+  /* line 281, _media.scss */
   .header__origin__button a {
     margin-bottom: 15px;
   }
 
-  /* line 258, _media.scss */
+  /* line 284, _media.scss */
   .header__nav__first, .header__nav__second {
     width: 100%;
   }
 
-  /* line 261, _media.scss */
+  /* line 287, _media.scss */
   .header__nav__first__container ul li {
     text-align: center;
   }
 
-  /* line 264, _media.scss */
+  /* line 290, _media.scss */
   .header__nav__second__container ul li {
     text-align: center;
   }
 
-  /* line 267, _media.scss */
+  /* line 293, _media.scss */
   .collapse__menu {
     display: inline-block;
   }
 
-  /* line 270, _media.scss */
+  /* line 296, _media.scss */
   .header__nav__first, .header__nav__second {
     height: 0;
     transition: all linear 0.5s;
   }
-  /* line 273, _media.scss */
+  /* line 299, _media.scss */
   .header__nav__first.active, .header__nav__second.active {
     height: auto;
   }
 
-  /* line 277, _media.scss */
+  /* line 303, _media.scss */
   .block-title:before {
     width: 50px;
   }
 
-  /* line 280, _media.scss */
+  /* line 306, _media.scss */
   .block-title {
     padding-left: 70px;
   }
 
-  /* line 283, _media.scss */
+  /* line 309, _media.scss */
   .welcome__slide__content h1 {
     font-size: 26px;
     line-height: 28px;
   }
 
-  /* line 287, _media.scss */
+  /* line 313, _media.scss */
   .welcome__slide {
     height: 500px;
   }
 
-  /* line 290, _media.scss */
+  /* line 316, _media.scss */
   .call-back__title {
     font-size: 30px;
   }
 
-  /* line 293, _media.scss */
+  /* line 319, _media.scss */
   .call-back .input-field {
     width: 100%;
     margin-bottom: 10px;
   }
 
-  /* line 297, _media.scss */
+  /* line 323, _media.scss */
   .call-back .input-checkbox__text {
     font-size: 10px;
     line-height: 12px;
   }
 
-  /* line 301, _media.scss */
+  /* line 327, _media.scss */
   .call-back .input-checkbox__input {
     flex-shrink: 0;
   }
 
-  /* line 304, _media.scss */
+  /* line 330, _media.scss */
   .reviews__control {
     margin-top: -30px;
     margin-bottom: 20px;
   }
 
-  /* line 308, _media.scss */
+  /* line 334, _media.scss */
   .reviews__mail__message:before {
     left: 10px;
     top: 10px;
   }
 
-  /* line 312, _media.scss */
+  /* line 338, _media.scss */
   .reviews__mail__message:after {
     right: 10px;
     bottom: 10px;
   }
 
-  /* line 316, _media.scss */
+  /* line 342, _media.scss */
   .reviews__mail__message {
     padding: 30px 40px 40px 40px;
   }
 
-  /* line 319, _media.scss */
+  /* line 345, _media.scss */
   .client__list {
     padding-left: 20px;
     padding-right: 20px;
   }
 
-  /* line 323, _media.scss */
+  /* line 349, _media.scss */
   .warranty__wrap a span {
     font-size: 13px;
   }
 
-  /* line 326, _media.scss */
+  /* line 352, _media.scss */
   .advantages__list {
     padding-bottom: 40px;
   }
 
-  /* line 329, _media.scss */
+  /* line 355, _media.scss */
   .how-work__form {
     padding: 20px 10px;
   }
 
-  /* line 332, _media.scss */
+  /* line 358, _media.scss */
   .footer__navigation ul li {
     width: 100%;
   }
 
-  /* line 335, _media.scss */
+  /* line 361, _media.scss */
   .footer__navigation {
     margin-bottom: 20px;
   }
 
-  /* line 338, _media.scss */
+  /* line 364, _media.scss */
   .about-audit__tabs a {
     width: 100%;
   }
 
-  /* line 341, _media.scss */
+  /* line 367, _media.scss */
   .audit-info p {
     padding: 0 10px;
   }
 
-  /* line 344, _media.scss */
+  /* line 370, _media.scss */
   .stage__body {
     padding: 0;
   }
 
-  /* line 347, _media.scss */
+  /* line 373, _media.scss */
   .stage__body__line {
     height: auto;
     background-color: transparent;
     flex-wrap: wrap;
   }
-  /* line 351, _media.scss */
+  /* line 377, _media.scss */
   .stage__body__line li {
     width: 50%;
     margin-bottom: 20px;
   }
 
-  /* line 356, _media.scss */
+  /* line 382, _media.scss */
   .stage__body__line__point__sub-title {
     height: auto;
     overflow: visible;
   }
 
-  /* line 360, _media.scss */
+  /* line 386, _media.scss */
   .stage__body__line li:before {
     left: calc(100% - 20px);
     top: 20px;
   }
 
-  /* line 364, _media.scss */
+  /* line 390, _media.scss */
   .stage__body__line li:after {
     left: calc(100% - 20px);
     top: 20px;
   }
 
-  /* line 368, _media.scss */
+  /* line 394, _media.scss */
   .stage__body__line__point {
     left: 0 !important;
     top: 0 !important;
@@ -3411,48 +3508,76 @@ body h6 {
     transform: translate(0, 0) !important;
   }
 
-  /* line 375, _media.scss */
+  /* line 401, _media.scss */
   .price__white__about ul li {
     width: calc(50% - 10px);
     margin-bottom: 10px;
   }
 
-  /* line 379, _media.scss */
+  /* line 405, _media.scss */
   .price__white__about ul {
     flex-wrap: wrap;
   }
 
-  /* line 382, _media.scss */
+  /* line 408, _media.scss */
   .price__white__info__card {
     width: 100%;
   }
-  /* line 384, _media.scss */
+  /* line 410, _media.scss */
   .price__white__info__card:nth-child(2) {
     display: none;
   }
 
-  /* line 388, _media.scss */
+  /* line 414, _media.scss */
   .price__white__info {
     margin-top: 30px;
   }
 
-  /* line 391, _media.scss */
+  /* line 417, _media.scss */
   .price__white .reviews__control {
     margin-top: 30px;
   }
 
-  /* line 394, _media.scss */
+  /* line 420, _media.scss */
   .why-us__bg i {
     width: 100%;
     margin: 20px auto;
     height: 42px;
   }
 
-  /* line 399, _media.scss */
+  /* line 425, _media.scss */
   .why-us__bg h2 {
     font-size: 24px;
     line-height: 28px;
     margin-bottom: 30px;
+  }
+
+  /* line 430, _media.scss */
+  .change-adv__body__card {
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  /* line 434, _media.scss */
+  .change-adv__body__card div {
+    width: 92px;
+    height: 112px;
+  }
+
+  /* line 438, _media.scss */
+  .task__body__card {
+    flex-wrap: wrap;
+  }
+  /* line 440, _media.scss */
+  .task__body__card__img {
+    width: 100%;
+    height: 180px;
+    order: 0 !important;
+  }
+  /* line 445, _media.scss */
+  .task__body__card__info {
+    width: 100%;
+    order: 0 !important;
   }
 }
 /* ╨Ь╨╡╨┤╨╕╨░ ╨╖╨░╨┐╤А╨╛╤Б╤Л */
