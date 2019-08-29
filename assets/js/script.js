@@ -137,4 +137,8 @@ $(document).ready(function () {
         $(this).siblings('.price__white__info__card__option__more__content').toggleClass('active');
         return false;
     })
+    var $priceDrop = $('[data-js-drop]');
+    $priceDrop.on('click',function () {
+        $(this).toggleClass('active');
+    })
 })

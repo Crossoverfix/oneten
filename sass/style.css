@@ -2946,6 +2946,294 @@ body h6 {
   text-align: center;
 }
 
+/* line 2147, _page.scss */
+.service-list {
+  margin-top: 40px;
+  padding-bottom: 40px;
+  position: relative;
+}
+/* line 2151, _page.scss */
+.service-list:before {
+  position: absolute;
+  right: 0;
+  bottom: -60px;
+  width: 250px;
+  height: 280px;
+  display: block;
+  content: "";
+  background: url("../assets/img/web/7.png") no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+/* line 2166, _page.scss */
+.service-list__card {
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border-radius: 9px;
+  background-color: white;
+  box-shadow: 0px 4px 54px 0px rgba(199, 225, 255, 0.75);
+  padding: 15px 40px 15px 35px;
+}
+/* line 2174, _page.scss */
+.service-list__card:before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  border-radius: 5px;
+  width: 13px;
+  background-color: #006ae5;
+}
+/* line 2184, _page.scss */
+.service-list__card__title {
+  font-size: 12px;
+  color: #262a33;
+  font-family: "TTNorms";
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+/* line 2192, _page.scss */
+.service-list__card ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+/* line 2201, _page.scss */
+.service-list__card ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+/* line 2204, _page.scss */
+.service-list__card ul li a {
+  text-decoration: underline;
+  display: inline-block;
+  font-size: 11px;
+  color: #262a33;
+  font-family: "TTNorms";
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* line 2218, _page.scss */
+.price__about {
+  margin-bottom: 20px;
+}
+/* line 2221, _page.scss */
+.price__about__info h3 {
+  font-family: "TTNorms";
+  font-size: 40px;
+  font-weight: 400;
+  color: #262a33;
+  line-height: 44px;
+  margin-bottom: 20px;
+  margin-top: 0;
+  text-transform: uppercase;
+}
+/* line 2231, _page.scss */
+.price__about__info p {
+  font-family: "TTNorms";
+  font-size: 14px;
+  font-weight: 400;
+  color: #262a33;
+  line-height: 16px;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+/* line 2240, _page.scss */
+.price__about__link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+  position: relative;
+  min-height: 400px;
+}
+/* line 2248, _page.scss */
+.price__about__link__img {
+  width: 100%;
+  height: calc(100% - 60px);
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-size: contain !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+/* line 2258, _page.scss */
+.price__about__link a {
+  border-radius: 10px;
+  background-color: #006ae5;
+  font-family: "TTNorms";
+  font-size: 32px;
+  font-weight: 600;
+  padding: 13px 40px;
+  color: white;
+}
+
+/* line 2269, _page.scss */
+.price__table {
+  margin-bottom: 80px;
+}
+/* line 2271, _page.scss */
+.price__table__head {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+/* line 2278, _page.scss */
+.price__table__head p {
+  border-radius: 10px;
+  background-color: #006ae5;
+  font-family: "TTNorms";
+  font-size: 19px;
+  font-weight: 600;
+  padding: 13px 0;
+  color: white;
+  text-align: center;
+}
+/* line 2288, _page.scss */
+.price__table__head + .price__table__block {
+  border-top: 1px solid #006ae5;
+}
+/* line 2292, _page.scss */
+.price__table__head .head__first {
+  width: calc((100% - 80px) / 100 * 9);
+}
+/* line 2295, _page.scss */
+.price__table__head .head__second {
+  width: calc((100% - 80px) / 100 * 28);
+}
+/* line 2298, _page.scss */
+.price__table__head .head__third {
+  width: calc((100% - 80px) / 100 * 27);
+}
+/* line 2301, _page.scss */
+.price__table__head .head__four {
+  width: calc((100% - 80px) / 100 * 18);
+}
+/* line 2304, _page.scss */
+.price__table__head .head__five {
+  width: calc((100% - 80px) / 100 * 18);
+}
+/* line 2310, _page.scss */
+.price__table__block {
+  border-right: 1px solid #006ae5;
+  border-left: 1px solid #006ae5;
+}
+/* line 2312, _page.scss */
+.price__table__block.active .price__table__block__body {
+  height: auto;
+  border-bottom: 1px solid #006ae5;
+}
+/* line 2319, _page.scss */
+.price__table__block__head {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  border-bottom: 1px solid #006ae5;
+}
+/* line 2327, _page.scss */
+.price__table__block__head h3 {
+  display: inline-block;
+  font-family: "TTNorms";
+  font-size: 32px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #262a33;
+  position: relative;
+  vertical-align: middle;
+  margin: 0;
+  cursor: pointer;
+}
+/* line 2338, _page.scss */
+.price__table__block__head h3:after {
+  content: "";
+  position: relative;
+  height: 10px;
+  width: 14px;
+  left: 5px;
+  display: inline-block;
+  background: url("../assets/img/icons/ico_arr_down.png") no-repeat center;
+  background-size: contain;
+  vertical-align: middle;
+}
+/* line 2351, _page.scss */
+.price__table__block__body {
+  overflow: hidden;
+  height: 0;
+  transition: all linear 0.5s;
+}
+/* line 2356, _page.scss */
+.price__table__block__body .body__row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  border-bottom: 1px solid #006ae5;
+}
+/* line 2363, _page.scss */
+.price__table__block__body .body__row:last-child {
+  border-bottom: none;
+}
+/* line 2366, _page.scss */
+.price__table__block__body .body__row p {
+  margin: 0;
+  padding: 20px 10px;
+  text-align: center;
+  background-color: #ebf0fa;
+  border-right: 1px solid #006ae5;
+  font-family: "TTNorms";
+  color: #262a33;
+}
+/* line 2377, _page.scss */
+.price__table__block__body .body__col__first {
+  width: 9%;
+  font-size: 23px;
+  font-weight: 400;
+}
+/* line 2382, _page.scss */
+.price__table__block__body .body__col__second {
+  width: 28%;
+  font-size: 16px;
+  font-weight: 600;
+}
+/* line 2387, _page.scss */
+.price__table__block__body .body__col__third {
+  width: 27%;
+  font-size: 14px;
+  font-weight: 400;
+}
+/* line 2392, _page.scss */
+.price__table__block__body .body__col__four {
+  width: 18%;
+  font-size: 16px;
+  font-weight: 600;
+}
+/* line 2397, _page.scss */
+.price__table__block__body .body__col__five {
+  width: 18%;
+  font-size: 14px;
+  font-weight: 400;
+  border-right: none !important;
+}
+
 /* ╨Ю╤Б╨╜╨╛╨▓╨╜╤Л╨╡ ╤Б╤В╨╕╨╗╨╕ */
 /* line 1, _option.scss */
 .link-btn {
@@ -3661,9 +3949,46 @@ input::placeholder {
   .choice__body__block__title {
     height: 60px;
   }
+
+  /* line 293, _media.scss */
+  .price__about__link {
+    height: auto;
+    min-height: auto;
+  }
+
+  /* line 297, _media.scss */
+  .price__about__link__img {
+    display: none;
+  }
+
+  /* line 300, _media.scss */
+  .price__table__head p {
+    font-size: 16px;
+  }
+
+  /* line 305, _media.scss */
+  .price__table__head .head__first {
+    width: calc((100% - 20px) / 100 * 9);
+  }
+  /* line 308, _media.scss */
+  .price__table__head .head__second {
+    width: calc((100% - 20px) / 100 * 28);
+  }
+  /* line 311, _media.scss */
+  .price__table__head .head__third {
+    width: calc((100% - 20px) / 100 * 27);
+  }
+  /* line 314, _media.scss */
+  .price__table__head .head__four {
+    width: calc((100% - 20px) / 100 * 18);
+  }
+  /* line 317, _media.scss */
+  .price__table__head .head__five {
+    width: calc((100% - 20px) / 100 * 18);
+  }
 }
 @media screen and (max-width: 574px) {
-  /* line 295, _media.scss */
+  /* line 324, _media.scss */
   .header__origin__logo a {
     display: flex;
     flex-direction: column;
@@ -3672,198 +3997,198 @@ input::placeholder {
     width: 100%;
   }
 
-  /* line 302, _media.scss */
+  /* line 331, _media.scss */
   .header__origin__logo a span {
     display: block;
     margin-top: 10px;
     width: 100%;
   }
 
-  /* line 307, _media.scss */
+  /* line 336, _media.scss */
   .header__origin__button {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
   }
 
-  /* line 312, _media.scss */
+  /* line 341, _media.scss */
   .header__origin__button a {
     margin-bottom: 15px;
   }
 
-  /* line 315, _media.scss */
+  /* line 344, _media.scss */
   .header__nav__first, .header__nav__second {
     width: 100%;
   }
 
-  /* line 318, _media.scss */
+  /* line 347, _media.scss */
   .header__nav__first__container ul li {
     text-align: center;
   }
 
-  /* line 321, _media.scss */
+  /* line 350, _media.scss */
   .header__nav__second__container ul li {
     text-align: center;
   }
 
-  /* line 324, _media.scss */
+  /* line 353, _media.scss */
   .collapse__menu {
     display: inline-block;
   }
 
-  /* line 327, _media.scss */
+  /* line 356, _media.scss */
   .header__nav__first, .header__nav__second {
     height: 0;
     transition: all linear 0.5s;
   }
-  /* line 330, _media.scss */
+  /* line 359, _media.scss */
   .header__nav__first.active, .header__nav__second.active {
     height: auto;
   }
 
-  /* line 334, _media.scss */
+  /* line 363, _media.scss */
   .block-title:before {
     width: 50px;
   }
 
-  /* line 337, _media.scss */
+  /* line 366, _media.scss */
   .block-title {
     padding-left: 70px;
   }
 
-  /* line 340, _media.scss */
+  /* line 369, _media.scss */
   .welcome__slide__content h1 {
     font-size: 26px;
     line-height: 28px;
   }
 
-  /* line 344, _media.scss */
+  /* line 373, _media.scss */
   .welcome__slide {
     height: 500px;
   }
 
-  /* line 347, _media.scss */
+  /* line 376, _media.scss */
   .call-back__title {
     font-size: 30px;
   }
 
-  /* line 350, _media.scss */
+  /* line 379, _media.scss */
   .call-back .input-field {
     width: 100%;
     margin-bottom: 10px;
   }
 
-  /* line 354, _media.scss */
+  /* line 383, _media.scss */
   .call-back .input-checkbox__text {
     font-size: 10px;
     line-height: 12px;
   }
 
-  /* line 358, _media.scss */
+  /* line 387, _media.scss */
   .call-back .input-checkbox__input {
     flex-shrink: 0;
   }
 
-  /* line 361, _media.scss */
+  /* line 390, _media.scss */
   .reviews__control {
     margin-top: -30px;
     margin-bottom: 20px;
   }
 
-  /* line 365, _media.scss */
+  /* line 394, _media.scss */
   .reviews__mail__message:before {
     left: 10px;
     top: 10px;
   }
 
-  /* line 369, _media.scss */
+  /* line 398, _media.scss */
   .reviews__mail__message:after {
     right: 10px;
     bottom: 10px;
   }
 
-  /* line 373, _media.scss */
+  /* line 402, _media.scss */
   .reviews__mail__message {
     padding: 30px 40px 40px 40px;
   }
 
-  /* line 376, _media.scss */
+  /* line 405, _media.scss */
   .client__list {
     padding-left: 20px;
     padding-right: 20px;
   }
 
-  /* line 380, _media.scss */
+  /* line 409, _media.scss */
   .warranty__wrap a span {
     font-size: 13px;
   }
 
-  /* line 383, _media.scss */
+  /* line 412, _media.scss */
   .advantages__list {
     padding-bottom: 40px;
   }
 
-  /* line 386, _media.scss */
+  /* line 415, _media.scss */
   .how-work__form {
     padding: 20px 10px;
   }
 
-  /* line 389, _media.scss */
+  /* line 418, _media.scss */
   .footer__navigation ul li {
     width: 100%;
   }
 
-  /* line 392, _media.scss */
+  /* line 421, _media.scss */
   .footer__navigation {
     margin-bottom: 20px;
   }
 
-  /* line 395, _media.scss */
+  /* line 424, _media.scss */
   .about-audit__tabs a {
     width: 100%;
   }
 
-  /* line 398, _media.scss */
+  /* line 427, _media.scss */
   .audit-info p {
     padding: 0 10px;
   }
 
-  /* line 401, _media.scss */
+  /* line 430, _media.scss */
   .stage__body {
     padding: 0;
   }
 
-  /* line 404, _media.scss */
+  /* line 433, _media.scss */
   .stage__body__line {
     height: auto;
     background-color: transparent;
     flex-wrap: wrap;
   }
-  /* line 408, _media.scss */
+  /* line 437, _media.scss */
   .stage__body__line li {
     width: 50%;
     margin-bottom: 20px;
   }
 
-  /* line 413, _media.scss */
+  /* line 442, _media.scss */
   .stage__body__line__point__sub-title {
     height: auto;
     overflow: visible;
   }
 
-  /* line 417, _media.scss */
+  /* line 446, _media.scss */
   .stage__body__line li:before {
     left: calc(100% - 20px);
     top: 20px;
   }
 
-  /* line 421, _media.scss */
+  /* line 450, _media.scss */
   .stage__body__line li:after {
     left: calc(100% - 20px);
     top: 20px;
   }
 
-  /* line 425, _media.scss */
+  /* line 454, _media.scss */
   .stage__body__line__point {
     left: 0 !important;
     top: 0 !important;
@@ -3872,91 +4197,106 @@ input::placeholder {
     transform: translate(0, 0) !important;
   }
 
-  /* line 432, _media.scss */
+  /* line 461, _media.scss */
   .price__white__about ul li {
     width: calc(50% - 10px);
     margin-bottom: 10px;
   }
 
-  /* line 436, _media.scss */
+  /* line 465, _media.scss */
   .price__white__about ul {
     flex-wrap: wrap;
   }
 
-  /* line 439, _media.scss */
+  /* line 468, _media.scss */
   .price__white__info__card {
     width: 100%;
   }
-  /* line 441, _media.scss */
+  /* line 470, _media.scss */
   .price__white__info__card:nth-child(2) {
     display: none;
   }
 
-  /* line 445, _media.scss */
+  /* line 474, _media.scss */
   .price__white__info {
     margin-top: 30px;
   }
 
-  /* line 448, _media.scss */
+  /* line 477, _media.scss */
   .price__white .reviews__control {
     margin-top: 30px;
   }
 
-  /* line 451, _media.scss */
+  /* line 480, _media.scss */
   .why-us__bg i {
     width: 100%;
     margin: 20px auto;
     height: 42px;
   }
 
-  /* line 456, _media.scss */
+  /* line 485, _media.scss */
   .why-us__bg h2 {
     font-size: 24px;
     line-height: 28px;
     margin-bottom: 30px;
   }
 
-  /* line 461, _media.scss */
+  /* line 490, _media.scss */
   .change-adv__body__card {
     width: 100%;
     padding: 0 15px;
   }
 
-  /* line 465, _media.scss */
+  /* line 494, _media.scss */
   .change-adv__body__card div {
     width: 92px;
     height: 112px;
   }
 
-  /* line 469, _media.scss */
+  /* line 498, _media.scss */
   .task__body__card {
     flex-wrap: wrap;
   }
-  /* line 471, _media.scss */
+  /* line 500, _media.scss */
   .task__body__card__img {
     width: 100%;
     height: 180px;
     order: 0 !important;
   }
-  /* line 476, _media.scss */
+  /* line 505, _media.scss */
   .task__body__card__info {
     width: 100%;
     order: 0 !important;
   }
 
-  /* line 481, _media.scss */
+  /* line 510, _media.scss */
   .comparison__body__card {
     padding: 15px 20px 15px 15px;
   }
 
-  /* line 484, _media.scss */
+  /* line 513, _media.scss */
   .choice__body__block {
     width: 100%;
   }
 
-  /* line 487, _media.scss */
+  /* line 516, _media.scss */
   .choice__body:before {
     height: 0;
+  }
+
+  /* line 519, _media.scss */
+  .service-list:before {
+    height: 0;
+  }
+
+  /* line 522, _media.scss */
+  .price__table__head p {
+    font-size: 12px;
+  }
+
+  /* line 525, _media.scss */
+  .price__table__block__head h3 {
+    font-size: 16px;
   }
 }
 /* ╨Ь╨╡╨┤╨╕╨░ ╨╖╨░╨┐╤А╨╛╤Б╤Л */

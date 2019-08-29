@@ -290,6 +290,35 @@
   .choice__body__block__title{
     height: 60px;
   }
+  .price__about__link{
+    height: auto;
+    min-height: auto;
+  }
+  .price__about__link__img{
+    display: none;
+  }
+  .price__table__head p{
+    font-size: 16px;
+  }
+  .price__table__head{
+    .head{
+      &__first{
+        width: calc((100% - 20px) / 100 * 9);
+      }
+      &__second{
+        width: calc((100% - 20px) / 100 * 28);
+      }
+      &__third{
+        width: calc((100% - 20px) / 100 * 27);
+      }
+      &__four{
+        width: calc((100% - 20px) / 100 * 18);
+      }
+      &__five{
+        width: calc((100% - 20px) / 100 * 18);
+      }
+    }
+  }
 }
 @media screen and (max-width: 574px){
   .header__origin__logo a{
@@ -486,5 +515,14 @@
   }
   .choice__body:before{
     height: 0;
+  }
+  .service-list:before{
+    height: 0;
+  }
+  .price__table__head p {
+    font-size: 12px;
+  }
+  .price__table__block__head h3{
+    font-size: 16px;
   }
 }
