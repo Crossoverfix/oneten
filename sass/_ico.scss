@@ -60,6 +60,14 @@
     background: url("../assets/img/icons/Positive Dynamic.png")no-repeat center;
     background-size: contain;
   }
+  &__edit{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-size: contain!important;
+    background-position: center!important;
+    background-repeat: no-repeat!important;
+  }
   &__face{
     display: inline-block;
     height: 100%;

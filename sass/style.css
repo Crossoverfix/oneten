@@ -76,6 +76,15 @@ button, button:active, button:hover, button:visited, button:focus {
   background-size: contain;
 }
 /* line 63, _ico.scss */
+.ico__edit {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  background-size: contain !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+/* line 71, _ico.scss */
 .ico__face {
   display: inline-block;
   height: 100%;
@@ -83,7 +92,7 @@ button, button:active, button:hover, button:visited, button:focus {
   background: url("../assets/img/icons/Butting In.png") no-repeat center;
   background-size: contain;
 }
-/* line 70, _ico.scss */
+/* line 78, _ico.scss */
 .ico__check {
   display: inline-block;
   height: 100%;
@@ -91,12 +100,12 @@ button, button:active, button:hover, button:visited, button:focus {
   background: url("../assets/img/icons/Approval.png") no-repeat center;
   background-size: contain;
 }
-/* line 77, _ico.scss */
+/* line 85, _ico.scss */
 .ico__mail {
   background: url("../assets/img/icons/ico_mail.png") no-repeat center;
   background-size: contain;
 }
-/* line 81, _ico.scss */
+/* line 89, _ico.scss */
 .ico__book {
   background: url("../assets/img/icons/ico_book.png") no-repeat center;
   background-size: contain;
@@ -104,7 +113,7 @@ button, button:active, button:hover, button:visited, button:focus {
   height: 100%;
   width: 100%;
 }
-/* line 88, _ico.scss */
+/* line 96, _ico.scss */
 .ico__calendar {
   background: url("../assets/img/icons/ico_calendar.png") no-repeat center;
   background-size: contain;
@@ -112,27 +121,27 @@ button, button:active, button:hover, button:visited, button:focus {
   height: 100%;
   width: 100%;
 }
-/* line 95, _ico.scss */
+/* line 103, _ico.scss */
 .ico__search {
   background: url("../assets/img/icons/analysis(1).png") no-repeat center;
   background-size: contain;
 }
-/* line 99, _ico.scss */
+/* line 107, _ico.scss */
 .ico__rocket {
   background: url("../assets/img/icons/zapusk.png") no-repeat center;
   background-size: contain;
 }
-/* line 103, _ico.scss */
+/* line 111, _ico.scss */
 .ico__time {
   background: url("../assets/img/icons/obratnaya_svyz.png") no-repeat center;
   background-size: contain;
 }
-/* line 107, _ico.scss */
+/* line 115, _ico.scss */
 .ico__calc {
   background: url("../assets/img/icons/vovlechenie_klienta.png") no-repeat center;
   background-size: contain;
 }
-/* line 111, _ico.scss */
+/* line 119, _ico.scss */
 .ico__team {
   background: url("../assets/img/icons/team(1).png") no-repeat center;
   background-size: contain;
