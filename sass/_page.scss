@@ -531,7 +531,7 @@
       display: none;
       &__point{
         width: 100%;
-        height: calc(100% - 50px);
+        height: 100%;
         position: relative;
         &__rate{
           left: 50%;
@@ -553,7 +553,7 @@
         }
         img{
           position: relative;
-          top: calc(50% - 25px);
+          top: 50%;
           left: 50%;
           transform: translate(-50%,-50%);
           width: 100%;
@@ -562,6 +562,7 @@
     }
   }
   &__mail{
+    margin-top: 40px;
     &__btn{
       display: flex;
       flex-wrap: nowrap;
@@ -579,7 +580,7 @@
           content: "";
           position: absolute;
           bottom: -15px;
-          left: -255px;
+          left: -370px;
           width: 170px;
           height: 315px;
           background: url("../assets/img/web/1_1.png")no-repeat center;
@@ -605,6 +606,7 @@
       }
     }
     &__message{
+      display: none;
       width: 100%;
       border-radius: 25px;
       background-color: #eff3fb;
@@ -645,7 +647,7 @@
         font-size: 14px;
         line-height: 18px;
         color: $c-text-d;
-        font-weight: 500;
+        font-weight: 400;
       }
       &__author{
         text-align: right;
@@ -656,6 +658,90 @@
         line-height: 15px;
         color: $c-text-d;
         font-weight: 600;
+      }
+      &.mod-work{
+        padding: 0;
+        white-space: nowrap!important;
+        background-color: transparent;
+        &:before{
+          height: 0;
+        }
+        &:after{
+          height: 0;
+        }
+        .reviews__mail__message{
+          &__left{
+            width: 60%;
+            display: inline-block;
+            vertical-align: top;
+            h3{
+              margin-top: 25px;
+              margin-bottom: 35px;
+              font-family: "TTNorms";
+              font-size: 24px;
+              font-weight: 600;
+              color: #006ae5;
+            }
+            p{
+              margin-top: 0;
+              margin-bottom: 0;
+              font-family: "TTNorms";
+              font-size: 17px;
+              font-weight: 400;
+              color: $c-text-d;
+            }
+          }
+          &__right{
+            border-left: 3px solid #dedeef;
+            vertical-align: top;
+            display: inline-block;
+            width: 40%;
+            position: relative;
+            padding-left: 25px;
+            ul{
+              width: 100%;
+              padding: 25px 0 0 0;
+              margin: 0;
+              list-style-type: none;
+              li{
+                width: 100%;
+                margin-bottom: 25px;
+                p{
+                  margin: 0;
+                  display: inline-block;
+                  width: 30%;
+                  text-align: right;
+                  font-family: "TTNorms";
+                  font-size: 17px;
+                  font-weight: 600;
+                  color: $c-text-d;
+                }
+                a{
+                  display: inline-block;
+                  font-family: "TTNorms";
+                  font-size: 17px;
+                  font-weight: 400;
+                  color: #006ae5;
+
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    &__wrap{
+      position: relative;
+      width: 100%;
+      &__frame{
+        position: relative;
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        .reviews__mail__message{
+          display: inline-block;
+          white-space: normal;
+        }
       }
     }
   }
