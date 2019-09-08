@@ -141,4 +141,24 @@ $(document).ready(function () {
     $priceDrop.on('click',function () {
         $(this).toggleClass('active');
     })
+    var $priceSlidBtn = $('[data-js-slide-price]');
+    var $priceSlidContainer = $('.price__white__info');
+    $priceSlidBtn.on('click',function () {
+        let direction = $(this).attr('data-js-slide-price');
+        fSlidePrice(direction);
+        return false;
+    })
+    function fSlidePrice(directions) {
+        let slideWidth = $('.price__white__info__card').eq(0).outerWidth() + 10;
+        if(directions == 'next'){
+            $('.price__white__info__card').eq(0).animate({marginLeft:'-' + slideWidth + 'px'},500,function(){
+                $('.price__white__info__card').eq(0).css('margin-left','10px');
+                $('.price__white__info__card').eq(0).appendTo($priceSlidContainer);
+            });
+        } else if(directions == 'prev'){
+            $('.price__white__info__card').eq(-1).css('margin-left',- slideWidth);
+            $('.price__white__info__card').eq(-1).prependTo($priceSlidContainer);
+            $('.price__white__info__card').eq(0).animate({marginLeft:'10px'},500);
+        }
+    }
 })

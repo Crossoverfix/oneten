@@ -95,6 +95,7 @@
 .mod-promotion{
   .about-audit__tabs{
     flex-wrap: wrap;
+    justify-content: flex-start;
     a{
       margin-bottom: 10px;
     }
