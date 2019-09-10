@@ -753,12 +753,46 @@ body h6 {
   display: inline-block;
   vertical-align: middle;
 }
+/* line 191, _page.scss */
+.about__btn a.mod-services {
+  display: inline-block;
+  white-space: normal;
+  padding: 0 20px;
+  background: linear-gradient(-45deg, #5581f1, #1153fc);
+  border-radius: 25px;
+  height: 60px;
+  position: relative;
+  box-shadow: 0px 0px 20px 3px #5581f1;
+}
+/* line 200, _page.scss */
+.about__btn a.mod-services:hover {
+  background: linear-gradient(-45deg, #4d61c2, #1146c1);
+  box-shadow: none;
+}
+/* line 204, _page.scss */
+.about__btn a.mod-services span {
+  display: inline-block;
+  color: white;
+  font-family: "TTNorms";
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0 10px;
+  line-height: 60px;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+/* line 215, _page.scss */
+.about__btn a.mod-services i {
+  display: inline-block;
+  line-height: 60px;
+  vertical-align: middle;
+}
 
-/* line 194, _page.scss */
+/* line 224, _page.scss */
 .service {
   padding-top: 80px;
 }
-/* line 196, _page.scss */
+/* line 226, _page.scss */
 .service__card {
   height: 330px;
   margin-bottom: 32px;
@@ -771,11 +805,11 @@ body h6 {
   justify-content: flex-end;
   padding-bottom: 15px;
 }
-/* line 208, _page.scss */
+/* line 238, _page.scss */
 .service__card:hover .service__card__bg {
   box-shadow: inset 0 0 10px 200px rgba(53, 64, 76, 0.01);
 }
-/* line 212, _page.scss */
+/* line 242, _page.scss */
 .service__card__bg {
   position: absolute;
   left: 0;
@@ -787,7 +821,7 @@ body h6 {
   background-repeat: no-repeat !important;
   box-shadow: inset 0 0 10px 200px rgba(53, 64, 76, 0.4);
 }
-/* line 223, _page.scss */
+/* line 253, _page.scss */
 .service__card__text {
   padding: 0 30px;
   position: relative;
@@ -799,7 +833,7 @@ body h6 {
   text-align: center;
   margin-bottom: 45px;
 }
-/* line 234, _page.scss */
+/* line 264, _page.scss */
 .service__card__link {
   align-self: flex-start;
   display: inline-block;
@@ -812,12 +846,12 @@ body h6 {
   position: relative;
   box-shadow: 0px 0px 20px 3px #5581f1;
 }
-/* line 245, _page.scss */
+/* line 275, _page.scss */
 .service__card__link:hover {
   background: linear-gradient(-45deg, #4d61c2, #1146c1);
   box-shadow: none;
 }
-/* line 249, _page.scss */
+/* line 279, _page.scss */
 .service__card__link span {
   display: inline-block;
   color: white;
@@ -829,21 +863,21 @@ body h6 {
   vertical-align: middle;
   text-transform: uppercase;
 }
-/* line 260, _page.scss */
+/* line 290, _page.scss */
 .service__card__link i {
   display: inline-block;
   line-height: 60px;
   vertical-align: middle;
 }
 
-/* line 268, _page.scss */
+/* line 298, _page.scss */
 .call-back {
   margin-top: 40px;
   background-color: #d71732;
   padding-top: 70px;
   padding-bottom: 60px;
 }
-/* line 273, _page.scss */
+/* line 303, _page.scss */
 .call-back form {
   display: flex;
   flex-wrap: wrap;
@@ -851,7 +885,7 @@ body h6 {
   align-items: flex-start;
   justify-content: space-around;
 }
-/* line 280, _page.scss */
+/* line 310, _page.scss */
 .call-back__title {
   font-family: "TTNorms";
   font-size: 34px;
@@ -861,7 +895,7 @@ body h6 {
   margin-top: 0;
   text-align: center;
 }
-/* line 289, _page.scss */
+/* line 319, _page.scss */
 .call-back__sub-title {
   font-family: "TTNorms";
   font-size: 13px;
@@ -871,7 +905,7 @@ body h6 {
   margin-top: 0;
   text-align: center;
 }
-/* line 299, _page.scss */
+/* line 329, _page.scss */
 .call-back .input-field {
   border-radius: 20px;
   padding: 0 20px;
@@ -880,7 +914,7 @@ body h6 {
   position: relative;
   width: calc(40% - 20px);
 }
-/* line 306, _page.scss */
+/* line 336, _page.scss */
 .call-back .input-field input {
   border: none;
   outline: none;
@@ -890,21 +924,21 @@ body h6 {
   line-height: 48px;
   color: white;
 }
-/* line 314, _page.scss */
+/* line 344, _page.scss */
 .call-back .input-field input::-moz-placeholder, .call-back .input-field input::-webkit-input-placeholder, .call-back .input-field input:-ms-input-placeholder, .call-back .input-field input::-ms-input-placeholder, .call-back .input-field input::placeholder {
   color: white !important;
 }
-/* line 319, _page.scss */
+/* line 349, _page.scss */
 .call-back .input-submit {
   width: calc(20% - 20px);
   position: relative;
   cursor: pointer;
 }
-/* line 324, _page.scss */
+/* line 354, _page.scss */
 .call-back .input-submit:hover input {
   background-color: #676f7c;
 }
-/* line 328, _page.scss */
+/* line 358, _page.scss */
 .call-back .input-submit input {
   cursor: pointer;
   width: 100%;
@@ -917,7 +951,7 @@ body h6 {
   font-weight: 500;
   text-align: center;
 }
-/* line 341, _page.scss */
+/* line 371, _page.scss */
 .call-back .input-checkbox {
   width: 100%;
   margin-top: 10px;
@@ -929,16 +963,16 @@ body h6 {
   justify-content: center;
   align-items: center;
 }
-/* line 351, _page.scss */
+/* line 381, _page.scss */
 .call-back .input-checkbox input {
   display: none;
 }
-/* line 354, _page.scss */
+/* line 384, _page.scss */
 .call-back .input-checkbox input:checked ~ .input-checkbox__input:before {
   width: 60%;
   height: 60%;
 }
-/* line 360, _page.scss */
+/* line 390, _page.scss */
 .call-back .input-checkbox__input {
   display: inline-block;
   width: 21px;
@@ -948,7 +982,7 @@ body h6 {
   cursor: pointer;
   position: relative;
 }
-/* line 368, _page.scss */
+/* line 398, _page.scss */
 .call-back .input-checkbox__input:before {
   content: "";
   position: absolute;
@@ -960,7 +994,7 @@ body h6 {
   background: url("../assets/img/icons/check_w.png") no-repeat center;
   background-size: contain;
 }
-/* line 380, _page.scss */
+/* line 410, _page.scss */
 .call-back .input-checkbox__text {
   font-family: "TTNorms";
   font-size: 12px;
@@ -971,7 +1005,7 @@ body h6 {
   margin-bottom: 0;
   margin-top: 0;
 }
-/* line 391, _page.scss */
+/* line 421, _page.scss */
 .call-back .input-text_area {
   display: inline-block;
   border-radius: 15px;
@@ -981,7 +1015,7 @@ body h6 {
   height: 110px;
   margin-bottom: 20px;
 }
-/* line 399, _page.scss */
+/* line 429, _page.scss */
 .call-back .input-text_area textarea {
   border: none;
   background-color: transparent;
@@ -994,7 +1028,7 @@ body h6 {
   font-family: "TTNorms";
   color: white;
 }
-/* line 413, _page.scss */
+/* line 443, _page.scss */
 .call-back__file {
   margin-top: 30px;
   border: solid 2px #df5467;
@@ -1005,7 +1039,7 @@ body h6 {
   left: 50%;
   transform: translateX(-50%);
 }
-/* line 422, _page.scss */
+/* line 452, _page.scss */
 .call-back__file label {
   position: relative;
   display: inline-block;
@@ -1015,11 +1049,11 @@ body h6 {
   left: 50%;
   transform: translateX(-50%);
 }
-/* line 430, _page.scss */
+/* line 460, _page.scss */
 .call-back__file label input {
   display: none;
 }
-/* line 434, _page.scss */
+/* line 464, _page.scss */
 .call-back__file__btn {
   display: inline-block;
   font-family: "TTNorms";
@@ -1030,7 +1064,7 @@ body h6 {
   margin-bottom: 0;
   line-height: 50px;
 }
-/* line 444, _page.scss */
+/* line 474, _page.scss */
 .call-back__file__text {
   display: inline-block;
   font-family: "TTNorms";
@@ -1040,52 +1074,52 @@ body h6 {
   margin-top: 20px;
   margin-bottom: 0;
 }
-/* line 454, _page.scss */
+/* line 484, _page.scss */
 .call-back .mod-send {
   display: flex;
   flex-direction: column;
   align-items: stretch;
   justify-content: flex-start;
 }
-/* line 460, _page.scss */
+/* line 490, _page.scss */
 .call-back.mod-send {
   margin-top: 0;
 }
-/* line 462, _page.scss */
+/* line 492, _page.scss */
 .call-back.mod-send .input-field {
   width: 100%;
   margin-bottom: 15px;
 }
-/* line 466, _page.scss */
+/* line 496, _page.scss */
 .call-back.mod-send .input-submit {
   width: auto;
   display: inline-block;
   left: 100%;
   transform: translateX(-100%);
 }
-/* line 467, _page.scss */
+/* line 497, _page.scss */
 .call-back.mod-send .input-submit input {
   padding: 0 20px;
 }
-/* line 476, _page.scss */
+/* line 506, _page.scss */
 .call-back.mod-send .input-checkbox label {
   flex-shrink: 0;
 }
 
-/* line 482, _page.scss */
+/* line 512, _page.scss */
 .reviews {
   padding-top: 80px;
 }
-/* line 484, _page.scss */
+/* line 514, _page.scss */
 .reviews__wrap {
   align-items: stretch;
 }
-/* line 487, _page.scss */
+/* line 517, _page.scss */
 .reviews__control {
   margin-top: 30px;
   position: relative;
 }
-/* line 490, _page.scss */
+/* line 520, _page.scss */
 .reviews__control a {
   border-radius: 50%;
   height: 30px;
@@ -1097,11 +1131,11 @@ body h6 {
   top: 50%;
   transform: translate(-50%, -50%);
 }
-/* line 500, _page.scss */
+/* line 530, _page.scss */
 .reviews__control a:hover {
   background-color: #006eff;
 }
-/* line 503, _page.scss */
+/* line 533, _page.scss */
 .reviews__control a i {
   display: inline-block;
   position: absolute;
@@ -1111,13 +1145,13 @@ body h6 {
   top: 50%;
   transform: translate(-50%, -50%);
 }
-/* line 514, _page.scss */
+/* line 544, _page.scss */
 .reviews__content {
   position: relative;
   height: 550px;
   margin-top: 30px;
 }
-/* line 518, _page.scss */
+/* line 548, _page.scss */
 .reviews__content__wrap {
   width: 80%;
   height: 100%;
@@ -1126,22 +1160,22 @@ body h6 {
   overflow: hidden;
   white-space: nowrap;
 }
-/* line 525, _page.scss */
+/* line 555, _page.scss */
 .reviews__content__wrap .reviews__content__item__point {
   display: inline-block;
   vertical-align: top;
 }
-/* line 530, _page.scss */
+/* line 560, _page.scss */
 .reviews__content__item {
   display: none;
 }
-/* line 532, _page.scss */
+/* line 562, _page.scss */
 .reviews__content__item__point {
   width: 100%;
   height: 100%;
   position: relative;
 }
-/* line 536, _page.scss */
+/* line 566, _page.scss */
 .reviews__content__item__point__rate {
   left: 50%;
   bottom: 0;
@@ -1155,13 +1189,13 @@ body h6 {
   align-items: center;
   justify-content: space-between;
 }
-/* line 548, _page.scss */
+/* line 578, _page.scss */
 .reviews__content__item__point__rate i {
   width: 22px;
   height: 22px;
   display: inline-block;
 }
-/* line 554, _page.scss */
+/* line 584, _page.scss */
 .reviews__content__item__point img {
   position: relative;
   top: 50%;
@@ -1169,11 +1203,11 @@ body h6 {
   transform: translate(-50%, -50%);
   width: 100%;
 }
-/* line 564, _page.scss */
+/* line 594, _page.scss */
 .reviews__mail {
   margin-top: 40px;
 }
-/* line 566, _page.scss */
+/* line 596, _page.scss */
 .reviews__mail__btn {
   display: flex;
   flex-wrap: nowrap;
@@ -1181,7 +1215,7 @@ body h6 {
   align-items: center;
   justify-content: center;
 }
-/* line 572, _page.scss */
+/* line 602, _page.scss */
 .reviews__mail__btn a {
   position: relative;
   margin: 0 auto;
@@ -1190,7 +1224,7 @@ body h6 {
   background-color: #006ae5;
   box-shadow: 0px 0px 9px 0px #ffffff,-4px 4px 8px -3px #006ae5;
 }
-/* line 579, _page.scss */
+/* line 609, _page.scss */
 .reviews__mail__btn a:before {
   content: "";
   position: absolute;
@@ -1201,11 +1235,11 @@ body h6 {
   background: url("../assets/img/web/1_1.png") no-repeat center;
   background-size: contain;
 }
-/* line 589, _page.scss */
+/* line 619, _page.scss */
 .reviews__mail__btn a:hover {
   background-color: #0074ff;
 }
-/* line 592, _page.scss */
+/* line 622, _page.scss */
 .reviews__mail__btn a span {
   display: inline-block;
   vertical-align: middle;
@@ -1216,12 +1250,12 @@ body h6 {
   line-height: 48px;
   margin: 0 10px;
 }
-/* line 602, _page.scss */
+/* line 632, _page.scss */
 .reviews__mail__btn a i {
   vertical-align: middle;
   display: inline-block;
 }
-/* line 608, _page.scss */
+/* line 638, _page.scss */
 .reviews__mail__message {
   display: none;
   width: 100%;
@@ -1231,7 +1265,7 @@ body h6 {
   position: relative;
   margin-top: 35px;
 }
-/* line 616, _page.scss */
+/* line 646, _page.scss */
 .reviews__mail__message:before {
   content: "";
   width: 26px;
@@ -1242,7 +1276,7 @@ body h6 {
   background: url("../assets/img/icons/quote_left.png") no-repeat center;
   background-size: contain;
 }
-/* line 626, _page.scss */
+/* line 656, _page.scss */
 .reviews__mail__message:after {
   content: "";
   width: 26px;
@@ -1253,16 +1287,16 @@ body h6 {
   background: url("../assets/img/icons/quote_right.png") no-repeat center;
   background-size: contain;
 }
-/* line 636, _page.scss */
+/* line 666, _page.scss */
 .reviews__mail__message__logo {
   height: 60px;
   position: relative;
 }
-/* line 639, _page.scss */
+/* line 669, _page.scss */
 .reviews__mail__message__logo img {
   height: 100%;
 }
-/* line 643, _page.scss */
+/* line 673, _page.scss */
 .reviews__mail__message__text {
   margin-top: 20px;
   margin-bottom: 5px;
@@ -1272,7 +1306,7 @@ body h6 {
   color: #262a33;
   font-weight: 400;
 }
-/* line 652, _page.scss */
+/* line 682, _page.scss */
 .reviews__mail__message__author {
   text-align: right;
   margin-top: 0;
@@ -1283,27 +1317,27 @@ body h6 {
   color: #262a33;
   font-weight: 600;
 }
-/* line 662, _page.scss */
+/* line 692, _page.scss */
 .reviews__mail__message.mod-work {
   padding: 0;
   white-space: nowrap !important;
   background-color: transparent;
 }
-/* line 666, _page.scss */
+/* line 696, _page.scss */
 .reviews__mail__message.mod-work:before {
   height: 0;
 }
-/* line 669, _page.scss */
+/* line 699, _page.scss */
 .reviews__mail__message.mod-work:after {
   height: 0;
 }
-/* line 673, _page.scss */
+/* line 703, _page.scss */
 .reviews__mail__message.mod-work .reviews__mail__message__left {
   width: 60%;
   display: inline-block;
   vertical-align: top;
 }
-/* line 677, _page.scss */
+/* line 707, _page.scss */
 .reviews__mail__message.mod-work .reviews__mail__message__left h3 {
   margin-top: 25px;
   margin-bottom: 35px;
@@ -1312,7 +1346,7 @@ body h6 {
   font-weight: 600;
   color: #006ae5;
 }
-/* line 685, _page.scss */
+/* line 715, _page.scss */
 .reviews__mail__message.mod-work .reviews__mail__message__left p {
   margin-top: 0;
   margin-bottom: 0;
@@ -1321,7 +1355,7 @@ body h6 {
   font-weight: 400;
   color: #262a33;
 }
-/* line 694, _page.scss */
+/* line 724, _page.scss */
 .reviews__mail__message.mod-work .reviews__mail__message__right {
   border-left: 3px solid #dedeef;
   vertical-align: top;
@@ -1330,19 +1364,19 @@ body h6 {
   position: relative;
   padding-left: 25px;
 }
-/* line 701, _page.scss */
+/* line 731, _page.scss */
 .reviews__mail__message.mod-work .reviews__mail__message__right ul {
   width: 100%;
   padding: 25px 0 0 0;
   margin: 0;
   list-style-type: none;
 }
-/* line 706, _page.scss */
+/* line 736, _page.scss */
 .reviews__mail__message.mod-work .reviews__mail__message__right ul li {
   width: 100%;
   margin-bottom: 25px;
 }
-/* line 709, _page.scss */
+/* line 739, _page.scss */
 .reviews__mail__message.mod-work .reviews__mail__message__right ul li p {
   margin: 0;
   display: inline-block;
@@ -1353,7 +1387,7 @@ body h6 {
   font-weight: 600;
   color: #262a33;
 }
-/* line 719, _page.scss */
+/* line 749, _page.scss */
 .reviews__mail__message.mod-work .reviews__mail__message__right ul li a {
   display: inline-block;
   font-family: "TTNorms";
@@ -1361,31 +1395,31 @@ body h6 {
   font-weight: 400;
   color: #006ae5;
 }
-/* line 733, _page.scss */
+/* line 763, _page.scss */
 .reviews__mail__wrap {
   position: relative;
   width: 100%;
 }
-/* line 736, _page.scss */
+/* line 766, _page.scss */
 .reviews__mail__wrap__frame {
   position: relative;
   width: 100%;
   white-space: nowrap;
   overflow: hidden;
 }
-/* line 741, _page.scss */
+/* line 771, _page.scss */
 .reviews__mail__wrap__frame .reviews__mail__message {
   display: inline-block;
   white-space: normal;
 }
 
-/* line 749, _page.scss */
+/* line 779, _page.scss */
 .client {
   background-color: #eff3fb;
   margin-top: 75px;
   height: 490px;
 }
-/* line 753, _page.scss */
+/* line 783, _page.scss */
 .client__info {
   display: flex;
   flex-direction: column;
@@ -1394,7 +1428,7 @@ body h6 {
   height: 490px;
   padding-top: 55px;
 }
-/* line 761, _page.scss */
+/* line 791, _page.scss */
 .client__text {
   font-family: "TTNorms";
   font-size: 14px;
@@ -1404,7 +1438,7 @@ body h6 {
   margin-bottom: 40px;
   line-height: 16px;
 }
-/* line 770, _page.scss */
+/* line 800, _page.scss */
 .client__btn {
   position: relative;
   border-radius: 20px;
@@ -1413,11 +1447,11 @@ body h6 {
   box-shadow: 0px 0px 9px 0px #ffffff,-4px 4px 8px -3px #006ae5;
   margin-bottom: 80px;
 }
-/* line 777, _page.scss */
+/* line 807, _page.scss */
 .client__btn:hover {
   background-color: rgba(217, 217, 217, 0);
 }
-/* line 780, _page.scss */
+/* line 810, _page.scss */
 .client__btn span {
   display: inline-block;
   vertical-align: middle;
@@ -1428,12 +1462,12 @@ body h6 {
   line-height: 48px;
   margin: 0 10px;
 }
-/* line 790, _page.scss */
+/* line 820, _page.scss */
 .client__btn i {
   vertical-align: middle;
   display: inline-block;
 }
-/* line 795, _page.scss */
+/* line 825, _page.scss */
 .client__list {
   height: 490px;
   background-color: white;
@@ -1442,7 +1476,7 @@ body h6 {
   padding-left: 45px;
   padding-right: 50px;
 }
-/* line 802, _page.scss */
+/* line 832, _page.scss */
 .client__list__title {
   font-family: "TTNorms";
   font-size: 11px;
@@ -1452,7 +1486,7 @@ body h6 {
   margin-bottom: 0;
   margin-top: 0;
 }
-/* line 811, _page.scss */
+/* line 841, _page.scss */
 .client__list__wrap {
   width: 100%;
   height: calc(100% - 50px);
@@ -1461,7 +1495,7 @@ body h6 {
   padding-left: 65px;
   padding-right: 55px;
 }
-/* line 818, _page.scss */
+/* line 848, _page.scss */
 .client__list__wrap__control {
   position: absolute;
   top: 50%;
@@ -1474,23 +1508,23 @@ body h6 {
   align-items: center;
   justify-content: space-between;
 }
-/* line 829, _page.scss */
+/* line 859, _page.scss */
 .client__list__wrap__control a {
   display: inline-block;
   width: 16px;
   height: 12px;
 }
-/* line 833, _page.scss */
+/* line 863, _page.scss */
 .client__list__wrap__control a i {
   display: inline-block;
   vertical-align: top;
 }
-/* line 839, _page.scss */
+/* line 869, _page.scss */
 .client__list__wrap__body {
   width: 100%;
   position: relative;
 }
-/* line 842, _page.scss */
+/* line 872, _page.scss */
 .client__list__wrap__body a {
   display: inline-block;
   position: relative;
@@ -1499,7 +1533,7 @@ body h6 {
   border: solid 1px #b7bbc3;
   margin-bottom: -2px;
 }
-/* line 849, _page.scss */
+/* line 879, _page.scss */
 .client__list__wrap__body a:before {
   content: "";
   position: absolute;
@@ -1509,7 +1543,7 @@ body h6 {
   left: -2px;
   top: 10px;
 }
-/* line 858, _page.scss */
+/* line 888, _page.scss */
 .client__list__wrap__body a:after {
   content: "";
   position: absolute;
@@ -1519,7 +1553,7 @@ body h6 {
   left: 10px;
   top: -2px;
 }
-/* line 867, _page.scss */
+/* line 897, _page.scss */
 .client__list__wrap__body a img {
   width: 100%;
   position: relative;
@@ -1527,12 +1561,12 @@ body h6 {
   transform: translateX(-50%);
   z-index: 1;
 }
-/* line 878, _page.scss */
+/* line 908, _page.scss */
 .client__img {
   position: relative;
   margin-top: 55px;
 }
-/* line 881, _page.scss */
+/* line 911, _page.scss */
 .client__img__bg {
   position: relative;
   left: 0;
@@ -1544,12 +1578,12 @@ body h6 {
   background-size: contain !important;
 }
 
-/* line 893, _page.scss */
+/* line 923, _page.scss */
 .warranty {
   background-color: #eff3fb;
   height: 620px;
 }
-/* line 896, _page.scss */
+/* line 926, _page.scss */
 .warranty__bg {
   position: relative;
   z-index: 2;
@@ -1559,7 +1593,7 @@ body h6 {
   background-position: center !important;
   background-repeat: no-repeat !important;
 }
-/* line 905, _page.scss */
+/* line 935, _page.scss */
 .warranty__wrap {
   display: flex;
   flex-direction: column;
@@ -1569,7 +1603,7 @@ body h6 {
   padding-left: 75px;
   padding-bottom: 45px;
 }
-/* line 913, _page.scss */
+/* line 943, _page.scss */
 .warranty__wrap:before {
   content: "";
   height: 100%;
@@ -1579,14 +1613,14 @@ body h6 {
   top: 0;
   left: -120px;
 }
-/* line 922, _page.scss */
+/* line 952, _page.scss */
 .warranty__wrap ul {
   list-style: none;
   padding: 0;
   margin-top: 0;
   margin-bottom: 35px;
 }
-/* line 927, _page.scss */
+/* line 957, _page.scss */
 .warranty__wrap ul li {
   background-color: #eff3fb;
   border-radius: 10px;
@@ -1599,7 +1633,7 @@ body h6 {
   color: #262a33;
   font-weight: 400;
 }
-/* line 938, _page.scss */
+/* line 968, _page.scss */
 .warranty__wrap ul li:before {
   content: "";
   position: absolute;
@@ -1610,7 +1644,7 @@ body h6 {
   left: 15px;
   top: 25px;
 }
-/* line 950, _page.scss */
+/* line 980, _page.scss */
 .warranty__wrap a {
   position: relative;
   border-radius: 20px;
@@ -1618,11 +1652,11 @@ body h6 {
   background-color: #006ae5;
   box-shadow: 0px 0px 9px 0px #ffffff,-4px 4px 8px -3px #006ae5;
 }
-/* line 956, _page.scss */
+/* line 986, _page.scss */
 .warranty__wrap a:hover {
   background-color: #0074ff;
 }
-/* line 959, _page.scss */
+/* line 989, _page.scss */
 .warranty__wrap a span {
   display: inline-block;
   vertical-align: middle;
@@ -1633,22 +1667,22 @@ body h6 {
   line-height: 48px;
   margin: 0 10px;
 }
-/* line 969, _page.scss */
+/* line 999, _page.scss */
 .warranty__wrap a i {
   vertical-align: middle;
   display: inline-block;
 }
 
-/* line 976, _page.scss */
+/* line 1006, _page.scss */
 .advantages {
   padding-top: 65px;
   position: relative;
 }
-/* line 979, _page.scss */
+/* line 1009, _page.scss */
 .advantages .block-title {
   color: white;
 }
-/* line 982, _page.scss */
+/* line 1012, _page.scss */
 .advantages__bg {
   position: absolute;
   height: 100%;
@@ -1658,12 +1692,12 @@ body h6 {
   background: url("../assets/img/photo/advantages_bg.png") no-repeat center;
   background-size: cover;
 }
-/* line 990, _page.scss */
+/* line 1020, _page.scss */
 .advantages__bg__man {
   position: relative;
   min-height: 400px;
 }
-/* line 993, _page.scss */
+/* line 1023, _page.scss */
 .advantages__bg__man:before {
   content: "";
   position: absolute;
@@ -1675,12 +1709,12 @@ body h6 {
   background: url("../assets/img/photo/advantages_man.png") no-repeat center bottom;
   background-size: contain;
 }
-/* line 1006, _page.scss */
+/* line 1036, _page.scss */
 .advantages__list {
   padding-bottom: 130px;
   position: relative;
 }
-/* line 1009, _page.scss */
+/* line 1039, _page.scss */
 .advantages__list ul {
   width: 100%;
   list-style-type: none;
@@ -1688,7 +1722,7 @@ body h6 {
   margin: 0;
   position: relative;
 }
-/* line 1015, _page.scss */
+/* line 1045, _page.scss */
 .advantages__list ul li {
   width: 100%;
   padding: 30px 25px 10px 35px;
@@ -1696,7 +1730,7 @@ body h6 {
   margin-top: 0;
   margin-bottom: 18px;
 }
-/* line 1021, _page.scss */
+/* line 1051, _page.scss */
 .advantages__list ul li p {
   margin-top: 0;
   color: white;
@@ -1705,17 +1739,17 @@ body h6 {
   font-weight: 500;
   margin-bottom: 18px;
 }
-/* line 1029, _page.scss */
+/* line 1059, _page.scss */
 .advantages__list ul li a {
   display: inline-block;
   width: 100%;
   text-decoration: none;
 }
-/* line 1034, _page.scss */
+/* line 1064, _page.scss */
 .advantages__list ul li a:hover span {
   color: #00afff;
 }
-/* line 1038, _page.scss */
+/* line 1068, _page.scss */
 .advantages__list ul li a span {
   font-family: "TTNorms";
   font-size: 12px;
@@ -1725,16 +1759,16 @@ body h6 {
   margin-top: 0;
   color: #0082cb;
 }
-/* line 1047, _page.scss */
+/* line 1077, _page.scss */
 .advantages__list ul li a i {
   display: inline-block;
 }
 
-/* line 1055, _page.scss */
+/* line 1085, _page.scss */
 .how-work {
   margin-top: 65px;
 }
-/* line 1057, _page.scss */
+/* line 1087, _page.scss */
 .how-work__form {
   width: 85%;
   margin-left: auto;
@@ -1742,7 +1776,7 @@ body h6 {
   background-color: #d71732;
   position: relative;
 }
-/* line 1063, _page.scss */
+/* line 1093, _page.scss */
 .how-work__form form {
   width: 100%;
   height: 100%;
@@ -1751,7 +1785,7 @@ body h6 {
   align-items: center;
   justify-content: center;
 }
-/* line 1071, _page.scss */
+/* line 1101, _page.scss */
 .how-work__form__title {
   margin-top: 0;
   font-family: "TTNorms";
@@ -1762,7 +1796,7 @@ body h6 {
   text-align: center;
   margin-bottom: 20px;
 }
-/* line 1081, _page.scss */
+/* line 1111, _page.scss */
 .how-work__form__sub-title {
   margin-top: 0;
   font-family: "TTNorms";
@@ -1772,7 +1806,7 @@ body h6 {
   text-align: center;
   margin-bottom: 40px;
 }
-/* line 1091, _page.scss */
+/* line 1121, _page.scss */
 .how-work__form .input-field {
   border-radius: 20px;
   padding: 0 20px;
@@ -1782,7 +1816,7 @@ body h6 {
   width: 100%;
   margin-bottom: 16px;
 }
-/* line 1099, _page.scss */
+/* line 1129, _page.scss */
 .how-work__form .input-field input {
   border: none;
   outline: none;
@@ -1792,22 +1826,22 @@ body h6 {
   line-height: 48px;
   color: white;
 }
-/* line 1107, _page.scss */
+/* line 1137, _page.scss */
 .how-work__form .input-field input::-moz-placeholder, .how-work__form .input-field input::-webkit-input-placeholder, .how-work__form .input-field input:-ms-input-placeholder, .how-work__form .input-field input::-ms-input-placeholder, .how-work__form .input-field input::placeholder {
   color: white !important;
 }
-/* line 1112, _page.scss */
+/* line 1142, _page.scss */
 .how-work__form .input-submit {
   width: 145px;
   margin-top: 25px;
   position: relative;
   cursor: pointer;
 }
-/* line 1118, _page.scss */
+/* line 1148, _page.scss */
 .how-work__form .input-submit:hover input {
   background-color: #676f7c;
 }
-/* line 1122, _page.scss */
+/* line 1152, _page.scss */
 .how-work__form .input-submit input {
   cursor: pointer;
   width: 100%;
@@ -1820,7 +1854,7 @@ body h6 {
   font-weight: 500;
   text-align: center;
 }
-/* line 1135, _page.scss */
+/* line 1165, _page.scss */
 .how-work__form .input-checkbox {
   width: 100%;
   margin-top: 10px;
@@ -1832,16 +1866,16 @@ body h6 {
   justify-content: center;
   align-items: center;
 }
-/* line 1145, _page.scss */
+/* line 1175, _page.scss */
 .how-work__form .input-checkbox input {
   display: none;
 }
-/* line 1148, _page.scss */
+/* line 1178, _page.scss */
 .how-work__form .input-checkbox input:checked ~ .input-checkbox__input:before {
   width: 60%;
   height: 60%;
 }
-/* line 1154, _page.scss */
+/* line 1184, _page.scss */
 .how-work__form .input-checkbox__input {
   display: inline-block;
   width: 21px;
@@ -1852,7 +1886,7 @@ body h6 {
   cursor: pointer;
   position: relative;
 }
-/* line 1163, _page.scss */
+/* line 1193, _page.scss */
 .how-work__form .input-checkbox__input:before {
   content: "";
   position: absolute;
@@ -1864,7 +1898,7 @@ body h6 {
   background: url("../assets/img/icons/check_w.png") no-repeat center;
   background-size: contain;
 }
-/* line 1175, _page.scss */
+/* line 1205, _page.scss */
 .how-work__form .input-checkbox__text {
   font-family: "TTNorms";
   font-size: 12px;
@@ -1876,7 +1910,7 @@ body h6 {
   margin-bottom: 0;
   margin-top: 0;
 }
-/* line 1189, _page.scss */
+/* line 1219, _page.scss */
 .how-work__text {
   font-family: "TTNorms";
   font-size: 12px;
@@ -1885,16 +1919,16 @@ body h6 {
   line-height: 16px;
   color: #262a33;
 }
-/* line 1196, _page.scss */
+/* line 1226, _page.scss */
 .how-work__text b {
   font-weight: 600;
 }
 
-/* line 1201, _page.scss */
+/* line 1231, _page.scss */
 .why-off {
   margin-top: 70px;
 }
-/* line 1203, _page.scss */
+/* line 1233, _page.scss */
 .why-off__content {
   display: flex;
   flex-direction: row;
@@ -1903,7 +1937,7 @@ body h6 {
   margin: 0 auto;
   padding: 0;
 }
-/* line 1210, _page.scss */
+/* line 1240, _page.scss */
 .why-off__content__card {
   height: 100%;
   border-radius: 25px;
@@ -1914,14 +1948,14 @@ body h6 {
   justify-content: flex-start;
   padding: 25px 50px;
 }
-/* line 1219, _page.scss */
+/* line 1249, _page.scss */
 .why-off__content__card__img {
   position: relative;
   height: 45px;
   width: 45px;
   margin-bottom: 25px;
 }
-/* line 1225, _page.scss */
+/* line 1255, _page.scss */
 .why-off__content__card__title {
   font-family: "TTNorms";
   font-size: 12px;
@@ -1933,7 +1967,7 @@ body h6 {
   margin-bottom: 20px;
   margin-top: 0;
 }
-/* line 1236, _page.scss */
+/* line 1266, _page.scss */
 .why-off__content__card__text {
   margin: 0;
   font-family: "TTNorms";
@@ -1945,23 +1979,23 @@ body h6 {
   text-align: center;
 }
 
-/* line 1249, _page.scss */
+/* line 1279, _page.scss */
 .how-us-work {
   margin-top: 80px;
 }
-/* line 1251, _page.scss */
+/* line 1281, _page.scss */
 .how-us-work__img {
   padding: 0 25px;
   position: relative;
 }
-/* line 1254, _page.scss */
+/* line 1284, _page.scss */
 .how-us-work__img__bg {
   width: 100%;
   height: 100%;
   background: url("../assets/img/icons/bg_men.png") no-repeat center;
   background-size: contain;
 }
-/* line 1261, _page.scss */
+/* line 1291, _page.scss */
 .how-us-work__content {
   display: flex;
   flex-direction: row;
@@ -1969,14 +2003,14 @@ body h6 {
   align-items: flex-start;
   justify-content: flex-start;
 }
-/* line 1267, _page.scss */
+/* line 1297, _page.scss */
 .how-us-work__content__point {
   width: 50%;
   position: relative;
   padding: 0 60px 0 25px;
   margin-bottom: 20px;
 }
-/* line 1272, _page.scss */
+/* line 1302, _page.scss */
 .how-us-work__content__point:before {
   content: "";
   position: absolute;
@@ -1986,7 +2020,7 @@ body h6 {
   width: 2px;
   background-color: #006ae5;
 }
-/* line 1281, _page.scss */
+/* line 1311, _page.scss */
 .how-us-work__content__point__title {
   margin-top: 0;
   font-size: 11px;
@@ -1996,7 +2030,7 @@ body h6 {
   margin-bottom: 5px;
   text-transform: uppercase;
 }
-/* line 1290, _page.scss */
+/* line 1320, _page.scss */
 .how-us-work__content__point__text {
   margin-top: 0;
   font-family: "TTNorms";
@@ -2007,11 +2041,11 @@ body h6 {
   margin-bottom: 0;
 }
 
-/* line 1302, _page.scss */
+/* line 1332, _page.scss */
 .about-audit {
   margin-top: 40px;
 }
-/* line 1304, _page.scss */
+/* line 1334, _page.scss */
 .about-audit__img {
   position: relative;
   min-height: 1px;
@@ -2022,7 +2056,7 @@ body h6 {
   background-repeat: no-repeat !important;
   background-size: cover !important;
 }
-/* line 1313, _page.scss */
+/* line 1343, _page.scss */
 .about-audit__img a {
   position: absolute;
   white-space: nowrap;
@@ -2037,12 +2071,12 @@ body h6 {
   height: 60px;
   box-shadow: 0px 0px 20px 3px #5581f1;
 }
-/* line 1326, _page.scss */
+/* line 1356, _page.scss */
 .about-audit__img a:hover {
   background: linear-gradient(-45deg, #4d61c2, #1146c1);
   box-shadow: none;
 }
-/* line 1330, _page.scss */
+/* line 1360, _page.scss */
 .about-audit__img a span {
   display: inline-block;
   color: white;
@@ -2054,32 +2088,32 @@ body h6 {
   vertical-align: middle;
   text-transform: uppercase;
 }
-/* line 1341, _page.scss */
+/* line 1371, _page.scss */
 .about-audit__img a i {
   display: inline-block;
   line-height: 60px;
   vertical-align: middle;
 }
-/* line 1348, _page.scss */
+/* line 1378, _page.scss */
 .about-audit__content {
   position: relative;
 }
-/* line 1350, _page.scss */
+/* line 1380, _page.scss */
 .about-audit__content__wrap {
   position: relative;
   display: none;
   padding-left: 30px;
 }
-/* line 1354, _page.scss */
+/* line 1384, _page.scss */
 .about-audit__content__wrap.active {
   display: block;
 }
-/* line 1357, _page.scss */
+/* line 1387, _page.scss */
 .about-audit__content__wrap img {
   max-width: 40%;
   float: left;
 }
-/* line 1361, _page.scss */
+/* line 1391, _page.scss */
 .about-audit__content__wrap h2 {
   font-family: "TTNorms";
   font-size: 35px;
@@ -2089,7 +2123,7 @@ body h6 {
   margin-bottom: 35px;
   text-transform: uppercase;
 }
-/* line 1370, _page.scss */
+/* line 1400, _page.scss */
 .about-audit__content__wrap p {
   font-family: "TTNorms";
   font-size: 12px;
@@ -2099,7 +2133,7 @@ body h6 {
   color: #262a33;
   margin-top: 0;
 }
-/* line 1381, _page.scss */
+/* line 1411, _page.scss */
 .about-audit__tabs {
   display: flex;
   flex-direction: row;
@@ -2107,7 +2141,7 @@ body h6 {
   align-items: center;
   justify-content: flex-end;
 }
-/* line 1387, _page.scss */
+/* line 1417, _page.scss */
 .about-audit__tabs a {
   width: calc((100% - 60px) / 3);
   position: relative;
@@ -2123,16 +2157,16 @@ body h6 {
   text-transform: uppercase;
   text-align: center;
 }
-/* line 1402, _page.scss */
+/* line 1432, _page.scss */
 .about-audit__tabs a:hover:before {
   background-color: #c8cdd7;
   box-shadow: 0px 0px 9px 0px #ffffff,-4px 4px 8px -3px #135ee8;
 }
-/* line 1408, _page.scss */
+/* line 1438, _page.scss */
 .about-audit__tabs a.active:before {
   box-shadow: 0px 0px 9px 0px #ffffff,-4px 4px 8px -3px #135ee8;
 }
-/* line 1412, _page.scss */
+/* line 1442, _page.scss */
 .about-audit__tabs a:before {
   z-index: -1;
   content: "";
@@ -2146,11 +2180,11 @@ body h6 {
   background-color: #ebf0fa;
 }
 
-/* line 1427, _page.scss */
+/* line 1457, _page.scss */
 .question {
   margin-top: 80px;
 }
-/* line 1429, _page.scss */
+/* line 1459, _page.scss */
 .question__wrap {
   position: relative;
   display: flex;
@@ -2159,7 +2193,7 @@ body h6 {
   align-items: flex-start;
   justify-content: space-between;
 }
-/* line 1436, _page.scss */
+/* line 1466, _page.scss */
 .question__wrap ul {
   width: calc(50% - 20px);
   list-style-type: none;
@@ -2167,7 +2201,7 @@ body h6 {
   margin: 0;
   position: relative;
 }
-/* line 1442, _page.scss */
+/* line 1472, _page.scss */
 .question__wrap ul li {
   width: 100%;
   margin-bottom: 10px;
@@ -2176,24 +2210,24 @@ body h6 {
   position: relative;
   transition: all linear 0.5s;
 }
-/* line 1452, _page.scss */
+/* line 1482, _page.scss */
 .question__wrap ul li.active .question__wrap__head {
   background-color: #1e2432;
 }
-/* line 1454, _page.scss */
+/* line 1484, _page.scss */
 .question__wrap ul li.active .question__wrap__head p {
   color: white;
 }
-/* line 1457, _page.scss */
+/* line 1487, _page.scss */
 .question__wrap ul li.active .question__wrap__head i {
   background: url("../assets/img/icons/ico_minus.png") no-repeat center;
   background-size: contain;
 }
-/* line 1462, _page.scss */
+/* line 1492, _page.scss */
 .question__wrap ul li.active .question__wrap__body {
   height: auto;
 }
-/* line 1470, _page.scss */
+/* line 1500, _page.scss */
 .question__wrap__head {
   width: 100%;
   height: 48px;
@@ -2206,7 +2240,7 @@ body h6 {
   background-color: #eff3fb;
   padding: 15px;
 }
-/* line 1481, _page.scss */
+/* line 1511, _page.scss */
 .question__wrap__head p {
   font-family: "TTNorms";
   font-size: 15px;
@@ -2214,7 +2248,7 @@ body h6 {
   color: black;
   display: inline-block;
 }
-/* line 1488, _page.scss */
+/* line 1518, _page.scss */
 .question__wrap__head i {
   display: inline-block;
   width: 20px;
@@ -2222,7 +2256,7 @@ body h6 {
   background: url("../assets/img/icons/ico_plus.png") no-repeat center;
   background-size: contain;
 }
-/* line 1496, _page.scss */
+/* line 1526, _page.scss */
 .question__wrap__body {
   transition: all linear 0.5s;
   height: 0;
@@ -2231,7 +2265,7 @@ body h6 {
   background-color: #eff3fb;
   overflow: hidden;
 }
-/* line 1503, _page.scss */
+/* line 1533, _page.scss */
 .question__wrap__body p {
   padding: 15px;
   font-family: "TTNorms";
@@ -2240,7 +2274,7 @@ body h6 {
   color: black;
   display: inline-block;
 }
-/* line 1513, _page.scss */
+/* line 1543, _page.scss */
 .question .link-btn {
   align-self: flex-start;
   display: inline-block;
@@ -2253,12 +2287,12 @@ body h6 {
   position: relative;
   box-shadow: 0px 0px 20px 3px #5581f1;
 }
-/* line 1524, _page.scss */
+/* line 1554, _page.scss */
 .question .link-btn:hover {
   background: linear-gradient(-45deg, #4d61c2, #1146c1);
   box-shadow: none;
 }
-/* line 1528, _page.scss */
+/* line 1558, _page.scss */
 .question .link-btn span {
   display: inline-block;
   color: white;
@@ -2270,18 +2304,18 @@ body h6 {
   vertical-align: middle;
   text-transform: uppercase;
 }
-/* line 1539, _page.scss */
+/* line 1569, _page.scss */
 .question .link-btn i {
   display: inline-block;
   line-height: 60px;
   vertical-align: middle;
 }
 
-/* line 1546, _page.scss */
+/* line 1576, _page.scss */
 .audit-info {
   margin-top: 60px;
 }
-/* line 1548, _page.scss */
+/* line 1578, _page.scss */
 .audit-info p {
   font-family: "TTNorms";
   font-size: 12px;
@@ -2290,17 +2324,17 @@ body h6 {
   line-height: 16px;
 }
 
-/* line 1556, _page.scss */
+/* line 1586, _page.scss */
 .stage {
   margin-top: 65px;
 }
-/* line 1558, _page.scss */
+/* line 1588, _page.scss */
 .stage__body {
   position: relative;
   padding-top: 65px;
   padding-bottom: 65px;
 }
-/* line 1562, _page.scss */
+/* line 1592, _page.scss */
 .stage__body__line {
   list-style-type: none;
   padding: 0;
@@ -2315,11 +2349,11 @@ body h6 {
   height: 1px;
   background-color: #ccdbf3;
 }
-/* line 1575, _page.scss */
+/* line 1605, _page.scss */
 .stage__body__line li {
   position: relative;
 }
-/* line 1577, _page.scss */
+/* line 1607, _page.scss */
 .stage__body__line li:before {
   content: "";
   position: absolute;
@@ -2331,7 +2365,7 @@ body h6 {
   border-radius: 50%;
   background-color: #eff3fb;
 }
-/* line 1588, _page.scss */
+/* line 1618, _page.scss */
 .stage__body__line li:after {
   content: "";
   position: absolute;
@@ -2343,24 +2377,24 @@ body h6 {
   border-radius: 50%;
   background-color: #006ae5;
 }
-/* line 1600, _page.scss */
+/* line 1630, _page.scss */
 .stage__body__line li:nth-child(1n + 1) .stage__body__line__point {
   top: -10px;
   transform: translateY(100%);
 }
-/* line 1606, _page.scss */
+/* line 1636, _page.scss */
 .stage__body__line li:nth-child(2n + 1) .stage__body__line__point {
   top: 10px;
   transform: translateY(-100%);
 }
-/* line 1612, _page.scss */
+/* line 1642, _page.scss */
 .stage__body__line__point {
   position: relative;
   flex-grow: 1;
   padding: 0 10px;
   left: -15px;
 }
-/* line 1617, _page.scss */
+/* line 1647, _page.scss */
 .stage__body__line__point__title {
   font-family: "TTNorms";
   font-size: 11px;
@@ -2369,7 +2403,7 @@ body h6 {
   margin-top: 0;
   margin-bottom: 5px;
 }
-/* line 1626, _page.scss */
+/* line 1656, _page.scss */
 .stage__body__line__point__sub-title {
   font-family: "TTNorms";
   font-size: 12px;
@@ -2379,14 +2413,14 @@ body h6 {
   margin: 0;
 }
 
-/* line 1638, _page.scss */
+/* line 1668, _page.scss */
 .price {
   margin-top: 80px;
   background-color: #edf1f9;
   position: relative;
   padding-bottom: 95px;
 }
-/* line 1643, _page.scss */
+/* line 1673, _page.scss */
 .price:before {
   content: "";
   position: absolute;
@@ -2397,7 +2431,7 @@ body h6 {
   background-color: white;
   display: block;
 }
-/* line 1655, _page.scss */
+/* line 1685, _page.scss */
 .price__white__about p {
   width: 100%;
   text-align: center;
@@ -2408,7 +2442,7 @@ body h6 {
   margin-bottom: 15px;
   font-weight: 600;
 }
-/* line 1665, _page.scss */
+/* line 1695, _page.scss */
 .price__white__about h2 {
   width: 100%;
   text-align: center;
@@ -2419,7 +2453,7 @@ body h6 {
   margin-top: 0;
   margin-bottom: 15px;
 }
-/* line 1675, _page.scss */
+/* line 1705, _page.scss */
 .price__white__about ul {
   list-style-type: none;
   padding: 0;
@@ -2430,7 +2464,7 @@ body h6 {
   align-items: stretch;
   justify-content: space-between;
 }
-/* line 1684, _page.scss */
+/* line 1714, _page.scss */
 .price__white__about ul li {
   padding: 10px;
   width: calc((100% - 30px) / 4);
@@ -2447,7 +2481,7 @@ body h6 {
   font-family: "TTNorms";
   font-weight: 300;
 }
-/* line 1702, _page.scss */
+/* line 1732, _page.scss */
 .price__white__info {
   margin-top: 60px;
   padding-top: 30px;
@@ -2460,7 +2494,7 @@ body h6 {
   padding-left: 0;
   padding-right: 0;
 }
-/* line 1713, _page.scss */
+/* line 1743, _page.scss */
 .price__white__info__card {
   width: calc((100% - 60px) / 3);
   border: solid 2px #f3f3f3;
@@ -2475,12 +2509,12 @@ body h6 {
   margin-right: 10px;
   margin-left: 10px;
 }
-/* line 1726, _page.scss */
+/* line 1756, _page.scss */
 .price__white__info__card:hover {
   border: solid 2px #eff3fb;
   box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.2);
 }
-/* line 1730, _page.scss */
+/* line 1760, _page.scss */
 .price__white__info__card__ico {
   position: relative;
   height: 80px;
@@ -2490,7 +2524,7 @@ body h6 {
   background-size: contain !important;
   background-repeat: no-repeat !important;
 }
-/* line 1739, _page.scss */
+/* line 1769, _page.scss */
 .price__white__info__card__title {
   font-family: "TTNorms";
   font-size: 10px;
@@ -2499,7 +2533,7 @@ body h6 {
   margin-top: 0;
   margin-bottom: 10px;
 }
-/* line 1747, _page.scss */
+/* line 1777, _page.scss */
 .price__white__info__card__value {
   font-family: "TTNorms";
   font-size: 10px;
@@ -2508,13 +2542,13 @@ body h6 {
   margin-top: 0;
   margin-bottom: 12px;
 }
-/* line 1754, _page.scss */
+/* line 1784, _page.scss */
 .price__white__info__card__value b {
   font-size: 24px;
   font-weight: 600;
   color: #262a33;
 }
-/* line 1760, _page.scss */
+/* line 1790, _page.scss */
 .price__white__info__card__option {
   border-top: 1px solid #e3e7ee;
   display: flex;
@@ -2524,18 +2558,18 @@ body h6 {
   padding-top: 20px;
   padding-bottom: 80px;
 }
-/* line 1768, _page.scss */
+/* line 1798, _page.scss */
 .price__white__info__card__option__more {
   display: inline-block;
   position: relative;
   text-decoration: none;
   margin-bottom: 35px;
 }
-/* line 1774, _page.scss */
+/* line 1804, _page.scss */
 .price__white__info__card__option__more:hover span {
   text-decoration: underline;
 }
-/* line 1778, _page.scss */
+/* line 1808, _page.scss */
 .price__white__info__card__option__more span {
   font-size: 9px;
   font-family: "TTNorms";
@@ -2543,7 +2577,7 @@ body h6 {
   color: #262a33;
   text-decoration: none;
 }
-/* line 1785, _page.scss */
+/* line 1815, _page.scss */
 .price__white__info__card__option__more i {
   text-decoration: none;
   display: inline-block;
@@ -2554,17 +2588,17 @@ body h6 {
   background-position: center !important;
   background-repeat: no-repeat !important;
 }
-/* line 1795, _page.scss */
+/* line 1825, _page.scss */
 .price__white__info__card__option__more__content {
   transition: all linear 0.5s;
   overflow: hidden;
   height: 0;
 }
-/* line 1799, _page.scss */
+/* line 1829, _page.scss */
 .price__white__info__card__option__more__content.active {
   height: auto;
 }
-/* line 1804, _page.scss */
+/* line 1834, _page.scss */
 .price__white__info__card__option__btn {
   border-radius: 20px;
   padding: 0 10px;
@@ -2573,11 +2607,11 @@ body h6 {
   box-shadow: 4px 4px 3px -1px #2677e7, 4px 4px 8px -3px #2677e7;
   margin-top: 50px;
 }
-/* line 1811, _page.scss */
+/* line 1841, _page.scss */
 .price__white__info__card__option__btn:hover {
   background-color: #e6e6e6;
 }
-/* line 1814, _page.scss */
+/* line 1844, _page.scss */
 .price__white__info__card__option__btn span {
   display: inline-block;
   font-family: "TTNorms";
@@ -2587,19 +2621,19 @@ body h6 {
   line-height: 48px;
   margin: 0 10px;
 }
-/* line 1823, _page.scss */
+/* line 1853, _page.scss */
 .price__white__info__card__option__btn i {
   vertical-align: middle;
   display: inline-block;
 }
-/* line 1828, _page.scss */
+/* line 1858, _page.scss */
 .price__white__info__card__option ul {
   list-style-type: none;
   padding: 0 15px 0 30px;
   margin: 0;
   position: relative;
 }
-/* line 1833, _page.scss */
+/* line 1863, _page.scss */
 .price__white__info__card__option ul li {
   position: relative;
   width: 100%;
@@ -2611,7 +2645,7 @@ body h6 {
   font-weight: 300;
   color: black;
 }
-/* line 1843, _page.scss */
+/* line 1873, _page.scss */
 .price__white__info__card__option ul li:before {
   content: "";
   position: absolute;
@@ -2624,11 +2658,11 @@ body h6 {
   background-size: contain;
 }
 
-/* line 1862, _page.scss */
+/* line 1892, _page.scss */
 .why-us__bg {
   background-color: #252b39;
 }
-/* line 1864, _page.scss */
+/* line 1894, _page.scss */
 .why-us__bg i {
   display: inline-block;
   vertical-align: top;
@@ -2638,7 +2672,7 @@ body h6 {
   width: 82px;
   margin-right: 30px;
 }
-/* line 1873, _page.scss */
+/* line 1903, _page.scss */
 .why-us__bg h2 {
   font-family: "TTNorms";
   font-size: 56px;
@@ -2648,7 +2682,7 @@ body h6 {
   line-height: 210px;
   display: inline-block;
 }
-/* line 1883, _page.scss */
+/* line 1913, _page.scss */
 .why-us__body {
   margin-top: 55px;
   display: flex;
@@ -2657,14 +2691,14 @@ body h6 {
   align-items: stretch;
   justify-content: space-between;
 }
-/* line 1890, _page.scss */
+/* line 1920, _page.scss */
 .why-us__body__card {
   width: calc((100% - 80px) / 3);
   position: relative;
   border-radius: 15px;
   border: 1px solid #006ae5;
 }
-/* line 1895, _page.scss */
+/* line 1925, _page.scss */
 .why-us__body__card__title {
   line-height: 45px;
   font-size: 26px;
@@ -2677,7 +2711,7 @@ body h6 {
   font-weight: 400;
   margin: 0;
 }
-/* line 1907, _page.scss */
+/* line 1937, _page.scss */
 .why-us__body__card__text {
   font-size: 26px;
   width: 100%;
@@ -2689,11 +2723,11 @@ body h6 {
   margin: 0;
 }
 
-/* line 1920, _page.scss */
+/* line 1950, _page.scss */
 .change-adv {
   margin-top: 70px;
 }
-/* line 1922, _page.scss */
+/* line 1952, _page.scss */
 .change-adv__body {
   display: flex;
   flex-direction: row;
@@ -2701,12 +2735,12 @@ body h6 {
   align-items: flex-start;
   justify-content: space-between;
 }
-/* line 1928, _page.scss */
+/* line 1958, _page.scss */
 .change-adv__body__card {
   width: calc((100% - 100px) / 5);
   position: relative;
 }
-/* line 1931, _page.scss */
+/* line 1961, _page.scss */
 .change-adv__body__card div {
   width: 72px;
   height: 92px;
@@ -2716,7 +2750,7 @@ body h6 {
   margin: 0 auto 10px auto;
   border-bottom: 2px solid #00a2ff;
 }
-/* line 1940, _page.scss */
+/* line 1970, _page.scss */
 .change-adv__body__card p {
   font-family: "TTNorms";
   font-size: 15px;
@@ -2726,15 +2760,15 @@ body h6 {
   text-align: center;
 }
 
-/* line 1951, _page.scss */
+/* line 1981, _page.scss */
 .task {
   margin-top: 60px;
 }
-/* line 1953, _page.scss */
+/* line 1983, _page.scss */
 .task__body {
   position: relative;
 }
-/* line 1955, _page.scss */
+/* line 1985, _page.scss */
 .task__body__card {
   width: 100%;
   display: flex;
@@ -2745,19 +2779,19 @@ body h6 {
   min-height: 350px;
   margin-bottom: 60px;
 }
-/* line 1964, _page.scss */
+/* line 1994, _page.scss */
 .task__body__card__img {
   width: calc(50% - 10px);
   position: relative;
 }
-/* line 1968, _page.scss */
+/* line 1998, _page.scss */
 .task__body__card__info {
   width: calc(50% - 10px);
   border-top: 2px solid #dedeef;
   border-bottom: 2px solid #dedeef;
   padding: 40px 50px;
 }
-/* line 1973, _page.scss */
+/* line 2003, _page.scss */
 .task__body__card__info__title {
   text-align: center;
   font-size: 19px;
@@ -2769,7 +2803,7 @@ body h6 {
   margin-bottom: 55px;
   font-weight: 600;
 }
-/* line 1984, _page.scss */
+/* line 2014, _page.scss */
 .task__body__card__info__text {
   text-align: center;
   font-size: 15px;
@@ -2779,20 +2813,20 @@ body h6 {
   margin-top: 0;
   margin-bottom: 20px;
 }
-/* line 1996, _page.scss */
+/* line 2026, _page.scss */
 .task__body__card:nth-child(2n + 1) .task__body__card__img {
   order: 1;
 }
-/* line 1999, _page.scss */
+/* line 2029, _page.scss */
 .task__body__card:nth-child(2n + 1) .task__body__card__info {
   order: 0;
 }
 
-/* line 2007, _page.scss */
+/* line 2037, _page.scss */
 .adv-optimization {
   margin-top: 40px;
 }
-/* line 2009, _page.scss */
+/* line 2039, _page.scss */
 .adv-optimization__title {
   font-size: 20px;
   line-height: 25px;
@@ -2802,7 +2836,7 @@ body h6 {
   margin-top: 10px;
   font-weight: 600;
 }
-/* line 2018, _page.scss */
+/* line 2048, _page.scss */
 .adv-optimization__text {
   font-size: 15px;
   line-height: 18px;
@@ -2813,12 +2847,12 @@ body h6 {
   font-weight: 500;
 }
 
-/* line 2028, _page.scss */
+/* line 2058, _page.scss */
 .comparison {
   margin-top: 130px;
   margin-bottom: 60px;
 }
-/* line 2031, _page.scss */
+/* line 2061, _page.scss */
 .comparison__title {
   font-weight: 600;
   font-family: "TTNorms";
@@ -2828,7 +2862,7 @@ body h6 {
   margin-top: 0;
   color: #262a33;
 }
-/* line 2041, _page.scss */
+/* line 2071, _page.scss */
 .comparison__body__card {
   width: 100%;
   margin-bottom: 15px;
@@ -2839,7 +2873,7 @@ body h6 {
   padding: 15px 40px 15px 35px;
   min-height: 150px;
 }
-/* line 2050, _page.scss */
+/* line 2080, _page.scss */
 .comparison__body__card:before {
   content: "";
   position: absolute;
@@ -2850,7 +2884,7 @@ body h6 {
   width: 13px;
   background-color: #006ae5;
 }
-/* line 2060, _page.scss */
+/* line 2090, _page.scss */
 .comparison__body__card__title {
   font-size: 12px;
   color: #262a33;
@@ -2859,7 +2893,7 @@ body h6 {
   margin-top: 0;
   margin-bottom: 10px;
 }
-/* line 2068, _page.scss */
+/* line 2098, _page.scss */
 .comparison__body__card__text {
   font-size: 11px;
   color: #262a33;
@@ -2869,12 +2903,12 @@ body h6 {
   margin-bottom: 0;
 }
 
-/* line 2079, _page.scss */
+/* line 2109, _page.scss */
 .choice {
   margin-top: 60px;
   margin-bottom: 40px;
 }
-/* line 2082, _page.scss */
+/* line 2112, _page.scss */
 .choice__title {
   font-size: 37px;
   font-family: "TTNorms";
@@ -2885,7 +2919,7 @@ body h6 {
   text-align: center;
   width: 100%;
 }
-/* line 2092, _page.scss */
+/* line 2122, _page.scss */
 .choice__sub-title {
   font-size: 11px;
   font-family: "TTNorms";
@@ -2896,7 +2930,7 @@ body h6 {
   text-align: center;
   width: 100%;
 }
-/* line 2102, _page.scss */
+/* line 2132, _page.scss */
 .choice__body {
   width: 100%;
   display: flex;
@@ -2906,7 +2940,7 @@ body h6 {
   border: 1px solid #006ae5;
   position: relative;
 }
-/* line 2110, _page.scss */
+/* line 2140, _page.scss */
 .choice__body:before {
   content: "";
   position: absolute;
@@ -2918,7 +2952,7 @@ body h6 {
   display: block;
   background-color: #98ccfd;
 }
-/* line 2121, _page.scss */
+/* line 2151, _page.scss */
 .choice__body__block {
   flex-grow: 1;
   border: 1px solid #98ccfd;
@@ -2929,7 +2963,7 @@ body h6 {
   position: relative;
   min-width: 110px;
 }
-/* line 2130, _page.scss */
+/* line 2160, _page.scss */
 .choice__body__block__title {
   flex-grow: 1;
   flex-shrink: 0;
@@ -2943,7 +2977,7 @@ body h6 {
   color: #262a33;
   text-align: center;
 }
-/* line 2143, _page.scss */
+/* line 2173, _page.scss */
 .choice__body__block__text {
   flex-grow: 1;
   flex-shrink: 0;
@@ -2957,13 +2991,13 @@ body h6 {
   text-align: center;
 }
 
-/* line 2158, _page.scss */
+/* line 2188, _page.scss */
 .service-list {
   margin-top: 40px;
   padding-bottom: 40px;
   position: relative;
 }
-/* line 2162, _page.scss */
+/* line 2192, _page.scss */
 .service-list:before {
   position: absolute;
   right: 0;
@@ -2976,9 +3010,19 @@ body h6 {
   background-position: center;
   background-size: contain;
 }
-/* line 2177, _page.scss */
+/* line 2204, _page.scss */
+.service-list__container {
+  align-items: stretch;
+}
+/* line 2206, _page.scss */
+.service-list__container .col-md-4.col-sm-6.col-12 {
+  margin-bottom: 10px;
+}
+/* line 2210, _page.scss */
 .service-list__card {
   width: 100%;
+  height: 100%;
+  min-height: 255px;
   margin-bottom: 15px;
   position: relative;
   border-radius: 9px;
@@ -2986,7 +3030,7 @@ body h6 {
   box-shadow: 0px 4px 54px 0px rgba(199, 225, 255, 0.75);
   padding: 15px 40px 15px 35px;
 }
-/* line 2185, _page.scss */
+/* line 2220, _page.scss */
 .service-list__card:before {
   content: "";
   position: absolute;
@@ -2997,16 +3041,16 @@ body h6 {
   width: 13px;
   background-color: #006ae5;
 }
-/* line 2195, _page.scss */
+/* line 2230, _page.scss */
 .service-list__card__title {
-  font-size: 12px;
+  font-size: 24px;
   color: #262a33;
   font-family: "TTNorms";
-  font-weight: 700;
+  font-weight: 600;
   margin-top: 0;
   margin-bottom: 10px;
 }
-/* line 2203, _page.scss */
+/* line 2238, _page.scss */
 .service-list__card ul {
   list-style-type: none;
   padding: 0;
@@ -3017,28 +3061,28 @@ body h6 {
   align-items: flex-start;
   justify-content: flex-start;
 }
-/* line 2212, _page.scss */
+/* line 2247, _page.scss */
 .service-list__card ul li {
   display: inline-block;
   margin-right: 10px;
 }
-/* line 2215, _page.scss */
+/* line 2250, _page.scss */
 .service-list__card ul li a {
   text-decoration: underline;
   display: inline-block;
-  font-size: 11px;
+  font-size: 18px;
   color: #262a33;
   font-family: "TTNorms";
-  font-weight: 500;
+  font-weight: 300;
   margin-top: 0;
   margin-bottom: 0;
 }
 
-/* line 2229, _page.scss */
+/* line 2264, _page.scss */
 .price__about {
   margin-bottom: 20px;
 }
-/* line 2232, _page.scss */
+/* line 2267, _page.scss */
 .price__about__info h3 {
   font-family: "TTNorms";
   font-size: 40px;
@@ -3048,8 +3092,9 @@ body h6 {
   margin-bottom: 20px;
   margin-top: 0;
   text-transform: uppercase;
+  padding-left: 120px;
 }
-/* line 2242, _page.scss */
+/* line 2278, _page.scss */
 .price__about__info p {
   font-family: "TTNorms";
   font-size: 14px;
@@ -3057,19 +3102,20 @@ body h6 {
   color: #262a33;
   line-height: 16px;
   margin-bottom: 20px;
+  padding-left: 120px;
   margin-top: 0;
 }
-/* line 2251, _page.scss */
+/* line 2289, _page.scss */
 .price__about__link {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-end;
   justify-content: flex-end;
   flex-wrap: nowrap;
   position: relative;
   min-height: 400px;
 }
-/* line 2259, _page.scss */
+/* line 2297, _page.scss */
 .price__about__link__img {
   width: 100%;
   height: calc(100% - 60px);
@@ -3080,7 +3126,7 @@ body h6 {
   background-position: center !important;
   background-repeat: no-repeat !important;
 }
-/* line 2269, _page.scss */
+/* line 2307, _page.scss */
 .price__about__link a {
   border-radius: 10px;
   background-color: #006ae5;
@@ -3091,11 +3137,11 @@ body h6 {
   color: white;
 }
 
-/* line 2280, _page.scss */
+/* line 2318, _page.scss */
 .price__table {
   margin-bottom: 80px;
 }
-/* line 2282, _page.scss */
+/* line 2320, _page.scss */
 .price__table__head {
   display: flex;
   flex-direction: row;
@@ -3104,7 +3150,7 @@ body h6 {
   justify-content: space-between;
   margin-bottom: 30px;
 }
-/* line 2289, _page.scss */
+/* line 2327, _page.scss */
 .price__table__head p {
   border-radius: 10px;
   background-color: #006ae5;
@@ -3115,41 +3161,41 @@ body h6 {
   color: white;
   text-align: center;
 }
-/* line 2299, _page.scss */
+/* line 2337, _page.scss */
 .price__table__head + .price__table__block {
   border-top: 1px solid #006ae5;
 }
-/* line 2303, _page.scss */
+/* line 2341, _page.scss */
 .price__table__head .head__first {
   width: calc((100% - 80px) / 100 * 9);
 }
-/* line 2306, _page.scss */
+/* line 2344, _page.scss */
 .price__table__head .head__second {
   width: calc((100% - 80px) / 100 * 28);
 }
-/* line 2309, _page.scss */
+/* line 2347, _page.scss */
 .price__table__head .head__third {
   width: calc((100% - 80px) / 100 * 27);
 }
-/* line 2312, _page.scss */
+/* line 2350, _page.scss */
 .price__table__head .head__four {
   width: calc((100% - 80px) / 100 * 18);
 }
-/* line 2315, _page.scss */
+/* line 2353, _page.scss */
 .price__table__head .head__five {
   width: calc((100% - 80px) / 100 * 18);
 }
-/* line 2321, _page.scss */
+/* line 2358, _page.scss */
 .price__table__block {
   border-right: 1px solid #006ae5;
   border-left: 1px solid #006ae5;
 }
-/* line 2323, _page.scss */
+/* line 2360, _page.scss */
 .price__table__block.active .price__table__block__body {
   height: auto;
   border-bottom: 1px solid #006ae5;
 }
-/* line 2330, _page.scss */
+/* line 2367, _page.scss */
 .price__table__block__head {
   display: flex;
   flex-direction: row;
@@ -3159,12 +3205,12 @@ body h6 {
   height: 60px;
   border-bottom: 1px solid #006ae5;
 }
-/* line 2338, _page.scss */
+/* line 2375, _page.scss */
 .price__table__block__head h3 {
   display: inline-block;
   font-family: "TTNorms";
-  font-size: 32px;
-  font-weight: 400;
+  font-size: 19px;
+  font-weight: 600;
   text-transform: uppercase;
   color: #262a33;
   position: relative;
@@ -3172,7 +3218,7 @@ body h6 {
   margin: 0;
   cursor: pointer;
 }
-/* line 2349, _page.scss */
+/* line 2386, _page.scss */
 .price__table__block__head h3:after {
   content: "";
   position: relative;
@@ -3184,13 +3230,13 @@ body h6 {
   background-size: contain;
   vertical-align: middle;
 }
-/* line 2362, _page.scss */
+/* line 2399, _page.scss */
 .price__table__block__body {
   overflow: hidden;
   height: 0;
   transition: all linear 0.5s;
 }
-/* line 2367, _page.scss */
+/* line 2404, _page.scss */
 .price__table__block__body .body__row {
   display: flex;
   flex-direction: row;
@@ -3199,11 +3245,11 @@ body h6 {
   align-items: stretch;
   border-bottom: 1px solid #006ae5;
 }
-/* line 2374, _page.scss */
+/* line 2411, _page.scss */
 .price__table__block__body .body__row:last-child {
   border-bottom: none;
 }
-/* line 2377, _page.scss */
+/* line 2414, _page.scss */
 .price__table__block__body .body__row p {
   margin: 0;
   padding: 20px 10px;
@@ -3213,36 +3259,283 @@ body h6 {
   font-family: "TTNorms";
   color: #262a33;
 }
-/* line 2388, _page.scss */
+/* line 2425, _page.scss */
 .price__table__block__body .body__col__first {
   width: 9%;
-  font-size: 23px;
+  font-size: 24px;
   font-weight: 400;
 }
-/* line 2393, _page.scss */
+/* line 2430, _page.scss */
 .price__table__block__body .body__col__second {
   width: 28%;
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 600;
 }
-/* line 2398, _page.scss */
+/* line 2435, _page.scss */
 .price__table__block__body .body__col__third {
   width: 27%;
-  font-size: 14px;
-  font-weight: 400;
+  font-size: 15px;
+  font-weight: 500;
 }
-/* line 2403, _page.scss */
+/* line 2440, _page.scss */
 .price__table__block__body .body__col__four {
   width: 18%;
-  font-size: 16px;
-  font-weight: 600;
+  font-size: 15px;
+  font-weight: 800;
 }
-/* line 2408, _page.scss */
+/* line 2445, _page.scss */
 .price__table__block__body .body__col__five {
   width: 18%;
+  font-size: 15px;
+  font-weight: 500;
+  border-right: none !important;
+}
+
+/* line 2456, _page.scss */
+.contact {
+  padding-bottom: 60px;
+}
+/* line 2458, _page.scss */
+.contact__map {
+  position: relative;
+  padding-bottom: 45px;
+}
+/* line 2461, _page.scss */
+.contact__map__wrap {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background-color: grey;
+}
+/* line 2466, _page.scss */
+.contact__map__wrap__map {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+/* line 2475, _page.scss */
+.contact__info {
+  padding-bottom: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+/* line 2481, _page.scss */
+.contact__info__title {
+  font-family: "TTNorms";
+  font-size: 13px;
+  font-weight: 500;
+  color: #313640;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+/* line 2490, _page.scss */
+.contact__info__text {
+  font-family: "TTNorms";
+  font-size: 13px;
+  font-weight: 300;
+  color: #6b6b6c;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+/* line 2498, _page.scss */
+.contact__info__link {
+  display: inline-block;
+  font-family: "TTNorms";
+  font-size: 13px;
+  font-weight: 400;
+  color: #006ae5;
+  margin-top: 0;
+  text-decoration: none;
+  margin-bottom: 0px;
+  width: 100%;
+}
+/* line 2509, _page.scss */
+.contact__info__numb {
+  text-decoration: none;
+  display: inline-block;
+  font-family: "TTNorms";
   font-size: 14px;
   font-weight: 400;
-  border-right: none !important;
+  color: #006ae5;
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+/* line 2519, _page.scss */
+.contact__info__name {
+  display: inline-block;
+  font-family: "TTNorms";
+  font-size: 12px;
+  font-weight: 500;
+  color: #006ae5;
+  margin-top: 0;
+  text-decoration: none;
+  margin-bottom: 0px;
+  width: 100%;
+}
+/* line 2533, _page.scss */
+.contact__info__input {
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  border-bottom: 3px solid #dedeef;
+  margin-bottom: 10px;
+}
+/* line 2539, _page.scss */
+.contact__info__input input {
+  padding: 1px 4px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  width: 100%;
+  font-family: "TTNorms";
+  font-size: 13px;
+  font-weight: 400;
+  color: #6b6b6c;
+}
+/* line 2549, _page.scss */
+.contact__info__input input::placeholder {
+  color: #6b6b6c;
+  font-weight: 300;
+}
+/* line 2555, _page.scss */
+.contact__info__btn {
+  margin-top: 10px;
+  display: inline-block;
+  position: relative;
+  background-color: #4e7cf2;
+  border-radius: 25px;
+  padding: 0 25px;
+}
+/* line 2562, _page.scss */
+.contact__info__btn input {
+  cursor: pointer;
+  padding: 0;
+  background-color: transparent;
+  border: 0;
+  height: 60px;
+  line-height: 60px;
+  font-family: "TTNorms";
+  font-size: 13px;
+  font-weight: 600;
+  color: #ffffff;
+}
+/* line 2574, _page.scss */
+.contact__info__btn i {
+  vertical-align: middle;
+  display: inline-block;
+  width: 9px;
+  height: 17px;
+  margin-left: 5px;
+}
+/* line 2583, _page.scss */
+.contact__slider {
+  position: relative;
+}
+/* line 2585, _page.scss */
+.contact__slider__title {
+  width: 100%;
+  font-family: "TTNorms";
+  font-size: 20px;
+  font-weight: 300;
+  color: #646464;
+  margin-top: 0;
+  margin-bottom: 45px;
+}
+/* line 2594, _page.scss */
+.contact__slider__wrap {
+  width: 100%;
+  position: relative;
+  height: 210px;
+  padding: 0 40px;
+}
+/* line 2599, _page.scss */
+.contact__slider__wrap__content {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  white-space: nowrap;
+  overflow: hidden;
+}
+/* line 2605, _page.scss */
+.contact__slider__wrap__content__item {
+  display: inline-block;
+  height: 100%;
+  width: calc((100% - 80px) / 4);
+  margin: 0 10px;
+  position: relative;
+  overflow: hidden;
+}
+/* line 2611, _page.scss */
+.contact__slider__wrap__content__item img {
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+/* line 2620, _page.scss */
+.contact__slider__wrap__control {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+/* line 2631, _page.scss */
+.contact__slider__wrap__control a {
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  position: relative;
+  background-color: #006ae5;
+}
+/* line 2639, _page.scss */
+.contact__slider__wrap__control a i {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: inline-block;
+  width: 12px;
+  height: 19px;
+  padding: 0;
+  margin: 0;
+}
+/* line 2655, _page.scss */
+.contact__addr p {
+  font-family: "TTNorms";
+  font-size: 17px;
+  font-weight: 500;
+  color: #222632;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+/* line 2663, _page.scss */
+.contact__addr ul {
+  padding: 0;
+  margin: 0 0 30px 0;
+  list-style-type: none;
+}
+/* line 2667, _page.scss */
+.contact__addr ul li {
+  font-family: "TTNorms";
+  font-size: 17px;
+  font-weight: 500;
+  color: #222632;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /* ╨Ю╤Б╨╜╨╛╨▓╨╜╤Л╨╡ ╤Б╤В╨╕╨╗╨╕ */
@@ -3571,68 +3864,78 @@ input::placeholder {
   .choice__body {
     flex-wrap: wrap;
   }
+
+  /* line 36, _media.scss */
+  .client__img {
+    height: 200px;
+  }
+
+  /* line 40, _media.scss */
+  .mod-support .client {
+    height: auto;
+  }
 }
-@media screen and (max-width: 1199px) and (max-width: 991px) {
-  /* line 37, _media.scss */
+@media screen and (max-width: 991px) {
+  /* line 46, _media.scss */
   .header__nav__first__container ul li a {
     font-size: 12px;
   }
 
-  /* line 40, _media.scss */
+  /* line 49, _media.scss */
   .header__nav__second__container ul li a {
     font-size: 12px;
   }
 
-  /* line 43, _media.scss */
+  /* line 52, _media.scss */
   .call-back__sub-title {
     margin-bottom: 20px;
   }
 
-  /* line 46, _media.scss */
+  /* line 55, _media.scss */
   .reviews__mail__btn a:before {
     height: 225px;
   }
 
-  /* line 49, _media.scss */
+  /* line 58, _media.scss */
   .client__list__wrap {
     padding-left: 25px;
     padding-right: 35px;
   }
 
-  /* line 53, _media.scss */
+  /* line 62, _media.scss */
   .warranty__wrap {
     padding-left: 0;
   }
 
-  /* line 56, _media.scss */
+  /* line 65, _media.scss */
   .how-work__form {
     margin-bottom: 20px;
     width: 100%;
   }
 
-  /* line 60, _media.scss */
+  /* line 69, _media.scss */
   .why-off__content {
     flex-wrap: wrap;
     align-items: flex-start;
   }
 
-  /* line 64, _media.scss */
+  /* line 73, _media.scss */
   .why-off__content__card {
     margin-bottom: 20px;
   }
 
-  /* line 67, _media.scss */
+  /* line 76, _media.scss */
   .footer__navigation ul li {
     width: 100%;
     margin-bottom: 0;
   }
 
-  /* line 71, _media.scss */
+  /* line 80, _media.scss */
   .reviews__content {
     height: 380px;
   }
 
-  /* line 74, _media.scss */
+  /* line 83, _media.scss */
   .about-audit__tabs a {
     white-space: nowrap;
     width: auto;
@@ -3641,34 +3944,34 @@ input::placeholder {
     margin-bottom: 10px;
   }
 
-  /* line 81, _media.scss */
+  /* line 90, _media.scss */
   .about-audit__tabs {
     flex-wrap: wrap;
     justify-content: flex-start;
   }
 
-  /* line 85, _media.scss */
+  /* line 94, _media.scss */
   .stage__body__line__point__sub-title {
     overflow: hidden;
     height: 0;
   }
 
-  /* line 91, _media.scss */
+  /* line 100, _media.scss */
   .stage__body__line li:hover .stage__body__line__point__sub-title {
     height: auto;
   }
 
-  /* line 96, _media.scss */
+  /* line 105, _media.scss */
   .price__white__info__card {
     width: calc(50% - 10px);
   }
 
-  /* line 99, _media.scss */
+  /* line 108, _media.scss */
   .price__white__info__card:nth-child(3n + 1) {
     display: none;
   }
 
-  /* line 102, _media.scss */
+  /* line 111, _media.scss */
   .call-back__file {
     display: flex;
     flex-direction: column;
@@ -3676,207 +3979,211 @@ input::placeholder {
     margin-bottom: 20px;
   }
 
-  /* line 108, _media.scss */
+  /* line 117, _media.scss */
   .call-back.mod-send .input-submit {
     left: 50%;
     transform: translateX(-50%);
   }
 
-  /* line 112, _media.scss */
+  /* line 121, _media.scss */
   .why-us__bg h2 {
     font-size: 34px;
   }
 
-  /* line 115, _media.scss */
+  /* line 124, _media.scss */
   .why-us__bg i {
     width: 66px;
   }
 
-  /* line 118, _media.scss */
+  /* line 127, _media.scss */
   .question__wrap {
     flex-wrap: wrap;
   }
-  /* line 120, _media.scss */
+  /* line 129, _media.scss */
   .question__wrap ul {
     width: 100%;
   }
 
-  /* line 124, _media.scss */
+  /* line 133, _media.scss */
   .stage__body__line li {
     width: calc(100% / 7);
   }
-  /* line 126, _media.scss */
+  /* line 135, _media.scss */
   .stage__body__line li:hover {
     overflow: visible;
   }
 
-  /* line 130, _media.scss */
+  /* line 139, _media.scss */
   .task__body__card__info {
     padding: 40px 20px;
   }
 
-  /* line 133, _media.scss */
+  /* line 142, _media.scss */
   .chang-adv {
     margin-top: 70px;
   }
 
-  /* line 136, _media.scss */
+  /* line 145, _media.scss */
   .change-adv__body__card {
     width: calc((100% - 40px) / 2);
   }
 
-  /* line 139, _media.scss */
+  /* line 148, _media.scss */
   .change-adv__body {
     flex-wrap: wrap;
   }
 
-  /* line 142, _media.scss */
+  /* line 151, _media.scss */
   .adv-optimization__title {
     margin-bottom: 20px;
   }
 
-  /* line 145, _media.scss */
+  /* line 154, _media.scss */
   .client {
     padding-top: 20px;
   }
-}
-@media screen and (max-width: 1199px) {
-  /* line 149, _media.scss */
-  .client__img {
-    height: 200px;
+
+  /* line 157, _media.scss */
+  .price__about__info p, .price__about__info h3 {
+    padding-left: 0;
   }
 
-  /* line 153, _media.scss */
-  .mod-support .client {
-    height: auto;
+  /* line 160, _media.scss */
+  .service-list__card__title {
+    font-size: 21px;
+  }
+
+  /* line 163, _media.scss */
+  .contact__slider__wrap__content__item {
+    width: calc((100% - 60px) / 3);
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 159, _media.scss */
+  /* line 168, _media.scss */
   .header {
     display: flex;
     flex-wrap: wrap;
   }
 
-  /* line 163, _media.scss */
+  /* line 172, _media.scss */
   .header__nav__first, .header__nav__second {
     width: 50%;
   }
 
-  /* line 166, _media.scss */
+  /* line 175, _media.scss */
   .header__nav__first__container {
     height: auto;
   }
 
-  /* line 169, _media.scss */
+  /* line 178, _media.scss */
   .header__nav__first__container ul {
     flex-direction: column;
     padding-top: 10px;
     padding-bottom: 10px;
   }
 
-  /* line 174, _media.scss */
+  /* line 183, _media.scss */
   .header__nav__first__container ul li:before {
     width: 0;
   }
 
-  /* line 177, _media.scss */
+  /* line 186, _media.scss */
   .header__nav__first__container ul li {
     width: 100%;
     text-align: left;
   }
 
-  /* line 181, _media.scss */
+  /* line 190, _media.scss */
   .header__nav__second__container ul {
     flex-direction: column;
     padding-top: 10px;
     padding-bottom: 10px;
   }
 
-  /* line 186, _media.scss */
+  /* line 195, _media.scss */
   .header__nav__second__container {
     height: auto;
   }
 
-  /* line 189, _media.scss */
+  /* line 198, _media.scss */
   .header__nav__second__container ul li {
     height: auto;
     text-align: right;
     width: 100%;
   }
 
-  /* line 194, _media.scss */
+  /* line 203, _media.scss */
   .welcome__slide {
     height: 570px;
   }
 
-  /* line 197, _media.scss */
+  /* line 206, _media.scss */
   .about__info {
     height: auto;
     margin-bottom: 20px;
   }
 
-  /* line 201, _media.scss */
+  /* line 210, _media.scss */
   .about__btn {
     height: auto;
   }
 
-  /* line 204, _media.scss */
+  /* line 213, _media.scss */
   .about__bg {
     background-size: 1600px !important;
     background-position: left top !important;
   }
 
-  /* line 208, _media.scss */
+  /* line 217, _media.scss */
   .call-back .input-field {
     width: calc(50% - 20px);
   }
 
-  /* line 211, _media.scss */
+  /* line 220, _media.scss */
   .call-back .input-submit {
     width: 80%;
     margin-top: 15px;
   }
 
-  /* line 215, _media.scss */
+  /* line 224, _media.scss */
   .reviews__content {
     height: 300px;
   }
 
-  /* line 218, _media.scss */
+  /* line 227, _media.scss */
   .reviews__mail__btn a:before {
     height: 0;
   }
 
-  /* line 221, _media.scss */
+  /* line 230, _media.scss */
   .reviews__mail__message {
     padding: 30px 60px 40px 60px;
   }
 
-  /* line 224, _media.scss */
+  /* line 233, _media.scss */
   .reviews__mail__message:before {
     left: 25px;
     top: 20px;
   }
 
-  /* line 228, _media.scss */
+  /* line 237, _media.scss */
   .reviews__mail__message:after {
     right: 25px;
     bottom: 25px;
   }
 
-  /* line 232, _media.scss */
+  /* line 241, _media.scss */
   .client {
     padding-top: 30px;
     height: auto;
   }
 
-  /* line 236, _media.scss */
+  /* line 245, _media.scss */
   .client__info {
     height: auto;
   }
 
-  /* line 239, _media.scss */
+  /* line 248, _media.scss */
   .client__list {
     padding-top: 25px;
     padding-left: 80px;
@@ -3884,123 +4191,133 @@ input::placeholder {
     margin-bottom: 40px;
   }
 
-  /* line 245, _media.scss */
+  /* line 254, _media.scss */
   .warranty {
     padding-top: 35px;
     background-color: white;
   }
 
-  /* line 249, _media.scss */
+  /* line 258, _media.scss */
   .how-us-work__content__point {
     width: 100%;
   }
 
-  /* line 252, _media.scss */
+  /* line 261, _media.scss */
   .footer__navigation ul li {
     width: 50%;
   }
 
-  /* line 255, _media.scss */
+  /* line 264, _media.scss */
   .footer__navigation {
     margin-top: 20px;
   }
 
-  /* line 258, _media.scss */
+  /* line 267, _media.scss */
   .why-us__bg i {
     width: 42px;
   }
 
-  /* line 261, _media.scss */
+  /* line 270, _media.scss */
   .why-us__bg h2 {
     font-size: 24px;
   }
 
-  /* line 264, _media.scss */
+  /* line 273, _media.scss */
   .why-us__body {
     flex-direction: column;
   }
 
-  /* line 267, _media.scss */
+  /* line 276, _media.scss */
   .why-us__body__card {
     width: 100%;
     margin-bottom: 20px;
   }
 
-  /* line 271, _media.scss */
+  /* line 280, _media.scss */
   .task__body__card__info {
     padding: 20px 10px;
   }
 
-  /* line 274, _media.scss */
+  /* line 283, _media.scss */
   .task__body__card__info__title {
     margin-bottom: 15px;
   }
 
-  /* line 277, _media.scss */
+  /* line 286, _media.scss */
   .task__body__card__info__text {
     margin-bottom: 0;
     line-height: 17px;
   }
 
-  /* line 281, _media.scss */
+  /* line 290, _media.scss */
   .task__body__card {
     min-height: 300px;
   }
 
-  /* line 284, _media.scss */
+  /* line 293, _media.scss */
   .client__img {
     margin-bottom: 20px;
   }
 
-  /* line 287, _media.scss */
+  /* line 296, _media.scss */
   .choice__body__block {
     width: 50%;
   }
 
-  /* line 290, _media.scss */
+  /* line 299, _media.scss */
   .choice__body__block__title {
     height: 60px;
   }
 
-  /* line 293, _media.scss */
+  /* line 302, _media.scss */
   .price__about__link {
     height: auto;
     min-height: auto;
   }
 
-  /* line 297, _media.scss */
+  /* line 306, _media.scss */
   .price__about__link__img {
     display: none;
   }
 
-  /* line 300, _media.scss */
+  /* line 309, _media.scss */
   .price__table__head p {
     font-size: 16px;
   }
 
-  /* line 305, _media.scss */
+  /* line 314, _media.scss */
   .price__table__head .head__first {
     width: calc((100% - 20px) / 100 * 9);
   }
-  /* line 308, _media.scss */
+  /* line 317, _media.scss */
   .price__table__head .head__second {
     width: calc((100% - 20px) / 100 * 28);
   }
-  /* line 311, _media.scss */
+  /* line 320, _media.scss */
   .price__table__head .head__third {
     width: calc((100% - 20px) / 100 * 27);
   }
-  /* line 314, _media.scss */
+  /* line 323, _media.scss */
   .price__table__head .head__four {
     width: calc((100% - 20px) / 100 * 18);
   }
-  /* line 317, _media.scss */
+  /* line 326, _media.scss */
   .price__table__head .head__five {
     width: calc((100% - 20px) / 100 * 18);
   }
+
+  /* line 331, _media.scss */
+  .service-list__card {
+    min-height: auto;
+  }
+
+  /* line 334, _media.scss */
+  .contact__slider__wrap__content__item {
+    width: calc((100% - 40px) / 2);
+  }
 }
 @media screen and (max-width: 574px) {
-  /* line 324, _media.scss */
+  /* line 339, _media.scss */
   .header__origin__logo a {
     display: flex;
     flex-direction: column;
@@ -4009,198 +4326,198 @@ input::placeholder {
     width: 100%;
   }
 
-  /* line 331, _media.scss */
+  /* line 346, _media.scss */
   .header__origin__logo a span {
     display: block;
     margin-top: 10px;
     width: 100%;
   }
 
-  /* line 336, _media.scss */
+  /* line 351, _media.scss */
   .header__origin__button {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
   }
 
-  /* line 341, _media.scss */
+  /* line 356, _media.scss */
   .header__origin__button a {
     margin-bottom: 15px;
   }
 
-  /* line 344, _media.scss */
+  /* line 359, _media.scss */
   .header__nav__first, .header__nav__second {
     width: 100%;
   }
 
-  /* line 347, _media.scss */
+  /* line 362, _media.scss */
   .header__nav__first__container ul li {
     text-align: center;
   }
 
-  /* line 350, _media.scss */
+  /* line 365, _media.scss */
   .header__nav__second__container ul li {
     text-align: center;
   }
 
-  /* line 353, _media.scss */
+  /* line 368, _media.scss */
   .collapse__menu {
     display: inline-block;
   }
 
-  /* line 356, _media.scss */
+  /* line 371, _media.scss */
   .header__nav__first, .header__nav__second {
     height: 0;
     transition: all linear 0.5s;
   }
-  /* line 359, _media.scss */
+  /* line 374, _media.scss */
   .header__nav__first.active, .header__nav__second.active {
     height: auto;
   }
 
-  /* line 363, _media.scss */
+  /* line 378, _media.scss */
   .block-title:before {
     width: 50px;
   }
 
-  /* line 366, _media.scss */
+  /* line 381, _media.scss */
   .block-title {
     padding-left: 70px;
   }
 
-  /* line 369, _media.scss */
+  /* line 384, _media.scss */
   .welcome__slide__content h1 {
     font-size: 26px;
     line-height: 28px;
   }
 
-  /* line 373, _media.scss */
+  /* line 388, _media.scss */
   .welcome__slide {
     height: 500px;
   }
 
-  /* line 376, _media.scss */
+  /* line 391, _media.scss */
   .call-back__title {
     font-size: 30px;
   }
 
-  /* line 379, _media.scss */
+  /* line 394, _media.scss */
   .call-back .input-field {
     width: 100%;
     margin-bottom: 10px;
   }
 
-  /* line 383, _media.scss */
+  /* line 398, _media.scss */
   .call-back .input-checkbox__text {
     font-size: 10px;
     line-height: 12px;
   }
 
-  /* line 387, _media.scss */
+  /* line 402, _media.scss */
   .call-back .input-checkbox__input {
     flex-shrink: 0;
   }
 
-  /* line 390, _media.scss */
+  /* line 405, _media.scss */
   .reviews__control {
     margin-top: -30px;
     margin-bottom: 20px;
   }
 
-  /* line 394, _media.scss */
+  /* line 409, _media.scss */
   .reviews__mail__message:before {
     left: 10px;
     top: 10px;
   }
 
-  /* line 398, _media.scss */
+  /* line 413, _media.scss */
   .reviews__mail__message:after {
     right: 10px;
     bottom: 10px;
   }
 
-  /* line 402, _media.scss */
+  /* line 417, _media.scss */
   .reviews__mail__message {
     padding: 30px 40px 40px 40px;
   }
 
-  /* line 405, _media.scss */
+  /* line 420, _media.scss */
   .client__list {
     padding-left: 20px;
     padding-right: 20px;
   }
 
-  /* line 409, _media.scss */
+  /* line 424, _media.scss */
   .warranty__wrap a span {
     font-size: 13px;
   }
 
-  /* line 412, _media.scss */
+  /* line 427, _media.scss */
   .advantages__list {
     padding-bottom: 40px;
   }
 
-  /* line 415, _media.scss */
+  /* line 430, _media.scss */
   .how-work__form {
     padding: 20px 10px;
   }
 
-  /* line 418, _media.scss */
+  /* line 433, _media.scss */
   .footer__navigation ul li {
     width: 100%;
   }
 
-  /* line 421, _media.scss */
+  /* line 436, _media.scss */
   .footer__navigation {
     margin-bottom: 20px;
   }
 
-  /* line 424, _media.scss */
+  /* line 439, _media.scss */
   .about-audit__tabs a {
     width: 100%;
   }
 
-  /* line 427, _media.scss */
+  /* line 442, _media.scss */
   .audit-info p {
     padding: 0 10px;
   }
 
-  /* line 430, _media.scss */
+  /* line 445, _media.scss */
   .stage__body {
     padding: 0;
   }
 
-  /* line 433, _media.scss */
+  /* line 448, _media.scss */
   .stage__body__line {
     height: auto;
     background-color: transparent;
     flex-wrap: wrap;
   }
-  /* line 437, _media.scss */
+  /* line 452, _media.scss */
   .stage__body__line li {
     width: 50%;
     margin-bottom: 20px;
   }
 
-  /* line 442, _media.scss */
+  /* line 457, _media.scss */
   .stage__body__line__point__sub-title {
     height: auto;
     overflow: visible;
   }
 
-  /* line 446, _media.scss */
+  /* line 461, _media.scss */
   .stage__body__line li:before {
     left: calc(100% - 20px);
     top: 20px;
   }
 
-  /* line 450, _media.scss */
+  /* line 465, _media.scss */
   .stage__body__line li:after {
     left: calc(100% - 20px);
     top: 20px;
   }
 
-  /* line 454, _media.scss */
+  /* line 469, _media.scss */
   .stage__body__line__point {
     left: 0 !important;
     top: 0 !important;
@@ -4209,106 +4526,125 @@ input::placeholder {
     transform: translate(0, 0) !important;
   }
 
-  /* line 461, _media.scss */
+  /* line 476, _media.scss */
   .price__white__about ul li {
     width: calc(50% - 10px);
     margin-bottom: 10px;
   }
 
-  /* line 465, _media.scss */
+  /* line 480, _media.scss */
   .price__white__about ul {
     flex-wrap: wrap;
   }
 
-  /* line 468, _media.scss */
+  /* line 483, _media.scss */
   .price__white__info__card {
     width: 100%;
   }
-  /* line 470, _media.scss */
+  /* line 485, _media.scss */
   .price__white__info__card:nth-child(2) {
     display: none;
   }
 
-  /* line 474, _media.scss */
+  /* line 489, _media.scss */
   .price__white__info {
     margin-top: 30px;
   }
 
-  /* line 477, _media.scss */
+  /* line 492, _media.scss */
   .price__white .reviews__control {
     margin-top: 30px;
   }
 
-  /* line 480, _media.scss */
+  /* line 495, _media.scss */
   .why-us__bg i {
     width: 100%;
     margin: 20px auto;
     height: 42px;
   }
 
-  /* line 485, _media.scss */
+  /* line 500, _media.scss */
   .why-us__bg h2 {
     font-size: 24px;
     line-height: 28px;
     margin-bottom: 30px;
   }
 
-  /* line 490, _media.scss */
+  /* line 505, _media.scss */
   .change-adv__body__card {
     width: 100%;
     padding: 0 15px;
   }
 
-  /* line 494, _media.scss */
+  /* line 509, _media.scss */
   .change-adv__body__card div {
     width: 92px;
     height: 112px;
   }
 
-  /* line 498, _media.scss */
+  /* line 513, _media.scss */
   .task__body__card {
     flex-wrap: wrap;
   }
-  /* line 500, _media.scss */
+  /* line 515, _media.scss */
   .task__body__card__img {
     width: 100%;
     height: 180px;
     order: 0 !important;
   }
-  /* line 505, _media.scss */
+  /* line 520, _media.scss */
   .task__body__card__info {
     width: 100%;
     order: 0 !important;
   }
 
-  /* line 510, _media.scss */
+  /* line 525, _media.scss */
   .comparison__body__card {
     padding: 15px 20px 15px 15px;
   }
 
-  /* line 513, _media.scss */
+  /* line 528, _media.scss */
   .choice__body__block {
     width: 100%;
   }
 
-  /* line 516, _media.scss */
+  /* line 531, _media.scss */
   .choice__body:before {
     height: 0;
   }
 
-  /* line 519, _media.scss */
+  /* line 534, _media.scss */
   .service-list:before {
     height: 0;
   }
 
-  /* line 522, _media.scss */
+  /* line 537, _media.scss */
   .price__table__head p {
     font-size: 12px;
   }
 
-  /* line 525, _media.scss */
+  /* line 540, _media.scss */
   .price__table__block__head h3 {
     font-size: 16px;
+  }
+
+  /* line 543, _media.scss */
+  .contact__slider__wrap__content__item {
+    width: calc(100% - 20px);
+  }
+
+  /* line 546, _media.scss */
+  .contact__slider__wrap {
+    padding: 0 0 40px 0;
+    margin-bottom: 30px;
+  }
+
+  /* line 550, _media.scss */
+  .contact__slider__wrap__control {
+    top: auto;
+    bottom: 0;
+    transform: translate(0, 0);
+    padding: 0 50px;
   }
 }
 /* ╨Ь╨╡╨┤╨╕╨░ ╨╖╨░╨┐╤А╨╛╤Б╤Л */

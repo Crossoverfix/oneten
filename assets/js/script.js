@@ -161,4 +161,26 @@ $(document).ready(function () {
             $('.price__white__info__card').eq(0).animate({marginLeft:'10px'},500);
         }
     }
+
+
+    var $mapSlidBtn = $('[data-js-contact-slider]');
+    var $mapSlidContainer = $('.contact__slider__wrap__content');
+    $mapSlidBtn.on('click',function () {
+        let direction = $(this).attr('data-js-contact-slider');
+        fSlideContact(direction);
+        return false;
+    })
+    function fSlideContact(directions) {
+        let slideWidth = $('.contact__slider__wrap__content__item').eq(0).outerWidth() + 10;
+        if(directions == 'next'){
+            $('.contact__slider__wrap__content__item').eq(0).animate({marginLeft:'-' + slideWidth + 'px'},500,function(){
+                $('.contact__slider__wrap__content__item').eq(0).css('margin-left','10px');
+                $('.contact__slider__wrap__content__item').eq(0).appendTo($mapSlidContainer);
+            });
+        } else if(directions == 'prev'){
+            $('.contact__slider__wrap__content__item').eq(-1).css('margin-left',- slideWidth);
+            $('.contact__slider__wrap__content__item').eq(-1).prependTo($mapSlidContainer);
+            $('.contact__slider__wrap__content__item').eq(0).animate({marginLeft:'10px'},500);
+        }
+    }
 })
