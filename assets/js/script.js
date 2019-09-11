@@ -1,4 +1,29 @@
 $(document).ready(function () {
+    var $modallTriger = $('[data-js-modal-trigger]');
+    var $modallContent = $('[data-js-modal-content]');
+    $modallTriger.on('click',function () {
+        let target = $(this).attr('data-js-modal-trigger');
+        $('[data-js-modal-content="'+ target +'"]').addClass('active');
+        $('.modal').addClass('active');
+        $('body').addClass('modal-mod');
+        return false
+    })
+    $(document).mouseup(function (e) {
+        var $object = $modallContent; // тут указываем ID элемента
+        if (!$object.is(e.target) // если клик был не по нашему блоку
+            && $object.has(e.target).length === 0) { // и не по его дочерним элементам
+            $('.modal').removeClass('active');
+            $modallContent.removeClass('active');
+            $('body').removeClass('modal-mod');
+        }
+    })
+    window.addEventListener("keydown", function(e){
+        if (e.keyCode == 27) {
+            $('.modal').removeClass('active');
+            $modallContent.removeClass('active');
+            $('body').removeClass('modal-mod')
+            ;}
+    }, true);
     var $slideWelcome = $('[data-js-slide="welcome"]');
     if($slideWelcome.hasClass('welcome')){
         fSlide();
@@ -161,8 +186,6 @@ $(document).ready(function () {
             $('.price__white__info__card').eq(0).animate({marginLeft:'10px'},500);
         }
     }
-
-
     var $mapSlidBtn = $('[data-js-contact-slider]');
     var $mapSlidContainer = $('.contact__slider__wrap__content');
     $mapSlidBtn.on('click',function () {

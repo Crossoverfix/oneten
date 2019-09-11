@@ -101,7 +101,7 @@
                    <div class="col-lg-7 col-12">
                        <h1>Вас видят реальные заказчики и ваши продажи растут</h1>
                        <p>Раскрутка сайта в поисковых системах и контекстная реклама –<br> основной инструмент продаж компании OneTen!</p>
-                       <a href="#" class="link-btn"><span>оставить заявку</span><i class="ico__arr-right__white"></i></a>
+                       <a href="#" class="link-btn" data-js-modal-trigger="form-1"><span>оставить заявку</span><i class="ico__arr-right__white"></i></a>
                    </div>
                 </div>
             </div>
@@ -113,7 +113,7 @@
                     <div class="col-lg-7 col-12">
                         <h1>Slide 2 Вас видят реальные заказчики и ваши продажи растут</h1>
                         <p>Раскрутка сайта в поисковых системах и контекстная реклама –<br>  sa основной инструмент продаж компании OneTen!</p>
-                        <a href="#" class="link-btn"><span>оставить заявку</span><i class="ico__arr-right__white"></i></a>
+                        <a href="#" class="link-btn" data-js-modal-trigger="form-1"><span>оставить заявку</span><i class="ico__arr-right__white"></i></a>
                     </div>
                 </div>
             </div>
@@ -125,7 +125,7 @@
                     <div class="col-lg-7 col-12">
                         <h1>Slide 3 Вас видят реальные заказчики и ваши продажи растут</h1>
                         <p>Раскрутка сайта в поисковых системах и контекстная реклама –<br> основной инструмент продаж компании OneTen!</p>
-                        <a href="#" class="link-btn"><span>оставить заявку</span><i class="ico__arr-right__white"></i></a>
+                        <a href="#" class="link-btn" data-js-modal-trigger="form-1"><span>оставить заявку</span><i class="ico__arr-right__white"></i></a>
                     </div>
                 </div>
             </div>
@@ -871,6 +871,99 @@
         </div>
     </div>
 </footer>
+<div class="modal">
+    <div class="modal__content container mod-send" data-js-modal-content="form-1">
+            <form class="row">
+                <div class="col-lg-4 col-12">
+                    <p class="modal__title">Оформить услугу</p>
+                    <p class="modal__sub-title">Мы перезвоним в течение 30 минут</p>
+                    <div class="modal__file">
+                        <label>
+                            <p class="modal__file__btn">Прикрепить файл</p>
+                            <input name="file" type="file">
+                        </label>
+                        <p class="modal__file__text">Форматы: DOC, DOCX, XLS, XLSX. TXT, PDF.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12 mod-send">
+                    <span class="input-field">
+                        <input autocomplete="off" type="text" name="name" placeholder="Ваше имя*">
+                    </span>
+                    <span class="input-field">
+                         <input autocomplete="off" type="text" name="phone" placeholder="Ваш номер телефона*">
+                    </span>
+                    <span class="input-field">
+                         <input autocomplete="off" type="text" name="phone" placeholder="Адрес сайта*">
+                    </span>
+                    <span class="input-field">
+                         <input autocomplete="off" type="text" name="phone" placeholder="E-mail*">
+                    </span>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <span class="input-text_area">
+                        <textarea>Поле для сообщения</textarea>
+                    </span>
+                    <span class="input-submit">
+                         <input type="submit" placeholder="Отправить">
+                    </span>
+                    <span class="input-checkbox">
+                        <input id="modal-agree" type="checkbox" name="check" value="yes">
+                        <label for="modal-agree" class="input-checkbox__input"></label>
+                        <p class="input-checkbox__text">Согласен с обработкой моих персональных данных в соответствии с политикой конфиденциальности</p>
+                    </span>
+                </div>
+                <div class="col-lg-4 col-12 mod-select">
+                    <select class="input-field">
+                        <option value="Выберите услугу*">Выберите услугу*</option>
+                    </select>
+                </div>
+                <div class="col-12 mod-ratio">
+                  <div class="mod-ratio__wrap">
+                      <span class="input-checkbox">
+                        <input id="modal-ratio-1" type="radio" name="type" value="1">
+                        <label for="modal-ratio-1" class="input-checkbox__input"></label>
+                        <p class="input-checkbox__text">Продвижение сайтов</p>
+                      </span>
+                      <span class="input-checkbox">
+                        <input id="modal-ratio-2" type="radio" name="type" value="2">
+                        <label for="modal-ratio-2" class="input-checkbox__input"></label>
+                        <p class="input-checkbox__text">Создание сайтов</p>
+                    </span>
+                      <span class="input-checkbox">
+                        <input id="modal-ratio-3" type="radio" name="type" value="3">
+                        <label for="modal-ratio-3" class="input-checkbox__input"></label>
+                        <p class="input-checkbox__text">Веб - аналитика</p>
+                    </span>
+                      <span class="input-checkbox">
+                        <input id="modal-ratio-4" type="radio" name="type" value="4">
+                        <label for="modal-ratio-4" class="input-checkbox__input"></label>
+                        <p class="input-checkbox__text">Интернет реклама</p>
+                    </span>
+                      <span class="input-checkbox">
+                        <input id="modal-ratio-5" type="radio" name="type" value="5">
+                        <label for="modal-ratio-5" class="input-checkbox__input"></label>
+                        <p class="input-checkbox__text">Поддержка сайтов</p>
+                    </span>
+                      <span class="input-checkbox">
+                        <input id="modal-ratio-6" type="radio" name="type" value="6">
+                        <label for="modal-ratio-6" class="input-checkbox__input"></label>
+                        <p class="input-checkbox__text">Аудит сайта</p>
+                    </span>
+                      <span class="input-checkbox">
+                        <input id="modal-ratio-7" type="radio" name="type" value="7">
+                        <label for="modal-ratio-7" class="input-checkbox__input"></label>
+                        <p class="input-checkbox__text">Оптимизация сайта</p>
+                    </span>
+                      <span class="input-checkbox">
+                        <input id="modal-ratio-8" type="radio" name="type" value="8">
+                        <label for="modal-ratio-8" class="input-checkbox__input"></label>
+                        <p class="input-checkbox__text">Другие услуги</p>
+                    </span>
+                  </div>
+                </div>
+            </form>
+    </div>
+</div>
 <script src="assets/js/script.js"></script>
 </body>
 </html>

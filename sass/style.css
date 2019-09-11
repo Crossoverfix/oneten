@@ -905,7 +905,53 @@ body h6 {
   margin-top: 0;
   text-align: center;
 }
-/* line 329, _page.scss */
+/* line 328, _page.scss */
+.call-back__file {
+  margin-top: 30px;
+  border: solid 2px #df5467;
+  padding: 25px 15px 15px 15px;
+  display: inline-block;
+  width: 70%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+/* line 337, _page.scss */
+.call-back__file label {
+  position: relative;
+  display: inline-block;
+  height: 50px;
+  background-color: #313640;
+  padding: 0 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+/* line 345, _page.scss */
+.call-back__file label input {
+  display: none;
+}
+/* line 349, _page.scss */
+.call-back__file__btn {
+  display: inline-block;
+  font-family: "TTNorms";
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 50px;
+}
+/* line 359, _page.scss */
+.call-back__file__text {
+  display: inline-block;
+  font-family: "TTNorms";
+  font-size: 13px;
+  font-weight: 500;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+/* line 370, _page.scss */
 .call-back .input-field {
   border-radius: 20px;
   padding: 0 20px;
@@ -914,7 +960,7 @@ body h6 {
   position: relative;
   width: calc(40% - 20px);
 }
-/* line 336, _page.scss */
+/* line 377, _page.scss */
 .call-back .input-field input {
   border: none;
   outline: none;
@@ -924,21 +970,21 @@ body h6 {
   line-height: 48px;
   color: white;
 }
-/* line 344, _page.scss */
+/* line 385, _page.scss */
 .call-back .input-field input::-moz-placeholder, .call-back .input-field input::-webkit-input-placeholder, .call-back .input-field input:-ms-input-placeholder, .call-back .input-field input::-ms-input-placeholder, .call-back .input-field input::placeholder {
   color: white !important;
 }
-/* line 349, _page.scss */
+/* line 390, _page.scss */
 .call-back .input-submit {
   width: calc(20% - 20px);
   position: relative;
   cursor: pointer;
 }
-/* line 354, _page.scss */
+/* line 395, _page.scss */
 .call-back .input-submit:hover input {
   background-color: #676f7c;
 }
-/* line 358, _page.scss */
+/* line 399, _page.scss */
 .call-back .input-submit input {
   cursor: pointer;
   width: 100%;
@@ -951,7 +997,7 @@ body h6 {
   font-weight: 500;
   text-align: center;
 }
-/* line 371, _page.scss */
+/* line 412, _page.scss */
 .call-back .input-checkbox {
   width: 100%;
   margin-top: 10px;
@@ -963,16 +1009,16 @@ body h6 {
   justify-content: center;
   align-items: center;
 }
-/* line 381, _page.scss */
+/* line 422, _page.scss */
 .call-back .input-checkbox input {
   display: none;
 }
-/* line 384, _page.scss */
+/* line 425, _page.scss */
 .call-back .input-checkbox input:checked ~ .input-checkbox__input:before {
   width: 60%;
   height: 60%;
 }
-/* line 390, _page.scss */
+/* line 431, _page.scss */
 .call-back .input-checkbox__input {
   display: inline-block;
   width: 21px;
@@ -982,7 +1028,7 @@ body h6 {
   cursor: pointer;
   position: relative;
 }
-/* line 398, _page.scss */
+/* line 439, _page.scss */
 .call-back .input-checkbox__input:before {
   content: "";
   position: absolute;
@@ -994,7 +1040,7 @@ body h6 {
   background: url("../assets/img/icons/check_w.png") no-repeat center;
   background-size: contain;
 }
-/* line 410, _page.scss */
+/* line 451, _page.scss */
 .call-back .input-checkbox__text {
   font-family: "TTNorms";
   font-size: 12px;
@@ -1005,7 +1051,7 @@ body h6 {
   margin-bottom: 0;
   margin-top: 0;
 }
-/* line 421, _page.scss */
+/* line 462, _page.scss */
 .call-back .input-text_area {
   display: inline-block;
   border-radius: 15px;
@@ -1015,7 +1061,7 @@ body h6 {
   height: 110px;
   margin-bottom: 20px;
 }
-/* line 429, _page.scss */
+/* line 470, _page.scss */
 .call-back .input-text_area textarea {
   border: none;
   background-color: transparent;
@@ -1027,52 +1073,6 @@ body h6 {
   font-weight: 200;
   font-family: "TTNorms";
   color: white;
-}
-/* line 443, _page.scss */
-.call-back__file {
-  margin-top: 30px;
-  border: solid 2px #df5467;
-  padding: 25px 15px 15px 15px;
-  display: inline-block;
-  width: 70%;
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-}
-/* line 452, _page.scss */
-.call-back__file label {
-  position: relative;
-  display: inline-block;
-  height: 50px;
-  background-color: #313640;
-  padding: 0 20px;
-  left: 50%;
-  transform: translateX(-50%);
-}
-/* line 460, _page.scss */
-.call-back__file label input {
-  display: none;
-}
-/* line 464, _page.scss */
-.call-back__file__btn {
-  display: inline-block;
-  font-family: "TTNorms";
-  font-size: 16px;
-  font-weight: 600;
-  color: white;
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: 50px;
-}
-/* line 474, _page.scss */
-.call-back__file__text {
-  display: inline-block;
-  font-family: "TTNorms";
-  font-size: 13px;
-  font-weight: 500;
-  color: white;
-  margin-top: 20px;
-  margin-bottom: 0;
 }
 /* line 484, _page.scss */
 .call-back .mod-send {
@@ -3669,6 +3669,313 @@ body h6 {
 /* line 104, _option.scss */
 input::placeholder {
   color: white;
+}
+
+/* line 107, _option.scss */
+.modal {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 100;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  overflow-y: auto;
+  display: none;
+}
+/* line 119, _option.scss */
+.modal.active {
+  display: block;
+}
+/* line 122, _option.scss */
+.modal-mod {
+  overflow-y: hidden;
+}
+/* line 125, _option.scss */
+.modal__content {
+  display: none;
+  background-color: white;
+  border-radius: 10px;
+  border: 2px solid #eff3fb;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+/* line 127, _option.scss */
+.modal__content.active {
+  display: block;
+}
+/* line 135, _option.scss */
+.modal__content .mod-ratio {
+  padding: 5px 50px;
+}
+/* line 137, _option.scss */
+.modal__content .mod-ratio__wrap {
+  border-radius: 10px;
+  background-color: #f9f0f0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px 60px 40px 10px;
+}
+/* line 146, _option.scss */
+.modal__content .mod-ratio__wrap .input-checkbox {
+  width: calc(100% / 3);
+  padding: 0 30px 0 10px;
+  justify-content: flex-start;
+}
+/* line 154, _option.scss */
+.modal__content .input-field {
+  border-radius: 20px;
+  padding: 0 20px;
+  background-color: #f9f0f0;
+  height: 50px;
+  position: relative;
+  width: calc(40% - 20px);
+  box-shadow: 3px 6px 5px 0px #f9f0f0;
+}
+/* line 162, _option.scss */
+.modal__content .input-field input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  line-height: 48px;
+  color: #313640;
+}
+/* line 170, _option.scss */
+.modal__content .input-field input::placeholder {
+  color: #313640;
+}
+/* line 175, _option.scss */
+.modal__content .input-submit {
+  width: calc(20% - 20px);
+  position: relative;
+  cursor: pointer;
+}
+/* line 180, _option.scss */
+.modal__content .input-submit:hover input {
+  background-color: #676f7c;
+}
+/* line 184, _option.scss */
+.modal__content .input-submit input {
+  cursor: pointer;
+  width: 100%;
+  height: 50px;
+  border: none;
+  color: white;
+  background-color: #313640;
+  font-family: "TTNorms";
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+}
+/* line 197, _option.scss */
+.modal__content .input-checkbox {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 0;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+/* line 207, _option.scss */
+.modal__content .input-checkbox input {
+  display: none;
+}
+/* line 210, _option.scss */
+.modal__content .input-checkbox input:checked ~ .input-checkbox__input:before {
+  width: 60%;
+  height: 60%;
+}
+/* line 216, _option.scss */
+.modal__content .input-checkbox__input {
+  display: inline-block;
+  width: 21px;
+  height: 18px;
+  border-radius: 3px;
+  background-color: #eed1d2;
+  cursor: pointer;
+  position: relative;
+}
+/* line 224, _option.scss */
+.modal__content .input-checkbox__input:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: url("../assets/img/icons/check_w.png") no-repeat center;
+  background-size: contain;
+}
+/* line 236, _option.scss */
+.modal__content .input-checkbox__text {
+  font-family: "TTNorms";
+  font-size: 12px;
+  color: white;
+  font-weight: 300;
+  display: inline-block;
+  margin-left: 10px;
+  margin-bottom: 0;
+  margin-top: 0;
+  color: #313640;
+}
+/* line 248, _option.scss */
+.modal__content .input-text_area {
+  display: inline-block;
+  border-radius: 15px;
+  width: 100%;
+  position: relative;
+  height: 110px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+/* line 256, _option.scss */
+.modal__content .input-text_area textarea {
+  border: none;
+  background-color: #f9f0f0;
+  resize: none;
+  width: 100%;
+  height: 100%;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 200;
+  font-family: "TTNorms";
+  color: #313640;
+}
+/* line 270, _option.scss */
+.modal__content .mod-send {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+/* line 276, _option.scss */
+.modal__content.mod-send {
+  margin-top: 0;
+}
+/* line 278, _option.scss */
+.modal__content.mod-send .input-field {
+  width: 100%;
+  margin-bottom: 15px;
+}
+/* line 282, _option.scss */
+.modal__content.mod-send .input-submit {
+  width: auto;
+  display: inline-block;
+  left: 100%;
+  transform: translateX(-100%);
+}
+/* line 283, _option.scss */
+.modal__content.mod-send .input-submit input {
+  padding: 0 20px;
+}
+/* line 292, _option.scss */
+.modal__content.mod-send .input-checkbox label {
+  flex-shrink: 0;
+}
+/* line 297, _option.scss */
+.modal__content .mod-select {
+  padding: 0 65px;
+  position: relative;
+}
+/* line 300, _option.scss */
+.modal__content .mod-select:before {
+  content: "";
+  position: absolute;
+  background: url("../assets/img/icons/ico_arr_down.png") no-repeat center;
+  background-size: 12px auto;
+  width: 12px;
+  height: 12px;
+  display: block;
+  right: 85px;
+  top: 50%;
+  z-index: 1;
+  transform: translateY(-100%);
+}
+/* line 313, _option.scss */
+.modal__content .mod-select select {
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+/* line 322, _option.scss */
+.modal__title {
+  font-family: "TTNorms";
+  font-size: 34px;
+  color: #313640;
+  font-weight: 200;
+  margin-bottom: 10px;
+  margin-top: 0;
+  text-align: center;
+}
+/* line 331, _option.scss */
+.modal__sub-title {
+  font-family: "TTNorms";
+  font-size: 13px;
+  color: #313640;
+  font-weight: 200;
+  margin-bottom: 0;
+  margin-top: 0;
+  text-align: center;
+}
+/* line 340, _option.scss */
+.modal__file {
+  margin-top: 30px;
+  padding: 25px 15px 15px 15px;
+  display: inline-block;
+  width: 70%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 3px 3px 9px -2px rgba(223, 84, 103, 0.75);
+  background-color: #f9f0f0;
+}
+/* line 350, _option.scss */
+.modal__file label {
+  position: relative;
+  display: inline-block;
+  height: 50px;
+  background-color: #313640;
+  padding: 0 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+/* line 358, _option.scss */
+.modal__file label input {
+  display: none;
+}
+/* line 362, _option.scss */
+.modal__file__text {
+  display: inline-block;
+  font-family: "TTNorms";
+  font-size: 13px;
+  font-weight: 500;
+  color: #313640;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+/* line 371, _option.scss */
+.modal__file__btn {
+  display: inline-block;
+  font-family: "TTNorms";
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 50px;
 }
 
 /* ╨Ю╨┐╤Ж╨╕╨╛╨╜╨░╨╗╤М╨╜╤Л╨╡ ╤Б╤В╨╕╨╗╨╕ */

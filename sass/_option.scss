@@ -104,3 +104,279 @@
 input::placeholder{
   color: white;
 }
+.modal{
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  background-color: rgba(0,0,0,0.4);
+  z-index: 100;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  overflow-y: auto;
+  display: none;
+  &.active{
+    display: block;
+  }
+  &-mod{
+    overflow-y: hidden;
+  }
+  &__content{
+    display: none;
+    &.active{
+      display: block;
+    }
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid #eff3fb;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    .mod-ratio{
+      padding: 5px 50px;
+      &__wrap{
+        border-radius: 10px;
+        background-color: #f9f0f0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 10px 60px 40px 10px;
+        .input-checkbox{
+          width: calc(100% / 3);
+          padding: 0 30px 0 10px;
+          justify-content: flex-start;
+        }
+      }
+    }
+    .input{
+      &-field{
+        border-radius: 20px;
+        padding: 0 20px;
+        background-color: #f9f0f0;
+        height: 50px;
+        position: relative;
+        width: calc(40% - 20px);
+        box-shadow: 3px 6px 5px 0px rgb(249, 240, 240);
+        input{
+          border: none;
+          outline: none;
+          background-color: transparent;
+          width: 100%;
+          height: 100%;
+          line-height: 48px;
+          color: #313640;
+          &::placeholder{
+            color: #313640;
+          }
+        }
+      }
+      &-submit{
+        width: calc(20% - 20px);
+        position: relative;
+        cursor: pointer;
+        &:hover{
+          input{
+            background-color: #676f7c;
+          }
+        }
+        input{
+          cursor: pointer;
+          width: 100%;
+          height: 50px;
+          border: none;
+          color: white;
+          background-color: #313640;
+          font-family: "TTNorms";
+          font-size: 16px;
+          font-weight: 500;
+          text-align: center;
+        }
+      }
+      &-checkbox{
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 0;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        input{
+          display: none;
+          &:checked ~ .input-checkbox__input{
+            &:before{
+              width: 60%;
+              height: 60%;
+            }
+          }
+        }
+        &__input{
+          display: inline-block;
+          width: 21px;
+          height: 18px;
+          border-radius: 3px;
+          background-color: #eed1d2;
+          cursor: pointer;
+          position: relative;
+          &:before{
+            content: "";
+            position: absolute;
+            width: 0;
+            height: 0;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            background: url("../assets/img/icons/check_w.png")no-repeat center;
+            background-size: contain;
+          }
+        }
+        &__text{
+          font-family: "TTNorms";
+          font-size: 12px;
+          color: white;
+          font-weight: 300;
+          display: inline-block;
+          margin-left: 10px;
+          margin-bottom: 0;
+          margin-top: 0;
+          color: #313640;
+        }
+      }
+      &-text_area{
+        display: inline-block;
+        border-radius: 15px;
+        width: 100%;
+        position: relative;
+        height: 110px;
+        margin-bottom: 20px;
+        overflow: hidden;
+        textarea{
+          border: none;
+          background-color: #f9f0f0;
+          resize: none;
+          width: 100%;
+          height: 100%;
+          padding: 10px 20px;
+          font-size: 16px;
+          font-weight: 200;
+          font-family: "TTNorms";
+          color: #313640;
+        }
+      }
+    }
+    .mod-send{
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      justify-content: flex-start;
+    }
+    &.mod-send{
+      margin-top: 0;
+      .input-field{
+        width: 100%;
+        margin-bottom: 15px;
+      }
+      .input-submit{
+        input{
+          padding: 0 20px;
+        }
+        width: auto;
+        display: inline-block;
+        left: 100%;
+        transform: translateX(-100%);
+      }
+      .input-checkbox{
+        label{
+          flex-shrink: 0;
+        }
+      }
+    }
+    .mod-select{
+      padding: 0 65px;
+      position: relative;
+      &:before{
+        content: "";
+        position: absolute;
+        background: url("../assets/img/icons/ico_arr_down.png")no-repeat center;
+        background-size: 12px auto;
+        width: 12px;
+        height: 12px;
+        display: block;
+        right: 85px;
+        top: 50%;
+        z-index: 1;
+        transform: translateY(-100%);
+      }
+      select{
+        border: none;
+        outline: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+      }
+    }
+  }
+  &__title{
+    font-family: "TTNorms";
+    font-size: 34px;
+    color: #313640;
+    font-weight: 200;
+    margin-bottom: 10px;
+    margin-top: 0;
+    text-align: center;
+  }
+  &__sub-title{
+    font-family: "TTNorms";
+    font-size: 13px;
+    color: #313640;
+    font-weight: 200;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+  }
+  &__file{
+    margin-top: 30px;
+    padding: 25px 15px 15px 15px;
+    display: inline-block;
+    width: 70%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 3px 3px 9px -2px rgba(223, 84, 103, 0.75);
+    background-color: #f9f0f0;
+    label{
+      position: relative;
+      display: inline-block;
+      height: 50px;
+      background-color: #313640;
+      padding: 0 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      input{
+        display: none;
+      }
+    }
+    &__text{
+      display: inline-block;
+      font-family: "TTNorms";
+      font-size: 13px;
+      font-weight: 500;
+      color: #313640;
+      margin-top: 20px;
+      margin-bottom: 0;
+    }
+    &__btn{
+      display: inline-block;
+      font-family: "TTNorms";
+      font-size: 16px;
+      font-weight: 600;
+      color: white;
+      margin-top: 0;
+      margin-bottom: 0;
+      line-height: 50px;
+    }
+  }
+}
