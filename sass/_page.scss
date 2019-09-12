@@ -2683,3 +2683,106 @@
     }
   }
 }
+.stock{
+  &__body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-bottom: 45px;
+    &__card{
+      display: inline-block;
+      width: calc((100% - 48px) / 3);
+      margin: 0 8px 15px 8px;
+      position: relative;
+      border-radius: 10px;
+      overflow: hidden;
+      height: 430px;
+      background-color: #03002c;
+      &__img{
+        width: 100%;
+        height: 100%;
+        background-size: cover!important;
+        background-repeat: no-repeat!important;
+        background-position: center!important;
+      }
+    }
+  }
+}
+.news{
+  &__body{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0;
+    position: relative;
+    &__card{
+      display: inline-block;
+      margin: 0 40px 55px 40px;
+      position: relative;
+      width: calc((100% - 240px) / 3);
+      background-size: cover!important;
+      background-position: center!important;
+      background-repeat: no-repeat!important;
+      padding-top: 19%;
+      text-decoration: none;
+      &__content{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(41,48,60,0.78);
+        padding: 20px 15px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+        align-items: flex-start;
+        &__wrap{
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          align-items: flex-end;
+          justify-content: space-between;
+          width: 100%;
+        }
+        &__title{
+          font-family: "TTNorms";
+          margin-bottom: 0;
+          margin-top: 0;
+          color: white;
+          max-width: 70%;
+          font-size: 12px;
+          font-weight: 400;
+          padding: 0 5px;
+          line-height: 17px;
+          background-color: #006ae5;
+        }
+        &__date{
+          font-family: "TTNorms";
+          margin-bottom: 0;
+          margin-top: 0;
+          color: #a7abb6;
+          max-width: 30%;
+          text-align: right;
+          font-size: 10px;
+          font-weight: 600;
+          line-height: 20px;
+          vertical-align: top;
+        }
+        &__text{
+          font-family: "TTNorms";
+          margin-bottom: 0;
+          margin-top: 10px;
+          color: white;
+          width: 100%;
+          font-size: 13px;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}
