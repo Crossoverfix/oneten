@@ -380,3 +380,42 @@ input::placeholder{
     }
   }
 }
+.mod-job{
+  .about__info{
+    &__title{
+      margin-bottom: 20px;
+      font-size: 17px;
+    }
+  }
+  .about__btn{
+    height: 680px;
+  }
+  &.call-back{
+    background-color: #006ae5;
+    .input-field{
+      background-color: #4e8cdf;
+    }
+    .input-checkbox__input{
+      background-color: #4e8cdf;
+    }
+    .call-back__file{
+      border: none;
+      width: 600px;
+      padding-left: 200px;
+      margin-top: 0;
+      label{
+        left: 0;
+        transform: translateX(0);
+        vertical-align: top;
+      }
+      &__text{
+        width: 200px;
+        margin-top: 0;
+        padding-left: 20px;
+      }
+    }
+  }
+  &.question{
+    padding-bottom: 30px;
+  }
+}

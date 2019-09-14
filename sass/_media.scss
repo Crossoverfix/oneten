@@ -44,6 +44,9 @@
   .stock__body__card{
     height: 350px;
   }
+  .mod-job .about__btn{
+    height: 540px;
+  }
 }
 @media screen and (max-width: 991px){
   .header__nav__first__container ul li a{
@@ -168,6 +171,17 @@
   }
   .stock__body__card{
     height: 250px;
+  }
+  .about__info a{
+    margin-left: 0;
+  }
+  .audit-info__list li{
+    width: 50%;
+  }
+  .mod-job.call-back .call-back__file{
+    flex-direction: row;
+    width: 100%;
+    padding: 10px 0;
   }
 }
 @media screen and (max-width: 767px){
@@ -343,6 +357,12 @@
   .stock__body__card{
     width: calc((100% - 32px) / 2);
     height: 280px;
+  }
+  .mod-job .about__btn{
+    height: auto;
+  }
+  .what__body ul{
+    padding: 30px 20px;
   }
 }
 @media screen and (max-width: 574px){
@@ -573,5 +593,25 @@
       left: 0;
       top: 0;
     }
+  }
+  .audit-info__list li {
+    width: 100%;
+    margin-left: 10px;
+  }
+  .what__body{
+    flex-wrap: wrap;
+    background: none;
+    ul{
+      width: 100%;
+      padding: 10px 20px;
+    }
+  }
+  .mod-job.call-back .call-back__file{
+    flex-direction: column;
+  }
+  .mod-job.call-back .call-back__file__text {
+    width: 100%;
+    margin-top: 10px;
+    padding-left: 0;
   }
 }
