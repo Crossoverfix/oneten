@@ -206,4 +206,5 @@ $(document).ready(function () {
             $('.contact__slider__wrap__content__item').eq(0).animate({marginLeft:'10px'},500);
         }
     }
+
 })

@@ -23,6 +23,16 @@
     background-color: #dedeef;
   }
 }
+.info-title{
+  text-align: center;
+  font-family: "TTNorms";
+  font-size: 37px;
+  font-weight: 400;
+  color: #262a33;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  width: 100%;
+}
 .collapse__menu{
   display: none;
   width: 100%;
@@ -417,5 +427,74 @@ input::placeholder{
   }
   &.question{
     padding-bottom: 30px;
+  }
+}
+.mod-more{
+  .about-audit{
+    &__content{
+      &__wrap{
+        padding-right: 30px;
+      }
+    }
+    &__img{
+      a{
+        background: #145c9e;
+        border: 1px solid #2677e7;
+        box-shadow: -3px 3px 5px 0px rgba(19, 94, 232, 0.75);
+        bottom: 20px;
+        transform: translate(-50%, 0%);
+        &:hover{
+          background: #1487d4;
+        }
+      }
+    }
+  }
+}
+.mod-small{
+  &.modal__content{
+    width: 320px;
+    border: 1px solid #eed1d2;
+    padding: 35px 35px 25px 35px;
+    form.row{
+      margin: 0;
+    }
+    .how-work__form__title{
+      color: #313640;
+      font-size: 30px;
+      font-weight: 200;
+      margin-bottom: 30px;
+    }
+    select.input-field{
+      border: none;
+    }
+    .input-submit{
+      margin-top: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+}
+.mod-services{
+  &.warranty{
+    margin-top: 40px;
+  }
+  .warranty__bg{
+    left: -80px;
+  }
+  .warranty__wrap{
+    padding-left: 0;
+  }
+}
+.mod-static{
+  &.price__table__block__body{
+    border-top: 1px solid #006ae5;
+    .body__row{
+      p{
+        width: 20%;
+        flex-shrink: 0;
+        font-size: 18px;
+        font-weight: 600;
+      }
+    }
   }
 }
