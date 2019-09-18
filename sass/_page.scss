@@ -1313,6 +1313,38 @@
       }
     }
   }
+  .link-btn{
+    align-self: flex-start;
+    display: inline-block;
+    margin: 20px auto 0 auto;
+    white-space: normal;
+    padding: 0 20px;
+    background: linear-gradient(-45deg, #5581f1, #1153fc);
+    border-radius: 25px;
+    height: 60px;
+    position: relative;
+    box-shadow: 0px 0px 20px 3px #5581f1;
+    &:hover{
+      background: linear-gradient(-45deg, #4d61c2, #1146c1);
+      box-shadow: none;
+    }
+    span{
+      display: inline-block;
+      color: white;
+      font-family: "TTNorms";
+      font-size: 14px;
+      font-weight: 600;
+      margin: 0 10px;
+      line-height: 60px;
+      vertical-align: middle;
+      text-transform: uppercase;
+    }
+    i{
+      display: inline-block;
+      line-height: 60px;
+      vertical-align: middle;
+    }
+  }
 }
 .how-us-work{
   margin-top: 80px;
@@ -1676,6 +1708,61 @@
         width: 23px;
         background: url("../assets/img/icons/blue_check.jpg")no-repeat center;
         background-size: contain;
+      }
+    }
+  }
+  .web-block{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    &__bg{
+      position: absolute;
+      width: 730px;
+      height: 590px;
+      left: calc(50% + 275px);
+      top: calc(50% - 85px);
+      transform: translate(-50%,-50%);
+      background-position: center!important;
+      background-size: contain!important;
+      background-repeat: no-repeat!important;
+    }
+    &__card{
+      margin-top: 20px;
+      margin-bottom: 20px;
+      width: 465px;
+      padding: 30px;
+      border-radius: 10px;
+      background-color: #ffffff;
+      box-shadow: 0px 4px 54px 0px rgba(199, 225, 255, 0.75);
+      position: relative;
+      z-index: 1;
+      &__title{
+        font-family: "TTNorms";
+        margin-top: 0;
+        margin-bottom: 15px;
+        font-size: 24px;
+        font-weight: 600;
+        color: #262a33;
+        line-height: 24px;
+      }
+      &__sub-title{
+        font-family: "TTNorms";
+        margin-top: 0;
+        margin-bottom: 15px;
+        font-size: 14px;
+        font-weight: 600;
+        color: #262a33;
+      }
+      &__text{
+        font-family: "TTNorms";
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 15px;
+        font-weight: 400;
+        color: #262a33;
       }
     }
   }
@@ -2130,6 +2217,38 @@
       }
     }
   }
+  .link-btn{
+    align-self: flex-start;
+    display: inline-block;
+    margin: 0 auto 40px auto;
+    white-space: normal;
+    padding: 0 20px;
+    background: linear-gradient(-45deg, #5581f1, #1153fc);
+    border-radius: 25px;
+    height: 60px;
+    position: relative;
+    box-shadow: 0px 0px 20px 3px #5581f1;
+    &:hover{
+      background: linear-gradient(-45deg, #4d61c2, #1146c1);
+      box-shadow: none;
+    }
+    span{
+      display: inline-block;
+      color: white;
+      font-family: "TTNorms";
+      font-size: 14px;
+      font-weight: 600;
+      margin: 0 10px;
+      line-height: 60px;
+      vertical-align: middle;
+      text-transform: uppercase;
+    }
+    i{
+      display: inline-block;
+      line-height: 60px;
+      vertical-align: middle;
+    }
+  }
 }
 .adv-optimization{
   margin-top: 40px;
@@ -2496,7 +2615,7 @@
       }
     }
     &__body{
-      overflow: hidden;
+      overflow-x: auto;
       height: 0;
       transition: all linear 0.5s;
       .body{
@@ -2522,26 +2641,31 @@
         }
         &__col{
           &__first{
+            min-width: 45px;
             width: 9%;
             font-size: 24px;
             font-weight: 400;
           }
           &__second{
+            min-width: 145px;
             width: 28%;
             font-size: 17px;
             font-weight: 600;
           }
           &__third{
+            min-width: 300px;
             width: 27%;
             font-size: 15px;
             font-weight: 500;
           }
           &__four{
+            min-width: 150px;
             width: 18%;
             font-size: 15px;
             font-weight: 800;
           }
           &__five{
+            min-width: 160px;
             width: 18%;
             font-size: 15px;
             font-weight: 500;

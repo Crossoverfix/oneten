@@ -47,6 +47,13 @@
   .mod-job .about__btn{
     height: 540px;
   }
+  .audit-info .web-block__bg{
+    position: absolute;
+    width: 465px;
+    height: 370px;
+    left: calc(50% + 259px);
+    top: calc(50% - 18px);
+  }
 }
 @media screen and (max-width: 991px){
   .header__nav__first__container ul li a{
@@ -182,6 +189,9 @@
     flex-direction: row;
     width: 100%;
     padding: 10px 0;
+  }
+  .audit-info .web-block__bg{
+    display: none;
   }
 }
 @media screen and (max-width: 767px){
@@ -613,5 +623,8 @@
     width: 100%;
     margin-top: 10px;
     padding-left: 0;
+  }
+  .audit-info .web-block__card{
+    width: 100%;
   }
 }

@@ -488,12 +488,14 @@ input::placeholder{
 .mod-static{
   &.price__table__block__body{
     border-top: 1px solid #006ae5;
+    overflow-x: auto;
     .body__row{
       p{
         width: 20%;
         flex-shrink: 0;
         font-size: 18px;
         font-weight: 600;
+        min-width: 120px;
       }
     }
   }
