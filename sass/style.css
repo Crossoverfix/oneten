@@ -1471,7 +1471,7 @@ body h6 {
 /* line 827, _page.scss */
 .client__text {
   font-family: "TTNorms";
-  font-size: 12px;
+  font-size: 14px;
   line-height: 18px;
   color: #262a33;
   text-align: justify;
@@ -1793,7 +1793,7 @@ body h6 {
 /* line 1105, _page.scss */
 .advantages__list ul li a span {
   font-family: "TTNorms";
-  font-size: 12px;
+  font-size: 14px;
   line-height: 16px;
   font-weight: 500;
   margin-bottom: 0;
@@ -1954,7 +1954,7 @@ body h6 {
 /* line 1256, _page.scss */
 .how-work__text {
   font-family: "TTNorms";
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 400;
   margin-bottom: 15px;
   line-height: 16px;
@@ -2191,10 +2191,11 @@ body h6 {
 }
 /* line 1460, _page.scss */
 .about-audit__content__wrap img {
-  max-width: 40%;
+  max-width: 38%;
+  margin-right: 15px;
   float: left;
 }
-/* line 1464, _page.scss */
+/* line 1465, _page.scss */
 .about-audit__content__wrap h2 {
   font-family: "TTNorms";
   font-size: 35px;
@@ -2205,10 +2206,10 @@ body h6 {
   margin-bottom: 35px;
   text-transform: uppercase;
 }
-/* line 1474, _page.scss */
+/* line 1475, _page.scss */
 .about-audit__content__wrap p {
   font-family: "TTNorms";
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 400;
   margin-bottom: 15px;
   line-height: 16px;
@@ -2216,7 +2217,7 @@ body h6 {
   margin-top: 0;
   text-align: justify;
 }
-/* line 1486, _page.scss */
+/* line 1487, _page.scss */
 .about-audit__tabs {
   display: flex;
   flex-direction: row;
@@ -2224,7 +2225,7 @@ body h6 {
   align-items: center;
   justify-content: flex-end;
 }
-/* line 1492, _page.scss */
+/* line 1493, _page.scss */
 .about-audit__tabs a {
   width: calc((100% - 60px) / 3);
   position: relative;
@@ -2240,16 +2241,16 @@ body h6 {
   text-transform: uppercase;
   text-align: center;
 }
-/* line 1507, _page.scss */
+/* line 1508, _page.scss */
 .about-audit__tabs a:hover:before {
   background-color: #c8cdd7;
   box-shadow: 0px 0px 9px 0px #ffffff,-4px 4px 8px -3px #135ee8;
 }
-/* line 1513, _page.scss */
+/* line 1514, _page.scss */
 .about-audit__tabs a.active:before {
   box-shadow: 0px 0px 9px 0px #ffffff,-4px 4px 8px -3px #135ee8;
 }
-/* line 1517, _page.scss */
+/* line 1518, _page.scss */
 .about-audit__tabs a:before {
   z-index: -1;
   content: "";
@@ -2263,11 +2264,11 @@ body h6 {
   background-color: #ebf0fa;
 }
 
-/* line 1532, _page.scss */
+/* line 1533, _page.scss */
 .question {
   margin-top: 80px;
 }
-/* line 1534, _page.scss */
+/* line 1535, _page.scss */
 .question__wrap {
   position: relative;
   display: flex;
@@ -2276,7 +2277,7 @@ body h6 {
   align-items: flex-start;
   justify-content: space-between;
 }
-/* line 1541, _page.scss */
+/* line 1542, _page.scss */
 .question__wrap ul {
   width: calc(50% - 20px);
   list-style-type: none;
@@ -2284,7 +2285,7 @@ body h6 {
   margin: 0;
   position: relative;
 }
-/* line 1547, _page.scss */
+/* line 1548, _page.scss */
 .question__wrap ul li {
   width: 100%;
   margin-bottom: 10px;
@@ -2293,24 +2294,24 @@ body h6 {
   position: relative;
   transition: all linear 0.5s;
 }
-/* line 1557, _page.scss */
+/* line 1558, _page.scss */
 .question__wrap ul li.active .question__wrap__head {
   background-color: #1e2432;
 }
-/* line 1559, _page.scss */
+/* line 1560, _page.scss */
 .question__wrap ul li.active .question__wrap__head p {
   color: white;
 }
-/* line 1562, _page.scss */
+/* line 1563, _page.scss */
 .question__wrap ul li.active .question__wrap__head i {
   background: url("../assets/img/icons/ico_minus.png") no-repeat center;
   background-size: contain;
 }
-/* line 1567, _page.scss */
+/* line 1568, _page.scss */
 .question__wrap ul li.active .question__wrap__body {
   height: auto;
 }
-/* line 1575, _page.scss */
+/* line 1576, _page.scss */
 .question__wrap__head {
   width: 100%;
   height: 48px;
@@ -2323,7 +2324,7 @@ body h6 {
   background-color: #eff3fb;
   padding: 15px;
 }
-/* line 1586, _page.scss */
+/* line 1587, _page.scss */
 .question__wrap__head p {
   font-family: "TTNorms";
   font-size: 15px;
@@ -2331,7 +2332,7 @@ body h6 {
   color: black;
   display: inline-block;
 }
-/* line 1593, _page.scss */
+/* line 1594, _page.scss */
 .question__wrap__head i {
   display: inline-block;
   width: 20px;
@@ -2339,7 +2340,7 @@ body h6 {
   background: url("../assets/img/icons/ico_plus.png") no-repeat center;
   background-size: contain;
 }
-/* line 1601, _page.scss */
+/* line 1602, _page.scss */
 .question__wrap__body {
   transition: all linear 0.5s;
   height: 0;
@@ -2348,7 +2349,7 @@ body h6 {
   background-color: #eff3fb;
   overflow: hidden;
 }
-/* line 1608, _page.scss */
+/* line 1609, _page.scss */
 .question__wrap__body p {
   width: 100%;
   padding: 15px;
@@ -2358,17 +2359,17 @@ body h6 {
   color: black;
   display: inline-block;
 }
-/* line 1616, _page.scss */
+/* line 1617, _page.scss */
 .question__wrap__body p span {
   display: inline-block;
   width: 100%;
   margin: 10px 0;
 }
-/* line 1620, _page.scss */
+/* line 1621, _page.scss */
 .question__wrap__body p span b {
   margin-top: 10px;
 }
-/* line 1627, _page.scss */
+/* line 1628, _page.scss */
 .question .link-btn {
   align-self: flex-start;
   display: inline-block;
@@ -2381,12 +2382,12 @@ body h6 {
   position: relative;
   box-shadow: 0px 0px 20px 3px #5581f1;
 }
-/* line 1638, _page.scss */
+/* line 1639, _page.scss */
 .question .link-btn:hover {
   background: linear-gradient(-45deg, #4d61c2, #1146c1);
   box-shadow: none;
 }
-/* line 1642, _page.scss */
+/* line 1643, _page.scss */
 .question .link-btn span {
   display: inline-block;
   color: white;
@@ -2398,13 +2399,13 @@ body h6 {
   vertical-align: middle;
   text-transform: uppercase;
 }
-/* line 1653, _page.scss */
+/* line 1654, _page.scss */
 .question .link-btn i {
   display: inline-block;
   line-height: 60px;
   vertical-align: middle;
 }
-/* line 1659, _page.scss */
+/* line 1660, _page.scss */
 .question__job {
   width: 100%;
   text-align: center;
@@ -2416,12 +2417,12 @@ body h6 {
   color: #262a33;
 }
 
-/* line 1670, _page.scss */
+/* line 1671, _page.scss */
 .audit-info {
   margin-top: 60px;
   text-align: justify;
 }
-/* line 1673, _page.scss */
+/* line 1674, _page.scss */
 .audit-info p {
   font-family: "TTNorms";
   font-size: 12px;
@@ -2430,7 +2431,7 @@ body h6 {
   line-height: 16px;
   text-align: justify;
 }
-/* line 1681, _page.scss */
+/* line 1682, _page.scss */
 .audit-info__list {
   list-style-type: none;
   position: relative;
@@ -2443,7 +2444,7 @@ body h6 {
   justify-content: flex-start;
   padding: 0;
 }
-/* line 1692, _page.scss */
+/* line 1693, _page.scss */
 .audit-info__list li {
   width: 25%;
   position: relative;
@@ -2455,7 +2456,7 @@ body h6 {
   font-weight: 600;
   text-transform: uppercase;
 }
-/* line 1702, _page.scss */
+/* line 1703, _page.scss */
 .audit-info__list li:before {
   content: "";
   position: absolute;
@@ -2466,7 +2467,7 @@ body h6 {
   background: url("../assets/img/icons/blue_check.jpg") no-repeat center;
   background-size: contain;
 }
-/* line 1714, _page.scss */
+/* line 1715, _page.scss */
 .audit-info .web-block {
   width: 100%;
   display: flex;
@@ -2475,7 +2476,7 @@ body h6 {
   justify-content: flex-start;
   position: relative;
 }
-/* line 1721, _page.scss */
+/* line 1722, _page.scss */
 .audit-info .web-block__bg {
   position: absolute;
   width: 730px;
@@ -2487,7 +2488,7 @@ body h6 {
   background-size: contain !important;
   background-repeat: no-repeat !important;
 }
-/* line 1732, _page.scss */
+/* line 1733, _page.scss */
 .audit-info .web-block__card {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -2499,7 +2500,7 @@ body h6 {
   position: relative;
   z-index: 1;
 }
-/* line 1742, _page.scss */
+/* line 1743, _page.scss */
 .audit-info .web-block__card__title {
   font-family: "TTNorms";
   margin-top: 0;
@@ -2509,7 +2510,7 @@ body h6 {
   color: #262a33;
   line-height: 24px;
 }
-/* line 1751, _page.scss */
+/* line 1752, _page.scss */
 .audit-info .web-block__card__sub-title {
   font-family: "TTNorms";
   margin-top: 0;
@@ -2518,7 +2519,7 @@ body h6 {
   font-weight: 600;
   color: #262a33;
 }
-/* line 1759, _page.scss */
+/* line 1760, _page.scss */
 .audit-info .web-block__card__text {
   font-family: "TTNorms";
   margin-top: 0;
@@ -2528,17 +2529,17 @@ body h6 {
   color: #262a33;
 }
 
-/* line 1770, _page.scss */
+/* line 1771, _page.scss */
 .stage {
   margin-top: 65px;
 }
-/* line 1772, _page.scss */
+/* line 1773, _page.scss */
 .stage__body {
   position: relative;
   padding-top: 65px;
   padding-bottom: 65px;
 }
-/* line 1776, _page.scss */
+/* line 1777, _page.scss */
 .stage__body__line {
   list-style-type: none;
   padding: 0;
@@ -2553,11 +2554,11 @@ body h6 {
   height: 1px;
   background-color: #ccdbf3;
 }
-/* line 1789, _page.scss */
+/* line 1790, _page.scss */
 .stage__body__line li {
   position: relative;
 }
-/* line 1791, _page.scss */
+/* line 1792, _page.scss */
 .stage__body__line li:before {
   content: "";
   position: absolute;
@@ -2569,7 +2570,7 @@ body h6 {
   border-radius: 50%;
   background-color: #eff3fb;
 }
-/* line 1802, _page.scss */
+/* line 1803, _page.scss */
 .stage__body__line li:after {
   content: "";
   position: absolute;
@@ -2581,24 +2582,24 @@ body h6 {
   border-radius: 50%;
   background-color: #006ae5;
 }
-/* line 1814, _page.scss */
+/* line 1815, _page.scss */
 .stage__body__line li:nth-child(1n + 1) .stage__body__line__point {
   top: -10px;
   transform: translateY(100%);
 }
-/* line 1820, _page.scss */
+/* line 1821, _page.scss */
 .stage__body__line li:nth-child(2n + 1) .stage__body__line__point {
   top: 10px;
   transform: translateY(-100%);
 }
-/* line 1826, _page.scss */
+/* line 1827, _page.scss */
 .stage__body__line__point {
   position: relative;
   flex-grow: 1;
   padding: 0 10px;
   left: -15px;
 }
-/* line 1831, _page.scss */
+/* line 1832, _page.scss */
 .stage__body__line__point__title {
   font-family: "TTNorms";
   font-size: 11px;
@@ -2607,7 +2608,7 @@ body h6 {
   margin-top: 0;
   margin-bottom: 5px;
 }
-/* line 1840, _page.scss */
+/* line 1841, _page.scss */
 .stage__body__line__point__sub-title {
   font-family: "TTNorms";
   font-size: 12px;
@@ -2617,14 +2618,14 @@ body h6 {
   margin: 0;
 }
 
-/* line 1852, _page.scss */
+/* line 1853, _page.scss */
 .price {
   margin-top: 80px;
   background-color: #edf1f9;
   position: relative;
   padding-bottom: 95px;
 }
-/* line 1857, _page.scss */
+/* line 1858, _page.scss */
 .price:before {
   content: "";
   position: absolute;
@@ -2635,7 +2636,7 @@ body h6 {
   background-color: white;
   display: block;
 }
-/* line 1869, _page.scss */
+/* line 1870, _page.scss */
 .price__white__about p {
   width: 100%;
   text-align: center;
@@ -2646,7 +2647,7 @@ body h6 {
   margin-bottom: 15px;
   font-weight: 600;
 }
-/* line 1879, _page.scss */
+/* line 1880, _page.scss */
 .price__white__about h2 {
   width: 100%;
   text-align: center;
@@ -2657,7 +2658,7 @@ body h6 {
   margin-top: 0;
   margin-bottom: 15px;
 }
-/* line 1889, _page.scss */
+/* line 1890, _page.scss */
 .price__white__about ul {
   list-style-type: none;
   padding: 0;
@@ -2668,7 +2669,7 @@ body h6 {
   align-items: stretch;
   justify-content: space-between;
 }
-/* line 1898, _page.scss */
+/* line 1899, _page.scss */
 .price__white__about ul li {
   padding: 10px;
   width: calc((100% - 30px) / 4);
@@ -2685,7 +2686,7 @@ body h6 {
   font-family: "TTNorms";
   font-weight: 300;
 }
-/* line 1916, _page.scss */
+/* line 1917, _page.scss */
 .price__white__info {
   margin-top: 60px;
   padding-top: 30px;
@@ -2698,7 +2699,7 @@ body h6 {
   padding-left: 0;
   padding-right: 0;
 }
-/* line 1927, _page.scss */
+/* line 1928, _page.scss */
 .price__white__info__card {
   width: calc((100% - 60px) / 3);
   border: solid 2px #f3f3f3;
@@ -2713,12 +2714,12 @@ body h6 {
   margin-right: 10px;
   margin-left: 10px;
 }
-/* line 1940, _page.scss */
+/* line 1941, _page.scss */
 .price__white__info__card:hover {
   border: solid 2px #eff3fb;
   box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.2);
 }
-/* line 1944, _page.scss */
+/* line 1945, _page.scss */
 .price__white__info__card__ico {
   position: relative;
   height: 80px;
@@ -2728,7 +2729,7 @@ body h6 {
   background-size: contain !important;
   background-repeat: no-repeat !important;
 }
-/* line 1953, _page.scss */
+/* line 1954, _page.scss */
 .price__white__info__card__title {
   font-family: "TTNorms";
   font-size: 10px;
@@ -2737,7 +2738,7 @@ body h6 {
   margin-top: 0;
   margin-bottom: 10px;
 }
-/* line 1961, _page.scss */
+/* line 1962, _page.scss */
 .price__white__info__card__value {
   font-family: "TTNorms";
   font-size: 10px;
@@ -2746,13 +2747,13 @@ body h6 {
   margin-top: 0;
   margin-bottom: 12px;
 }
-/* line 1968, _page.scss */
+/* line 1969, _page.scss */
 .price__white__info__card__value b {
   font-size: 24px;
   font-weight: 600;
   color: #262a33;
 }
-/* line 1974, _page.scss */
+/* line 1975, _page.scss */
 .price__white__info__card__option {
   border-top: 1px solid #e3e7ee;
   display: flex;
@@ -2762,18 +2763,18 @@ body h6 {
   padding-top: 20px;
   padding-bottom: 80px;
 }
-/* line 1982, _page.scss */
+/* line 1983, _page.scss */
 .price__white__info__card__option__more {
   display: inline-block;
   position: relative;
   text-decoration: none;
   margin-bottom: 35px;
 }
-/* line 1988, _page.scss */
+/* line 1989, _page.scss */
 .price__white__info__card__option__more:hover span {
   text-decoration: underline;
 }
-/* line 1992, _page.scss */
+/* line 1993, _page.scss */
 .price__white__info__card__option__more span {
   font-size: 9px;
   font-family: "TTNorms";
@@ -2781,7 +2782,7 @@ body h6 {
   color: #262a33;
   text-decoration: none;
 }
-/* line 1999, _page.scss */
+/* line 2000, _page.scss */
 .price__white__info__card__option__more i {
   text-decoration: none;
   display: inline-block;
@@ -2792,17 +2793,17 @@ body h6 {
   background-position: center !important;
   background-repeat: no-repeat !important;
 }
-/* line 2009, _page.scss */
+/* line 2010, _page.scss */
 .price__white__info__card__option__more__content {
   transition: all linear 0.5s;
   overflow: hidden;
   height: 0;
 }
-/* line 2013, _page.scss */
+/* line 2014, _page.scss */
 .price__white__info__card__option__more__content.active {
   height: auto;
 }
-/* line 2018, _page.scss */
+/* line 2019, _page.scss */
 .price__white__info__card__option__btn {
   border-radius: 20px;
   padding: 0 10px;
@@ -2811,11 +2812,11 @@ body h6 {
   box-shadow: 4px 4px 3px -1px #2677e7, 4px 4px 8px -3px #2677e7;
   margin-top: 50px;
 }
-/* line 2025, _page.scss */
+/* line 2026, _page.scss */
 .price__white__info__card__option__btn:hover {
   background-color: #e6e6e6;
 }
-/* line 2028, _page.scss */
+/* line 2029, _page.scss */
 .price__white__info__card__option__btn span {
   display: inline-block;
   font-family: "TTNorms";
@@ -2825,19 +2826,19 @@ body h6 {
   line-height: 48px;
   margin: 0 10px;
 }
-/* line 2037, _page.scss */
+/* line 2038, _page.scss */
 .price__white__info__card__option__btn i {
   vertical-align: middle;
   display: inline-block;
 }
-/* line 2042, _page.scss */
+/* line 2043, _page.scss */
 .price__white__info__card__option ul {
   list-style-type: none;
   padding: 0 15px 0 30px;
   margin: 0;
   position: relative;
 }
-/* line 2047, _page.scss */
+/* line 2048, _page.scss */
 .price__white__info__card__option ul li {
   position: relative;
   width: 100%;
@@ -2849,7 +2850,7 @@ body h6 {
   font-weight: 300;
   color: black;
 }
-/* line 2057, _page.scss */
+/* line 2058, _page.scss */
 .price__white__info__card__option ul li:before {
   content: "";
   position: absolute;
@@ -2862,11 +2863,11 @@ body h6 {
   background-size: contain;
 }
 
-/* line 2076, _page.scss */
+/* line 2077, _page.scss */
 .why-us__bg {
   background-color: #252b39;
 }
-/* line 2078, _page.scss */
+/* line 2079, _page.scss */
 .why-us__bg i {
   display: inline-block;
   vertical-align: top;
@@ -2876,7 +2877,7 @@ body h6 {
   width: 82px;
   margin-right: 30px;
 }
-/* line 2087, _page.scss */
+/* line 2088, _page.scss */
 .why-us__bg h2 {
   font-family: "TTNorms";
   font-size: 56px;
@@ -2886,7 +2887,7 @@ body h6 {
   line-height: 210px;
   display: inline-block;
 }
-/* line 2097, _page.scss */
+/* line 2098, _page.scss */
 .why-us__body {
   margin-top: 55px;
   display: flex;
@@ -2895,14 +2896,14 @@ body h6 {
   align-items: stretch;
   justify-content: space-between;
 }
-/* line 2104, _page.scss */
+/* line 2105, _page.scss */
 .why-us__body__card {
   width: calc((100% - 80px) / 3);
   position: relative;
   border-radius: 15px;
   border: 1px solid #006ae5;
 }
-/* line 2109, _page.scss */
+/* line 2110, _page.scss */
 .why-us__body__card__title {
   line-height: 45px;
   font-size: 26px;
@@ -2915,7 +2916,7 @@ body h6 {
   font-weight: 400;
   margin: 0;
 }
-/* line 2121, _page.scss */
+/* line 2122, _page.scss */
 .why-us__body__card__text {
   font-size: 26px;
   width: 100%;
@@ -2927,11 +2928,11 @@ body h6 {
   margin: 0;
 }
 
-/* line 2134, _page.scss */
+/* line 2135, _page.scss */
 .change-adv {
   margin-top: 70px;
 }
-/* line 2136, _page.scss */
+/* line 2137, _page.scss */
 .change-adv__body {
   display: flex;
   flex-direction: row;
@@ -2939,12 +2940,12 @@ body h6 {
   align-items: flex-start;
   justify-content: space-between;
 }
-/* line 2142, _page.scss */
+/* line 2143, _page.scss */
 .change-adv__body__card {
   width: calc((100% - 100px) / 5);
   position: relative;
 }
-/* line 2145, _page.scss */
+/* line 2146, _page.scss */
 .change-adv__body__card div {
   width: 72px;
   height: 92px;
@@ -2954,7 +2955,7 @@ body h6 {
   margin: 0 auto 10px auto;
   border-bottom: 2px solid #00a2ff;
 }
-/* line 2154, _page.scss */
+/* line 2155, _page.scss */
 .change-adv__body__card p {
   font-family: "TTNorms";
   font-size: 15px;
@@ -2964,15 +2965,15 @@ body h6 {
   text-align: center;
 }
 
-/* line 2165, _page.scss */
+/* line 2166, _page.scss */
 .task {
   margin-top: 60px;
 }
-/* line 2167, _page.scss */
+/* line 2168, _page.scss */
 .task__body {
   position: relative;
 }
-/* line 2169, _page.scss */
+/* line 2170, _page.scss */
 .task__body__card {
   width: 100%;
   display: flex;
@@ -2983,19 +2984,19 @@ body h6 {
   min-height: 350px;
   margin-bottom: 60px;
 }
-/* line 2178, _page.scss */
+/* line 2179, _page.scss */
 .task__body__card__img {
   width: calc(50% - 10px);
   position: relative;
 }
-/* line 2182, _page.scss */
+/* line 2183, _page.scss */
 .task__body__card__info {
   width: calc(50% - 10px);
   border-top: 2px solid #dedeef;
   border-bottom: 2px solid #dedeef;
   padding: 40px 50px;
 }
-/* line 2187, _page.scss */
+/* line 2188, _page.scss */
 .task__body__card__info__title {
   text-align: center;
   font-size: 19px;
@@ -3007,7 +3008,7 @@ body h6 {
   margin-bottom: 55px;
   font-weight: 600;
 }
-/* line 2198, _page.scss */
+/* line 2199, _page.scss */
 .task__body__card__info__text {
   text-align: center;
   font-size: 15px;
@@ -3017,15 +3018,15 @@ body h6 {
   margin-top: 0;
   margin-bottom: 20px;
 }
-/* line 2210, _page.scss */
+/* line 2211, _page.scss */
 .task__body__card:nth-child(2n + 1) .task__body__card__img {
   order: 1;
 }
-/* line 2213, _page.scss */
+/* line 2214, _page.scss */
 .task__body__card:nth-child(2n + 1) .task__body__card__info {
   order: 0;
 }
-/* line 2220, _page.scss */
+/* line 2221, _page.scss */
 .task .link-btn {
   align-self: flex-start;
   display: inline-block;
@@ -3038,12 +3039,12 @@ body h6 {
   position: relative;
   box-shadow: 0px 0px 20px 3px #5581f1;
 }
-/* line 2231, _page.scss */
+/* line 2232, _page.scss */
 .task .link-btn:hover {
   background: linear-gradient(-45deg, #4d61c2, #1146c1);
   box-shadow: none;
 }
-/* line 2235, _page.scss */
+/* line 2236, _page.scss */
 .task .link-btn span {
   display: inline-block;
   color: white;
@@ -3055,18 +3056,18 @@ body h6 {
   vertical-align: middle;
   text-transform: uppercase;
 }
-/* line 2246, _page.scss */
+/* line 2247, _page.scss */
 .task .link-btn i {
   display: inline-block;
   line-height: 60px;
   vertical-align: middle;
 }
 
-/* line 2253, _page.scss */
+/* line 2254, _page.scss */
 .adv-optimization {
   margin-top: 40px;
 }
-/* line 2255, _page.scss */
+/* line 2256, _page.scss */
 .adv-optimization__title {
   font-size: 20px;
   line-height: 25px;
@@ -3076,7 +3077,7 @@ body h6 {
   margin-top: 10px;
   font-weight: 600;
 }
-/* line 2264, _page.scss */
+/* line 2265, _page.scss */
 .adv-optimization__text {
   font-size: 12px;
   line-height: 18px;
@@ -3088,12 +3089,12 @@ body h6 {
   font-weight: 500;
 }
 
-/* line 2275, _page.scss */
+/* line 2276, _page.scss */
 .comparison {
   margin-top: 130px;
   margin-bottom: 60px;
 }
-/* line 2278, _page.scss */
+/* line 2279, _page.scss */
 .comparison__title {
   font-weight: 600;
   font-family: "TTNorms";
@@ -3103,7 +3104,7 @@ body h6 {
   margin-top: 0;
   color: #262a33;
 }
-/* line 2288, _page.scss */
+/* line 2289, _page.scss */
 .comparison__body__card {
   width: 100%;
   margin-bottom: 15px;
@@ -3114,7 +3115,7 @@ body h6 {
   padding: 15px 40px 15px 35px;
   min-height: 150px;
 }
-/* line 2297, _page.scss */
+/* line 2298, _page.scss */
 .comparison__body__card:before {
   content: "";
   position: absolute;
@@ -3125,7 +3126,7 @@ body h6 {
   width: 13px;
   background-color: #006ae5;
 }
-/* line 2307, _page.scss */
+/* line 2308, _page.scss */
 .comparison__body__card__title {
   font-size: 12px;
   color: #262a33;
@@ -3134,7 +3135,7 @@ body h6 {
   margin-top: 0;
   margin-bottom: 10px;
 }
-/* line 2315, _page.scss */
+/* line 2316, _page.scss */
 .comparison__body__card__text {
   font-size: 12px;
   color: #262a33;
@@ -3145,12 +3146,12 @@ body h6 {
   margin-bottom: 0;
 }
 
-/* line 2327, _page.scss */
+/* line 2328, _page.scss */
 .choice {
   margin-top: 60px;
   margin-bottom: 40px;
 }
-/* line 2330, _page.scss */
+/* line 2331, _page.scss */
 .choice__title {
   font-size: 37px;
   font-family: "TTNorms";
@@ -3161,7 +3162,7 @@ body h6 {
   text-align: center;
   width: 100%;
 }
-/* line 2340, _page.scss */
+/* line 2341, _page.scss */
 .choice__sub-title {
   font-size: 11px;
   font-family: "TTNorms";
@@ -3172,7 +3173,7 @@ body h6 {
   text-align: center;
   width: 100%;
 }
-/* line 2350, _page.scss */
+/* line 2351, _page.scss */
 .choice__body {
   width: 100%;
   display: flex;
@@ -3182,7 +3183,7 @@ body h6 {
   border: 1px solid #006ae5;
   position: relative;
 }
-/* line 2358, _page.scss */
+/* line 2359, _page.scss */
 .choice__body:before {
   content: "";
   position: absolute;
@@ -3194,7 +3195,7 @@ body h6 {
   display: block;
   background-color: #98ccfd;
 }
-/* line 2369, _page.scss */
+/* line 2370, _page.scss */
 .choice__body__block {
   flex-grow: 1;
   border: 1px solid #98ccfd;
@@ -3205,7 +3206,7 @@ body h6 {
   position: relative;
   min-width: 110px;
 }
-/* line 2378, _page.scss */
+/* line 2379, _page.scss */
 .choice__body__block__title {
   flex-grow: 1;
   flex-shrink: 0;
@@ -3219,7 +3220,7 @@ body h6 {
   color: #262a33;
   text-align: center;
 }
-/* line 2391, _page.scss */
+/* line 2392, _page.scss */
 .choice__body__block__text {
   flex-grow: 1;
   flex-shrink: 0;
@@ -3233,13 +3234,13 @@ body h6 {
   text-align: center;
 }
 
-/* line 2406, _page.scss */
+/* line 2407, _page.scss */
 .service-list {
   margin-top: 40px;
   padding-bottom: 40px;
   position: relative;
 }
-/* line 2410, _page.scss */
+/* line 2411, _page.scss */
 .service-list:before {
   position: absolute;
   right: 0;
@@ -3252,15 +3253,15 @@ body h6 {
   background-position: center;
   background-size: contain;
 }
-/* line 2422, _page.scss */
+/* line 2423, _page.scss */
 .service-list__container {
   align-items: stretch;
 }
-/* line 2424, _page.scss */
+/* line 2425, _page.scss */
 .service-list__container .col-md-4.col-sm-6.col-12 {
   margin-bottom: 10px;
 }
-/* line 2428, _page.scss */
+/* line 2429, _page.scss */
 .service-list__card {
   width: 100%;
   height: 100%;
@@ -3272,7 +3273,7 @@ body h6 {
   box-shadow: 0px 4px 54px 0px rgba(199, 225, 255, 0.75);
   padding: 15px 40px 15px 35px;
 }
-/* line 2438, _page.scss */
+/* line 2439, _page.scss */
 .service-list__card:before {
   content: "";
   position: absolute;
@@ -3283,7 +3284,7 @@ body h6 {
   width: 13px;
   background-color: #006ae5;
 }
-/* line 2448, _page.scss */
+/* line 2449, _page.scss */
 .service-list__card__title {
   font-size: 24px;
   color: #262a33;
@@ -3292,7 +3293,7 @@ body h6 {
   margin-top: 0;
   margin-bottom: 10px;
 }
-/* line 2456, _page.scss */
+/* line 2457, _page.scss */
 .service-list__card ul {
   list-style-type: none;
   padding: 0;
@@ -3303,12 +3304,12 @@ body h6 {
   align-items: flex-start;
   justify-content: flex-start;
 }
-/* line 2465, _page.scss */
+/* line 2466, _page.scss */
 .service-list__card ul li {
   display: inline-block;
   margin-right: 10px;
 }
-/* line 2468, _page.scss */
+/* line 2469, _page.scss */
 .service-list__card ul li a {
   text-decoration: underline;
   display: inline-block;
@@ -3320,11 +3321,11 @@ body h6 {
   margin-bottom: 0;
 }
 
-/* line 2482, _page.scss */
+/* line 2483, _page.scss */
 .price__about {
   margin-bottom: 20px;
 }
-/* line 2485, _page.scss */
+/* line 2486, _page.scss */
 .price__about__info h3 {
   font-family: "TTNorms";
   font-size: 40px;
@@ -3336,7 +3337,7 @@ body h6 {
   text-transform: uppercase;
   padding-left: 120px;
 }
-/* line 2496, _page.scss */
+/* line 2497, _page.scss */
 .price__about__info p {
   font-family: "TTNorms";
   font-size: 14px;
@@ -3347,7 +3348,7 @@ body h6 {
   padding-left: 120px;
   margin-top: 0;
 }
-/* line 2507, _page.scss */
+/* line 2508, _page.scss */
 .price__about__link {
   display: flex;
   flex-direction: column;
@@ -3357,7 +3358,7 @@ body h6 {
   position: relative;
   min-height: 400px;
 }
-/* line 2515, _page.scss */
+/* line 2516, _page.scss */
 .price__about__link__img {
   width: 100%;
   height: calc(100% - 60px);
@@ -3368,7 +3369,7 @@ body h6 {
   background-position: center !important;
   background-repeat: no-repeat !important;
 }
-/* line 2525, _page.scss */
+/* line 2526, _page.scss */
 .price__about__link a {
   border-radius: 10px;
   background-color: #006ae5;
@@ -3379,11 +3380,11 @@ body h6 {
   color: white;
 }
 
-/* line 2536, _page.scss */
+/* line 2537, _page.scss */
 .price__table {
   margin-bottom: 80px;
 }
-/* line 2538, _page.scss */
+/* line 2539, _page.scss */
 .price__table__head {
   display: flex;
   flex-direction: row;
@@ -3392,7 +3393,7 @@ body h6 {
   justify-content: space-between;
   margin-bottom: 30px;
 }
-/* line 2545, _page.scss */
+/* line 2546, _page.scss */
 .price__table__head p {
   border-radius: 10px;
   background-color: #006ae5;
@@ -3403,41 +3404,41 @@ body h6 {
   color: white;
   text-align: center;
 }
-/* line 2555, _page.scss */
+/* line 2556, _page.scss */
 .price__table__head + .price__table__block {
   border-top: 1px solid #006ae5;
 }
-/* line 2559, _page.scss */
+/* line 2560, _page.scss */
 .price__table__head .head__first {
   width: calc((100% - 80px) / 100 * 9);
 }
-/* line 2562, _page.scss */
+/* line 2563, _page.scss */
 .price__table__head .head__second {
   width: calc((100% - 80px) / 100 * 28);
 }
-/* line 2565, _page.scss */
+/* line 2566, _page.scss */
 .price__table__head .head__third {
   width: calc((100% - 80px) / 100 * 27);
 }
-/* line 2568, _page.scss */
+/* line 2569, _page.scss */
 .price__table__head .head__four {
   width: calc((100% - 80px) / 100 * 18);
 }
-/* line 2571, _page.scss */
+/* line 2572, _page.scss */
 .price__table__head .head__five {
   width: calc((100% - 80px) / 100 * 18);
 }
-/* line 2576, _page.scss */
+/* line 2577, _page.scss */
 .price__table__block {
   border-right: 1px solid #006ae5;
   border-left: 1px solid #006ae5;
 }
-/* line 2578, _page.scss */
+/* line 2579, _page.scss */
 .price__table__block.active .price__table__block__body {
   height: auto;
   border-bottom: 1px solid #006ae5;
 }
-/* line 2585, _page.scss */
+/* line 2586, _page.scss */
 .price__table__block__head {
   display: flex;
   flex-direction: row;
@@ -3447,7 +3448,7 @@ body h6 {
   height: 60px;
   border-bottom: 1px solid #006ae5;
 }
-/* line 2593, _page.scss */
+/* line 2594, _page.scss */
 .price__table__block__head h3 {
   display: inline-block;
   font-family: "TTNorms";
@@ -3460,7 +3461,7 @@ body h6 {
   margin: 0;
   cursor: pointer;
 }
-/* line 2604, _page.scss */
+/* line 2605, _page.scss */
 .price__table__block__head h3:after {
   content: "";
   position: relative;
@@ -3472,13 +3473,13 @@ body h6 {
   background-size: contain;
   vertical-align: middle;
 }
-/* line 2617, _page.scss */
+/* line 2618, _page.scss */
 .price__table__block__body {
   overflow-x: auto;
   height: 0;
   transition: all linear 0.5s;
 }
-/* line 2622, _page.scss */
+/* line 2623, _page.scss */
 .price__table__block__body .body__row {
   display: flex;
   flex-direction: row;
@@ -3487,11 +3488,11 @@ body h6 {
   align-items: stretch;
   border-bottom: 1px solid #006ae5;
 }
-/* line 2629, _page.scss */
+/* line 2630, _page.scss */
 .price__table__block__body .body__row:last-child {
   border-bottom: none;
 }
-/* line 2632, _page.scss */
+/* line 2633, _page.scss */
 .price__table__block__body .body__row p {
   margin: 0;
   padding: 20px 10px;
@@ -3501,35 +3502,35 @@ body h6 {
   font-family: "TTNorms";
   color: #262a33;
 }
-/* line 2643, _page.scss */
+/* line 2644, _page.scss */
 .price__table__block__body .body__col__first {
   min-width: 45px;
   width: 9%;
   font-size: 24px;
   font-weight: 400;
 }
-/* line 2649, _page.scss */
+/* line 2650, _page.scss */
 .price__table__block__body .body__col__second {
   min-width: 145px;
   width: 28%;
   font-size: 17px;
   font-weight: 600;
 }
-/* line 2655, _page.scss */
+/* line 2656, _page.scss */
 .price__table__block__body .body__col__third {
   min-width: 300px;
   width: 27%;
   font-size: 15px;
   font-weight: 500;
 }
-/* line 2661, _page.scss */
+/* line 2662, _page.scss */
 .price__table__block__body .body__col__four {
   min-width: 150px;
   width: 18%;
   font-size: 15px;
   font-weight: 800;
 }
-/* line 2667, _page.scss */
+/* line 2668, _page.scss */
 .price__table__block__body .body__col__five {
   min-width: 160px;
   width: 18%;
@@ -3538,23 +3539,23 @@ body h6 {
   border-right: none !important;
 }
 
-/* line 2679, _page.scss */
+/* line 2680, _page.scss */
 .contact {
   padding-bottom: 60px;
 }
-/* line 2681, _page.scss */
+/* line 2682, _page.scss */
 .contact__map {
   position: relative;
   padding-bottom: 45px;
 }
-/* line 2684, _page.scss */
+/* line 2685, _page.scss */
 .contact__map__wrap {
   position: relative;
   width: 100%;
   height: 500px;
   background-color: grey;
 }
-/* line 2689, _page.scss */
+/* line 2690, _page.scss */
 .contact__map__wrap__map {
   position: absolute;
   left: 0;
@@ -3562,7 +3563,7 @@ body h6 {
   width: 100%;
   height: 100%;
 }
-/* line 2698, _page.scss */
+/* line 2699, _page.scss */
 .contact__info {
   padding-bottom: 45px;
   display: flex;
@@ -3570,7 +3571,7 @@ body h6 {
   align-items: flex-start;
   justify-content: stretch;
 }
-/* line 2704, _page.scss */
+/* line 2705, _page.scss */
 .contact__info__title {
   font-family: "TTNorms";
   font-size: 13px;
@@ -3580,7 +3581,7 @@ body h6 {
   margin-bottom: 10px;
   text-transform: uppercase;
 }
-/* line 2713, _page.scss */
+/* line 2714, _page.scss */
 .contact__info__text {
   font-family: "TTNorms";
   font-size: 13px;
@@ -3589,7 +3590,7 @@ body h6 {
   margin-top: 0;
   margin-bottom: 20px;
 }
-/* line 2721, _page.scss */
+/* line 2722, _page.scss */
 .contact__info__link {
   display: inline-block;
   font-family: "TTNorms";
@@ -3601,7 +3602,7 @@ body h6 {
   margin-bottom: 0px;
   width: 100%;
 }
-/* line 2732, _page.scss */
+/* line 2733, _page.scss */
 .contact__info__numb {
   text-decoration: none;
   display: inline-block;
@@ -3612,7 +3613,7 @@ body h6 {
   margin-top: 0;
   margin-bottom: 0px;
 }
-/* line 2742, _page.scss */
+/* line 2743, _page.scss */
 .contact__info__name {
   display: inline-block;
   font-family: "TTNorms";
@@ -3624,7 +3625,7 @@ body h6 {
   margin-bottom: 0px;
   width: 100%;
 }
-/* line 2756, _page.scss */
+/* line 2757, _page.scss */
 .contact__info__input {
   width: 100%;
   position: relative;
@@ -3632,7 +3633,7 @@ body h6 {
   border-bottom: 3px solid #dedeef;
   margin-bottom: 10px;
 }
-/* line 2762, _page.scss */
+/* line 2763, _page.scss */
 .contact__info__input input {
   padding: 1px 4px;
   border: none;
@@ -3644,12 +3645,12 @@ body h6 {
   font-weight: 400;
   color: #6b6b6c;
 }
-/* line 2772, _page.scss */
+/* line 2773, _page.scss */
 .contact__info__input input::placeholder {
   color: #6b6b6c;
   font-weight: 300;
 }
-/* line 2778, _page.scss */
+/* line 2779, _page.scss */
 .contact__info__btn {
   margin-top: 10px;
   display: inline-block;
@@ -3658,7 +3659,7 @@ body h6 {
   border-radius: 25px;
   padding: 0 25px;
 }
-/* line 2785, _page.scss */
+/* line 2786, _page.scss */
 .contact__info__btn input {
   cursor: pointer;
   padding: 0;
@@ -3671,7 +3672,7 @@ body h6 {
   font-weight: 600;
   color: #ffffff;
 }
-/* line 2797, _page.scss */
+/* line 2798, _page.scss */
 .contact__info__btn i {
   vertical-align: middle;
   display: inline-block;
@@ -3679,11 +3680,11 @@ body h6 {
   height: 17px;
   margin-left: 5px;
 }
-/* line 2806, _page.scss */
+/* line 2807, _page.scss */
 .contact__slider {
   position: relative;
 }
-/* line 2808, _page.scss */
+/* line 2809, _page.scss */
 .contact__slider__title {
   width: 100%;
   font-family: "TTNorms";
@@ -3693,14 +3694,14 @@ body h6 {
   margin-top: 0;
   margin-bottom: 45px;
 }
-/* line 2817, _page.scss */
+/* line 2818, _page.scss */
 .contact__slider__wrap {
   width: 100%;
   position: relative;
   height: 210px;
   padding: 0 40px;
 }
-/* line 2822, _page.scss */
+/* line 2823, _page.scss */
 .contact__slider__wrap__content {
   width: 100%;
   height: 100%;
@@ -3708,7 +3709,7 @@ body h6 {
   white-space: nowrap;
   overflow: hidden;
 }
-/* line 2828, _page.scss */
+/* line 2829, _page.scss */
 .contact__slider__wrap__content__item {
   display: inline-block;
   height: 100%;
@@ -3717,7 +3718,7 @@ body h6 {
   position: relative;
   overflow: hidden;
 }
-/* line 2834, _page.scss */
+/* line 2835, _page.scss */
 .contact__slider__wrap__content__item img {
   width: 100%;
   position: absolute;
@@ -3725,7 +3726,7 @@ body h6 {
   top: 50%;
   transform: translate(-50%, -50%);
 }
-/* line 2843, _page.scss */
+/* line 2844, _page.scss */
 .contact__slider__wrap__control {
   position: absolute;
   left: 0;
@@ -3738,7 +3739,7 @@ body h6 {
   align-items: center;
   justify-content: space-between;
 }
-/* line 2854, _page.scss */
+/* line 2855, _page.scss */
 .contact__slider__wrap__control a {
   display: inline-block;
   text-decoration: none;
@@ -3748,7 +3749,7 @@ body h6 {
   position: relative;
   background-color: #006ae5;
 }
-/* line 2862, _page.scss */
+/* line 2863, _page.scss */
 .contact__slider__wrap__control a i {
   position: relative;
   left: 50%;
@@ -3760,7 +3761,7 @@ body h6 {
   padding: 0;
   margin: 0;
 }
-/* line 2878, _page.scss */
+/* line 2879, _page.scss */
 .contact__addr p {
   font-family: "TTNorms";
   font-size: 17px;
@@ -3769,13 +3770,13 @@ body h6 {
   margin-top: 0;
   margin-bottom: 20px;
 }
-/* line 2886, _page.scss */
+/* line 2887, _page.scss */
 .contact__addr ul {
   padding: 0;
   margin: 0 0 30px 0;
   list-style-type: none;
 }
-/* line 2890, _page.scss */
+/* line 2891, _page.scss */
 .contact__addr ul li {
   font-family: "TTNorms";
   font-size: 17px;
@@ -3785,7 +3786,7 @@ body h6 {
   margin-bottom: 0;
 }
 
-/* line 2902, _page.scss */
+/* line 2903, _page.scss */
 .stock__body {
   display: flex;
   flex-direction: row;
@@ -3794,7 +3795,7 @@ body h6 {
   justify-content: flex-start;
   padding-bottom: 45px;
 }
-/* line 2909, _page.scss */
+/* line 2910, _page.scss */
 .stock__body__card {
   display: inline-block;
   width: calc((100% - 48px) / 3);
@@ -3805,7 +3806,7 @@ body h6 {
   height: 430px;
   background-color: #03002c;
 }
-/* line 2918, _page.scss */
+/* line 2919, _page.scss */
 .stock__body__card__img {
   width: 100%;
   height: 100%;
@@ -3814,7 +3815,7 @@ body h6 {
   background-position: center !important;
 }
 
-/* line 2929, _page.scss */
+/* line 2930, _page.scss */
 .news__body {
   display: flex;
   flex-wrap: wrap;
@@ -3823,7 +3824,7 @@ body h6 {
   padding: 0;
   position: relative;
 }
-/* line 2936, _page.scss */
+/* line 2937, _page.scss */
 .news__body__card {
   display: inline-block;
   margin: 0 40px 55px 40px;
@@ -3835,7 +3836,7 @@ body h6 {
   padding-top: 19%;
   text-decoration: none;
 }
-/* line 2946, _page.scss */
+/* line 2947, _page.scss */
 .news__body__card__content {
   position: absolute;
   left: 0;
@@ -3850,7 +3851,7 @@ body h6 {
   justify-content: flex-end;
   align-items: flex-start;
 }
-/* line 2959, _page.scss */
+/* line 2960, _page.scss */
 .news__body__card__content__wrap {
   display: flex;
   flex-direction: row;
@@ -3859,7 +3860,7 @@ body h6 {
   justify-content: space-between;
   width: 100%;
 }
-/* line 2967, _page.scss */
+/* line 2968, _page.scss */
 .news__body__card__content__title {
   font-family: "TTNorms";
   margin-bottom: 0;
@@ -3872,7 +3873,7 @@ body h6 {
   line-height: 17px;
   background-color: #006ae5;
 }
-/* line 2979, _page.scss */
+/* line 2980, _page.scss */
 .news__body__card__content__date {
   font-family: "TTNorms";
   margin-bottom: 0;
@@ -3885,7 +3886,7 @@ body h6 {
   line-height: 20px;
   vertical-align: top;
 }
-/* line 2991, _page.scss */
+/* line 2992, _page.scss */
 .news__body__card__content__text {
   font-family: "TTNorms";
   margin-bottom: 0;
@@ -3896,12 +3897,12 @@ body h6 {
   font-weight: 600;
 }
 
-/* line 3004, _page.scss */
+/* line 3005, _page.scss */
 .what {
   margin-top: 60px;
   margin-bottom: 80px;
 }
-/* line 3007, _page.scss */
+/* line 3008, _page.scss */
 .what__body {
   width: 100%;
   position: relative;
@@ -3914,7 +3915,7 @@ body h6 {
   background: url("../assets/img/web/what.png") no-repeat center;
   background-size: contain;
 }
-/* line 3018, _page.scss */
+/* line 3019, _page.scss */
 .what__body ul {
   list-style-type: none;
   width: 40%;
@@ -3926,7 +3927,7 @@ body h6 {
   justify-content: space-between;
   align-items: flex-start;
 }
-/* line 3028, _page.scss */
+/* line 3029, _page.scss */
 .what__body ul li {
   display: inline-block;
   padding-bottom: 7px;
@@ -3937,12 +3938,12 @@ body h6 {
   font-weight: 600;
 }
 
-/* line 3040, _page.scss */
+/* line 3041, _page.scss */
 .service-info {
   margin-top: 60px;
   margin-bottom: 30px;
 }
-/* line 3043, _page.scss */
+/* line 3044, _page.scss */
 .service-info p {
   font-family: "TTNorms";
   font-size: 15px;
@@ -3951,17 +3952,17 @@ body h6 {
   margin: 0 0 30px 0;
   font-weight: 400;
 }
-/* line 3050, _page.scss */
+/* line 3051, _page.scss */
 .service-info p b {
   font-weight: 500;
 }
-/* line 3054, _page.scss */
+/* line 3055, _page.scss */
 .service-info ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
-/* line 3058, _page.scss */
+/* line 3059, _page.scss */
 .service-info ul li {
   font-weight: 400;
   display: block;
@@ -3972,7 +3973,7 @@ body h6 {
   margin: 0 0 30px 0;
   position: relative;
 }
-/* line 3067, _page.scss */
+/* line 3068, _page.scss */
 .service-info ul li:before {
   content: " - ";
 }
