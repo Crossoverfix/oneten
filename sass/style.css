@@ -1193,7 +1193,7 @@ body h6 {
 }
 /* line 584, _page.scss */
 .reviews__content__wrap {
-  width: 80%;
+  width: 100%;
   height: 100%;
   margin: 0 auto;
   position: relative;
@@ -4537,6 +4537,69 @@ input::placeholder {
   font-size: 18px;
   font-weight: 600;
   min-width: 120px;
+}
+
+/* line 503, _option.scss */
+.link-img {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  cursor: pointer;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+}
+/* line 513, _option.scss */
+.link-img__frame {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  width: 420px;
+  padding: 50px;
+  height: 100%;
+  text-decoration: none;
+  cursor: pointer;
+  background: url("../assets/img/icons/frame_horiz.jpg"), url("../assets/img/icons/frame_horiz.jpg");
+  background-repeat: repeat-x,repeat-x;
+  background-size: 50px 50px,50px 50px;
+  background-position: left 0 top 0,left 0 bottom 0;
+}
+/* line 526, _option.scss */
+.link-img__frame:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../assets/img/icons/frame_vertic.jpg"), url("../assets/img/icons/frame_vertic.jpg");
+  background-repeat: repeat-y,repeat-y;
+  background-size: 50px 50px,50px 50px;
+  background-position: left 0 top 0,right 0 top 0;
+}
+/* line 538, _option.scss */
+.link-img__frame:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../assets/img/icons/frame_t_l.jpg"), url("../assets/img/icons/frame_t_r.jpg"), url("../assets/img/icons/frame_b_l.jpg"), url("../assets/img/icons/frame_b_r.jpg");
+  background-repeat: no-repeat,no-repeat,no-repeat,no-repeat;
+  background-size: 50px,50px,50px,50px;
+  background-position: left 0 top 0,right 0 top 0,bottom 0 left 0,bottom 0 right 0;
+}
+/* line 550, _option.scss */
+.link-img__frame__img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
 }
 
 /* ╨Ю╨┐╤Ж╨╕╨╛╨╜╨░╨╗╤М╨╜╤Л╨╡ ╤Б╤В╨╕╨╗╨╕ */
