@@ -63,7 +63,6 @@ $(document).ready(function () {
     function fInitReviews() {
         $reviewsContent.eq(0).clone().appendTo($reviewsSlid);
         $reviewsMassege.eq(0).clone().appendTo($reviewsMassegeFrame);
-        fFixImg();
     }
     $reviewsControl.on('click',function () {
         fSlideReviews($(this).attr('data-js-reviews'));
@@ -80,7 +79,6 @@ $(document).ready(function () {
             let $tempoSlideMas = $('.reviews__mail__wrap__frame .reviews__mail__message');
             $reviewsContent.eq($reviewsCurr).clone().appendTo($reviewsSlid);
             $reviewsMassege.eq($reviewsCurr).clone().appendTo($reviewsMassegeFrame);
-            fFixImg();
             $tempoSlide.animate({'margin-left':'-100%'},1000,function () {
                 $tempoSlide.detach();
             })
@@ -97,7 +95,6 @@ $(document).ready(function () {
             let $tempoSlideMas = $('.reviews__mail__wrap__frame .reviews__mail__message');
             let tempoSlide = $reviewsContent.eq($reviewsCurr).clone().prependTo($reviewsSlid);
             let tempoSlideMas = $reviewsMassege.eq($reviewsCurr).clone().prependTo($reviewsMassegeFrame);
-            fFixImg();
             tempoSlide.css('margin-left','-100%')
             tempoSlideMas.css('margin-left','-100%')
             tempoSlide.animate({'margin-left':'0'},1000,function () {
