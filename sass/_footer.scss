@@ -78,6 +78,16 @@
         width: 50%;
         margin-bottom: 10px;
         margin-top: 0;
+        text-decoration: none;
+        cursor: pointer;
+        color: white;
+        font-family: "TTNorms";
+        font-size: 15px;
+        font-weight: 500;
+        display: inline-block;
+        &:hover{
+          opacity: 0.6;
+        }
         a{
           text-decoration: none;
           cursor: pointer;

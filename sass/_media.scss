@@ -54,6 +54,9 @@
     left: calc(50% + 259px);
     top: calc(50% - 18px);
   }
+  .link-img__frame{
+    width: 380px;
+  }
 }
 @media screen and (max-width: 991px){
   .header__nav__first__container ul li a{
@@ -192,6 +195,9 @@
   }
   .audit-info .web-block__bg{
     display: none;
+  }
+  .link-img__frame {
+    width: 310px;
   }
 }
 @media screen and (max-width: 767px){
@@ -374,6 +380,42 @@
   .what__body ul{
     padding: 30px 20px;
   }
+  .link-img__frame {
+    width: 240px;
+    padding: 25px;
+    background-size: 25px 25px,25px 25px;
+    &:after{
+      background-size: 25px,25px,25px,25px;
+    }
+    &:before{
+      background-size: 25px 25px,25px 25px;
+    }
+  }
+  .reviews__mail__wrap__frame .reviews__mail__message.mod-work{
+    display: flex;
+    flex-direction: column;
+    .reviews__mail__message{
+      &__left{
+        width: 100%;
+      }
+      &__right{
+        width: 100%;
+        padding-left: 0;
+        border: 0;
+        text-align: right;
+        ul{
+          li{
+            text-align: left;
+            p{
+              width: auto;
+              text-align: left;
+            }
+            a{}
+          }
+        }
+      }
+    }
+  }
 }
 @media screen and (max-width: 574px){
   .header__origin__logo a{
@@ -441,10 +483,6 @@
   }
   .call-back .input-checkbox__input{
     flex-shrink: 0;
-  }
-  .reviews__control {
-    margin-top: -30px;
-    margin-bottom: 20px;
   }
   .reviews__mail__message:before{
     left: 10px;
@@ -626,5 +664,9 @@
   }
   .audit-info .web-block__card{
     width: 100%;
+  }
+  .reviews__control {
+    margin-top: 20px;
+    margin-bottom: -20px;
   }
 }

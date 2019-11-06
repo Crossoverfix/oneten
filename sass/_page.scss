@@ -622,7 +622,8 @@
           top: 50%;
           left: 50%;
           transform: translate(-50%,-50%);
-          width: 100%;
+          width: auto;
+          height: 100%;
         }
       }
     }
@@ -740,6 +741,7 @@
             width: 60%;
             display: inline-block;
             vertical-align: top;
+            white-space: normal;
             h3{
               margin-top: 25px;
               margin-bottom: 35px;
@@ -1487,7 +1489,7 @@
   &__tabs{
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: flex-end;
     a{
@@ -1500,7 +1502,7 @@
       line-height: 11px;
       height: 31px;
       padding: 8px 4px;
-      margin: 0 10px;
+      margin: 0 10px 10px 10px;
       z-index: 1;
       text-transform: uppercase;
       text-align: center;

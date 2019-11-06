@@ -138,6 +138,17 @@
             position: relative;
             height: 20px;
             text-align: center;
+            line-height: 20px;
+            display: inline-block;
+            text-decoration: none;
+            color: white;
+            font-size: 15px;
+            font-family: "TTNorms";
+            cursor: pointer;
+            font-weight: 400;
+            &:hover{
+              opacity: 0.6;
+            }
             a{
               line-height: 20px;
               display: inline-block;
